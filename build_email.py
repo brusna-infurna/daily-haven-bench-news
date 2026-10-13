@@ -12,7 +12,7 @@ M = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"]
 y, m, d = day["data"].split("-")
 data_fmt = f"{int(d)} {M[int(m)-1]}"
 e = html.escape
-PIL = {"wellness-residence":"Wellness residence","membership":"Membership","longevidade":"Longevidade","lifestyle":"Lifestyle","comunidade":"Comunidade"}
+PIL = {"wellness-residence":"Wellness residence","membership":"Membership","longevidade":"Longevidade","lifestyle":"Lifestyle","comunidade":"Comunidade","estudos":"Estudos","eventos":"Eventos","marcas":"Marcas"}
 
 items = day["itens"]
 leads = [i for i in items if i.get("destaque")]

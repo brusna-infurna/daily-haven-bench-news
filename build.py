@@ -20,7 +20,7 @@ TEMPLATE = r"""<!doctype html>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{--bg:#EDE9E0;--card:#FBF9F5;--ink:#1C1A17;--soft:#45423C;--mute:#6B675F;--rule:rgba(28,26,23,.12);--green:#2F4634;--green-ink:#3E5A42;
-    --p-wellness-residence:#3E5A42;--p-membership:#8A6A3F;--p-longevidade:#4A5A7A;--p-lifestyle:#7A4A5A;--p-comunidade:#5A6A4A}
+    --p-wellness-residence:#3E5A42;--p-membership:#8A6A3F;--p-longevidade:#4A5A7A;--p-lifestyle:#7A4A5A;--p-comunidade:#5A6A4A;--p-estudos:#3F5A6A;--p-eventos:#6A4A3F;--p-marcas:#5A3F6A}
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{background:var(--bg);color:var(--ink);font-family:'Manrope',system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
   .serif{font-family:'Marcellus',serif;font-weight:400}
@@ -45,6 +45,9 @@ TEMPLATE = r"""<!doctype html>
   .chip.p-longevidade.on{background:var(--p-longevidade);border-color:var(--p-longevidade)}
   .chip.p-lifestyle.on{background:var(--p-lifestyle);border-color:var(--p-lifestyle)}
   .chip.p-comunidade.on{background:var(--p-comunidade);border-color:var(--p-comunidade)}
+  .chip.p-estudos.on{background:var(--p-estudos);border-color:var(--p-estudos)}
+  .chip.p-eventos.on{background:var(--p-eventos);border-color:var(--p-eventos)}
+  .chip.p-marcas.on{background:var(--p-marcas);border-color:var(--p-marcas)}
   .filterbar{display:flex;flex-direction:column;gap:10px;padding:14px 0 18px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);margin-bottom:18px}
   @media(min-width:900px){.filterbar{flex-direction:row;gap:26px;align-items:center;flex-wrap:wrap}}
   .filterbar .n{font-size:12.5px;color:var(--mute);margin-left:auto}
@@ -68,6 +71,9 @@ TEMPLATE = r"""<!doctype html>
   .card.p-longevidade{border-top-color:var(--p-longevidade)}
   .card.p-lifestyle{border-top-color:var(--p-lifestyle)}
   .card.p-comunidade{border-top-color:var(--p-comunidade)}
+  .card.p-estudos{border-top-color:var(--p-estudos)}
+  .card.p-eventos{border-top-color:var(--p-eventos)}
+  .card.p-marcas{border-top-color:var(--p-marcas)}
   .card .kick{font-size:12.5px;font-weight:600;display:flex;justify-content:space-between;gap:8px}
   .card .kick span{font-weight:400;color:var(--mute)}
   .card.p-wellness-residence .kick{color:var(--p-wellness-residence)}
@@ -75,6 +81,9 @@ TEMPLATE = r"""<!doctype html>
   .card.p-longevidade .kick{color:var(--p-longevidade)}
   .card.p-lifestyle .kick{color:var(--p-lifestyle)}
   .card.p-comunidade .kick{color:var(--p-comunidade)}
+  .card.p-estudos .kick{color:var(--p-estudos)}
+  .card.p-eventos .kick{color:var(--p-eventos)}
+  .card.p-marcas .kick{color:var(--p-marcas)}
   .card h3{font-size:21px;line-height:1.25}
   .card h3 a:hover{text-decoration:underline;text-underline-offset:4px}
   .card .txt{font-size:13.5px;line-height:1.6;color:var(--soft)}
@@ -99,7 +108,7 @@ TEMPLATE = r"""<!doctype html>
 
   <div class="filterbar">
     <div class="chips" data-f="escopo"><span class="lbl">Onde</span><button class="chip on" data-v="">tudo</button><button class="chip" data-v="brasil">Brasil</button><button class="chip" data-v="mundo">mundo</button></div>
-    <div class="chips" data-f="pilar"><span class="lbl">Pilar</span><button class="chip on" data-v="">todos</button><button class="chip p-wellness-residence" data-v="wellness-residence">wellness residence</button><button class="chip p-membership" data-v="membership">membership</button><button class="chip p-longevidade" data-v="longevidade">longevidade</button><button class="chip p-comunidade" data-v="comunidade">comunidade</button><button class="chip p-lifestyle" data-v="lifestyle">lifestyle</button></div>
+    <div class="chips" data-f="pilar"><span class="lbl">Pilar</span><button class="chip on" data-v="">todos</button><button class="chip p-wellness-residence" data-v="wellness-residence">wellness residence</button><button class="chip p-membership" data-v="membership">membership</button><button class="chip p-longevidade" data-v="longevidade">longevidade</button><button class="chip p-comunidade" data-v="comunidade">comunidade</button><button class="chip p-lifestyle" data-v="lifestyle">lifestyle</button><button class="chip p-estudos" data-v="estudos">estudos</button><button class="chip p-eventos" data-v="eventos">eventos</button><button class="chip p-marcas" data-v="marcas">marcas</button></div>
     <span class="n" id="count"></span>
   </div>
 
@@ -109,7 +118,7 @@ TEMPLATE = r"""<!doctype html>
 </div>
 <script>
 const RADAR = __DATA__;
-const PILAR = {"wellness-residence":"Wellness residence","membership":"Membership","longevidade":"Longevidade","lifestyle":"Lifestyle","comunidade":"Comunidade"};
+const PILAR = {"wellness-residence":"Wellness residence","membership":"Membership","longevidade":"Longevidade","lifestyle":"Lifestyle","comunidade":"Comunidade","estudos":"Estudos","eventos":"Eventos","marcas":"Marcas"};
 const M=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
 const esc = s => String(s??"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = d => { const [y,m,dd]=d.split("-"); return `${+dd} de ${M[+m-1]} de ${y}`; };
