@@ -5,7 +5,7 @@
     {
       "data": "2026-10-15",
       "manchete": "Todo mundo vende o retiro. Quase ninguém cuida do dia seguinte.",
-      "editorial": "O Global Retreat Report 2026 ouviu 252 operadores e 203 consumidores e achou o número que organiza o dia: 71% das pessoas saem de um retiro dizendo que a conexão com os outros foi o que mais valeu, e o apoio depois da volta pra casa recebe nota 4,12 em 10. O mercado inteiro aprendeu a vender o pico. Um resort em Hua Hin agora liga pra pessoa aos 7, 15 e 45 dias depois da estadia, um clube familiar em Londres redesenha o produto pra acompanhar o filho dos 5 anos em diante, uma rede de pilates nos EUA conecta a aula ao exame de sangue. Todos tentando esticar a relação pra além do momento comprado. Quem perde nesse modelo é o cliente que volta pra rotina e fica sem ninguém do outro lado, e quem paga é o operador, que precisa reconquistar a mesma pessoa a cada temporada. O Haven tem uma vantagem estrutural aqui: a pessoa não vai embora. O dia seguinte é a casa dela. A programação do clube é o acompanhamento que o resto do mercado ainda está tentando inventar.",
+      "editorial": "O Global Retreat Report 2026 ouviu 252 operadores e 203 consumidores e achou o número que organiza o dia: 71% das pessoas saem de um retiro dizendo que a conexão com os outros foi o que mais valeu, e o apoio depois da volta pra casa recebe nota 4,12 em 10. O mercado inteiro aprendeu a vender o pico. Um resort em Hua Hin agora liga pra pessoa aos 7, 15 e 45 dias depois da estadia, um clube familiar em Londres redesenha o produto pra acompanhar o filho dos 5 anos em diante, uma rede de pilates nos EUA conecta a aula ao exame de sangue. Todos tentando esticar a relação pra além do momento comprado. Quem perde nesse modelo é o cliente que volta pra rotina e fica sem ninguém do outro lado, e quem paga é o operador, que precisa reconquistar a mesma pessoa a cada temporada. O Haven tem uma vantagem estrutural aqui: a pessoa não vai embora. O dia seguinte é a casa dela. A programação do clube é o acompanhamento que o resto do mercado ainda está tentando inventar. Atualização da tarde, com dez itens a mais, e a leitura se mantém. O que entra é a conta: em São Paulo, um apartamento de 200 m² ligado a clube privado paga entre R$ 5,4 mil e R$ 6,2 mil por mês de condomínio e clube, num semestre em que o alto padrão paulistano vendeu 39% menos unidades. O comprador faz essa soma antes de perguntar pelo spa. Lá fora, a Proper Hospitality abriu o hotel de Santa Monica pra vizinhança por membership e 80% dos sócios moram perto, e em Bengaluru uma comunidade de 456 vilas põe a clínica de longevidade no centro do clube e reserva um círculo vitalício pros 50 primeiros compradores. O pacote casa, clube e clínica já tem concorrente em três continentes. O preço mensal de pertencer é a parte que ninguém publica.",
       "atencao": [
         "Clube: o ciclo consulta, plano e check-in aos 7, 15 e 45 dias do The Barai é um modelo pronto pra adaptar ao onboarding de membro, e a nota 4,12 do pós-retiro diz onde o mercado falha.",
         "Vendas: o clube da Ilha Rasa em Búzios fecha 500 títulos de R$ 180 mil a R$ 270 mil com regra de convites antes do hotel existir, comparável direto pra calibrar a política de títulos e convidados do Haven.",
@@ -80,7 +80,7 @@
             "marketing"
           ],
           "verificado": true,
-          "destaque": true
+          "destaque": false
         },
         {
           "title": "OurHouse, clube familiar de Londres, estende o produto a crianças em idade escolar e cria membership multiunidade",
@@ -115,7 +115,7 @@
             "clube"
           ],
           "verificado": true,
-          "destaque": true
+          "destaque": false
         },
         {
           "title": "Gramado reforça o turismo de luxo com Club Med Exclusive Collection e o Kurotel, voltado a saúde e longevidade",
@@ -283,6 +283,180 @@
           "para": [
             "parcerias",
             "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Condomínios de luxo em São Paulo copiam o modelo de clube privado, e a conta mensal sobe junto",
+          "source": "Condomínio Interativo (dados Brain e Secovi-SP via portal Portas)",
+          "url": "https://condominiointerativo.com.br/noticias/condominios-de-luxo-apostam-em-clubes-exclusivos-e-servicos-personalizados",
+          "date": "2026-10-13",
+          "region": "São Paulo, SP",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "Incorporadoras de alto padrão apostam em prédios menores, plantas maiores e estrutura de clube. O exemplo citado é o The Club, da Meta, no Jardim Guedala: 77 apartamentos de 200 a 500 m² ligados a um clube urbano com spa, fisioterapia, quadras e restaurantes, cerca de R$ 50 milhões de investimento pra 300 famílias. Segundo dados da Brain citados pelo portal Portas, o alto padrão paulistano vendeu 39% menos unidades e lançou 53% menos no primeiro semestre de 2026, o que o Secovi-SP trata como correção depois do pico de 2025. Pra uma unidade de 200 m², condomínio e clube somariam entre R$ 5,4 mil e R$ 6,2 mil por mês, valor desse projeto, sem média de mercado.",
+          "por_que_importa": "O comprador de alto padrão já pergunta o custo total de viver no empreendimento antes de perguntar pelo spa. Vendas precisa ter a resposta pronta sobre taxa de manutenção e o que ela inclui no Haven.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Proper Hospitality abre hotéis a vizinhos por membership, e 80% dos sócios de Santa Monica moram perto",
+          "source": "Forbes Brasil (reprodução da Forbes.com)",
+          "url": "https://forbes.com.br/forbes-money/forbes-real-estate/2026/10/clubes-privados-hotelaria-luxo/",
+          "date": "2026-10-10",
+          "region": "Los Angeles, EUA",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "A Proper Hospitality vende membership das áreas do hotel a moradores da vizinhança, com piscina sazonal, academia 24 horas e lounge de recuperação. Segundo o cofundador, 80% dos sócios do Santa Monica Proper moram por perto, o que cria uma comunidade fixa em torno do hotel. O modelo segue pra Austin, Lake Tahoe e Dallas, onde uma torre de 34 andares está prevista pra 2029.",
+          "por_que_importa": "Uma operadora de hotelaria tratando membership como comunidade local recorrente é o argumento mais próximo do clube do Haven. A recuperação com frio e calor como programação de clube é referência direta.",
+          "para": [
+            "clube",
+            "marketing",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Bengaluru lança 456 vilas com clínica de longevidade no centro do clube e círculo vitalício pros 50 primeiros compradores",
+          "source": "ANI (comunicado pago, India PR Distribution)",
+          "url": "https://aninews.in/news/business/maa-acorn-unveils-ayana-woods-bengaluru8217s-first-longevity-and-wellness-anchored-villa-community-with-the-largest-resort-style-club-spread-across-8-acres20261001143819/",
+          "date": "2026-10-01",
+          "region": "Bengaluru, Índia",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "A Maa Acorn apresentou o Ayana Woods, comunidade de 456 vilas em 75 acres com clube de 8 acres, clínica de longevidade com parceiro ainda a anunciar, sauna, suíte de recuperação, run club e eventos com médicos. Os 50 primeiros compradores entram num Founders' Circle com status vitalício e acesso prioritário ao clube. É comunicado pago: o preço não aparece e o título de maior clube é alegação da incorporadora.",
+          "por_que_importa": "Casa mais clube com clínica no centro, em outro mercado, com o mesmo desenho do Haven. O círculo de fundadores dos 50 primeiros é um mecanismo de venda pra comparar com a lógica de membros fundadores.",
+          "para": [
+            "marketing",
+            "vendas",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Dubai cria a House of Longevity, plataforma de pesquisa e comunidade ligada a um empreendimento imobiliário",
+          "source": "Gulf Today",
+          "url": "https://www.gulftoday.ae/business/2026/10/08/new-longevity-research-and-community-platform-launches-in-dubai-as-wellness-economy-surges",
+          "date": "2026-10-08",
+          "region": "Dubai, Emirados Árabes Unidos",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "A EYWA, marca de imóveis de longevidade da R.Evolution, lançou com o Future Readiness Forum uma plataforma que transforma pesquisa em orientação prática sobre sono, movimento, nutrição, saúde preventiva e comunidade. Terá conselho de oito membros e uma cúpula anual em Dubai, e o empreendimento funciona como campus pra testar o conceito. O texto cita o Global Wellness Institute: economia do bem-estar dos Emirados em US$ 40,8 bilhões em 2024.",
+          "por_que_importa": "Um incorporador criando conteúdo e comunidade de longevidade ao redor do produto imobiliário. O Haven pode desenhar uma curadoria científica própria pro clube, com especialistas parceiros e um encontro anual.",
+          "para": [
+            "parcerias",
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Clínica de longevidade de Belfast vira clube de membros com pacotes por objetivo",
+          "source": "The Irish News",
+          "url": "https://www.irishnews.com/news/business/belfast-wellness-business-establishes-new-city-centre-members-club-YRA6NITVU5EFBFP5DKTY56WFCE/",
+          "date": "2026-10-05",
+          "region": "Belfast, Reino Unido",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "A One Personal Wellness, antiga ACCA Longevity Clinic, mudou pra um espaço de 2.500 pés quadrados no centro da cidade e adotou membership com pacotes por objetivo. Oferece oxigenoterapia hiperbárica, crioterapia de corpo inteiro, fotobiomodulação, sauna infravermelha e terapia com NAD+. O objetivo declarado é dar constância e acompanhamento ao membro; o investimento não foi divulgado.",
+          "por_que_importa": "Clínica que migra de venda avulsa pra assinatura, num ambiente que não parece consultório. Referência pra desenhar planos de membro do Haven por objetivo e não por catálogo de serviços.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Cofundador da Elemis vira sócio de banco de M&A focado em beleza, bem-estar e longevidade",
+          "source": "Health Club Management",
+          "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Elemis-co-founder-Sean-Harrington-joins-investment-bank-Lempriere-Wells/363783",
+          "date": "2026-10-15",
+          "region": "Melbourne, Dubai e Paris",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "Sean Harrington, cofundador da Elemis, entrou como sócio na Lempriere Wells, que passa a se chamar Lempriere Wells Harrington e vai abrir frente nos EUA pra negócios de beleza, bem-estar e longevidade. A Elemis foi vendida em 2019 por cerca de US$ 900 milhões, segundo a própria LWH. O banco opera em Melbourne, Dubai e Paris.",
+          "por_que_importa": "O capital em torno de bem-estar e longevidade está ganhando assessores especializados. Argumento de contexto de mercado pra conversas com investidores e parceiros.",
+          "para": [
+            "parcerias",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Meta-análise do BMJ: caminhada rápida e treino combinado protegem a densidade óssea depois dos 40",
+          "source": "Health Club Management (meta-análise do BMJ)",
+          "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Exercise-offers-benefits-for-bone-health-after-40/363742",
+          "date": "2026-10-12",
+          "region": "Reino Unido",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "A matéria resume uma meta-análise do BMJ de setembro de 2026 com 124 estudos e 18.429 adultos acima de 40 anos. Caminhar ou correr em ritmo forte melhorou a densidade óssea, e aeróbico com resistência ajudou na lombar. O limiar estimado pra benefício no quadril é de 2 a 3 horas semanais de caminhada rápida, com evidência de baixa a moderada.",
+          "por_que_importa": "Base científica simples pra programação do clube voltada a 40+, como trilhas guiadas e treino de força. Vira conteúdo de comunicação sem prometer mais do que a evidência sustenta.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Skift confirma o Skift Global Forum East em Abu Dhabi, em 8 e 9 de dezembro",
+          "source": "Skift Live (página oficial do evento)",
+          "url": "https://live.skift.com/skift-global-forum-east/",
+          "date": "2026-12-08",
+          "region": "Abu Dhabi, Emirados Árabes Unidos",
+          "escopo": "mundo",
+          "pilar": "eventos",
+          "resumo": "A página oficial do Skift confirma o Skift Global Forum East em Abu Dhabi, em 8 e 9 de dezembro de 2026, sem citar o local exato. O evento reúne líderes de viagens e hospitalidade; a edição passada teve mais de 500 participantes de 32 países, segundo o governo de Abu Dhabi. Pendência da edição da manhã, resolvida com fonte própria.",
+          "por_que_importa": "Termômetro do discurso de viagem premium e hospitalidade sobre bem-estar e comunidade. O time acompanha a cobertura à distância e mapeia contatos de parcerias.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Relatório da EHL propõe medir o bem-estar psicológico do hóspede como motor de fidelidade",
+          "source": "Hospitality Net (relatório da EHL Hospitality Business School)",
+          "url": "https://www.hospitalitynet.org/report/4134780/beyond-amenities-why-psychological-well-being-must-be-built-into-hospitality",
+          "date": "2026-10-07",
+          "region": "Lausanne, Suíça",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "O Psychological Well-being in Hospitality Report 2026, da EHL, se baseia em 48 entrevistas com especialistas e conclui que os programas de bem-estar do setor são fragmentados. Propõe medir o bem-estar do hóspede como motor de fidelidade, o que chama de Return on Experience. Cita o Forestis, nas Dolomitas, e o Ett Hem, em Estocolmo, como exemplos, e o Breakers Palm Beach com 93% de retenção da equipe fixa.",
+          "por_que_importa": "Dá vocabulário e critério pra desenhar a operação do Haven com o bem-estar da equipe e do sócio embutidos no serviço. Argumento de venda sobre cuidado integrado, com métrica.",
+          "para": [
+            "clube",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Pesquisa da Capital One Travel: 86% dos viajantes de luxo nos EUA priorizam privacidade e reclusão",
+          "source": "Hospitality Net (coluna de opinião da CEO da Globe7, com dados da Capital One Travel e da Knight Frank)",
+          "url": "https://www.hospitalitynet.org/opinion/4134793/privacy-is-becoming-the-new-standard-for-personalization-in-luxury-travel",
+          "date": "2026-10-08",
+          "region": "EUA",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "A coluna compila dados de terceiros: pesquisa da Capital One Travel com 3.100 viajantes de luxo nos EUA, em que 86% priorizam privacidade e reclusão e 83% exclusividade de acesso, e o levantamento da Knight Frank de 2025 sobre residências de marca. A autora, que tem empresa no setor, recomenda separar preferências úteis de histórico sensível e apagar dados a pedido do hóspede.",
+          "por_que_importa": "Reforça o argumento de venda de privacidade e acesso restrito pra casas e clube. Também orienta como tratar dados dos sócios no CRM do Haven.",
+          "para": [
+            "vendas",
+            "marketing",
+            "clube"
           ],
           "verificado": true,
           "destaque": false
