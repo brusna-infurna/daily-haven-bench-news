@@ -1,7 +1,310 @@
 {
   "projeto": "Daily Haven Bench News",
-  "atualizado": "2026-10-15",
+  "atualizado": "2026-10-16",
   "dias": [
+    {
+      "data": "2026-10-16",
+      "manchete": "Em 21 de 24 marcas, o hóspede sente menos bem-estar do que leu no folheto.",
+      "editorial": "A convenção World Spa & Wellness, em Londres, colocou um número na suspeita de sempre: Piers Schmidt comparou a promessa de bem-estar de 24 marcas com dez operadores de luxo e, em 21 delas, a percepção do hóspede ficou abaixo do prometido, com linguagem vaga cinco vezes mais frequente que a precisa. O mecanismo é simples. Escrever bem-estar no folheto custa nada, operar bem-estar custa equipe, protocolo e tempo, e a diferença entre as duas coisas é o que o cliente paga sem receber. Enquanto isso o pipeline de promessa só cresce: The Wolseley anuncia clube em Nova York com programação de longevidade, Waldorf Astoria vende membership de spa antes de abrir, Portugal empilha 1.200 residências de marca até 2031 e a Bain conta 1,3 milhão de brasileiros de alto poder aquisitivo pra absorver tudo isso. Quem perde é o comprador que pagou pela palavra e o operador que gastou a credibilidade dela. O dado do Parklane, em Limassol, ajuda a dimensionar a aposta do clube: sócios respondem por 1,7% da receita do hotel, mais 3,4% em gasto secundário, ou seja, o membership se justifica pela fidelidade e pela ocupação do lugar, e a linha de receita direta é pequena. O Haven só sai dessa estatística se cada promessa vier com um protocolo e um nome por trás, e o dia trouxe uma lista deles: Kurotel, Lapinha e Asaya acabaram de ser premiados.",
+      "atencao": [
+        "Marketing: cortar linguagem vaga de bem-estar do material do Haven. Cada promessa precisa de um protocolo, um número ou um parceiro nomeado, porque o hóspede já percebe a diferença e a convenção de Londres mediu isso.",
+        "Vendas: o levantamento da Bain dá munição concreta, 1,3 milhão de brasileiros de alto poder aquisitivo, 57% associando luxo a exclusividade e metade do perfil premium acima de 49 anos, e os comparáveis de Portugal ajudam a posicionar 75 casas como baixa densidade. Conferir o relatório original antes de citar.",
+        "Clube e parcerias: Kurotel, Lapinha e Asaya viraram lista curta de parceiros premiados pra programação de longevidade; a Sonara mostra banho e jantar como ritual coletivo, e a reciprocidade entre cidades do The Wolseley é um argumento que o Haven pode construir por acordo com clubes de São Paulo e de fora."
+      ],
+      "itens": [
+        {
+          "title": "Bain: luxo no Brasil cresce 12% ao ano desde 2022 e imóveis sobem 13%, com 1,3 milhão de brasileiros de alto poder aquisitivo",
+          "source": "Estado de Minas (conteúdo distribuído por DINO)",
+          "url": "https://www.em.com.br/mundo-corporativo/2026/10/7520709-setor-de-imoveis-de-luxo-cresce-13-e-enfatiza-exclusividade.html",
+          "date": "2026-10-14",
+          "region": "Brasil",
+          "escopo": "brasil",
+          "pilar": "estudos",
+          "resumo": "Texto publicado pelo Estado de Minas e assinado por DINO compila levantamento da Bain & Company com Valor Econômico e Vogue. O luxo brasileiro cresce cerca de 12% ao ano desde 2022, contra 3% da média mundial, e o segmento de imóveis avançou 13% no período. A Bain estima 1,3 milhão de brasileiros de alto poder aquisitivo, podendo chegar a 1,5 milhão até 2030, e 57% dos consumidores ouvidos associam luxo a exclusividade. A Serasa Experian, citada à parte, conta 7,5 milhões de consumidores premium, metade com mais de 49 anos. O texto dá bastante espaço autodeclarado ao NPi Hub, que distribuiu o material.",
+          "por_que_importa": "Base de mercado pro argumento de venda das 75 casas: público de alto poder aquisitivo em expansão, exclusividade como atributo central e metade do perfil premium acima de 49 anos, idade em que longevidade vira critério de compra. Vale ir atrás do levantamento original da Bain antes de citar em material.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Kurotel, Lapinha e Asaya Spa, do Rosewood São Paulo, levam prêmios no World Spa Awards 2026",
+          "source": "Catraca Livre",
+          "url": "https://catracalivre.com.br/viagem-livre/spas-brasileiros-ganham-destaque-em-premiacoes-internacionais/",
+          "date": "2026-10-15",
+          "region": "Brasil",
+          "escopo": "brasil",
+          "pilar": "longevidade",
+          "resumo": "No World Spa Awards 2026, o Kurotel, em Gramado, foi eleito melhor retiro de bem-estar do Brasil, o Asaya Spa do Rosewood São Paulo melhor spa de hotel da América Latina e o Anantara Spa do Tivoli Ecoresort Praia do Forte melhor spa de resort do Brasil. No World Spa & Wellness Awards, o Lapinha, na Lapa, Paraná, levou as categorias Equipe de Spa do Ano e Spa Sustentável do Ano.",
+          "por_que_importa": "Lista pronta de operadores brasileiros validados por prêmio internacional pra mapear parceiros de programação de longevidade do clube, de retiros a protocolos e equipes de spa, e benchmark pro desenho do espaço de bem-estar do Haven.",
+          "para": [
+            "parcerias",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "The Almer, hotel de 84 suítes com spa 24 horas voltado ao campo de golfe, abre em Porto Alegre em janeiro de 2027",
+          "source": "Brasilturis",
+          "url": "https://brasilturis.com.br/2026/10/15/porto-alegre-ganhara-hotel-de-luxo-com-investimento-de-r-130-milhoes-em-janeiro/",
+          "date": "2026-10-15",
+          "region": "Porto Alegre/RS",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "A ICH Hotéis e a incorporadora CFL investem cerca de R$ 130 milhões no The Almer, primeira unidade de uma nova bandeira de alto padrão, com 84 apartamentos e suítes voltados ao campo de golfe do Country Club. O hotel tem spa, sauna, piscina e academia abertas 24 horas, rooftop e amenities Acqua di Parma, com conceito declarado de quiet luxury. A ICH já confirmou uma segunda unidade em Jurerê Internacional, em Santa Catarina.",
+          "por_que_importa": "Referência de produto pro que o público de alto padrão espera de spa e academia de uso contínuo, e exemplo de hotelaria de pequena escala ancorada em clube de golfe, lógica próxima da relação entre casa e clube no Haven.",
+          "para": [
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "All Resort, em Porto Belo, junta golfe, centro de tênis com a Rafa Nadal Academy e 150 apartamentos em 220 hectares",
+          "source": "Esteticare (reportagem atribuída à Gazeta do Povo)",
+          "url": "https://www.esteticare.com.br/wellness-redefine-espacos-de-moradia/",
+          "date": "2026-10-06",
+          "region": "Porto Belo/SC",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "O All Resort, da All Wert, ocupa 220 hectares e reúne campo de golfe iluminado, centro de tênis desenvolvido com a Rafa Nadal Academy, mais de 25 quadras, spas, hotel e shopping de serviços. O projeto inclui o Terra, com duas torres e 150 apartamentos, e o Beach, com apartamentos e lotes. A incorporadora diz que foi concebido tanto pra segunda residência quanto pra moradia permanente.",
+          "por_que_importa": "Caso brasileiro de residencial que vende esporte, natureza e serviço como argumento central, útil como comparativo de produto e de narrativa de tempo e qualidade de vida no discurso comercial do Haven.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Panrotas lista retiros de escuridão, turismo tímido e Blue Welldays como tendências do luxo ligadas à saúde",
+          "source": "Panrotas",
+          "url": "https://www.panrotas.com.br/viagens-de-luxo/destinos/2026/10/turismo-de-luxo-se-reinventa-e-traz-4-novas-tendencias-voltadas-a-saude-e-ao-bem-estar_232282.html",
+          "date": "2026-10-08",
+          "region": "Brasil",
+          "escopo": "brasil",
+          "pilar": "longevidade",
+          "resumo": "Com base no Relatório Bem-Estar 2026, da FSB Comunicação com Rituaali e Espresso, a matéria trata o esgotamento de executivos como risco operacional e lista quatro tendências: retiros de escuridão e silêncio, turismo tímido, higiene mental com microdosagem e Blue Welldays. As referências de apoio vêm de pesquisas da VML e de relatórios da Accor.",
+          "por_que_importa": "Ideias de programação do clube pra executivos esgotados, como noites de silêncio, dias de baixa estimulação e pausas curtas na rotina, e um argumento de venda pra quem procura descanso de verdade no interior.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "11º Congresso Internacional de Longevidade e Terapias Integrativas acontece em São Paulo, de 20 a 22 de novembro",
+          "source": "Grupo Longevidade Saudável",
+          "url": "https://congresso.longevidadesaudavel.com.br/",
+          "date": "2026-11-20",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "eventos",
+          "resumo": "O congresso acontece de 20 a 22 de novembro de 2026 no Centro de Convenções Frei Caneca, em São Paulo, com mais de 20 palestrantes e tradução simultânea. Entre os internacionais estão Robert Lustig, Alessio Fasano e Felice Gersh. O evento é voltado a médicos, e os organizadores falam em acesso a mais de 2 mil profissionais.",
+          "por_que_importa": "Evento fechado a médicos, útil como mapa de especialistas em longevidade em São Paulo pra parcerias com o corpo clínico do Haven. Espaço de relacionamento, e não de venda.",
+          "para": [
+            "parcerias",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "The Wolseley abre clube de membros em Nova York no segundo trimestre de 2027, com bem-estar, longevidade e reciprocidade entre cidades",
+          "source": "TravelDailyNews International",
+          "url": "https://traveldailynews.com/hotels-lodging/the-wolseley-members-club-new-york-2027",
+          "date": "2026-10-13",
+          "region": "Nova York/EUA",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "A marca de hospitalidade The Wolseley vai abrir um clube privado no segundo trimestre de 2027 dentro do hotel da 130 West 44th Street, em Manhattan. O prédio foi projetado por Stanford White como sede do The Lambs, primeiro clube teatral profissional dos Estados Unidos, e será restaurado como espaço de encontros e programação cultural. Os sócios terão acesso preferencial a instalações de bem-estar, programação de longevidade, privilégios em restaurantes e, no futuro, reciprocidade entre as casas da rede, com Nova York e Londres como primeiros pontos.",
+          "por_que_importa": "Mostra um clube combinando patrimônio arquitetônico, programação cultural e longevidade no mesmo pacote. A reciprocidade entre cidades é um argumento de venda que o Haven pode construir por parceria com clubes de São Paulo e de fora do país.",
+          "para": [
+            "clube",
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Sonara, clube de banya e restaurante de 1.500 m², abre em Chelsea, Londres, no fim de 2026",
+          "source": "European Spa Magazine",
+          "url": "https://europeanspamagazine.com/sonara-to-bring-new-social-wellness-model-to-london/",
+          "date": "2026-10-14",
+          "region": "Londres/Reino Unido",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "A Sonara será um clube de banho e jantar em dois andares no One Twenty King's Road, em Chelsea, com abertura prevista pro fim de 2026. Tem banya de carvalho pra 30 pessoas, restaurante de 80 lugares, quatro suítes privadas de 90 m² pra até dez convidados, sala de neve, gruta de sal, hammam, sala de flutuação e câmara hiperbárica. O acesso será por membership e também pra visitantes avulsos.",
+          "por_que_importa": "Referência de bem-estar social ancorado em ritual de grupo e mesa compartilhada, formato que o clube do Haven pode adaptar em programação de banho e jantar pra moradores e sócios.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Convenção World Spa & Wellness: em 21 de 24 marcas, o hóspede percebe menos bem-estar do que a promessa",
+          "source": "European Spa Magazine",
+          "url": "https://europeanspamagazine.com/key-takeaways-from-the-world-spa-wellness-convention-2026/",
+          "date": "2026-10-08",
+          "region": "Londres/Reino Unido",
+          "escopo": "mundo",
+          "pilar": "eventos",
+          "resumo": "A convenção aconteceu em 4 e 5 de outubro no ExCeL, em Londres, com 311 delegados e 27 palestrantes. Piers Schmidt comparou a promessa de bem-estar de 24 marcas com dez operadores de luxo e concluiu que em 21 delas a percepção do hóspede ficou abaixo da promessa, com linguagem vaga cinco vezes mais frequente que a precisa. Paris Kounoudis, do Parklane, em Limassol, disse que os sócios do clube do hotel respondem por 1,7% da receita, mais 3,4% em gasto secundário.",
+          "por_que_importa": "Régua pra comunicação do Haven: cada promessa de bem-estar precisa de um protocolo ou um número por trás. Os dados do Parklane ajudam a calibrar a receita esperada do membership dentro do modelo do clube.",
+          "para": [
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Portugal soma 33 projetos de residências de marca e um pipeline de mais de 1.200 casas até 2031",
+          "source": "Essential Business",
+          "url": "https://www.essential-business.pt/2026/10/15/the-new-signature-of-luxury-living-branded-residences-gain-traction-in-portugal/",
+          "date": "2026-10-15",
+          "region": "Portugal",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "Segundo a Savills, citada no texto, Portugal tem 33 projetos de residências de marca concluídos ou em desenvolvimento; pesquisa anterior citada pela mesma matéria fala em mais de 1.200 casas em 15 projetos até 2031. Entre os exemplos estão o Hyatt Regency Lisboa (142 residências), o Ombria Algarve (65 residências, cerca de 260 milhões de euros no empreendimento), o Marriott Residences Algarve (96) e o Six Senses Residences Comporta (58, previsto pra 2028). O texto tem tom promocional e ressalva que taxas de condomínio, limites de aluguel e retorno não são garantidos.",
+          "por_que_importa": "Comparáveis de escala e de marca num mercado europeu de segunda residência com serviço de hotel. Ajuda vendas a posicionar as 75 casas do Haven como produto de baixa densidade frente a projetos de 100 ou mais unidades, e a tratar a conta de condomínio de frente.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "JD Gyms cria programa de benefícios pra 500 mil sócios com mais de 40 marcas parceiras",
+          "source": "Health Club Management",
+          "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/JD-Gyms-taps-retail-connection-for-member-rewards/363753",
+          "date": "2026-10-14",
+          "region": "Reino Unido",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "A JD Gyms criou o JD Gyms Rewards, incluído sem custo nas mensalidades de mais de 500 mil sócios. O programa se liga à plataforma JD Status, que reúne mais de 40 parceiros como Nando's, Uber Eats e Airbnb e, segundo a JD, tem 4 milhões de usuários no Reino Unido e já distribuiu mais de 120 milhões de libras em JD Cash.",
+          "por_que_importa": "Mostra como uma marca de varejo transforma a mensalidade em porta de entrada pra parcerias. Modelo pro time de parcerias montar um pacote de benefícios de membros do Haven com marcas de fora do imobiliário.",
+          "para": [
+            "parcerias",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Longevity Week 2026 reúne eventos em Londres e Oxford de 2 a 6 de novembro",
+          "source": "The Longevity Forum",
+          "url": "https://thelongevityforum.com/longevityweek",
+          "date": "2026-11-02",
+          "region": "Londres e Oxford/Reino Unido",
+          "escopo": "mundo",
+          "pilar": "eventos",
+          "resumo": "A página oficial do The Longevity Forum confirma a Longevity Week de 2 a 6 de novembro de 2026. A programação inclui um evento de bem-estar feminino e longevidade em Londres (2 de novembro), um encontro sobre envelhecimento saudável no King's College London (3 de novembro), o Oxford Science Summit no Oriel College (4 de novembro) e um evento online sobre IA e robótica no envelhecimento (5 de novembro).",
+          "por_que_importa": "Oportunidade de acompanhar, presencial ou online, a discussão científica de longevidade e garimpar especialistas e conteúdo pra programação do clube.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Haute Living mapeia nove clubes, spas e clínicas de bem-estar de Miami, do Tierra Santa, da Faena, à clínica da RETO Health",
+          "source": "Haute Living",
+          "url": "https://hauteliving.com/2026/10/miami-wellness-clubs-spas/799080/",
+          "date": "2026-10-15",
+          "region": "Miami/EUA",
+          "escopo": "mundo",
+          "pilar": "lifestyle",
+          "resumo": "A matéria apresenta nove espaços de bem-estar de Miami, entre eles o Tierra Santa, da Faena, e a clínica de longevidade da RETO Health. A tese do texto é que a cidade construiu uma cena de bem-estar de alto padrão ao lado da vida noturna, com clínica, spa e clube no mesmo roteiro social.",
+          "por_que_importa": "Bem-estar como circuito social de um polo de luxo, o que ajuda o Haven a tratar o clube como programação de vida e a curadoria de parceiros como roteiro, com clínica, spa e clube na mesma conversa.",
+          "para": [
+            "marketing",
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "REVĪVŌ, em Bali, refaz cinco retiros com teste de VO2 máx e painel de sangue de longevidade",
+          "source": "Travel PR News (release pago)",
+          "url": "https://travelprnews.com/revivo-bali-reworks-five-wellness-retreats-around-personalised-health-and-longevity/travel-press-release/2026/10/15",
+          "date": "2026-10-15",
+          "region": "Nusa Dua, Bali/Indonésia",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "O resort REVĪVŌ, em Nusa Dua, redesenhou cinco programas que somam testes físicos, avaliação de saúde e orientação de especialistas, com estadias mínimas de três ou seis noites. O Foundations for Vitality inclui análise de composição corporal, VO2 máx e painel de sangue de longevidade; o Precision Longevity Optimisation foi desenvolvido com a Younger by Science e inclui consulta virtual de 60 minutos. O próprio release diz que não há resultados de longo prazo verificados.",
+          "por_que_importa": "Exemplo de pacote de longevidade curto, de entrada, com medições concretas, que pode inspirar programas de poucos dias pra sócios e moradores do Haven. E um lembrete pra comunicação evitar promessa de resultado de saúde.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "EMBER, clube de bem-estar e convivência em Minneapolis, cobra US$ 300 por mês e abre na primavera de 2027",
+          "source": "North Loop Neighborhood Association",
+          "url": "https://northloop.org/members-only-wellness-and-social-club-opening-in-north-loop/",
+          "date": "2026-10-07",
+          "region": "Minneapolis/EUA",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "O EMBER abre na próxima primavera no The Hall Lofts e reúne coworking, academia, spa, programação educativa, café e bar numa única mensalidade. A mensalidade é de US$ 300 pra quem tem 30 anos ou mais e US$ 250 pra menores de 30, com taxa de entrada a partir de US$ 1.000. Os fundadores comparam o pacote a cerca de US$ 1.000 por mês pra contratar os serviços separados e adaptaram um conceito de clube de Chicago.",
+          "por_que_importa": "Estrutura de preço de clube de bairro com faixa por idade e a conta do pacote contra a soma dos serviços avulsos. Comparativo útil pra desenhar tiers e o argumento de valor do membership do Haven.",
+          "para": [
+            "clube",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Waldorf Astoria Kuala Lumpur lança Wellness Membership e Digital Detox Card antes da abertura em 30 de outubro",
+          "source": "Hospitality Net (conteúdo da marca)",
+          "url": "https://www.hospitalitynet.org/announcement/41015209/waldorf-astoria-kuala-lumpur-introduces-an-integrated-urban-wellness-sanctuary-ahead-of-30-october-2026-opening",
+          "date": "2026-10-06",
+          "region": "Kuala Lumpur/Malásia",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "O hotel abre em 30 de outubro com spa de 2.275 m² em dois andares, tratamentos La Prairie, circuito hidrotermal e sete salas de tratamento. A oferta inclui um Wellness Membership privado, especialistas residentes por temporada e um Digital Detox Card nos quartos. O texto é anúncio publicado pela própria marca.",
+          "por_que_importa": "Hotel urbano criando membership de bem-estar com especialistas visitantes, formato que o Haven pode adaptar como programação de residentes convidados no clube. O Digital Detox Card é uma ideia simples e barata pra comunicação.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Farm stays viram tendência de hospitalidade em fazendas em funcionamento, com comida, artesanato e bem-estar",
+          "source": "The Spokesman-Review",
+          "url": "https://www.spokesman.com/stories/2026/oct/03/farm-charm-travel-trend-immersive-stays-on-working/",
+          "date": "2026-10-03",
+          "region": "EUA e Europa",
+          "escopo": "mundo",
+          "pilar": "lifestyle",
+          "resumo": "A matéria de Noreen Kompanik descreve a hospedagem em fazendas em operação como algo além de cama rústica e passeio, com hóspedes participando da rotina agrícola. O modelo reúne comida, vinho, natureza, artesanato e bem-estar, com exemplos de Sonoma e Finger Lakes à Inglaterra e à Turquia.",
+          "por_que_importa": "Reforça o argumento de farm hospitality pro Haven em Porto Feliz, com horta, produtor local e colheita como programação do clube, e dá repertório de exemplos pro material de marketing.",
+          "para": [
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        }
+      ]
+    },
     {
       "data": "2026-10-15",
       "manchete": "Todo mundo vende o retiro. Quase ninguém cuida do dia seguinte.",
