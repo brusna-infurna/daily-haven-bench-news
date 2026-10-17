@@ -1,7 +1,345 @@
 {
   "projeto": "Daily Haven Bench News",
-  "atualizado": "2026-10-16",
+  "atualizado": "2026-10-17",
   "dias": [
+    {
+      "data": "2026-10-17",
+      "manchete": "Longevidade virou item de academia. O que ainda não virou commodity é a continuidade.",
+      "editorial": "Saiu na TechCrunch que a academia de Mark Wahlberg vai vender três rodadas de exame de sangue e uma hora com médico por US$ 99, na mesma semana em que a Smart Fit, com mais de 2.200 unidades, comprou um pedaço do Buddha Spa pra levar spa e recuperação pra dentro do treino. O preço do bilhete de entrada em longevidade está caindo rápido, e os artigos do Hospitality Net desta edição dizem o mesmo da terapia de contraste: uma unidade de sauna e banho de gelo é barata de montar, vai ser copiada, e vira item básico de spa. Quem perde é o retiro que vive de reserva avulsa, e o caso do The Dreaming, que fecha em dezembro depois de 3.000 hóspedes, mostra a conta. O que ainda custa caro e ainda diferencia é o depois: o Layan Life consulta o hóspede com 1, 3 e 6 meses, o Aro Hā cobra NZ$ 49 por mês por uma comunidade, a Postcard desenha hotel em volta de clube pra sustentar ocupação em dia fraco. No Brasil, o Resort Report mostra reserva crescendo 14,3% com estadia encolhendo pra 3,52 noites, ou seja, mais gente, por menos tempo, mais perto de casa. E em Itu, cidade vizinha de Porto Feliz, um parque de R$ 2 bilhões promete 744 suítes e 50 mil visitantes por dia a partir de 2027. O equipamento vai estar em todo lugar, a rotina de quem cuida de você por anos ainda não.",
+      "atencao": [
+        "Vendas: O Cacau Park em Itu muda a conversa sobre a região, e o argumento de reserva, silêncio e acesso curado do Haven precisa ficar explícito antes que o cliente pergunte.",
+        "Clube e parcerias: Smart Fit comprando Buddha Spa e Wahlberg vendendo exame por US$ 99 mostram que diagnóstico e recuperação viram commodity; o desenho do clube precisa pesar no acompanhamento recorrente, com modelo de Layan Life e Aro Hā como referência, e o Buddha Spa entra no mapa de possíveis parceiros.",
+        "Marketing: O Resort Report (estadia média de 3,52 noites, reserva em alta) e o relatório da Skyscanner (desconexão e exclusividade entre as tendências de 2027) sustentam a mensagem de descanso curto, frequente e perto de São Paulo."
+      ],
+      "itens": [
+        {
+          "title": "Cacau Park, em Itu, terá hotel de 744 suítes e parque aquático indoor",
+          "source": "Brasilturis",
+          "url": "https://brasilturis.com.br/2026/10/16/cacau-park-tera-hotel-com-744-suites-parque-aquatico-indoor-e-floresta-vertical-em-itu/",
+          "date": "2026-10-16",
+          "region": "Itu/SP",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "O complexo Cacau Park, em Itu, ocupa cerca de 1 milhão de m² e tem investimento estimado em R$ 2 bilhões. O hotel principal terá 744 suítes em três torres, parque aquático indoor de mais de 4,5 mil m², spa, sauna e academia. A capacidade estimada é de até 50 mil visitantes por dia, com inauguração prevista pra dezembro de 2027.",
+          "por_que_importa": "Itu vira destino de turismo de massa a poucos quilômetros de Porto Feliz, o que muda trânsito, oferta de hospedagem e a imagem da região. O time de vendas precisa de um argumento claro de reserva e privacidade do Haven frente a esse polo.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Reservas em resorts crescem 14,3% no primeiro semestre, mas a estadia média cai pra 3,52 noites",
+          "source": "Money Report",
+          "url": "https://www.moneyreport.com.br/economia/reservas-em-resorts-crescem-143-mas-estadias-ficam-mais-curtas/",
+          "date": "2026-10-13",
+          "region": "Brasil",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "Segundo o Resort Report 2026, da Omnibees com o Hotelier News, as reservas em resorts subiram 14,3% no primeiro semestre e a receita 13,2%. A permanência média caiu 3,8%, de 3,66 pra 3,52 noites. A base reúne 221 resorts ativos, e a pensão completa teve alta de 16,6% nas diárias.",
+          "por_que_importa": "Mais reservas com estadias curtas indicam demanda por escapadas de fim de semana perto de São Paulo, perfil que combina com o uso do clube em Porto Feliz. Serve de dado de mercado pro discurso de vendas e pra desenhar pacotes de programação curta.",
+          "para": [
+            "clube",
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Smart Fit compra até 20% do Buddha Spa por até R$ 32 milhões",
+          "source": "Bloomberg Línea",
+          "url": "https://www.bloomberglinea.com.br/negocios/smart-fit-compra-fatia-do-buddha-spa-por-ate-r-32-mi-e-vai-apoiar-expansao-no-exterior/",
+          "date": "2026-10-05",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "marcas",
+          "resumo": "A Smart Fit, que opera mais de 2.200 academias em 16 países, pagará até R$ 32 milhões por até 20% do Buddha Spa, com opção de chegar a 30%. O Buddha Spa tem 149 unidades em 12 estados, 96% franqueadas, e receita 36% maior em 2025 segundo a própria empresa. A primeira unidade no exterior abre em Santiago, no Chile, em dezembro de 2026, e a meta é chegar a cerca de 100 unidades na América Latina em cinco anos. A Spa Business repercutiu o negócio em 16 de outubro.",
+          "por_que_importa": "A maior rede de academias do país aposta em spa e recuperação como complemento do treino. Vale mapear o Buddha Spa como possível parceiro de serviços de bem-estar no clube.",
+          "para": [
+            "parcerias",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Boa Vista Village receberá o Australian Open Junior Series também em 2027 e 2028",
+          "source": "Revista Business",
+          "url": "https://revistabusiness.com.br/2026/10/14/boa-vista-village-sedia-classificatorio-do-australian-open-juvenil-com-vaga-no-grand-slam/",
+          "date": "2026-10-14",
+          "region": "Porto Feliz/SP",
+          "escopo": "brasil",
+          "pilar": "comunidade",
+          "resumo": "A etapa sul-americana do Australian Open Junior Series acontece de 14 a 18 de outubro no Boa Vista Village, em Porto Feliz, e o campeão ganha vaga na chave principal do torneio juvenil. O local tem oito quadras permanentes. O fato novo é que o Boa Vista Village também sediará as edições de 2027 e 2028, e a JHSF é parceira regional exclusiva do Australian Open, com clínicas e outros eventos previstos. O texto tem tom promocional e se apoia em falas da JHSF e da organização.",
+          "por_que_importa": "O vizinho mais próximo do Haven consolida um calendário esportivo internacional em Porto Feliz por pelo menos mais dois anos. Vale mapear o que isso traz de público e de visibilidade pra cidade, e se há espaço pra programação própria do clube em datas diferentes.",
+          "para": [
+            "parcerias",
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Sorocaba lança 8.310 unidades em 2025 e entra no grupo das 20 cidades mais atrativas pro alto padrão",
+          "source": "Jornal Cruzeiro do Sul",
+          "url": "https://www.jornalcruzeiro.com.br/sorocaba/noticias/2026/10/765721-sorocaba-lidera-lancamentos-imobiliarios-no-interior-paulista.html",
+          "date": "2026-10-10",
+          "region": "Sorocaba/SP",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "Sorocaba teve 8.310 unidades residenciais lançadas em 2025, alta de 86% sobre o ano anterior, segundo o Secovi-SP, à frente de Campinas e Indaiatuba. No segundo trimestre de 2026, entrou entre as 20 cidades mais atrativas do país no alto padrão, e 49,6% das vendas são de médio e alto padrão. A KarvasGRM anunciou R$ 600 milhões no complexo Reserva Boa Vista.",
+          "por_que_importa": "Mostra que o polo de Sorocaba, vizinho de Porto Feliz, concentra oferta e comprador de alto padrão. É referência de preço e de perfil de público pra equipe de vendas e pra escolha de praças de divulgação.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Imóveis de luxo movimentaram R$ 52,2 bilhões nas capitais em 2025, alta de 35%",
+          "source": "Administradores",
+          "url": "https://www.administradores.com.br/noticias/imoveis-de-luxo-apostam-em-ativos-irreplicaveis-e-mercado-ja-movimenta-r-52-bilhoes-no-brasil",
+          "date": "2026-10-09",
+          "region": "Brasil",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "Segundo a Brain Inteligência Estratégica, imóveis de luxo e superluxo movimentaram R$ 52,2 bilhões nas capitais em 2025, 35% a mais que em 2024. A matéria cita o índice PIRI 100 da Knight Frank, com alta média de 3,2% nos preços prime, e o Global Wellness Institute, que estima o imobiliário de bem-estar em US$ 876 bilhões, com projeção de US$ 1,8 trilhão até 2030. O exemplo é o Lazuli, em Niterói, com VGV de R$ 430 milhões e 40% vendido.",
+          "por_que_importa": "Reúne números de mercado de luxo e de wellness real estate pra apresentações a investidores e a compradores. O caso do Lazuli, que trocou área vendável por uma piscina, mostra o que o comprador do segmento paga por experiência.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Corrida Granado Pink fecha o circuito de 2026 no Rio com 1,5 mil mulheres",
+          "source": "Revista Fator Brasil",
+          "url": "https://www.revistafatorbrasil.com.br/2026/10/14/corrida-granado-pink-rio-2026-reune-15-mil-mulheres-na-lagoa-rodrigo-de-freitas/",
+          "date": "2026-10-17",
+          "region": "Rio de Janeiro/RJ",
+          "escopo": "brasil",
+          "pilar": "marcas",
+          "resumo": "A Granado realiza neste sábado, 17 de outubro, a etapa do Rio da Corrida Granado Pink, só pra mulheres, com 7,5 km em volta da Lagoa Rodrigo de Freitas e inscrições esgotadas pra cerca de 1,5 mil participantes. Parte da inscrição vai pro INCAvoluntário, no Outubro Rosa. A etapa fecha um circuito que também passou por São Paulo, Porto Alegre, Fortaleza e Recife, e o evento tem certificação Lixo Zero.",
+          "por_que_importa": "É um exemplo de marca criando comunidade por um encontro recorrente de esporte, com causa e circuito em várias cidades. Dá ideia de calendário de corridas e encontros pro clube.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Skyscanner aponta detox digital, retiros e compras exclusivas entre as tendências de viagem de 2027",
+          "source": "Catraca Livre (relatório Travel Trends da Skyscanner)",
+          "url": "https://catracalivre.com.br/viagem-livre/detox-digital-e-bem-estar-estao-entre-tendencias-de-viagens-para-2027",
+          "date": "2026-10-16",
+          "region": "Brasil",
+          "escopo": "brasil",
+          "pilar": "estudos",
+          "resumo": "O relatório, divulgado em 15 de outubro, ouviu 28 mil viajantes, 1.000 deles brasileiros. 31% dos viajantes da Gen Z planejam se desconectar das telas, 65% viajam pra comprar itens que não acham online e 64% dos brasileiros pretendem viajar tanto ou mais em 2027. Entre os brasileiros, 57% já mudaram de destino por causa do câmbio.",
+          "por_que_importa": "Mostra que desconexão e experiências exclusivas seguem em alta entre quem viaja. Pode abastecer o discurso de que o Haven entrega descanso sem sair do estado e ideias de programação sem telas.",
+          "para": [
+            "marketing",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Mark Wahlberg abre academia de longevidade perto de Las Vegas com exames e consulta por US$ 99",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
+          "date": "2026-10-16",
+          "region": "Las Vegas, EUA",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "A Municipal, marca de roupa esportiva de Wahlberg, abre em dezembro a primeira Municipal Gym, de 32 mil pés quadrados (cerca de 3.000 m²), nos arredores de Las Vegas, com exames de sangue, teste epigenético, crioterapia, compressão, banho frio e café. Wahlberg citou US$ 99 como exemplo de pacote com três rodadas de exame e uma hora de consulta médica, sem a matéria confirmar se é mensalidade. Pra comparar, a reportagem cita Fountain Life a cerca de US$ 21,5 mil por ano, The Estate a US$ 35 mil e o complemento de longevidade da Equinox a US$ 36 mil.",
+          "por_que_importa": "Mostra uma marca de consumo entrando em longevidade com preço baixo e exame no centro da oferta. Ajuda a definir onde o Haven se posiciona na escala e o que fica como diagnóstico de entrada no clube e o que fica como serviço premium.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Niseko terá vila de longevidade com 12 villas, clube de bem-estar e projeto de Tadao Ando",
+          "source": "Powderlife",
+          "url": "https://www.powderlife.com/blog/new-residential-wellness-estate-to-break-ground-in-niseko/",
+          "date": "2026-10-12",
+          "region": "Niseko, Japão",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "A AID Japan assinou com o escritório de Tadao Ando um contrato de projeto pro Niseko Longevity Village, com cerca de 50 mil m² e 12 villas sob medida. O clube de bem-estar terá cerca de 1.000 m², com onsen, academia, biblioteca e sala de jantar privativa. A obra deve começar ainda em 2026.",
+          "por_que_importa": "É um exemplo de poucas casas, clube central e arquitetura de autor, parecido com a escala do Haven. Vale como referência de como apresentar o clube como parte do produto residencial.",
+          "para": [
+            "marketing",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Postcard Hotel planeja hotéis urbanos pequenos na Índia com clube de sócios integrado",
+          "source": "Skift",
+          "url": "https://skift.com/2026/10/12/postcard-hotel-is-bringing-its-brand-to-indias-cities-with-a-club-first-twist-exclusive/",
+          "date": "2026-10-12",
+          "region": "Índia",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "A Postcard quer hotéis urbanos com menos de 100 quartos, quase todos suítes, com clube privado integrado em Delhi, Mumbai, Bengaluru e Hyderabad, e já negocia três terrenos. O fundador Kapil Chopra fala em diária de cerca de INR 60 mil (US$ 628), contra INR 25 a 30 mil dos hotéis de topo, e em margem operacional acima de 50%. O ponto de equilíbrio nas cidades seria de 30% a 40% de ocupação.",
+          "por_que_importa": "Dá um argumento econômico pra receita de clube somada à hospedagem, útil na conversa com operadores e investidores. Também sugere que o clube pode sustentar a ocupação em dias fracos.",
+          "para": [
+            "parcerias",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Spa Business lista cinco programas de acompanhamento que mantêm o hóspede ativo depois do check-out",
+          "source": "Spa Business",
+          "url": "https://www.spabusiness.com/wellness-news/Wellness-aftercare-five-programmes-keeping-guests-on-track-after-checkout/363630",
+          "date": "2026-10-16",
+          "region": "Índia, Tailândia, Nova Zelândia",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "O Layan Life, da Anantara, dá consultas médicas com 1, 3 e 6 meses após a estadia. O Tulah, em Kerala, entrega três meses de acompanhamento e lança uma assinatura paga no início de 2027. O Aro Hā cobra NZ$ 49 por mês pelo Circle, com retiros em casa, sessões com especialistas e comunidade.",
+          "por_que_importa": "O Haven pode usar esses modelos pra desenhar a rotina de quem mora ou visita, com acompanhamento recorrente no lugar de evento isolado. Também é uma ideia de receita mensal pra membros.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Retiro The Dreaming, de Charlotte Church, pausa as operações em dezembro por queda de reservas",
+          "source": "Spa Business",
+          "url": "https://www.spabusiness.com/wellness-news/The-Dreaming-by-Charlotte-Church-prepares-to-enter-hibernation/363778",
+          "date": "2026-10-14",
+          "region": "Powys, País de Gales",
+          "escopo": "mundo",
+          "pilar": "comunidade",
+          "resumo": "O retiro, aberto em 2023, vai parar a partir de dezembro de 2026 sem data de volta, citando queda de reservas e custos maiores. Recebeu mais de 3.000 hóspedes, incluindo centenas pelo esquema de pague o que puder. O curso online de oito partes segue no ar durante a pausa.",
+          "por_que_importa": "É um aviso sobre depender de reservas avulsas. Um modelo com membros e receita recorrente, como o do Haven, reduz esse risco, e o caso serve de argumento nessa comparação.",
+          "para": [
+            "vendas",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Madri lidera o interesse internacional em residências de marca, com Mandarin Oriental e Four Seasons",
+          "source": "idealista/news",
+          "url": "https://www.idealista.com/en/news/property-for-sale-in-spain/2026/10/12/907275-madrid-leads-international-interest-in-branded-residences",
+          "date": "2026-10-12",
+          "region": "Madri, Espanha",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "Madri aparece em primeiro no Barnes City Index 2026 e atrai investidores e super-ricos pra residências de marca. A Mandarin Oriental Residences tem unidades de cerca de 200 m², clube privado e spa com piscina de 20 m. A Four Seasons, no Canalejas, tem unidades acima de 220 m² e concierge residencial dedicado.",
+          "por_que_importa": "Mostra quais amenidades o comprador internacional espera de uma residência de marca (clube, spa, concierge). Ajuda a calibrar o que o Haven precisa deixar claro no pacote de serviços.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Artigo compara dois modelos de negócio de terapia de contraste: Othership e AIRE",
+          "source": "Hospitality Net (opinion)",
+          "url": "https://www.hospitalitynet.org/opinion/4134532/comparing-contrast-therapy-business-models-for-your-hotel-spa",
+          "date": "2026-10-05",
+          "region": "EUA e Canadá",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "A Othership cobra cerca de US$ 55 por sessão, com sauna grande, banhos de gelo e noites sociais sem álcool. A AIRE cobra cerca de US$ 175 por pessoa, com piscinas térmicas e foco em silêncio. Os autores dizem que uma unidade de contraste de 4.000 a 6.000 pés quadrados é barata de montar, o que deve gerar cópias, e que o contraste vira item básico em spas de hotel.",
+          "por_que_importa": "Ajuda a decidir se o espaço térmico do Haven segue o modelo de frequência e convivência ou o de ocasião e silêncio. Também alerta que o contraste sozinho não diferencia mais.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Artigo propõe pacotes de longevidade em resorts, de avaliação de um dia a assinatura anual com retorno trimestral",
+          "source": "Hospitality Net (opinion)",
+          "url": "https://www.hospitalitynet.org/opinion/4134519/deep-integration-of-medical-wellness-and-longevity",
+          "date": "2026-10-05",
+          "region": "Global",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "A autora, de uma incorporadora de imóveis, cita relatório de 2025 segundo o qual hotéis de bem-estar de alto nível têm RevPAR 67,5% maior que os demais. Propõe cinco pacotes, de avaliação de saúde de um dia a assinatura anual com acompanhamento trimestral. O texto é opinião e usa uma estimativa de 2011 sobre o custo das doenças crônicas.",
+          "por_que_importa": "A escada de pacotes serve de rascunho pra organizar a oferta de longevidade do clube. O dado de RevPAR vem de fonte secundária e deve ser conferido antes de entrar em material de venda.",
+          "para": [
+            "clube",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Solidão e isolamento social podem tirar quase 6 anos de saúde, aponta estudo da Tulane",
+          "source": "ScienceDaily (Tulane University, estudo na Nature Communications)",
+          "url": "https://sciencedaily.com/releases/2026/10/261006234514.htm",
+          "date": "2026-10-10",
+          "region": "Nova Orleans, EUA",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "O estudo acompanhou 277.489 adultos de 40 a 69 anos sem doenças crônicas no início. Quem tinha solidão e isolamento social juntos perdeu 2,4 anos livres de doença física entre as mulheres e 1,7 entre os homens. Os anos livres de transtorno mental caíram cerca de 3,7 entre as mulheres e 5,8 entre os homens. Hábitos saudáveis reduziram a perda ligada ao isolamento, mas não a ligada à solidão, e o estudo é observacional, sem provar causa.",
+          "por_que_importa": "Dá um dado de saúde pra defender a comunidade como parte da longevidade. Pode apoiar o argumento de vendas de que convivência regular faz parte do que o membro compra.",
+          "para": [
+            "vendas",
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Pesquisa com arquitetos nos EUA: convivência ao ar livre e salas de ioga crescem, e o cold plunge cai de 30% pra 13%",
+          "source": "Forbes Brasil (pesquisa do American Institute of Architects)",
+          "url": "https://forbes.com.br/forbes-money/forbes-real-estate/2026/10/tendencias-design-casas-americanos-2026/",
+          "date": "2026-10-04",
+          "region": "Estados Unidos",
+          "escopo": "mundo",
+          "pilar": "lifestyle",
+          "resumo": "Pesquisa do American Institute of Architects, divulgada em 22 de setembro, mostra áreas de convivência ao ar livre subindo de 40% pra 51% dos pedidos e jardins de inverno de 6% pra 25%. Salas de ioga e exercícios passam de 15% pra 17%, e lares multigeracionais de 49% pra 53%. A imersão em água fria cai de 30% pra 13%.",
+          "por_que_importa": "Ajuda a calibrar o que entra na casa e no clube do Haven: convivência ao ar livre e ioga seguem em alta, enquanto o cold plunge perdeu força como item de desejo. É dado americano, então vale como referência; o comprador brasileiro ainda precisa ser ouvido.",
+          "para": [
+            "marketing",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "WTM London 2026 acontece de 3 a 5 de novembro no ExCeL London",
+          "source": "Mercado & Eventos",
+          "url": "https://www.mercadoeeventos.com.br/feiras-e-eventos/wtm-londres-2026-registra-forte-demanda-de-expositores-e-projeta-nova-edicao-recorde/",
+          "date": "2026-11-03",
+          "region": "Londres, Reino Unido",
+          "escopo": "mundo",
+          "pilar": "eventos",
+          "resumo": "A feira de viagens organizada pela RX Global ocorre de 3 a 5 de novembro de 2026 no ExCeL London. Em 2025 reuniu representantes de 182 países e gerou £ 2,2 bilhões em negócios, e a organização espera superar o número. A edição de 2026 tem 43 expositores novos ou de volta, uma área de tecnologia de viagem e estreias de destinos como Uruguai e Panamá.",
+          "por_que_importa": "É a principal vitrine global de hotelaria e destinos, útil pra acompanhar lançamentos de hospitalidade e parcerias de experiência pro clube.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        }
+      ]
+    },
     {
       "data": "2026-10-16",
       "manchete": "Em 21 de 24 marcas, o hóspede sente menos bem-estar do que leu no folheto.",
