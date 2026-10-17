@@ -3,7 +3,7 @@
 Uso: python3 build_email.py [URL_DO_DASHBOARD]  -> escreve email-AAAA-MM-DD.html e imprime o assunto na 1a linha
 Layout: revista Haven, tabela compatível com Gmail e Apple Mail, estilos inline.
 """
-import json, os, sys, html, datetime
+import json, os, sys, html, urllib.parse, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 URL = sys.argv[1] if len(sys.argv) > 1 else "https://brusna-infurna.github.io/daily-haven-bench-news/"
@@ -37,6 +37,8 @@ n_br = sum(1 for i in items if i["escopo"] == "brasil")
 n_wd = len(items) - n_br
 
 subject = f"Daily Haven Bench News · {data_fmt} · {day.get('manchete','').rstrip('.')}"
+wa_text = f"*Daily Haven Bench News, {data_fmt}*\n\n{day.get('manchete','')}\n\nPra prestar atenção:\n" + "\n".join(f"• {a}" for a in day.get('atencao',[])) + f"\n\nDashboard: {URL}"
+wa_link = "https://wa.me/?text=" + urllib.parse.quote(wa_text)
 
 def fmt_short(dt):
     yy, mm, dd = dt.split("-")
