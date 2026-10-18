@@ -1,7 +1,346 @@
 {
   "projeto": "Daily Haven Bench News",
-  "atualizado": "2026-10-17",
+  "atualizado": "2026-10-18",
   "dias": [
+    {
+      "data": "2026-10-18",
+      "manchete": "Em São Paulo, o clube já custa mais por metro quadrado do que o próprio prédio.",
+      "editorial": "O J 442, no Jardim Guedala, deve cobrar R$ 14 a 15 por metro quadrado de mensalidade de clube, acima dos cerca de R$ 13 do condomínio, por um clube de R$ 50 milhões limitado a 300 famílias, num semestre em que o alto padrão paulistano vendeu 39% menos unidades, segundo a Brain. O mecanismo é simples: quando o metro quadrado trava, a incorporadora passa a vender acesso, e acesso tem mensalidade. Quem perde é o comprador que entra pelo apartamento e descobre que a conta do convívio ficou maior que a conta da manutenção, sem ter escolhido quem senta na mesa ao lado. No litoral do Nordeste, HSM e Tera vendem a segunda casa com pool hoteleiro, e o dono fica com uma ou duas estadias por ano na própria unidade. A pesquisa da Fundação Itaú com o Datafolha mostra o lado da demanda: 88% dos brasileiros de 16 a 65 anos foram a algum evento ao vivo em doze meses, e 75% pagariam por uma atração que descobriram de graça. Lá fora, a Fivelements junta residências e comunidade de bem-estar com capital ligado ao fundo soberano de Singapura, e um hotel em Warwickshire põe uma sauna-teatro e uma chuva pra 20 pessoas no centro do spa. Em todos esses casos, o que custa caro é a continuidade. Mensalidade sem programação vira taxa.",
+      "atencao": [
+        "Vendas: O J 442 dá o comparativo que faltava pra conversa de preço, mensalidade de clube de R$ 14 a 15 por metro quadrado em São Paulo, limitada a 300 famílias, e o dado da Savills via Hotelier News coloca São Paulo entre as cinco cidades do mundo com mais residências de marca.",
+        "Marketing: A pesquisa da Fundação Itaú com o Datafolha (88% em evento ao vivo, 75% pagariam por atração descoberta de graça) sustenta o discurso de comunidade com dado brasileiro recente, citado com a ressalva de que a amostra vai de 16 a 65 anos.",
+        "Clube e parcerias: O Michelob Move Fest e a parceria da Sisley com a Explora Journeys mostram marcas comprando espaço em corrida coletiva e em cabine de spa, dois formatos de parceria pra testar na programação do Haven."
+      ],
+      "itens": [
+        {
+          "title": "J 442, no Jardim Guedala, terá clube privado de R$ 50 milhões pra 300 famílias e mensalidade de clube acima do condomínio",
+          "source": "Revista Business (com base em reportagem do Estadão)",
+          "url": "https://revistabusiness.com.br/2026/10/15/incorporadoras-apostam-em-terrenos-nobres-para-criar-predios-exclusivos-e-clubes-privados-em-sao-paulo/",
+          "date": "2026-10-15",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "membership",
+          "resumo": "A Meta Incorporadora negociou com ao menos 30 famílias um terreno de 3,5 mil m² no Jardim Guedala pro J 442, com 77 apartamentos de 200 a 500 m² e um clube privado de cerca de R$ 50 milhões, com acesso limitado a cerca de 300 famílias, quadras de tênis, padel e pickleball, academia, spa e restaurantes. A mensalidade do clube é estimada em R$ 14 a 15 por m², fora o condomínio, que deve ficar em torno de R$ 13 por m²; lançamento previsto pro primeiro semestre de 2027. A reportagem cita dado da Brain de que o alto padrão paulistano teve queda de 39% nas unidades vendidas e de 53% nos lançamentos no primeiro semestre; valores e prazos vêm das incorporadoras.",
+          "por_que_importa": "É a referência mais direta até agora de como o mercado paulistano precifica clube dentro do condomínio, com mensalidade por metro quadrado e acesso fechado a um número de famílias. Serve de comparativo pro argumento de venda e pro desenho da oferta do clube do Haven.",
+          "para": [
+            "vendas",
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "HSM e Tera Hotéis preveem R$ 480 milhões em seis residências de marca em Maragogi e Praia dos Carneiros, com unidade que o dono deixa na hospedagem",
+          "source": "Movimento Econômico",
+          "url": "https://movimentoeconomico.com.br/estados/alagoas/2026/10/15/maragogi-e-carneiros-atraem-r-480-milhoes-em-projetos-de-branded-residences/",
+          "date": "2026-10-15",
+          "region": "Maragogi/AL e Tamandaré/PE",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "A HSM Desenvolvimento Imobiliário e a Tera Hotéis preveem cerca de R$ 480 milhões em seis projetos, quatro em Maragogi (entre eles o Wyndham Residences Maragogi, com 309 apartamentos em três torres, R$ 80 milhões e entrega em dezembro de 2029) e dois em Tamandaré. O CEO da HSM diz que quase 25% das unidades vendidas em Maragogi foram pra argentinos e que em Carneiros a maioria dos compradores busca segunda residência. O dono usa a unidade uma ou duas vezes por ano e a deixa no pool de hospedagem no resto do tempo; os números são das empresas.",
+          "por_que_importa": "É o modelo de segunda residência com renda de hospedagem, que disputa parte do mesmo comprador do Haven. Ajuda o time de vendas a marcar a diferença entre casa com clube e unidade hoteleira com semanas de uso.",
+          "para": [
+            "vendas",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Wyndham leva residências de marca a Congonhas com 240 studios, e a Savills coloca São Paulo entre as cinco cidades com mais projetos do tipo",
+          "source": "Hotelier News",
+          "url": "https://hoteliernews.com.br/wyndham-leva-branded-residences-ao-entorno-de-congonhas/",
+          "date": "2026-10-15",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "O TRYP Residences by Wyndham Congonhas Airport, com a Ampla Incorporadora, terá 240 unidades, a maioria studios de cerca de 22 m², obra de R$ 40 milhões, VGV estimado em R$ 110 milhões e operação prevista pra dezembro de 2029. Segundo a Savills, citada na matéria, os projetos de residências de marca no mundo passaram de 323 em 2015 pra uma estimativa de 910 no fim de 2025, e São Paulo aparece na quinta posição do ranking, com 15 projetos entregues e 15 em desenvolvimento. A matéria lista só três cidades à frente, então a posição exata merece conferência no relatório.",
+          "por_que_importa": "O dado da Savills sobre São Paulo é argumento pronto pra material de vendas e conversa com investidores. O produto em si, studio urbano, fica longe do Haven, o que ajuda a marcar a distância.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "All Accor lança o posicionamento Stay For More, com 120 milhões de membros e mais de 7 mil atividades por ano",
+          "source": "Brasilturis (informações da Accor)",
+          "url": "https://brasilturis.com.br/2026/10/16/all-accor-stay-for-more-novo-posicionamento-global/",
+          "date": "2026-10-16",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "membership",
+          "resumo": "O programa de fidelidade da Accor passa a se apresentar em quatro eixos: acesso a destinos e marcas, reconhecimento e privilégios, experiências e jornada mais simples. Tem mais de 120 milhões de membros, cinco níveis, cerca de 140 parceiros e mais de 7 mil atividades por ano. Em pesquisa da OpinionWay e NellyRodi com 7.019 viajantes, mil deles brasileiros, 44% dos brasileiros queriam uma pausa depois de um período intenso de trabalho e 33% queriam mais tempo com pessoas queridas.",
+          "por_que_importa": "A maior rede hoteleira do país passa a vender experiência e acesso em vez de só pontos, terreno do clube. Os dois motivos de viagem dos brasileiros, pausa e tempo com quem importa, servem de insumo pra programação e pra comunicação do Haven.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Iguatemi avalia projeto no Itaim Bibi, e um hotel Four Seasons aparece em estudo no lote vizinho",
+          "source": "Panrotas",
+          "url": "https://www.panrotas.com.br/viagens-de-luxo/hotelaria/2026/10/iguatemi-avalia-projeto-imobiliario-com-possivel-hotel-de-luxo-em-sp_232669.html",
+          "date": "2026-10-07",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "A Iguatemi confirmou que estuda um empreendimento no Itaim Bibi, ainda sem definição de uso ou financiamento, com o Grupo Catuaí citado como coinvestidor. O terreno tem licença pra uma torre comercial de 13 andares e 11.200 m², e em lote vizinho haveria um hotel de luxo em estudo com a Four Seasons, o que a Iguatemi não confirmou. O Four Seasons do Leblon, no Rio, deve abrir em 2029.",
+          "por_que_importa": "Indica pra onde vai a hotelaria de ultraluxo em São Paulo e quem disputa o hóspede de alta renda. Contexto pra posicionamento e pra conversas com parceiros de hospitalidade.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Exímia, no Itaim, estreia em 20º lugar no The World's 50 Best Bars 2026, e Tan Tan, em Pinheiros, fica em 35º",
+          "source": "Panrotas",
+          "url": "https://www.panrotas.com.br/destinos/comer-e-beber/2026/10/brasil-tem-2-bares-entre-os-50-melhores-do-mundo-em-2026-veja-o-ranking_232739.html",
+          "date": "2026-10-08",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "Dois bares paulistanos entraram no ranking divulgado em Milão. O Exímia, do bartender Márcio Silva com cardápio da chef Manu Buffara, subiu de 61º em 2025 pra 20º, e o Tan Tan, de influência japonesa, ficou em 35º. O melhor bar do mundo foi o Bar Leone, de Hong Kong.",
+          "por_que_importa": "Dá nomes e referências de coquetelaria autoral pra pensar o bar do clube e eventuais convidados ou colaborações de programação.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Pesquisa da Fundação Itaú com o Datafolha: 88% dos brasileiros de 16 a 65 anos foram a algum evento cultural ao vivo em doze meses",
+          "source": "Exame (pesquisa Hábitos Culturais dos Brasileiros, 7ª edição, Fundação Itaú e Datafolha)",
+          "url": "https://exame.com/casual/brasileiro-consome-mais-cultura-presencial-em-2026-e-faz-do-streaming-um-gasto-fixo/",
+          "date": "2026-10-14",
+          "region": "Brasil",
+          "escopo": "brasil",
+          "pilar": "estudos",
+          "resumo": "A 7ª edição ouviu 2.448 pessoas em 137 municípios, entre 7 e 20 de julho de 2026. Praças e ruas (68%) e eventos ao ar livre (63%) lideram, 75% pagariam entrada pra seguir atrações que descobriram em eventos gratuitos, e 63% da classe A/B vão ao cinema, contra 18% da D/E. A matéria só traz comparação com 2025 pra cinema (24% pra 28%) e teatro (22% pra 25%).",
+          "por_que_importa": "Base de dados brasileira e recente pra argumentar que convivência presencial e programação cultural pesam na decisão de quem tem renda alta. O time usa na curadoria da agenda do clube e no discurso de comunidade.",
+          "para": [
+            "clube",
+            "marketing",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Hoteis.com: 73% dos brasileiros fizeram estadia de uma noite no último ano, e 32% citam spa e piscina como motivo",
+          "source": "Brasilturis (relatório Unpack '27, da Hoteis.com, grupo Expedia; campo da OnePoll; material de divulgação da empresa)",
+          "url": "https://brasilturis.com.br/2026/10/16/viagens-curtas-hoteis-goticos-e-destinos-de-filmes-e-series-sao-tendencias-para-2027/",
+          "date": "2026-10-16",
+          "region": "Brasil",
+          "escopo": "brasil",
+          "pilar": "estudos",
+          "resumo": "A pesquisa ouviu 26 mil adultos em 16 países, 2 mil deles no Brasil, entre 11 e 27 de agosto de 2026. No Brasil, 73% reservaram uma noite só no último ano, 92% pretendem repetir, e os motivos mais citados são datas especiais (47%), shows ou eventos esportivos (38%) e comodidades como spa e piscina (32%). Também aparecem interesse de 70% em hotéis de estética gótica e viagens motivadas por filmes e séries. Os dados são de levantamento da própria plataforma, que vende hospedagem.",
+          "por_que_importa": "A escapada de uma noite motivada por data especial e por spa combina com o formato de fim de semana e com visitas de experimentação pra futuros membros. Argumento pra experiências curtas de convidados no clube.",
+          "para": [
+            "clube",
+            "marketing",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Michelob Ultra cria o Michelob Move Fest em São Paulo, com revezamento de 42 km em equipes de dez e show de Marshmello em 7 de novembro",
+          "source": "Meio & Mensagem (informações da Ambev)",
+          "url": "https://www.meioemensagem.com.br/marketing/michelob-ultra-cria-festival-com-corrida-coletiva-e-show",
+          "date": "2026-10-16",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "marcas",
+          "resumo": "O festival acontece em 7 de novembro na Mercado Livre Arena Pacaembu, criado pela Africa Creative. Equipes de dez pessoas correm 4,2 km cada, e dez vagas são abertas ao público por um desafio de 4,2 km no Ibirapuera com QR code em mídia exterior. Segundo a Ambev, a marca, lançada no Brasil em 2020, cresceu mais de 250% em volume no segundo trimestre de 2026 sobre o mesmo período de 2025.",
+          "por_que_importa": "Uma marca de bebidas usando corrida coletiva como porta de entrada pra comunidade, formato que o clube do Haven pode replicar em escala menor com grupos de corrida e eventos de convivência, com marca parceira pagando a conta.",
+          "para": [
+            "clube",
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Fivelements, da GOCO, anuncia Koh Samui em 2027, Suíça em 2029 e Montenegro em 2030 com residências e comunidade de bem-estar",
+          "source": "Hospitality Net (release da GOCO Hospitality)",
+          "url": "https://www.hospitalitynet.org/news/4134953/fivelements-unveils-its-next-chapter-as-a-global-integrative-wellbeing-brand",
+          "date": "2026-10-16",
+          "region": "Bali, Tailândia, Suíça e Montenegro",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "A marca de bem-estar de Bali, comprada pela GOCO Hospitality em 2024, planeja abrir em Koh Samui no início de 2027, reformar Ubud em 2028 com 11 villas de piscina privativa, entrar na Suíça em 2029 (60 quartos, 29 chalés e 4 mil m² de bem-estar) e em Montenegro em 2030, com residências e comunidade de bem-estar, sem número de unidades. A expansão tem apoio de parceria com a Fullerton Fund Management, descrita como subsidiária do fundo soberano de Singapura. O próprio release diverge sobre a cidade suíça (Leysin no título, Montreux no corpo).",
+          "por_que_importa": "Uma operadora de retiro levando residências e comunidade pro mesmo modelo, com capital institucional por trás. Referência pra posicionar o Haven e pra conversas com operadoras de programa de bem-estar.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Hiddenwell investe £ 25 milhões num spa de 30 salas no Ardencote Manor, com neve real, chuva pra 20 pessoas e sauna-teatro",
+          "source": "European Spa Magazine",
+          "url": "https://europeanspamagazine.com/hiddenwell-unveils-spa-plans-for-ardencote-manor/",
+          "date": "2026-10-12",
+          "region": "Warwickshire, Reino Unido",
+          "escopo": "mundo",
+          "pilar": "lifestyle",
+          "resumo": "O grupo Hiddenwell, antigo Baron's Eden, reabre o Ardencote Manor no início de 2027 com 68 quartos e spa de 30 salas de tratamento. Entre os itens estão terapia de frio com neve real, uma piscina de chuva morna fechada pra até 20 pessoas, saunas de zimbro e de sal do Himalaia e uma sauna-teatro construída pra isso. Será o terceiro destino do grupo no Reino Unido.",
+          "por_que_importa": "Circuito térmico pensado pra ser coletivo, com sauna-teatro e chuva pra 20, serve de referência pra programação social do clube e pra especificação das áreas de água do Haven.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Residências Four Seasons em Las Vegas somam US$ 950 milhões em vendas, com 148 de 171 unidades sob contrato",
+          "source": "Daily Lodging Report (Skift)",
+          "url": "https://dlr.skift.com/2026/10/14/four-seasons-las-vegas-sales/",
+          "date": "2026-10-14",
+          "region": "Las Vegas, EUA",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "As residências de marca do Four Seasons em Las Vegas chegaram a US$ 950 milhões em vendas. Das 171 unidades, 148 estão sob contrato, e os preços partem de US$ 5,15 milhões. A página traz só o resumo da notícia, sem detalhe de perfil de comprador ou modelo de serviço.",
+          "por_que_importa": "Número concreto de absorção de residências de marca de alto padrão, perto de 87% sob contrato, útil como benchmark de ritmo de vendas e argumento pra casa com serviço de hotel.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Beaumont Mayfair reabre spa art déco com circuito térmico, trilhas sonoras da Myndstream e infusões intravenosas",
+          "source": "European Spa Magazine",
+          "url": "https://europeanspamagazine.com/beaumont-mayfair-unveils-its-newly-refreshed-spa/",
+          "date": "2026-10-15",
+          "region": "Londres, Reino Unido",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "O hotel de Mayfair reformou o spa com sauna, vapor, mergulho frio, hammam privativo, bar de gelo e quatro cabines de tratamento. Entram parceiros como Oskia, Salvaterra, La Sultane de Saba e Solice Health, de infusões, além de trilhas da plataforma de som Myndstream liberadas a todos os hóspedes.",
+          "por_que_importa": "Hotel urbano de luxo juntando ritual térmico, som e saúde sob demanda num spa pequeno. Referência de parceiros e de formato pro programa de recuperação e sono do clube.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Hotel Denū, em Phoenix, abre com spa de inspiração hammam e programa de membros pra moradores a partir de novembro",
+          "source": "Hospitality Net (conteúdo da marca, release da Meritage Collection)",
+          "url": "https://www.hospitalitynet.org/announcement/41015244/denu-hotel-spa-debuts-as-downtown-phoenixs-premier-upscale-urban-retreat",
+          "date": "2026-10-12",
+          "region": "Phoenix, EUA",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "O hotel de 236 quartos e 17 andares abriu no centro de Phoenix com spa Solstone de inspiração hammam, piscina de imersão na cobertura, academia 24 horas e estúdio de ioga. Um programa de membership pra moradores locais começa em novembro, sem preço divulgado no texto.",
+          "por_que_importa": "Mais um hotel abrindo a estrutura de spa a vizinhos por membership, o mesmo movimento do Proper e do Postcard já acompanhado aqui. Reforça que o clube precisa de oferta recorrente pra quem mora perto.",
+          "para": [
+            "clube",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Global Wellness Summit 2026, em Phuket, será aberto pela rainha da Tailândia em 11 de novembro, com Dan Buettner e William Heinecke entre os keynotes",
+          "source": "European Spa Magazine",
+          "url": "https://europeanspamagazine.com/queen-of-thailand-to-open-global-wellness-summit-2026/",
+          "date": "2026-11-10",
+          "region": "Phuket, Tailândia",
+          "escopo": "mundo",
+          "pilar": "eventos",
+          "resumo": "O encontro de 20 anos acontece de 10 a 13 de novembro no Angsana Laguna Phuket, e a rainha Suthida abre a programação na manhã de 11 de novembro. Entre os keynotes estão Dan Buettner, das Blue Zones, e William Heinecke, da Minor International; a pauta inclui saúde da mulher e turismo de bem-estar. O evento já tinha entrado no radar em 13/10; o fato novo é a programação confirmada.",
+          "por_que_importa": "O GWS costuma lançar dados de wellness real estate e as tendências do ano seguinte. Vale decidir agora se alguém do time acompanha à distância ou presencialmente.",
+          "para": [
+            "marketing",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Explora Journeys escolhe a Sisley Paris como parceira de bem-estar do Explora III, com suíte própria dentro do spa",
+          "source": "Panrotas (confirmado também em Brasilturis, 16/10)",
+          "url": "https://www.panrotas.com.br/viagens-de-luxo/cruzeiros/2026/10/explora-journeys-e-sisley-paris-anunciam-parceria-de-bem-estar-a-bordo-do-explora-iii_232898.html",
+          "date": "2026-10-15",
+          "region": "Internacional",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "A marca francesa de cosméticos de luxo terá uma suíte própria no Ocean Wellness, o spa do navio, com dois rituais faciais de 60 a 90 minutos e venda de produtos a bordo. É a estreia da Sisley em viagens marítimas, e o Brasilturis informa que a parceria chega ao Explora I e II em 2027, junto de Dr. Levy Switzerland, Aromatherapy Associates e Subtle Energies.",
+          "por_que_importa": "Modelo de parceria em que uma marca de beleza assina um espaço dentro do spa do anfitrião. O Haven pode usar a ideia pra convidar marcas brasileiras de skincare a assinar cabines ou rituais no clube.",
+          "para": [
+            "parcerias",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Forbes reúne dados sobre casas saudáveis nos EUA: ar interno, umidade e eficiência viram argumento de venda, e menos de 3% dos avaliadores têm formação no tema",
+          "source": "Forbes Brasil (republicação de texto de Jennifer Castenson na Forbes EUA; cita Asthma and Allergy Foundation of America, Vivint e Panasonic)",
+          "url": "https://forbes.com.br/forbes-money/forbes-real-estate/2026/10/mercado-casas-saudaveis-bem-estar/",
+          "date": "2026-10-18",
+          "region": "EUA",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "A matéria compila dados de terceiros: o custo da asma não controlada nos EUA chegaria a quase US$ 964 bilhões entre 2019 e 2038, segundo a fundação americana de asma e alergia; em pesquisa da Vivint, 77% dos proprietários têm interesse em solução integrada de casa inteligente; e a Panasonic diz ter mantido a umidade interna entre 53% e 55% em teste em Houston. Uma avaliadora citada afirma que menos de 3% dos 30 mil avaliadores de imóveis do país têm formação em construção eficiente. Os números vêm de relatórios e de fabricantes e não foram conferidos na fonte primária.",
+          "por_que_importa": "Argumentos técnicos pra falar das casas do Haven como moradia saudável (qualidade do ar, umidade, conforto térmico), além do clube. Conferir as fontes originais antes de citar número em material de venda.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Design Miami acontece de 1 a 6 de dezembro em Miami Beach, durante a Miami Art Week",
+          "source": "Design Miami (site oficial)",
+          "url": "https://www.designmiami.com",
+          "date": "2026-12-01",
+          "region": "Miami Beach, EUA",
+          "escopo": "mundo",
+          "pilar": "eventos",
+          "resumo": "A edição de Miami de 2026 vai de 1 a 6 de dezembro, no Convention Center Drive com a 19th Street, em Miami Beach, segundo o site oficial e a página de turismo da cidade. As duas páginas divergem sobre o número da edição, então ele fica de fora.",
+          "por_que_importa": "Vitrine de design de coleção e mobiliário autoral, referência de curadoria pro interiorismo das áreas comuns e pra eventual parceria com galerias e designers brasileiros que expõem lá.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Na China, entrada em complexo de banho popular custa cerca de R$ 77, e a Clinique La Prairie cobra até R$ 173 mil por programa de sete dias",
+          "source": "Seu Dinheiro (dados da China, convertidos pelo veículo)",
+          "url": "https://www.seudinheiro.com/2026/lifestyle/china-vira-destino-de-wellness-de-luxo-e-com-spas-bem-mais-acessiveis-do-que-nos-eua-ou-europa-sama/",
+          "date": "2026-10-09",
+          "region": "China",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "A reportagem descreve os centros de banho e lazer chineses, onde a entrada custa cerca de 100 yuans (R$ 77), e o topo do mercado, com o primeiro health resort da Clinique La Prairie fora da Suíça, em Anji, com programa de sete dias de 105 mil a 225 mil yuans (R$ 80 mil a R$ 173 mil). Cita o Global Wellness Institute: gasto global com turismo de bem-estar de US$ 893,9 bilhões em 2024. O dado é da China e a conversão pra reais é do veículo.",
+          "por_que_importa": "Mostra a amplitude de preço entre banho coletivo e programa médico de longevidade num mesmo mercado, referência de ticket pra pensar a escada de produtos do clube. Não serve como benchmark de preço no Brasil.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        }
+      ]
+    },
     {
       "data": "2026-10-17",
       "manchete": "Longevidade virou item de academia. O que ainda não virou commodity é a continuidade.",
