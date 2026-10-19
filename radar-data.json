@@ -1,7 +1,260 @@
 {
   "projeto": "Daily Haven Bench News",
-  "atualizado": "2026-10-18",
+  "atualizado": "2026-10-19",
   "dias": [
+    {
+      "data": "2026-10-19",
+      "manchete": "Vinte milhões num rooftop em Alphaville, £ 200 mil num pub inglês. O produto é o mesmo: companhia.",
+      "editorial": "A SIX abriu no sábado um rooftop de 1.500 m² em Alphaville com R$ 20 milhões de investimento, sauna, crioterapia, brunch com DJ e brinquedoteca, numa marca que em agosto vendia o plano de seis meses da unidade a R$ 3.900 por mês, segundo a Exame. No Rio, o Copacabana Palace transformou cinco andares do Edifício Piscina num Wellness Club com academia, circuito de contraste e o primeiro spa da Dior na América Latina, a partir de 3 de novembro. Em Nova York, a Soho House põe uma academia de 1.860 m² com hammam e banho de gelo no centro da quarta casa da cidade, e a Minor cria uma marca de longevidade em que o prontuário acompanha o hóspede do resort à casa. O mecanismo é o mesmo em todos: a academia virou clube, o clube virou clínica, e a mensalidade subiu junto com a promessa. Quem paga é o sócio que compra tudo separado, treino num lugar, exame em outro, convívio num terceiro, e descobre que a conta do bem-estar cresce mais rápido que o tempo disponível pra usar. O contraponto vem de Wandsworth, onde a Punch transformou 80 pubs em Unity Social com cerca de £ 200 mil por casa, e um deles passou de £ 3 mil pra £ 15 mil por semana vendendo o básico, um lugar pra onde voltar toda semana. O rooftop e o pub disputam a mesma coisa. O que muda é quanto custa a continuidade.",
+      "atencao": [
+        "Vendas: A SIX em Alphaville dá o comparativo de ticket mais próximo do público do Haven, R$ 3.900 por mês no plano de seis meses segundo a Exame de agosto, e a Forbes Brasil coloca a revenda de alto padrão paulistana em R$ 7,78 bilhões no semestre, alta de 10,3%, o bolso de onde sai a segunda casa.",
+        "Clube e parcerias: O Wellness Club do Copacabana Palace com a Dior e a Life Longevity da Minor mostram marca de beleza e operadora hoteleira entrando no clube pela porta da longevidade, dois modelos de parceria pra testar com clínica, hospital ou marca de beleza antes de montar operação própria, com o alerta da STAT sobre exames sem evidência.",
+        "Marketing: O Unity Social da Punch e o relato do Washingtonian sobre grupos sociais em Washington sustentam o discurso de pertencimento com dado de operação, um pub que quintuplicou a receita vendendo convívio semanal, material mais forte do que promessa genérica de bem-estar."
+      ],
+      "itens": [
+        {
+          "title": "SIX Wowness Club abre rooftop de 1.500 m² em Alphaville com R$ 20 milhões, sauna, crioterapia, brunch com DJ e brinquedoteca",
+          "source": "Money Report (confirmado na Revista Business, 18/10)",
+          "url": "https://www.moneyreport.com.br/lifestyle/six-abre-rooftop-wellness-em-alphaville-com-investimento-de-r-20-milhoes/",
+          "date": "2026-10-17",
+          "region": "Barueri/SP (Alphaville)",
+          "escopo": "brasil",
+          "pilar": "membership",
+          "resumo": "A SIX Wowness Club inaugurou no sábado, 17 de outubro, uma unidade de 1.500 m² no 23º andar do edifício 18 do Forte, em Alphaville, com R$ 20 milhões de investimento, academia com linha Luxury da Technogym, sauna seca e úmida, crioterapia, cadeiras de massagem, bar de drinks saudáveis, brinquedoteca com supervisão, DJs residentes e brunch nos fins de semana, além de um espaço de beleza de 85 m². A matéria não informa mensalidade; em agosto, a Exame noticiou que o plano de seis meses de Alphaville era vendido em seis parcelas de R$ 3.900 mais R$ 600 de adesão, com 500 a 600 membros por unidade. Money Report e Revista Business chamam a unidade de quarta da marca em São Paulo listando Itaim Bibi, Vila Nova Conceição e Campinas, inconsistência registrada; a próxima abertura é em Belo Horizonte, em novembro.",
+          "por_que_importa": "É a referência de ticket e de pacote mais próxima do público do Haven: recovery, convívio, brunch, DJ e espaço pra criança dentro de um clube pago por mês, na região de onde sai parte dos compradores de segunda casa no interior. Serve de comparativo direto pra precificação e pra programação do clube.",
+          "para": [
+            "clube",
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Esquema e Pilar se unem e querem 50% do alto padrão pronto dos Jardins até 2028; revenda de alto padrão em SP somou R$ 7,78 bilhões no semestre",
+          "source": "Forbes Brasil",
+          "url": "https://forbes.com.br/forbes-money/forbes-real-estate/2026/10/pilar-esquema-imoveis-alto-padrao-sp/",
+          "date": "2026-10-16",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "A proptech Pilar e a imobiliária Esquema dizem responder juntas por cerca de 30% do valor negociado em imóveis prontos acima de R$ 3 milhões nos Jardins no primeiro semestre de 2026 e querem chegar a 50% até o fim de 2028. Segundo as duas empresas, a revenda de alto padrão na capital movimentou R$ 7,78 bilhões de janeiro a junho, alta de 10,3% sobre 2025. Os números de participação vêm de dados internos da Pilar e o total do mercado não tem fonte independente na matéria.",
+          "por_que_importa": "Dá a medida de liquidez do alto padrão paulistano, de onde vem boa parte dos compradores de segunda residência no interior. Ajuda o time de vendas a calibrar o discurso de ticket e a conversa com imobiliárias de boutique que já atendem esse comprador.",
+          "para": [
+            "vendas",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Cidade Matarazzo prevê R$ 1,5 bilhão em 2026 e promete uma operação de saúde e longevidade pro primeiro semestre de 2027",
+          "source": "Exame",
+          "url": "https://exame.com/negocios/de-cafe-a-mercado-cidade-matarazzo-mira-r-15-bilhao-e-prepara-ultimas-novidades-do-complexo-em-sp/",
+          "date": "2026-10-11",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "longevidade",
+          "resumo": "O complexo no antigo Hospital Matarazzo, na Bela Vista, movimentou mais de R$ 1 bilhão em 2025 e espera passar de R$ 1,5 bilhão em 2026, com 10 mil a 15 mil visitantes por dia em condições normais e picos de 20 mil, segundo os próprios gestores. Alexandre Allard chama de último capítulo do projeto um hospital do terceiro milênio, voltado a saúde e longevidade, no lugar onde funcionou o hospital, com lançamento previsto pro primeiro semestre de 2027 e sem modelo de negócio, serviços ou investimento divulgados. Matéria de 11 de outubro, anterior à janela de 72 horas.",
+          "por_que_importa": "Um complexo de uso misto tratando longevidade como âncora de programação e de tráfego em São Paulo. Serve de referência pra pensar o que o Haven oferece a quem não mora lá e vale acompanhar como futuro concorrente de atenção e possível parceiro de conteúdo.",
+          "para": [
+            "marketing",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Copacabana Palace abre em 3 de novembro um Wellness Club de cinco andares com academia, circuito de contraste e o primeiro spa da Dior na América Latina",
+          "source": "Money Report (confirmado na Brasilturis, 06/10)",
+          "url": "https://www.moneyreport.com.br/negocios/dior-volta-ao-copacabana-palace-com-spa-pensado-para-o-publico-brasileiro/",
+          "date": "2026-10-06",
+          "region": "Rio de Janeiro/RJ",
+          "escopo": "brasil",
+          "pilar": "marcas",
+          "resumo": "O Dior Spa Copacabana Palace tem 300 m², seis salas de tratamento, uma delas dupla, e protocolos adaptados ao clima e à pele brasileira, desenvolvidos com a dermatologista Maria Bussade. Ocupa parte de um Wellness Club de cinco andares no Edifício Piscina, resultado de reforma de 19 meses, com academia Technogym, estúdios de ioga e pilates, área de jiu-jitsu, pavimento de recuperação com sauna tradicional e infravermelha, vapor, banho de gelo e terapias de contraste, salão, barbearia e suco bar. Nenhuma das matérias informa preço ou regra de adesão ao clube. Matéria de 6 de outubro, anterior à janela de 72 horas.",
+          "por_que_importa": "Um hotel ícone colocando um clube de bem-estar com marca de luxo e circuito térmico no centro da operação. Vale como referência de programa, de parceria com marca de beleza e de régua de ambição pro clube do Haven.",
+          "para": [
+            "clube",
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "FipeZAP: Vitória passa Itapema e tem o metro quadrado mais caro do país, a R$ 15,6 mil; São Paulo tem média de R$ 12,1 mil",
+          "source": "Forbes Brasil",
+          "url": "https://forbes.com.br/forbes-money/forbes-real-estate/2026/10/metro-quadrado-mais-caro-brasil/",
+          "date": "2026-10-07",
+          "region": "Vitória/ES",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "Pelo índice FipeZAP, Vitória tem preço médio de R$ 15,6 mil por m², acima de Itapema e Balneário Camboriú, com alta de mais de 10% em 2026. São Paulo tem média de R$ 12,1 mil, com alto padrão a R$ 38,7 mil no Itaim Bibi segundo a DWV, e o Leblon fica em R$ 28,7 mil; Balneário Camboriú tem lançamentos acima de R$ 100 mil por m². Os dados por bairro vêm da DWV, não conferidos na fonte primária. Matéria de 7 de outubro, anterior à janela de 72 horas.",
+          "por_que_importa": "Régua de preço por metro quadrado pra comparar casa com terreno e clube no interior com os mercados urbanos e litorâneos de luxo. Útil no argumento de valor do time de vendas.",
+          "para": [
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Minor Hotels cria a marca Life Longevity, com formato residencial e o programa Circle of Life, em que consulta e prontuário acompanham o hóspede entre unidades",
+          "source": "European Spa Magazine (preços via Health Club Management, 07/10)",
+          "url": "https://europeanspamagazine.com/minor-hotels-launches-new-life-longevity-brand/",
+          "date": "2026-10-12",
+          "region": "Phuket e Bangkok, Tailândia",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "A Minor Hotels, com mais de 640 hotéis, resorts e residências de marca em 67 países, lançou a Life Longevity em três formatos: resort, urbano e residencial, com consultas, diagnósticos e registro pessoal que viajam com o hóspede de uma unidade pra outra. As primeiras são o Layan Life by Anantara, em Phuket, e o Bangkok Life, no St Regis Bangkok; a versão residencial é apresentada como oferta futura, sem unidade nem data. O Circle of Life é uma assinatura opcional com check-ins regulares e acesso às unidades no mundo; segundo o Health Club Management, custa THB 500 mil, cerca de US$ 14.870, por seis meses. Matéria de 12 de outubro, anterior à janela de 72 horas.",
+          "por_que_importa": "É o desenho mais próximo do que o Haven quer vender: longevidade com continuidade, assinatura e casa dentro do mesmo sistema. Serve de referência pra jornada do sócio e pro argumento de que a residência é o ponto de partida do acompanhamento.",
+          "para": [
+            "clube",
+            "vendas",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Soho House terá quarta casa em Nova York, no NoMad, em 2028, com academia de mais de 1.860 m² com sauna, hammam e banho de gelo",
+          "source": "Hoodline (a partir do New York Post), com página oficial da Soho House",
+          "url": "https://hoodline.com/2026/10/soho-house-plans-fourth-nyc-club-in-nomad-s-johnston-building-by-2028/",
+          "date": "2026-10-13",
+          "region": "Nova York, EUA",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "A Soho House vai ocupar os andares baixos do Johnston Building, prédio de 1903 na Broadway com a 28th Street onde funciona o The Ned NoMad, com um Soho Health Club de dois pisos e mais de 20 mil pés quadrados, cerca de 1.860 m², descrito pela marca como o mais avançado da rede e o primeiro ginásio dela em Nova York. A página oficial da Soho House confirma a abertura no início de 2028 e fala em três andares; o Hoodline, baseado no New York Post, fala em quatro. O valor de US$ 6.000 por ano pra House Membership em Nova York vem do Hoodline e não foi conferido na fonte primária. Matéria de 13 de outubro, anterior à janela de 72 horas.",
+          "por_que_importa": "O maior clube de membros do mundo colocando a área térmica e de treino no centro da nova casa. Argumento pra priorizar circuito térmico e academia no programa do clube do Haven e pra pensar cobrança separada por esse módulo.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Chapter Chianti, na Toscana, abre o spa F.A.R.M. Social, com circuito de cinco piscinas em 500 m² feito pra ser percorrido em grupo",
+          "source": "European Spa Magazine",
+          "url": "https://europeanspamagazine.com/f-a-r-m-social-debuts-at-chapter-chianti/",
+          "date": "2026-10-19",
+          "region": "Chianti, Itália",
+          "escopo": "mundo",
+          "pilar": "lifestyle",
+          "resumo": "O Chapter Chianti, hotel de 82 quartos num vilarejo medieval restaurado em 40 hectares de oliveiras, abriu em julho e agora inaugura o F.A.R.M. Social, sigla de Forever a Relaxed Mood: cinco piscinas em circuito lento inspirado nos banhos romanos, vapor turco, sauna, hammam seco, três salas de tratamento com a 111Skin, academia de 130 m² e quadra de padel. O gerente do spa define o conceito como bem-estar mais social, um lugar pra se recolher e também pra se conectar.",
+          "por_que_importa": "Referência de programação pra área de água do clube: circuito feito pra ser percorrido em grupo, sem regra de silêncio, em ambiente rural. Combina com a ideia de convívio do Haven em Porto Feliz.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Punch Pubs transforma 80 pubs em Unity Social, conceito contra a solidão, com cerca de £ 200 mil por casa e operador parceiro pago sobre as vendas",
+          "source": "Morning Advertiser",
+          "url": "https://morningadvertiser.co.uk/Article/2026/10/16/punchs-unity-social-creating-a-movement-to-tackle-loneliness-in-society",
+          "date": "2026-10-16",
+          "region": "Reino Unido",
+          "escopo": "mundo",
+          "pilar": "comunidade",
+          "resumo": "O Unity Social, conceito de pub da Punch posicionado como movimento contra a solidão, passou de 3 pra 80 casas em menos de dois anos, com mais de 60 abertas no último ano, capex médio de cerca de £ 200 mil por pub e operadores parceiros que pagam a equipe e recebem taxa de gestão como percentual das vendas, com o resto fornecido pela Punch. O Grapes, em Wandsworth, passou de £ 3 a 4 mil por semana pra nunca menos de £ 15 mil. A meta de 200 pubs aparece com dois prazos no texto, no ano que vem e até o fim de 2027; os números são da própria empresa.",
+          "por_que_importa": "Prova de que comunidade de bairro é argumento comercial e escala por modelo de parceiro-operador. Útil pra pensar o convívio diário entre moradores e sócios e eventuais operadores parceiros de bar e restaurante dentro do Haven.",
+          "para": [
+            "clube",
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Pesquisa do GWI com 47 casas de banho: 77% têm ou planejam programação térmica guiada e 62% esperam operar várias unidades em três anos",
+          "source": "Global Wellness Institute",
+          "url": "https://globalwellnessinstitute.org/?p=56131",
+          "date": "2026-10-07",
+          "region": "Global",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "Resultados preliminares do levantamento do GWI sobre bathhouses e bem-estar térmico, com 47 respondentes, 37 deles em operação: 77% oferecem ou planejam programação térmica guiada, 62% têm ou planejam sauna de grande formato ou de evento, 43% dos operadores citam Aufguss e rituais de sauna na programação, 62% esperam operar várias unidades em três anos e 44% dos que informaram receita faturam US$ 300 mil ou mais por mês. O próprio instituto avisa que a amostra é pequena e não representa o setor. Matéria de 7 de outubro, anterior à janela de 72 horas.",
+          "por_que_importa": "Dado pra dimensionar a área térmica do clube e justificar sauna de evento e ritual guiado na programação, sempre citado como preliminar.",
+          "para": [
+            "clube",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Hospitais sem fins lucrativos entram na longevidade: pacote anual de US$ 5.500 no Northwestern, e Weill Cornell e Mayo também cobram do próprio bolso",
+          "source": "STAT (série Selling Longevity, texto parcialmente fechado pra assinantes)",
+          "url": "https://www.statnews.com/2026/10/06/hospitals-longevity-clinics-healthy-aging-wellness-trend/",
+          "date": "2026-10-06",
+          "region": "EUA",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "Primeira parte da série Selling Longevity, da STAT, sobre clínicas de longevidade pagas fora do seguro em hospitais sem fins lucrativos como Northwestern Medicine, em Chicago, Weill Cornell e Mayo Clinic, com exames como VO2 máximo e DEXA num pacote anual de US$ 5.500 no caso da Northwestern. A descrição da página fala em programas que chegam a US$ 45 mil por ano; críticos questionam o custo e a falta de evidência de alguns testes. O corpo do texto está atrás de paywall depois dos primeiros parágrafos. Matéria de 6 de outubro, anterior à janela de 72 horas.",
+          "por_que_importa": "Valida a longevidade como produto e dá argumento de credibilidade: parceria com hospital ou instituição médica de referência pesa mais que clínica própria. Também serve de alerta pra deixar de fora da oferta do clube exames sem evidência.",
+          "para": [
+            "parcerias",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Washingtonian: em DC, apontada como a cidade mais solitária dos EUA, grupos sociais por afinidade crescem, com 1.500 inscritos num único grupo de homens",
+          "source": "Washingtonian",
+          "url": "https://washingtonian.com/2026/10/15/i-felt-lonely-in-dc-was-joining-a-social-group-the-answer",
+          "date": "2026-10-15",
+          "region": "Washington, EUA",
+          "escopo": "mundo",
+          "pilar": "comunidade",
+          "resumo": "Relato em primeira pessoa de Andrew Zaleski sobre solidão e grupos sociais organizados por afinidade em Washington. Cita análise da Câmara de Comércio local que colocou DC como a cidade mais solitária do país em 2023 e 2024, com 48,6% dos domicílios de uma pessoa só, e um grupo de homens no Discord com cerca de 1.500 inscritos. Os dados da Câmara são citados pela matéria e não foram conferidos na origem.",
+          "por_que_importa": "Reforça o argumento de pertencimento e amizade adulta na venda do clube e dá formatos concretos, encontros recorrentes e grupos por afinidade, pra programação.",
+          "para": [
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Equinox abre em 10 de novembro o Terminal Warehouse, clube de alta performance num prédio de 1891 em Chelsea, com contraste térmico, lounge e coworking",
+          "source": "Athletech News",
+          "url": "https://athletechnews.com/equinox-high-performance-club-nyc-chelsea-terminal-warehouse/",
+          "date": "2026-10-09",
+          "region": "Nova York, EUA",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "A Equinox inaugura em 10 de novembro o Equinox Terminal Warehouse, em West Chelsea, com piso de força de 7 mil pés quadrados, cerca de 650 m², circuitos em equipe com força funcional e HIIT, plataformas olímpicas, SkiErgs e remos, estúdio próprio de pilates reformer, terapia de contraste com sauna, vapor e ducha fria, lounge de membros e coworking. A matéria liga o conceito à onda de treino híbrido de alta performance popularizada pela Hyrox. Matéria de 9 de outubro, anterior à janela de 72 horas.",
+          "por_que_importa": "Mostra uma marca de academia juntando treino coletivo, recuperação, trabalho e convivência num único espaço de membros. Dá ideias de programação e de áreas sociais pro clube do Haven.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "ILTM Cannes 2026 acontece de 30 de novembro a 3 de dezembro no Palais des Festivals",
+          "source": "ILTM (página oficial do evento)",
+          "url": "https://iltm.bnetwork.com/Home/AboutTheEvent",
+          "date": "2026-11-30",
+          "region": "Cannes, França",
+          "escopo": "mundo",
+          "pilar": "eventos",
+          "resumo": "O International Luxury Travel Market reúne compradores e fornecedores de viagens de luxo em Cannes, de segunda a quinta, no Palais des Festivals. É a principal vitrine anual de hotelaria e experiências de alto padrão, com a presença de operadoras e marcas de bem-estar.",
+          "por_que_importa": "Ponto de contato com operadoras de luxo, hotelaria e marcas de bem-estar que podem virar parceiras de experiências pros sócios do Haven, e lugar pra observar o que o público de alta renda está comprando em viagem.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        }
+      ]
+    },
     {
       "data": "2026-10-18",
       "manchete": "Em São Paulo, o clube já custa mais por metro quadrado do que o próprio prédio.",
