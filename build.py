@@ -54,10 +54,10 @@ TEMPLATE = r"""<!doctype html>
   .nav .grp{display:flex;align-items:center;gap:0 14px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px}
   .nav .grp::-webkit-scrollbar{display:none}
   @media(min-width:960px){.nav .grp{flex-wrap:wrap;overflow:visible}}
-  .nav .lbl{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute);margin-right:6px;flex:none}
+  .nav .lbl{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--terracotta);font-weight:700;margin-right:6px;flex:none}
   .nav button{font-family:var(--serif2);font-size:16.5px;font-weight:500;background:none;border:0;color:var(--soft);cursor:pointer;padding:6px 0;border-bottom:2px solid transparent;line-height:1;white-space:nowrap;flex:none}
   .nav button:hover{color:var(--ink)}
-  .nav button.on{color:var(--ink);border-bottom-color:var(--terracotta)}
+  .nav button.on{color:var(--terracotta);font-weight:600;border-bottom-color:var(--terracotta)}
   .nav .n{margin-left:auto;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);white-space:nowrap}
 
   /* abertura */
