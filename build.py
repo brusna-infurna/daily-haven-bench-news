@@ -79,6 +79,21 @@ TEMPLATE = r"""<!doctype html>
   .watch li:before{content:counter(w,decimal-leading-zero);font-family:var(--sans);font-size:11px;letter-spacing:.14em;color:var(--terracotta);padding-top:7px}
   .watch li b{font-family:var(--sans);font-weight:600;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);display:block;margin-bottom:5px}
 
+  /* bench pro Haven */
+  .bench{padding:26px 0 8px;border-bottom:1px solid var(--rule-strong)}
+  .bench .head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding-bottom:10px;border-bottom:3px solid var(--terracotta)}
+  .bench .head h2{font-family:var(--serif);font-weight:500;font-style:italic;font-size:26px;line-height:1.1}
+  .bench .head span{font-family:var(--serif2);font-style:italic;font-size:16px;color:var(--mute)}
+  .bench ol{list-style:none;display:grid;grid-template-columns:1fr;gap:0}
+  @media(min-width:900px){.bench ol{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:44px}}
+  .bench li{display:grid;grid-template-columns:30px 1fr;gap:10px;padding:16px 0 18px;border-bottom:1px solid var(--rule)}
+  .bench li .k{font-family:var(--sans);font-size:11px;letter-spacing:.14em;color:var(--terracotta);padding-top:5px}
+  .bench li b{font-family:var(--sans);font-weight:700;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--terracotta);display:block;margin-bottom:5px}
+  .bench li p{font-family:var(--serif2);font-size:18px;line-height:1.42;color:var(--espresso)}
+  .bench li .ref{font-family:var(--sans);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin-top:7px}
+  .bench li .ref a{color:var(--soft);text-decoration:underline;text-underline-offset:3px}
+  .bench li .ref i{font-style:normal;color:var(--ink);font-weight:600;margin-right:4px}
+
   /* seções */
   .sec{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:34px 0 0;padding-bottom:8px;border-bottom:1px solid var(--rule-strong)}
   .sec h2{font-family:var(--sans);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--ink)}
@@ -188,6 +203,8 @@ const briefHtml = i => `
     <p class="use">${esc(i.por_que_importa)}</p>
     <div class="foot"><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}</a> · ${fmtShort(i.date)} · ${(i.para||[]).map(esc).join(" · ")}</div>
   </article>`;
+const benchHtml = (b, n) => `
+  <li><span class="k">${String(n).padStart(2,"0")}</span><div><b>${esc(b.area||b.para||"")}</b><p>${esc(b.ideia)}</p>${b.ref?`<div class="ref"><i>A partir de</i>${b.url?`<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.ref)}</a>`:esc(b.ref)}</div>`:""}</div></li>`;
 const splitWatch = a => { const m = String(a).match(/^([^:]{2,24}):\s*(.*)$/s); return m ? `<span><b>${esc(m[1])}</b>${esc(m[2])}</span>` : `<span>${esc(a)}</span>`; };
 
 function render(){
@@ -210,6 +227,10 @@ function render(){
       <div><h2 class="manchete">${esc(day.manchete||"")}</h2><p class="editorial">${esc(day.editorial||"")}</p><div class="tally">${items.length} itens conferidos na fonte · ${br} do Brasil · ${items.length-br} do mundo</div></div>
       <aside class="watch"><h2>Pra prestar atenção</h2><ol>${(day.atencao||[]).map(a=>`<li>${splitWatch(a)}</li>`).join("")}</ol></aside>
     </section>`;
+  const bench = (day.bench||[]).filter(b => !state.para || b.para===state.para);
+  if (bench.length && !state.escopo && !state.pilar) html += `
+    <section class="bench"><div class="head"><h2>Bench pro Haven</h2><span>${bench.length} ${bench.length>1?"referências aplicadas ao projeto":"referência aplicada ao projeto"}${state.para?` · ${esc(state.para)}`:""}</span></div>
+      <ol>${bench.map((b,k)=>benchHtml(b,k+1)).join("")}</ol></section>`;
   if (leads.length) html += `<div class="sec"><h2>Destaques</h2><span>o que merece leitura inteira</span></div><div class="grid">${leads.map(artHtml).join("")}</div>`;
   if (unfiltered) {
     if (restBr.length) html += `<div class="sec"><h2>Em pauta · Brasil</h2><span>${restBr.length} ${restBr.length>1?"itens":"item"}</span></div><div class="pauta">${restBr.map(briefHtml).join("")}</div>`;

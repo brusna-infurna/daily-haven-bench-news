@@ -268,6 +268,71 @@
           "verificado": true,
           "destaque": false
         }
+      ],
+      "bench": [
+        {
+          "area": "Produto e estrutura",
+          "para": "vendas",
+          "ideia": "Ficha técnica de longevidade por planta: colchão, filtragem de ar, luz circadiana e isolamento acústico entram como padrão da casa, com um documento de uma página por tipologia dizendo o que cada quarto entrega de sono, ar, luz e som.",
+          "ref": "Mogelonsky, Hospitality Net",
+          "url": "https://www.hospitalitynet.org/opinion/4134723/the-biggest-opportunity-for-longevity-amenities-at-hotels-is-in-the-guestroom"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "ideia": "Formulário de membership com cláusula de esquecimento: cadastro com o mínimo, campo opcional de preferências que o membro pode apagar quando quiser e regra escrita de quem no clube vê o quê. Privacidade tratada como item de produto.",
+          "ref": "Coluna sobre privacidade, Hospitality Net",
+          "url": "https://www.hospitalitynet.org/opinion/4134793/privacy-is-becoming-the-new-standard-for-personalization-in-luxury-travel"
+        },
+        {
+          "area": "Comercialização",
+          "para": "vendas",
+          "ideia": "Posicionar o Haven na categoria residência de marca sem hotel, que a Knight Frank diz ser 18% do estoque e 30% do pipeline. Pedir o relatório, conferir o número e, se fechar, usar como slide de abertura: o modelo tem nome e tem mercado.",
+          "ref": "Knight Frank via Hospitality Net",
+          "url": "https://www.hospitalitynet.org/opinion/4134793/privacy-is-becoming-the-new-standard-for-personalization-in-luxury-travel"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "ideia": "Acesso avulso ao spa e ao restaurante pra quem não mora, com teto diário e preço cheio, como porta de entrada pro membership. O Vila Galé do Paiva abre spa e quatro restaurantes ao público externo desde o soft opening.",
+          "ref": "Vila Galé Reserva do Paiva, Panrotas",
+          "url": "https://www.panrotas.com.br/hotelaria/inauguracoes/2026/10/vila-gale-inicia-operacao-de-novo-resort-em-pernambuco_232954.html"
+        },
+        {
+          "area": "Comunicação e sociais",
+          "para": "marketing",
+          "ideia": "Série de conteúdo sobre o que a casa faz enquanto você dorme: um post por elemento (ar, luz, som, proporção do quarto), com o relatório da EHL como base e sem lista de equipamento. O argumento de longevidade sai do clube e entra na casa.",
+          "ref": "Relatório da EHL, Hospitality Net",
+          "url": "https://www.hospitalitynet.org/report/4134780/beyond-amenities-why-psychological-well-being-must-be-built-into-hospitality"
+        },
+        {
+          "area": "Parcerias",
+          "para": "parcerias",
+          "ideia": "Produto de terroir com rótulo do clube: um produtor da região de Porto Feliz (vinho, azeite ou café) com colheita e degustação fechadas pra membros, nos moldes do vinhedo que o Hotel Ort plantou em Campos do Jordão.",
+          "ref": "Hotel Ort, Melhores Destinos",
+          "url": "https://www.melhoresdestinos.com.br/hotel-ort-vinhedo-campos-do-jordao.html"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "ideia": "Prova coletiva sazonal entre times de moradores, com formato de estações como Xenom e Hyrox, e um bar de tônicos sem álcool na chegada. Evento de comunidade com data fixa no calendário do clube.",
+          "ref": "Xenom e Hiyo, Athletech News e Global Wellness Summit",
+          "url": "https://athletechnews.com/hyrox-founders-invest-in-xenom-fitness-competitions-strike-partnership/"
+        },
+        {
+          "area": "Comercialização",
+          "para": "vendas",
+          "ideia": "Mandar alguém de vendas ao Fórum de Longevidade do IBA em 26 de novembro pra mapear seguradoras e gestoras de previdência como canal de indicação pro público 50 mais, com proposta de benefício pro cliente deles.",
+          "ref": "2º Fórum de Longevidade do IBA, CQCS",
+          "url": "https://cqcs.com.br/noticia/2o-forum-de-longevidade-do-iba-amplia-debate-sobre-futuro-de-seguros-e-previdencia/"
+        },
+        {
+          "area": "Comunicação e sociais",
+          "para": "marketing",
+          "ideia": "Segurar os trilhões da GWI até o monitor novo sair em novembro e deixar pronto um one-pager de mercado pra publicar no mesmo dia, com os números do segmento imobiliário conferidos no relatório.",
+          "ref": "GWI, Global Wellness Economy Monitor",
+          "url": "https://globalwellnessinstitute.org/industry-research/research-in-progress"
+        }
       ]
     },
     {

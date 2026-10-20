@@ -93,6 +93,23 @@ for n, a in enumerate(day.get("atencao", []), 1):
     watch_rows += (f'<tr><td valign="top" style="width:28px;padding:14px 0 0;border-top:1px solid {RULE};font-family:{SANS};font-size:10px;letter-spacing:1.5px;color:{TERRA}">{n:02d}</td>'
                    f'<td valign="top" style="padding:12px 0 14px;border-top:1px solid {RULE}">{lab}<div style="font-family:{SERIF2};font-size:17.5px;line-height:1.42;color:{ESPRESSO}">{e(txt)}</div></td></tr>')
 
+bench_rows = ""
+for n, b in enumerate(day.get("bench", []), 1):
+    ref = ""
+    if b.get("ref"):
+        link = f'<a href="{e(b["url"])}" style="color:{SOFT};text-decoration:underline">{e(b["ref"])}</a>' if b.get("url") else e(b["ref"])
+        ref = f'<div style="{KICK_MUTE};margin-top:7px"><span style="color:{INK};font-weight:bold">A partir de</span> {link}</div>'
+    bench_rows += (f'<tr><td valign="top" style="width:28px;padding:14px 0 0;border-top:1px solid {RULE};font-family:{SANS};font-size:10px;letter-spacing:1.5px;color:{TERRA}">{n:02d}</td>'
+                   f'<td valign="top" style="padding:12px 0 14px;border-top:1px solid {RULE}"><div style="{KICK};color:{TERRA};font-weight:bold;margin-bottom:4px">{e(b.get("area") or b.get("para",""))}</div>'
+                   f'<div style="font-family:{SERIF2};font-size:17.5px;line-height:1.42;color:{ESPRESSO}">{e(b["ideia"])}</div>{ref}</td></tr>')
+bench_block = f"""
+  <!-- bench pro Haven -->
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="margin-top:30px;border-top:3px solid {TERRA}">
+    <tr><td colspan="2" style="font-family:{SERIF};font-style:italic;font-weight:500;font-size:26px;line-height:1.1;color:{INK};padding:16px 0 2px">Bench pro Haven</td></tr>
+    <tr><td colspan="2" style="font-family:{SERIF2};font-style:italic;font-size:16px;color:{MUTE};padding:0 0 8px">referências do dia aplicadas ao projeto: produto, membership, comercialização, comunicação, parcerias</td></tr>
+    {bench_rows}
+  </table>""" if bench_rows else ""
+
 body = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{e(subject)}</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet"></head>
 <body style="margin:0;padding:0;background:{IVORY};color:{INK};font-family:{SANS}">
@@ -126,6 +143,7 @@ body = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta n
     <tr><td colspan="2" style="font-family:{SERIF};font-style:italic;font-weight:500;font-size:26px;line-height:1.1;color:{INK};padding:16px 0 10px">Pra prestar atenção</td></tr>
     {watch_rows}
   </table>
+{bench_block}
 
   <!-- destaques -->
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
