@@ -1,7 +1,275 @@
 {
   "projeto": "Daily Haven Bench News",
-  "atualizado": "2026-10-19",
+  "atualizado": "2026-10-20",
   "dias": [
+    {
+      "data": "2026-10-20",
+      "manchete": "A longevidade está saindo do spa e entrando na planta da casa.",
+      "editorial": "Dois textos do dia dizem a mesma coisa por caminhos diferentes. Os consultores Mogelonsky defendem que o lugar mais escalável pra longevidade num hotel é o quarto, com colchão, ar filtrado, luz circadiana e acústica, porque o hóspede não tem tempo de spa, e o relatório da EHL, com 48 entrevistas, chega perto ao tratar proporção do quarto, luz e ritmo circadiano como estrutura que mexe no estresse. No Brasil, o Vila Galé do Paiva abre spa e restaurantes a quem está de fora, o Club Med chega a Gramado ao lado do Kurotel, e uma coluna do Hospitality Net cita a Knight Frank dizendo que 18% das residências de marca já operam sem hotel e 30% do pipeline nasce assim, número que ainda não conferimos na fonte. O mecanismo por baixo é simples: o spa como caixa separada perde centralidade e o produto passa a ser a casa em si e quem ela deixa entrar. Quem perde é quem vende bem-estar como lista de equipamento. O que custa é obra mais cara dentro de cada casa e um clube que precisa abrir a porta pra fora pra fechar a conta. Os trilhões da GWI que circulam nas colunas da Forbes são do monitor de 2025; o novo sai em novembro, no Global Wellness Summit, e é dele que o material de vendas deve partir.",
+      "atencao": [
+        "Marketing: O argumento de longevidade do Haven ganha mais força dentro da casa (sono, ar, acústica, luz) do que na lista de equipamentos do clube; vale revisar o material por esse eixo e esperar o monitor da GWI de novembro antes de citar trilhões.",
+        "Vendas: O dado da Knight Frank sobre residências de marca sem hotel (18% hoje, 30% do pipeline) sustenta o modelo do Haven, mas precisa ser conferido no relatório original antes de entrar em apresentação.",
+        "Clube e parcerias: O spa aberto ao público externo do Vila Galé e as provas em equipe da Xenom são dois formatos pra testar: acesso avulso ao spa como porta de entrada e uma competição coletiva sazonal como evento de comunidade."
+      ],
+      "itens": [
+        {
+          "title": "Vila Galé abre em soft opening o Reserva do Paiva, em Pernambuco, com spa aberto ao público externo, hammam e cinco piscinas; inauguração oficial em 31 de outubro",
+          "source": "Panrotas",
+          "url": "https://www.panrotas.com.br/hotelaria/inauguracoes/2026/10/vila-gale-inicia-operacao-de-novo-resort-em-pernambuco_232954.html",
+          "date": "2026-10-19",
+          "region": "Cabo de Santo Agostinho/PE",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "O Vila Galé Reserva do Paiva já recebe hóspedes em soft opening e tem inauguração oficial marcada pra 31 de outubro. O spa Satsanga fica no subsolo, é aberto a quem não se hospeda e tem salas de massagem, banho turco, hammam, academia e piscina interna aquecida. O resort soma quatro restaurantes também abertos ao público externo, cinco piscinas, dez salas de eventos e clube infantil.",
+          "por_que_importa": "Uma rede hoteleira usando o spa e os restaurantes como porta aberta pra quem está de fora é referência direta pro desenho de acesso avulso e de pacotes de entrada do clube do Haven.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Club Med Gramado será o primeiro Exclusive Collection da América do Sul, com primeira fase em 2027, num destino que já reúne Kurotel e Residence Club Hard Rock",
+          "source": "Brasilturis",
+          "url": "https://brasilturis.com.br/2026/10/06/gramado-amplia-oferta-de-hospedagem-e-experiencias-voltadas-ao-turismo-de-luxo/",
+          "date": "2026-10-06",
+          "region": "Gramado/RS",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "Gramado concentra projetos novos de luxo: o Club Med Gramado, dentro do complexo Sirena, terá primeira fase em 2027 e conclusão em 2028, com foco em bem-estar e esporte. A matéria lista no mesmo destino o Residence Club Hard Rock Hotel, o Kurotel, com programas de saúde e longevidade, e o Castelo Saint Andrews, da Relais & Châteaux. Não traz valor de investimento nem número de quartos.",
+          "por_que_importa": "Gramado é o destino que mais se aproxima da combinação segunda residência, residence club e clínica de longevidade no Brasil. Serve pra calibrar posicionamento e discurso de venda do Haven frente a um concorrente de destino.",
+          "para": [
+            "vendas",
+            "marketing",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Hotel Ort, em Campos do Jordão, investe cerca de R$ 500 mil num vinhedo a 1.628 m de altitude e prevê vinícola própria em 2027",
+          "source": "Melhores Destinos (conteúdo promocional, com links de afiliados)",
+          "url": "https://www.melhoresdestinos.com.br/hotel-ort-vinhedo-campos-do-jordao.html",
+          "date": "2026-10-16",
+          "region": "Campos do Jordão/SP",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "O Hotel Ort, em prédio de 1943 com 60 acomodações e sete chalés, plantou Chardonnay e Pinot Noir e prepara vinhos e espumantes da marca Despina, vendidos principalmente no próprio hotel. A vinícola está prevista pra 2027 e a primeira produção já está em maturação. O texto é promocional e traz diária a partir de R$ 1.366.",
+          "por_que_importa": "Produto próprio de terroir dentro do hotel é uma ideia de programação (colheita, degustação fechada pra membros) que o clube pode adaptar com um produtor parceiro da região de Porto Feliz.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Campos do Jordão terá o Natal Feito à Mão a partir de 30 de outubro, com árvore de crochê e oficinas com artesãs locais",
+          "source": "Money Report (dados dos organizadores)",
+          "url": "https://www.moneyreport.com.br/lifestyle/campos-do-jordao-tera-natal-com-arvore-gigante-de-croche-e-jardim-de-borboletas/",
+          "date": "2026-10-15",
+          "region": "Campos do Jordão/SP",
+          "escopo": "brasil",
+          "pilar": "comunidade",
+          "resumo": "A segunda edição do evento começa em 30 de outubro no Boulevard Genève, com decoração da artista têxtil Anne Galante e oficinas de borboletas de lã conduzidas pelo grupo Mãostiqueiras a partir de dezembro. Os organizadores citam 300 mil visitantes por mês em 2025, número não conferido na fonte primária. A matéria se apoia quase só em informação fornecida por eles.",
+          "por_que_importa": "Oficina manual com artesãs da região é um formato barato de programação comunitária que o clube pode testar em datas sazonais, com produção local como assinatura.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "IBA realiza o 2º Fórum de Longevidade em 26 de novembro, no Anfiteatro Uninove Vergueiro, em São Paulo, com painel sobre dinheiro que precisa durar além da vida de trabalho",
+          "source": "CQCS (release do Instituto Brasileiro de Atuária)",
+          "url": "https://cqcs.com.br/noticia/2o-forum-de-longevidade-do-iba-amplia-debate-sobre-futuro-de-seguros-e-previdencia/",
+          "date": "2026-11-26",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "eventos",
+          "resumo": "O Instituto Brasileiro de Atuária confirma o 2º Fórum de Longevidade pra 26 de novembro de 2026, no Anfiteatro Uninove Vergueiro, em São Paulo. A programação tem painéis sobre sociedade aos 100 anos (demografia e família), dinheiro que precisa durar além da vida de trabalho (previdência, seguros e patrimônio) e viver mais sem viver melhor (saúde, prevenção e autonomia). Os painelistas não aparecem na matéria; uma nota anterior do mesmo site cita o presidente da Bradesco Vida e Previdência como confirmado.",
+          "por_que_importa": "É o lugar pra ouvir como seguradoras e gestores de patrimônio enxergam o público 50 mais, alvo natural do membership. Vale mandar alguém de vendas ou parcerias e mapear contatos de previdência privada.",
+          "para": [
+            "parcerias",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Consultores defendem levar a longevidade pro quarto do hotel, com colchão, filtro HEPA, luz circadiana e isolamento acústico, porque o hóspede não tem tempo de spa",
+          "source": "Hospitality Net (opinião)",
+          "url": "https://www.hospitalitynet.org/opinion/4134723/the-biggest-opportunity-for-longevity-amenities-at-hotels-is-in-the-guestroom",
+          "date": "2026-10-19",
+          "region": "Global",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "Adam e Larry Mogelonsky, da Hotel Mogel Consulting, argumentam que o hóspede passa pouco tempo em spa e academia, então o quarto é o lugar mais escalável pra recursos de longevidade. Propõem categorias premium de quarto e itens duráveis como cama, ar e som tratados como investimento, com o alerta de que recurso solto, sem programa, tende a falhar. O texto não cita fonte pras estatísticas que menciona.",
+          "por_que_importa": "Ajuda a decidir o que entra dentro de cada casa do Haven (sono, qualidade do ar, acústica, luz) antes de pensar em equipamento de clube, e vira argumento de venda do padrão da casa.",
+          "para": [
+            "marketing",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Spa L'Occitane abre num Hilton de Chania, em Creta, com 600 m² e carta de tratamentos organizada em Longevity, Regeneration, Balance e Vitality",
+          "source": "European Spa Magazine",
+          "url": "https://europeanspamagazine.com/spa-loccitane-en-provence-opens-in-crete/",
+          "date": "2026-10-19",
+          "region": "Chania/Grécia",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "O spa de 600 m² fica no Hilton Chania Old Town, hotel de 85 quartos com piscina aquecida privativa em cada um. Tem quatro cabines de tratamento, hammam, sauna e piscina sensorial com teto de vidro retrátil. O cardápio se divide em quatro eixos, e o tratamento de sono foi desenvolvido com o European Sleep Center.",
+          "por_que_importa": "Marca de beleza vendendo longevidade e sono em formato de spa de hotel de porte médio. Referência pra parceria de produto e pra estrutura de rituais do clube.",
+          "para": [
+            "parcerias",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Auberge abre reservas do The Knox, em Dallas, com 140 quartos e 48 residências ao lado de uma trilha de 5,6 km; inauguração em 29 de janeiro de 2027",
+          "source": "Hospitality Net (release da Auberge)",
+          "url": "https://hospitalitynet.org/announcement/41015270/the-knox-auberge-collection-a-new-destination-defining-social-and-cultural-landmark-in-dallass-iconic-knox-street-neighborhood-is-now-accepting-reservations",
+          "date": "2026-10-16",
+          "region": "Dallas/EUA",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "A Auberge Collection abriu as reservas do The Knox, em Dallas, com inauguração marcada pra 29 de janeiro de 2027. O projeto tem 140 quartos, 48 residências privadas, salões de eventos, restaurantes, bares e espaço de bem-estar, colado ao corredor verde Katy Trail, de 3,5 milhas. Os dados vêm do release da operadora.",
+          "por_que_importa": "Residência de marca pensada como ponto de encontro do bairro, com salas de convivência e acesso direto a trilha. Referência pro desenho dos espaços comuns e da programação social entre as 75 casas.",
+          "para": [
+            "marketing",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Colunas da Forbes compilam a GWI: economia do bem-estar em US$ 6,8 trilhões em 2024, US$ 9,8 trilhões previstos pra 2029 e imóveis de bem-estar como a categoria que mais cresce",
+          "source": "Forbes (colunas de colaboradoras)",
+          "url": "https://www.forbes.com/sites/shaheenajanjuhajivrajeurope/2026/10/06/longevity-is-the-new-luxury-inside-the-68-trillion-wellness-boom/",
+          "date": "2026-10-06",
+          "region": "Global",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "Duas colunas da Forbes do mesmo dia usam o Global Wellness Economy Monitor 2025, do Global Wellness Institute, que cobre 2019 a 2024. A coluna de Shaheena Janjuha-Jivraj cita US$ 6,8 trilhões em 2024, US$ 9,8 trilhões previstos até 2029 e imóveis de bem-estar indo de US$ 584 bilhões a US$ 1,1 trilhão, além do dado da McKinsey de que millennials e geração Z são 36% dos adultos nos EUA e respondem por mais de 41% do gasto em bem-estar. A coluna de Noemi Kis dá o mesmo segmento imobiliário em US$ 548,4 bilhões, crescendo 19,5% ao ano, a categoria que mais cresceu no monitor. A divergência entre 548 e 584 bilhões não foi resolvida porque o relatório da GWI não abriu; números sem fonte na matéria, como 9,3% ao ano da medicina personalizada, não foram conferidos.",
+          "por_que_importa": "É a base de números pro argumento de que moradia ligada a bem-estar é a categoria que mais cresce na economia do bem-estar. Antes de entrar em material de venda, conferir no relatório da GWI qual é o valor certo do segmento imobiliário.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "GWI anuncia pra novembro o novo Global Wellness Economy Monitor, com 11 setores e mais de 200 países, lançado durante o Global Wellness Summit",
+          "source": "Global Wellness Institute",
+          "url": "https://globalwellnessinstitute.org/industry-research/research-in-progress",
+          "date": "2026-11-11",
+          "region": "Phuket/Tailândia",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "A página de pesquisas em andamento do GWI informa que o Global Wellness Economy Monitor sai em novembro de 2026, durante o Global Wellness Summit, aberto em 11 de novembro em Phuket. O relatório traz tamanho e crescimento da economia do bem-estar em 11 setores e mais de 200 países; o ranking por país vem em janeiro de 2027. A página ainda não traz resultado nenhum.",
+          "por_que_importa": "Os trilhões que circulam hoje nas colunas são do monitor anterior. Vale reservar a data e revisar os argumentos de mercado do Haven quando o novo sair.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Relatório da EHL com 48 entrevistas trata bem-estar psicológico como estrutura do hotel: proporção do quarto, acústica, luz e ritmo circadiano afetam o estresse do hóspede",
+          "source": "Hospitality Net (relatório da EHL Hospitality Business School)",
+          "url": "https://www.hospitalitynet.org/report/4134780/beyond-amenities-why-psychological-well-being-must-be-built-into-hospitality",
+          "date": "2026-10-07",
+          "region": "Lausanne/Suíça",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "O texto resume o Psychological Well-being in Hospitality Report 2026, da EHL, feito a partir de 48 entrevistas com especialistas. Aponta que o hóspede busca sentido e mudança pessoal mais que conforto, e que proporção do quarto, acústica, luz e ritmo circadiano mexem no nível de estresse. Cita o Forestis, nos Dolomitas, e o Ett Hem, em Estocolmo, como exemplos. Os números de assédio (47% a 90%) e de retenção do The Breakers (93%) vêm de terceiros e não foram conferidos na fonte primária.",
+          "por_que_importa": "Dá vocabulário e casos de referência pro Haven falar de descanso e transformação sem depender de lista de equipamento. Também orienta a cultura da equipe que vai atender os moradores.",
+          "para": [
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Coluna aponta privacidade como novo padrão do luxo e cita a Knight Frank: 18% das residências de marca já operam sem hotel no mesmo lote, e 30% do pipeline nasce assim",
+          "source": "Hospitality Net (opinião)",
+          "url": "https://www.hospitalitynet.org/opinion/4134793/privacy-is-becoming-the-new-standard-for-personalization-in-luxury-travel",
+          "date": "2026-10-08",
+          "region": "Global",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "Daria Guristrimba, CEO da Globe7, escreve que o cliente de altíssima renda quer controlar o que o hotel lembra dele e quando apaga os dados, e que cresce a procura por propriedade de uso exclusivo. Cita pesquisa da Capital One Travel com 3.100 viajantes (86% priorizam privacidade e isolamento) e a pesquisa de 2025 da Knight Frank (18% das residências de marca operam sem hotel junto, 30% do pipeline). Os números são de terceiros e não foram conferidos na fonte primária.",
+          "por_que_importa": "O dado da Knight Frank sustenta o modelo do Haven, residência de marca sem hotel, e precisa ser conferido no relatório original antes de virar slide. A parte de dados sugere uma política discreta no clube, com cadastro enxuto e exclusão sob pedido.",
+          "para": [
+            "clube",
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Fundadores do Hyrox investem na Xenom, competição de fitness em equipe com 10 provas em dois dias e etapas em Miami em dezembro e Málaga em janeiro",
+          "source": "Athletech News",
+          "url": "https://athletechnews.com/hyrox-founders-invest-in-xenom-fitness-competitions-strike-partnership/",
+          "date": "2026-10-07",
+          "region": "EUA/Alemanha",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "Christian Toetzke e Moritz Fürste, cofundadores do Hyrox, vão investir na Xenom e entram no conselho junto com a Wndr, que pôs US$ 15 milhões de capital semente em 2026. As duas empresas fecham parceria de marketing, ativação de eventos e educação. A Xenom já fez etapas em Dallas e Londres, tem Miami prevista pra dezembro e Málaga pra janeiro, e planeja a primeira temporada internacional completa em 2027.",
+          "por_que_importa": "Competição de fitness em equipe virou formato de comunidade com investidor de peso. O clube pode desenhar uma prova coletiva sazonal interna e conversar com organizadores de provas em equipe na região.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Hiyo levanta US$ 20,8 milhões com Constellation Brands e Live Nation pra levar tônicos sociais sem álcool a hotéis e eventos",
+          "source": "Global Wellness Summit (coluna Global Wellness News, que compila fontes de terceiros)",
+          "url": "https://www.globalwellnesssummit.com/global-wellness-news/minor-hotels-launches-life-longevity-brand-social-tonics-boom-hiyo-raises-20-8-million-multi-billion-dollar-fitness-competition-market-heats-up-xenom-takes-on-hyrox/",
+          "date": "2026-10-08",
+          "region": "EUA",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "A Hiyo, marca de tônicos sociais (bebidas sem álcool pra momentos de convivência), captou US$ 20,8 milhões, somando ao Série A de US$ 19 milhões do ano passado. Constellation Brands e Live Nation reinvestiram, e o dinheiro vai pra varejo, hospitalidade e eventos ao vivo. A página é uma coluna que compila notícias de terceiros e remete às fontes pelos links.",
+          "por_que_importa": "Bebida social sem álcool entrando em hotelaria e evento. O clube pode testar um bar de tônicos e infusões nos encontros de fim de tarde, com marca parceira.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Web Summit 2026 acontece em Lisboa de 9 a 12 de novembro, com missão brasileira da Apex-Brasil e do Sebrae",
+          "source": "El Referente (com regulamento oficial da Apex-Brasil)",
+          "url": "https://elreferente.es/evento/web-summit-se-celebra-del-9-al-12-de-noviembre-de-2026-en-lisboa-como-uno-de-los-mayores-encuentros-tecnologicos-del-mundo/",
+          "date": "2026-11-09",
+          "region": "Lisboa/Portugal",
+          "escopo": "mundo",
+          "pilar": "eventos",
+          "resumo": "O Web Summit será em Lisboa de 9 a 12 de novembro de 2026, segundo o El Referente. O regulamento da missão brasileira da Apex-Brasil coloca as conferências em 10 a 12 de novembro e a missão em 8 a 13, em parceria com o Sebrae. O site oficial do evento não abriu; conferir a data de abertura antes de planejar viagem.",
+          "por_que_importa": "Reúne startups de saúde e longevidade e investidores num só lugar. Serve pra mapear parceiros de tecnologia de saúde pro clube, se alguém do time estiver na Europa em novembro.",
+          "para": [
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        }
+      ]
+    },
     {
       "data": "2026-10-19",
       "manchete": "Vinte milhões num rooftop em Alphaville, £ 200 mil num pub inglês. O produto é o mesmo: companhia.",
