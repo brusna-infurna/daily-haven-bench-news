@@ -6,7 +6,7 @@ Layout: revista Haven, tabela compatível com Gmail e Apple Mail, estilos inline
 import json, os, sys, html, urllib.parse, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-URL = sys.argv[1] if len(sys.argv) > 1 else "https://brusna-infurna.github.io/daily-haven-bench-news/"
+URL = sys.argv[1] if len(sys.argv) > 1 else "https://www.projetorepertorio.com.br/benchnews/"
 data = json.load(open(os.path.join(HERE, "radar-data.json"), encoding="utf-8"))
 day = data["dias"][0]
 NUM = len(data["dias"])
