@@ -1,7 +1,326 @@
 {
   "projeto": "Daily Haven Bench News",
-  "atualizado": "2026-10-20",
+  "atualizado": "2026-10-21",
   "dias": [
+    {
+      "data": "2026-10-21",
+      "manchete": "O ritual semanal virou produto. E quase todo mundo está entrando de graça.",
+      "editorial": "A Mintel colocou em três previsões pra 2027 o que a edição de hoje mostra em fato: a recomendação vira marca, a palavra wellness perde força e participação substitui promoção. Na mesma semana, um treino de escada gratuito em Tampa esgota 250 vagas em minutos e abre fila de 400, um banco brasileiro paga a restauração de um cinema pra dar desconto a 112 milhões de clientes, e uma propriedade de 1.200 acres na Geórgia abre a porta com plano de membro gratuito antes de vender casa. O mecanismo é o mesmo nos três casos: a marca compra um lugar na rotina da pessoa, e a receita vem depois, por fidelidade ou por residência. Quem perde é o produto que ainda vende sessão avulsa, e o relatório da Trybe diz isso com número: 93% das reservas online de spa já são de pacote. O custo escondido é a dependência, porque ritual gratuito só se sustenta enquanto alguém paga a conta por trás, e nenhum dos três casos abriu quanto custa. Pro Haven, a leitura é de ordem: o clube entra no calendário da semana do membro antes da escritura, e o preço do convívio precisa estar claro desde o primeiro plano.",
+      "atencao": [
+        "Marketing: Teste tirar a palavra wellness das peças de venda e trocar por benefício nomeado (sono, circuito térmico, quadra, mesa), que é a segunda previsão da Mintel pra 2027.",
+        "Vendas: Use os três contratos da Tera com a HSM (743 unidades em Alagoas e Pernambuco) e o pipeline da Accor na República Dominicana como contexto de que residência com operação já é linha de produto, sem citar os números de terceiros que não foram conferidos.",
+        "Clube e parcerias: O torneio sub-16 do Australian Open no Boa Vista Village, vizinho em Porto Feliz, aconteceu e já tem data de 2027; vale conversar com a JHSF e com clubes de tênis da região antes de fechar o calendário esportivo do clube."
+      ],
+      "bench": [
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "ideia": "Plano de entrada gratuito do clube, como a Preserve Life: cadastro, newsletter, app e convite pra dois eventos abertos por ano, servindo de funil pros planos pagos. Escada de três planos com taxa de adesão só no plano de cima.",
+          "ref": "Preserve Life, Spa Business",
+          "url": "https://www.spabusiness.com/wellness-news/Preserve-Life-opens-longevity-destination-Nutrition-Nest-in-Georgia/363811"
+        },
+        {
+          "area": "Produto e estrutura",
+          "para": "clube",
+          "ideia": "Um ritual semanal fixo na área externa, no modelo do Friday Stairs: treino às sextas de manhã com música, gratuito pra membros, 30 vagas abertas pra vizinhos de Porto Feliz por inscrição, teto de vagas e lista de espera visível no app.",
+          "ref": "Friday Stairs, Athletech News",
+          "url": "https://athletechnews.com/viral-tampa-workout-friday-stairs-expands-to-new-cities-across-us/"
+        },
+        {
+          "area": "Comunicação e sociais",
+          "para": "marketing",
+          "ideia": "Revisar site e deck de vendas trocando a palavra wellness por benefício nomeado (sono, recuperação, quadra, mesa) e rodar duas versões do mesmo anúncio, uma com a palavra e outra sem, pra medir resposta.",
+          "ref": "Mintel, previsões 2027",
+          "url": "https://www.mintel.com/insights/events/2027-global-wellness-predictions/"
+        },
+        {
+          "area": "Comercialização",
+          "para": "vendas",
+          "ideia": "Cardápio do spa do clube vendido por pacotes de rotina (circuito térmico, massagem e jantar, uma vez por mês), reservável pelo celular fora do horário comercial, em vez de tabela de sessões avulsas.",
+          "ref": "Relatório da Trybe, Spa Business",
+          "url": "https://www.spabusiness.com/wellness-news/Trybe-report-finds-93-per-cent-of-spa-bookings-come-through-packages/363807"
+        },
+        {
+          "area": "Parcerias",
+          "para": "parcerias",
+          "ideia": "Benefício cultural de membro no modelo do Nubank: acordo com um cinema, teatro ou galeria de São Paulo, Itu ou Sorocaba pra ingresso com desconto apresentando a carteirinha do Haven, mais uma sessão fechada pra membros por trimestre.",
+          "ref": "Nubank Arte Lab e Cine Copan, Finsiders Brasil",
+          "url": "https://finsidersbrasil.com.br/noticias-sobre-fintechs/o-que-esta-por-tras-da-aposta-do-nubank-em-cultura-e-experiencias-fisicas/"
+        },
+        {
+          "area": "Produto e estrutura",
+          "para": "parcerias",
+          "ideia": "Prever no clube uma barbearia e um salão operados por parceiro, com cadeira de espera e café, e um horário fixo semanal de cadeira aberta pros membros. A pesquisa britânica diz que pra 1 em 5 clientes frequentes esse é um dos poucos contatos humanos da semana.",
+          "ref": "British Beauty Council, European Spa Magazine",
+          "url": "https://europeanspamagazine.com/beauty-industry-boosts-high-street-spending-report-finds/"
+        },
+        {
+          "area": "Parcerias",
+          "para": "parcerias",
+          "ideia": "RFP com três operadores de banho social pro circuito térmico do clube, com o operador entrando na fase de projeto, como a Bathhouse fez dentro de um prédio com hotel e residências na Filadélfia.",
+          "ref": "Bathhouse Filadélfia, Spa Business",
+          "url": "https://www.spabusiness.com/wellness-news/Bathhouse-opens-first-location-outside-New-York-in-Philadelphia/363784"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "vendas",
+          "ideia": "Publicar um teto de sócios externos do clube (quem não mora no Haven) proporcional à área do circuito térmico, como o Kämp Spa faz com vagas limitadas, e usar o número como argumento de venda da casa.",
+          "ref": "Kämp Spa Members' Club, European Spa Magazine",
+          "url": "https://europeanspamagazine.com/kamp-spa-unveils-new-wellbeing-concept-in-helsinki/"
+        },
+        {
+          "area": "Comercialização",
+          "para": "vendas",
+          "ideia": "Pacote de visita ao Haven na semana do torneio do Australian Open Junior de 2027 no Boa Vista Village (18 a 24 de outubro), com hospedagem de prova pra famílias de jogadores e visita guiada com corretores da região.",
+          "ref": "Australian Open Junior Series no Boa Vista Village, Money Report",
+          "url": "https://www.moneyreport.com.br/lifestyle/australian-open-junior-series-south-america-consagra-campeoes-no-boa-vista-village/"
+        }
+      ],
+      "itens": [
+        {
+          "title": "Australian Open Junior Series define campeões no Boa Vista Village, em Porto Feliz, e já marca a edição de 2027 pra 18 a 24 de outubro",
+          "source": "Money Report",
+          "url": "https://www.moneyreport.com.br/lifestyle/australian-open-junior-series-south-america-consagra-campeoes-no-boa-vista-village/",
+          "date": "2026-10-20",
+          "region": "Porto Feliz/SP",
+          "escopo": "brasil",
+          "pilar": "comunidade",
+          "resumo": "O torneio sul-americano sub-16 foi disputado de 14 a 18 de outubro no Boa Vista Village, da JHSF, e Maria Eduarda Carbone e Livas Damazio ganharam vaga direta no Australian Open Junior de 2027, em Melbourne. As quadras são da GreenSet, fornecedora do Australian Open, e a JHSF diz que é o primeiro empreendimento do mundo com esse piso. Fato novo em relação ao anúncio publicado em 17/10: o torneio aconteceu, tem campeões e a próxima edição está marcada pra 18 a 24 de outubro de 2027.",
+          "por_que_importa": "Vizinho direto em Porto Feliz usando evento esportivo com marca global pra dar vida ao bairro. Serve de referência pra programação esportiva do clube e de gancho pra parceria de eventos na região.",
+          "para": [
+            "clube",
+            "marketing",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Tera Resorts assina três contratos com a HSM e soma 743 unidades em Maragogi e Tamandaré, com a operadora entrando na fase de projeto",
+          "source": "Brasilturis",
+          "url": "https://brasilturis.com.br/2026/10/20/tera-resorts-anuncia-tres-empreendimentos-em-alagoas-e-pernambuco/",
+          "date": "2026-10-20",
+          "region": "Maragogi/AL e Tamandaré/PE",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "A Tera Hotéis fechou três contratos de gestão da marca Tera Resorts com a HSM: Allurre Antunes (189 unidades) em Maragogi, e Tamana Breeze (285) e Tamana Flow (269) em Tamandaré, com academia, spa, sauna, quadras e clube de praia. A matéria não informa investimento nem prazo de abertura. Fato novo em relação ao item de 18/10 sobre os R$ 480 milhões: contratos assinados, nomes e número de unidades por projeto. O dado da Omnibees citado na matéria (reservas em resorts de lazer em alta de 14,3% no semestre) não foi conferido na fonte primária.",
+          "por_que_importa": "Operadora entrando na fase de projeto e usando esporte pra reduzir sazonalidade é um modelo que o time pode comparar com o desenho de operação do clube do Haven. Também mede o apetite do mercado por residência com serviço hoteleiro.",
+          "para": [
+            "vendas",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Ritz Lagoa da Anta, em Maceió, passa a se vender como Hotel & Wellness, com oito quadras, spa e área de bem-estar com vista pro mar ainda por abrir",
+          "source": "Jornal de Barueri (texto de divulgação do Grupo Ritz)",
+          "url": "https://jornaldebarueri.com.br/lifestyle/ritz-lagoa-da-anta-adota-o-conceito-hotel-wellness",
+          "date": "2026-10-20",
+          "region": "Maceió/AL",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "O hotel do Grupo Ritz reformula espaços, serviços e programação sob o conceito Hotel & Wellness, mantendo o Zena Spa como pilar, com três quadras de tênis, três de beach tennis e duas de tênis kids, academia ampliada e cardápio mais leve. A área de bem-estar com vista pro mar aparece como em breve, sem data nem investimento. O texto se apoia em falas do sócio-diretor Pietro Coelho e cita números da GWI (US$ 6,8 trilhões em 2024) e da OMS (1,8 bilhão de adultos sedentários) sem link, não conferidos na fonte primária.",
+          "por_que_importa": "Hotel de lazer reposicionando a marca em torno de bem-estar e esporte sem obra grande. Termômetro de como o discurso wellness vira commodity na hotelaria brasileira e referência de oferta esportiva.",
+          "para": [
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Nubank monta circuito físico de cultura em São Paulo: Arte Lab de 2.700 m², restauração do Cine Copan e desconto de até 50% pra clientes",
+          "source": "Finsiders Brasil",
+          "url": "https://finsidersbrasil.com.br/noticias-sobre-fintechs/o-que-esta-por-tras-da-aposta-do-nubank-em-cultura-e-experiencias-fisicas/",
+          "date": "2026-10-16",
+          "region": "São Paulo/SP",
+          "escopo": "brasil",
+          "pilar": "marcas",
+          "resumo": "O Nubank, com mais de 112 milhões de clientes, abriu o Nubank Arte Lab em 15 de agosto, com 2.700 m², patrocina a restauração do Cine Copan (440 lugares, previsto pra junho de 2027) e dá aos clientes ingresso com desconto, de 35% no Arte Lab a 50% no cinema. A empresa não divulgou investimento nem metas, e os analistas ouvidos veem retorno em fidelidade, não em venda direta.",
+          "por_que_importa": "Um banco usando espaço cultural físico e benefício de cliente pra criar vínculo. O clube do Haven pode copiar a lógica com acesso a programação cultural como vantagem de membro, de preferência com parceiro local.",
+          "para": [
+            "parcerias",
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Preserve Life abre na Geórgia o primeiro prédio de uma propriedade de longevidade de 1.200 acres e US$ 300 milhões, com plano de membro gratuito antes das casas",
+          "source": "Spa Business",
+          "url": "https://www.spabusiness.com/wellness-news/Preserve-Life-opens-longevity-destination-Nutrition-Nest-in-Georgia/363811",
+          "date": "2026-10-20",
+          "region": "Douglasville, Geórgia, EUA",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "O Nutrition Nest, de 25 mil pés quadrados, é a primeira peça de uma propriedade de 1.200 acres com fase um de US$ 300 milhões e operação plena prevista pra fim de 2027, com hotel, health club e residências privadas e projeto de Kengo Kuma. O membership começa com exames de sangue, biomarcadores e genética e vira protocolo individual; há plano gratuito e planos pagos de US$ 199 a US$ 999 por mês, ainda marcados como em breve, com taxa de adesão de até US$ 2.000 nos planos mais altos. As residências serão ofertadas por um esquema de membership corporativo, com especialistas atendendo em casa.",
+          "por_que_importa": "É o formato mais próximo do Haven nesta janela: propriedade grande, entrada por membership e residência depois. Dá régua de preço, escada de planos e argumento de funil pro desenho do clube.",
+          "para": [
+            "clube",
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Hotel Kämp, em Helsinque, reabre spa de 1.200 m² com clube de membros de vagas limitadas e academia Technogym",
+          "source": "European Spa Magazine",
+          "url": "https://europeanspamagazine.com/kamp-spa-unveils-new-wellbeing-concept-in-helsinki/",
+          "date": "2026-10-21",
+          "region": "Helsinque, Finlândia",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "O spa reformado tem sauna finlandesa, a vapor e infravermelha, piscina com banho de gelo e câmara de crioterapia. O Kämp Spa Members' Club dá acesso o ano todo ao spa e a uma academia Technogym, com orientação personalizada e número limitado de sócios. O lounge serve sorvete de colágeno e drinques com e sem álcool.",
+          "por_que_importa": "Clube de membros pequeno nascendo dentro de hotel histórico, com circuito térmico como centro. Referência de escopo e de teto de vagas pro clube do Haven.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Paradisus Cancún inaugura Longevity Suite com poltronas vibroacústicas, PEMF e compressão num resort de 657 quartos",
+          "source": "Hospitality Net (release da Meliá)",
+          "url": "https://www.hospitalitynet.org/announcement/41015279/paradisus-cancun-celebrates-grand-opening-with-the-unveiling-of-a-new-destination-inspired-wellness-experiences",
+          "date": "2026-10-19",
+          "region": "Cancún, México",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "Release da Meliá: o resort reaberto em abril fez a inauguração oficial em 18 de outubro. A Longevity Suite reúne poltronas vibroacústicas, terapias PEMF e de compressão e tecnologia de luz, ao lado de oficinas de artesanato maia, degustações de vinho e tequila e programação diária, com uma área só pra adultos chamada The Reserve.",
+          "por_que_importa": "Longevidade já aparece como sala de recuperação dentro de resort de massa, o que baixa o preço de entrada do conceito. O Haven se diferencia com acompanhamento contínuo e comunidade, que o resort de férias não entrega.",
+          "para": [
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Accor assina pipeline de 23 projetos na República Dominicana, com perto de 6 mil chaves e mais de 1.000 residências de marca",
+          "source": "Hospitality Net (material institucional da Accor)",
+          "url": "https://www.hospitalitynet.org/news/4135023/unparalleled-brands-untapped-potential-accor-becoming-a-driving-force-in-the-future-of-dominican-republic-tourism",
+          "date": "2026-10-21",
+          "region": "Paris, França e República Dominicana",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "Texto institucional da Accor: são 23 projetos, perto de 6 mil chaves e mais de 1.000 residências de marca, apoiados pelo banco estatal Banreservas. A fonte é a própria empresa, e os números de turistas e de concentração hoteleira citados vêm de terceiros, não conferidos na fonte primária.",
+          "por_que_importa": "Residência de marca virou linha de produto das grandes redes em destino de turismo. Contexto de mercado pro time de vendas, sem tratar como dado independente.",
+          "para": [
+            "vendas",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Relatório da Trybe: 93% das reservas online de spa são de pacotes, 51% fora do horário comercial e público de 25 a 44 anos em alta de 255%",
+          "source": "Spa Business (relatório da Trybe, fornecedora de software de spa)",
+          "url": "https://www.spabusiness.com/wellness-news/Trybe-report-finds-93-per-cent-of-spa-bookings-come-through-packages/363807",
+          "date": "2026-10-19",
+          "region": "Reino Unido, Europa e EUA",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "A Trybe analisou £ 181 milhões de receita em 400 negócios de spa: 93% das reservas online são de pacote, 51% ocorrem fora do horário comercial e 76% vêm de celular ou tablet. A amostra é cerca de 60% britânica e a empresa não abre o tamanho por região, então o retrato não vale pro mercado inteiro.",
+          "por_que_importa": "Pista pra montar a oferta do clube: pacote e rotina vendem mais que sessão avulsa, e o público de 25 a 44 anos está entrando. Vale testar nos planos de entrada e na reserva pelo app.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Pesquisa britânica: pra 1 em cada 5 clientes frequentes, ir ao salão ou à barbearia é um dos poucos contatos humanos da semana",
+          "source": "European Spa Magazine (relatório do British Beauty Council com a Oxford Economics, apoiado pela L'Oréal)",
+          "url": "https://europeanspamagazine.com/beauty-industry-boosts-high-street-spending-report-finds/",
+          "date": "2026-10-20",
+          "region": "Reino Unido",
+          "escopo": "mundo",
+          "pilar": "comunidade",
+          "resumo": "O relatório The Impact of Beauty diz que 86% dos consumidores têm o atendimento de beleza como principal motivo pra ir ao centro da cidade. Entre homens de 18 a 24 anos, a fatia dos que têm nesse serviço um dos poucos contatos humanos da semana sobe pra 42%. A pesquisa tem apoio de uma marca do setor.",
+          "por_que_importa": "Ritual de cuidado funciona como ponto de encontro regular, argumento útil pra defender spa, salão e barbearia como lugar de convivência dentro do clube, além de tratamento.",
+          "para": [
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Mintel abre as previsões de wellness pra 2027: a recomendação vira marca, a palavra wellness perde apelo e participação substitui promoção; webinar em 18 de novembro",
+          "source": "Mintel (sumário aberto; relatório completo mediante cadastro)",
+          "url": "https://www.mintel.com/insights/events/2027-global-wellness-predictions/",
+          "date": "2026-10-14",
+          "region": "Global",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "A página da Mintel, atualizada em 14 de outubro, resume as três previsões de bem-estar pra 2027: The Recommendation Engine Is the New Brand, Wellness Is a Swear Word e Participation Replaces Promotion, com marcas presentes onde as pessoas se reúnem em vez de só anunciar. A estrategista Claire Tassin apresenta as previsões num webinar de 45 minutos em 18 de novembro, às 9h no horário central dos EUA, com inscrição prévia. O relatório completo exige formulário e a página não informa preço. Primeira rodada da pesquisa com institutos de tendência: WGSN, Stylus, Future Laboratory, Trendwatching, Kantar, Ipsos e os brasileiros não renderam material aberto novo.",
+          "por_que_importa": "A terceira previsão dá argumento de mercado pro clube: programação de rituais recorrentes entre membros vale mais que comunicação. A segunda pede teste de vocabulário nas peças de venda.",
+          "para": [
+            "marketing",
+            "clube",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "A4M LongevityFest acontece de 11 a 13 de dezembro no Venetian, em Las Vegas, com página oficial confirmada",
+          "source": "A4M (página oficial de expositores)",
+          "url": "https://www.a4m.com/exhibit-vegas-2026.html",
+          "date": "2026-12-11",
+          "region": "Las Vegas, EUA",
+          "escopo": "mundo",
+          "pilar": "eventos",
+          "resumo": "A página oficial da A4M confirma o LongevityFest 2026 de 11 a 13 de dezembro no Venetian e Palazzo, com montagem em 9 e 10 de dezembro. A organização fala em acesso a mais de 8 mil profissionais de saúde, número de marketing da própria A4M. Pendência desde 17/10 resolvida: o evento só constava em listagem de terceiros.",
+          "por_que_importa": "Reúne médicos e fornecedores de longevidade, útil pra mapear parceiros de clínica e protocolos que o Haven pode levar pro clube.",
+          "para": [
+            "parcerias",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Friday Stairs, treino de escada gratuito com DJ, esgota 250 vagas em minutos em Tampa, tem fila de 400 e abre em Miami, Atlanta e Los Angeles",
+          "source": "Athletech News",
+          "url": "https://athletechnews.com/viral-tampa-workout-friday-stairs-expands-to-new-cities-across-us/",
+          "date": "2026-10-19",
+          "region": "Tampa, EUA",
+          "escopo": "mundo",
+          "pilar": "comunidade",
+          "resumo": "O treino coletivo semanal de Tampa tem 250 vagas que esgotam em minutos, lista de espera de cerca de 400 pessoas e mais de 3 milhões de visualizações orgânicas por mês. Vai pra Miami Beach em 30 de outubro, Atlanta em 13 de novembro e Culver City em 11 de dezembro; cerca de 70% do público é mulher e 60% tem de 25 a 34 anos.",
+          "por_que_importa": "Comunidade criada por ritual semanal gratuito e escassez de vagas, sem espaço próprio. Referência pra encontros de membros e pra eventos abertos do Haven em Porto Feliz.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Bathhouse abre em Filadélfia, no subsolo do prédio do The Bellevue, com 36 mil pés quadrados e três piscinas térmicas ao lado de hotel e residências",
+          "source": "Spa Business",
+          "url": "https://www.spabusiness.com/wellness-news/Bathhouse-opens-first-location-outside-New-York-in-Philadelphia/363784",
+          "date": "2026-10-20",
+          "region": "Filadélfia, EUA",
+          "escopo": "mundo",
+          "pilar": "lifestyle",
+          "resumo": "A marca de banho social de Nova York abriu a primeira unidade fora da cidade, no subsolo de um prédio de 1904 que abriga hotel, residências e um clube fitness de 100 mil pés quadrados. Tem três piscinas em temperaturas diferentes, sauna infravermelha, sauna seca, banya e vapor, com terraço externo previsto pra início de 2027. A matéria não fala de modelo de membership. Fato novo em relação ao anúncio de setembro, descartado em 18/10 por estar fora da janela: a unidade abriu.",
+          "por_que_importa": "Operador de banho social entrando em prédio residencial e hoteleiro, modelo parecido com o que o Haven pode propor a um parceiro de circuito térmico.",
+          "para": [
+            "parcerias",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        }
+      ]
+    },
     {
       "data": "2026-10-20",
       "manchete": "A longevidade está saindo do spa e entrando na planta da casa.",
