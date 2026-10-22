@@ -1,7 +1,328 @@
 {
   "projeto": "Daily Haven Bench News",
-  "atualizado": "2026-10-21",
+  "atualizado": "2026-10-22",
   "dias": [
+    {
+      "data": "2026-10-22",
+      "manchete": "Quatro em dez residências de marca vão nascer sem hotel. O Haven já está desse lado da tabela.",
+      "editorial": "Duas fontes primárias que o monitor perseguia há uma semana abriram no mesmo dia. A Knight Frank diz na própria página que marcas de fora da hotelaria respondem por cerca de 30% das residências de marca em operação e devem chegar perto de 40% em 2028, e a Savills coloca São Paulo em quarto lugar no mundo em projetos, com prêmio médio de marca de 33% e de 39% em resorts. A leitura fácil é que o Haven surfa uma categoria em expansão. A leitura por baixo é que o prêmio de 33% foi construído por hotéis, com equipe de operação, padrão de serviço e receita de hospedagem pagando a conta; quando a marca não tem hotel atrás, quem entrega o prêmio é o clube, e o clube precisa de receita própria pra isso. O explicador da EHL separa justamente quatro modelos, tratamento, acesso, membership e imobiliário, e o Haven vive na junção dos dois últimos. Quem perde nessa história é o comprador que paga prêmio por um logotipo sem operação visível, e o que custa é manter padrão de hotel sem a diária do hotel. O dia também trouxe marcas de fora pagando pra entrar nesse espaço: a Natura Ekos operando spa dentro do Costa do Sauípe e a Adidas financiando os ATHX Games em seis cidades americanas, dois modelos de operador parceiro que o clube pode usar pra fechar a conta. O Brasil seguiu fraco na janela de 72 horas, com um item só.",
+      "atencao": [
+        "Marketing: Aposentar o número de 18% de residências de marca sem hotel, que não aparece na página da Knight Frank, e trocar pelos 30% a 40% que estão lá; a Savills vira fonte primária do one-pager de residências de marca, com São Paulo em 4º e prêmio de 33%.",
+        "Vendas: O prêmio de marca de 39% em resorts só se sustenta com operação visível; levar pra conversa com o comprador a lista do que o clube opera no dia a dia, com equipe, horário e padrão, antes de falar em marca.",
+        "Clube e parcerias: Natura Ekos em Costa do Sauípe e Adidas nos ATHX Games mostram marcas de fora pagando pra operar dentro de espaços de bem-estar e comunidade; abrir conversa com duas marcas brasileiras de beleza pro spa e uma esportiva pro calendário de provas antes do fim do ano."
+      ],
+      "bench": [
+        {
+          "area": "Comercialização",
+          "para": "vendas",
+          "ideia": "Memorando de uma página com o modelo de negócio do Haven nos quatro modelos da EHL (tratamento, acesso, membership e imobiliário): em qual o Haven opera, de onde vem a receita de cada um e o que o clube cobra de quem não mora. Serve de base comum pra conversa com comprador, investidor e parceiro operador.",
+          "ref": "Explicador da EHL sobre modelos de wellness, Hospitality Net",
+          "url": "https://www.hospitalitynet.org/explainer/4135024/the-business-of-wellness-experiences-spa-business-models-and-examples"
+        },
+        {
+          "area": "Comunicação e sociais",
+          "para": "marketing",
+          "ideia": "Página pública de fontes no material do Haven, só com números lidos na fonte primária e link pro relatório: Savills (São Paulo em 4º, prêmio de 33% e 39% em resort) e Knight Frank (30% a 40% fora da hotelaria). Número de segunda mão, como o 18%, não entra; a página alimenta deck, site e conteúdo.",
+          "ref": "Knight Frank, Residence Report",
+          "url": "https://www.knightfrank.co.uk/newsroom/article/2026/9/residence-report"
+        },
+        {
+          "area": "Parcerias",
+          "para": "parcerias",
+          "ideia": "RFP curto pra uma marca brasileira de beleza operar o spa do clube com ritual exclusivo e loja integrada, no modelo Natura Ekos em Costa do Sauípe: três candidatas (Natura, Granado e uma terceira), divisão de receita, day use pra moradores de condomínios vizinhos e agendamento pelo WhatsApp do clube.",
+          "ref": "Natura Ekos abre spa em Costa do Sauípe, Alô Alô Bahia",
+          "url": "https://aloalobahia.com/noticias/2026/10/05/costa-do-sauipe-ganha-primeiro-spa-da-natura-ekos-no-brasil-veja-fotos/"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "ideia": "Avaliação anual de longevidade do sócio no modelo de medições do Super Age Games: oito testes simples (preensão, equilíbrio, VO2 estimado, memória de trabalho, entre outros), relatório individual e comparação ano a ano. Formato de manhã de sábado, por casa, com um parceiro de wearable lendo os dados.",
+          "ref": "Super Age Games em Nova York, Athletech News",
+          "url": "https://athletechnews.com/beyond-strength-and-cardio-is-longevity-becoming-fitnesss-next-training-category/"
+        },
+        {
+          "area": "Parcerias",
+          "para": "parcerias",
+          "ideia": "Proposta de patrocínio pra uma marca esportiva assinar o calendário anual de provas do clube, no modelo Adidas nos ATHX Games: naming de uma prova por ano, kit do sócio e presença da marca nas sociais, em troca de verba de operação do evento.",
+          "ref": "ATHX Games com apoio da Adidas, Athletech News",
+          "url": "https://athletechnews.com/adidas-backed-athx-games-expands-across-us-new-york-chicago-las-vegas/"
+        },
+        {
+          "area": "Produto e estrutura",
+          "para": "clube",
+          "ideia": "Protocolo de volta de viagem pro sócio, a partir do dado de 85% que voltam de férias mais cansados: pacote de 48 horas reservável no app, com circuito térmico, sessão de sono guiado e refeição leve, ativado quando o morador avisa a data de retorno.",
+          "ref": "Pesquisa Travel Predictions da Booking.com, Hospitality Net",
+          "url": "https://www.hospitalitynet.org/news/4135025/how-will-group-budgets-personalized-wellness-recovery-maxxing-shape-2027-guest-experiences"
+        },
+        {
+          "area": "Produto e estrutura",
+          "para": "clube",
+          "ideia": "Planta da academia com treino e recuperação no mesmo piso, como o LIV Method em Nova York: cold plunge e sauna a poucos passos da área de treino, e o treino semiprivado de duas a quatro pessoas como formato padrão da grade, em vez da aula grande.",
+          "ref": "LIV Method abre maior estúdio em Nova York, Athletech News",
+          "url": "https://athletechnews.com/the-liv-method-expands-nyc-footprint-largest-studio-yet-2-gansevoort/"
+        },
+        {
+          "area": "Comercialização",
+          "para": "vendas",
+          "ideia": "Convidar dez prospects pra um dia da Casa Vogue Experience, de 5 a 8 ou 12 a 14 de novembro, com a reserva dos talks feita pelo Haven e um jantar em São Paulo depois, com a Teti. A entrada é gratuita, então o custo é o jantar e o tempo do time de vendas.",
+          "ref": "Casa Vogue Experience 2026, Portal G",
+          "url": "https://portalg.com.br/casa-vogue-experience-2026-ingressos-gratuitos/"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "ideia": "Grade de movimento do clube com yoga e pilates como base fixa, duas aulas semanais de cada, apresentadas com o dado do estudo da Arizona State e a ressalva de que a associação com menor mortalidade não prova causa. O texto da grade usa o número com a ressalva junto.",
+          "ref": "Estudo da Arizona State sobre yoga e pilates, Athletech News",
+          "url": "https://athletechnews.com/yoga-pilates-linked-to-longer-lifespans-in-new-study-arizona-state/"
+        }
+      ],
+      "itens": [
+        {
+          "title": "Casa Vogue Experience troca a casa decorada por instalações e terá entrada gratuita no Parque Global, de 5 a 8 e de 12 a 14 de novembro",
+          "source": "Portal G (texto de divulgação; página oficial de reservas da Casa Vogue não abriu)",
+          "url": "https://portalg.com.br/casa-vogue-experience-2026-ingressos-gratuitos/",
+          "date": "2026-11-05",
+          "region": "São Paulo, SP",
+          "escopo": "brasil",
+          "pilar": "eventos",
+          "resumo": "A 12ª edição, com o tema Todo o Tempo do Mundo, acontece em sete dias no Parque Global Cultural, na Marginal Pinheiros. O formato deixa a casa decorada e vira exposição cultural, com instalações de arquitetura, intervenções artísticas, talks, degustações e oficinas. A entrada é gratuita, com até três ingressos por CPF e reserva por data pros talks; as oficinas têm inscrição presencial uma hora antes. O evento já estava anotado como pendência em 21/10 e entra agora com formato, local e regra de ingresso; a confirmação em página oficial da Casa Vogue segue pendente.",
+          "por_que_importa": "Evento de design e estilo de vida com público de alta renda e entrada livre: marketing mapeia talks e marcas presentes, vendas pode levar prospects.",
+          "para": [
+            "marketing",
+            "parcerias",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Natura Ekos abre o primeiro spa da marca no Brasil, com cerca de 150 m², dentro do Costa do Sauípe, com day use pra condomínios vizinhos",
+          "source": "Alô Alô Bahia (conteúdo sob medida, com fotos de divulgação)",
+          "url": "https://aloalobahia.com/noticias/2026/10/05/costa-do-sauipe-ganha-primeiro-spa-da-natura-ekos-no-brasil-veja-fotos/",
+          "date": "2026-10-05",
+          "region": "Costa do Sauípe, BA",
+          "escopo": "brasil",
+          "pilar": "marcas",
+          "resumo": "Matéria de 5 de outubro, fora da janela, que resolve a pendência da abertura prevista pra outubro. O spa foi inaugurado neste mês dentro da renovação do destino conduzida pela Aviva, com duas salas de massagem, área de escalda-pés, sala de banhos de imersão e loja integrada, num espaço assinado pelo time de store design da Natura. Atende hóspedes e também visitantes dos condomínios vizinhos por day use, com agendamento nas recepções dos hotéis ou por WhatsApp. Sem preço nem investimento informados.",
+          "por_que_importa": "Marca brasileira de cosméticos operando spa com ritual próprio e loja junto, dentro de um destino de hospitalidade: referência direta pra parceria de marca de beleza no spa do clube.",
+          "para": [
+            "parcerias",
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Lagom Perequê, em Porto Belo, usa dado do GWI como argumento de venda: VGV de R$ 3,5 bilhões, R$ 800 milhões vendidos e 90 mil m² preservados",
+          "source": "BRA 1 (texto de divulgação assinado pela Rotas Comunicação; dado do GWI não conferido na fonte primária)",
+          "url": "https://www.bra1.com.br/economia/id-711954/bem_estar_vira_o_novo_luxo__60__preferem_saude_ao_escolher_moradia",
+          "date": "2026-10-21",
+          "region": "Porto Belo, SC",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "O texto atribui ao relatório de tendências de wellness real estate do Global Wellness Institute que 60% dos consumidores apontam saúde e bem-estar como a principal razão pra desejar certas características numa casa, 17 pontos acima de dois anos antes, sem link, amostra ou país da pesquisa. O gancho é o Lagom Perequê, da GT Home & ABC, a menos de 80 metros da praia: plano mestre de 123 mil m², seis torres residenciais e uma de uso misto com apartamentos de 40 a 197 m², três torres lançadas em construção e cerca de 90 mil m² preservados à margem da Lagoa do Perequê. Sem preço nem prazo de entrega.",
+          "por_que_importa": "Mostra como uma incorporadora já embala número de wellness em release de venda; o dado de 60% só vai pra material do Haven depois de conferido no relatório do GWI.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Em Porto Feliz, o Fasano Boa Vista faz 15 anos com spa de 1.400 m² e o Boa Vista Surf Lodge soma 57 quartos e piscina de ondas de 220 m",
+          "source": "High Society Magazine",
+          "url": "https://highsocietymagazine.com.br/hoteis-de-luxo-em-porto-feliz/",
+          "date": "2026-10-08",
+          "region": "Porto Feliz, SP",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "Matéria de 8 de outubro, fora da janela, usada por falta de material novo na cidade. O Fasano Boa Vista, na Fazenda Boa Vista, tem 46 acomodações, spa de 1.400 m² e piscina de raia de 25 m, com discurso de natureza e bem-estar. O Boa Vista Surf Lodge, aberto em dezembro de 2024 no Boa Vista Village, tem 57 quartos e piscina de ondas de 220 m. Os dois lançaram menu de primavera, o do Surf Lodge aberto a visitantes com reserva.",
+          "por_que_importa": "Régua de spa, gastronomia sazonal e experiência de visitante dos vizinhos diretos do Haven; vendas e clube usam pra posicionar o projeto frente à oferta já instalada em Porto Feliz.",
+          "para": [
+            "vendas",
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Maraey, em Maricá, estrutura fundo imobiliário de até R$ 600 milhões e negocia crédito com CAF, BID Invest e IFC pra fase de R$ 4,5 bilhões",
+          "source": "Mercado & Eventos",
+          "url": "https://www.mercadoeeventos.com.br/noticias/hotelaria/maraey-aposta-em-fundos-de-pensao-para-ampliar-financiamento-do-turismo-brasileiro/",
+          "date": "2026-10-16",
+          "region": "Maricá, RJ",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "Matéria de 16 de outubro, fora da janela. O complexo de turismo e moradia prevê R$ 4,5 bilhões na primeira fase e monta um fundo imobiliário de até R$ 600 milhões voltado a investidores institucionais, como fundos de pensão, tema que a empresa leva ao 47º Congresso Brasileiro de Previdência Privada, de 21 a 23 de outubro em São Paulo. Os dados de turismo internacional e de fundos de pensão no México e na República Dominicana são da empresa e não foram conferidos na fonte primária.",
+          "por_que_importa": "Exemplo de captação por fundo imobiliário e crédito multilateral pra projeto de turismo e moradia, argumento pra conversas de financiamento de fases futuras do Haven.",
+          "para": [
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Savills, na fonte primária: São Paulo é a 4ª cidade do mundo em residências de marca, com 15 prontas e 15 em pipeline, e o prêmio médio de marca é de 33%",
+          "source": "Savills, Branded Residences Annual Report 2025/2026 (PDF oficial, sem data de publicação no arquivo)",
+          "url": "https://pdf.savills.com/documents/Savills-Branded-Residences-Annual-Report-2025-2026.pdf",
+          "date": "2026-10-22",
+          "region": "Global",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "O relatório resolve a pendência do ranking que só tinha aparecido de segunda mão em 18/10: na tabela de distribuição global, São Paulo soma 30 projetos, atrás de Dubai (64 prontos e 87 em pipeline), Sul da Flórida (48 e 55) e Nova York (32 e 4). A Savills estimava 910 projetos no mundo no fim de 2025, alta de cerca de 19% sobre os 764 de dezembro de 2024, supondo a conclusão do pipeline do ano. O prêmio médio de marca é de 33%, e chega a 39% em resorts, acima dos 34% de 2024. O PDF não traz data de publicação; a data do item é a da conferência.",
+          "por_que_importa": "Fonte primária pra sustentar que o mercado paulistano de residências de marca já é maduro, e o prêmio de 39% em resorts entra na conversa de preço do Haven.",
+          "para": [
+            "vendas",
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Knight Frank, na fonte primária: marcas fora da hotelaria são cerca de 30% das residências de marca em operação e devem chegar perto de 40% em 2028",
+          "source": "Knight Frank (artigo oficial do Residence Report, 14/09/2026)",
+          "url": "https://www.knightfrank.co.uk/newsroom/article/2026/9/residence-report",
+          "date": "2026-09-14",
+          "region": "Londres, Reino Unido",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "Artigo de 14 de setembro, fora da janela, que entra pra fechar a pendência de fonte primária aberta em 20/10. A página diz que marcas de hotel entregam cerca de 70% dos projetos em operação e 60% quando o pipeline entra na conta, e que a fatia sem hotel deve subir de cerca de 30% em 2025 pra quase 40% em 2028. O setor fechou 2025 com 903 projetos, passa de mil em 2026 e deve chegar a 1.800 projetos e mais de 300 mil unidades em 2031. O número de 18% de residências de marca sem hotel, atribuído à Knight Frank numa coluna do Hospitality Net, não aparece na página e segue não conferido.",
+          "por_que_importa": "Corrige o argumento de vendas: o dado pra citar é a fatia de 30% a 40% fora da hotelaria, que coloca o Haven numa categoria em crescimento sem operador de hotel.",
+          "para": [
+            "vendas",
+            "marketing",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Explicador da EHL separa quatro modelos de negócio de wellness, tratamento, acesso, membership e imobiliário, e compila prêmio de 33% e crescimento de 23,6% ao ano",
+          "source": "Hospitality Net (explicador de autora da EHL Hospitality Business School; números de terceiros não conferidos na fonte primária)",
+          "url": "https://www.hospitalitynet.org/explainer/4135024/the-business-of-wellness-experiences-spa-business-models-and-examples",
+          "date": "2026-10-21",
+          "region": "Global",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "O texto compara quatro formas de ganhar dinheiro com bem-estar: vender tratamento, vender acesso, vender membership e vender imóvel. Cita o GWI pra dizer que o imobiliário de bem-estar é o segmento que mais cresce, com média de 23,6% ao ano desde 2019, a Savills pro prêmio médio de 33% das residências de marca, uma análise da CBRE com 297 hotéis americanos em que o spa rende 4,2% da receita, e o Bathhouse atendendo cerca de mil banhistas por dia em duas unidades. Os números são de terceiros e não foram conferidos na fonte primária, exceto o prêmio da Savills, que bate com o relatório lido hoje.",
+          "por_que_importa": "Vocabulário pronto pra explicar ao comprador e ao investidor por que o Haven combina membership e imóvel, e qual receita cada modelo gera.",
+          "para": [
+            "vendas",
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Booking.com ouve 28 mil pessoas em 32 mercados: 85% dizem voltar de viagem mais cansados e 67% mudaram o jeito de viajar por saúde",
+          "source": "Hospitality Net (release da Booking.com; pesquisa encomendada pela própria empresa)",
+          "url": "https://www.hospitalitynet.org/news/4135025/how-will-group-budgets-personalized-wellness-recovery-maxxing-shape-2027-guest-experiences",
+          "date": "2026-10-21",
+          "region": "Global (32 mercados)",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "A pesquisa Travel Predictions ouviu 28.230 adultos em 32 mercados, em julho e agosto de 2026. Segundo o release, 85% afirmam ter voltado de uma viagem mais cansados do que saíram, 67% dizem que uma mudança de saúde ou de estilo de vida influenciou a escolha de viagens e 79% consideram importante ter ao menos uma opção de comida mais saudável no hotel. Material promocional da empresa, sem verificação independente.",
+          "por_que_importa": "O cansaço pós-férias sustenta o discurso do Haven como lugar de recuperação de verdade, em material de vendas e em conversa com parceiros de hospitalidade.",
+          "para": [
+            "marketing",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Estudo da Arizona State com mais de 55 mil adultos associa yoga a 27% menos risco de morte e pilates a 36%, sem provar causa",
+          "source": "Athletech News",
+          "url": "https://athletechnews.com/yoga-pilates-linked-to-longer-lifespans-in-new-study-arizona-state/",
+          "date": "2026-10-21",
+          "region": "Tempe, EUA",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "Pesquisadores compararam 21 práticas alternativas de saúde em dados de mais de 55 mil americanos acompanhados por cerca de uma década, e só yoga e pilates tiveram associação significativa com menor mortalidade. O estudo mostra associação, e o próprio coautor lembra que pessoas muito doentes podem simplesmente não praticar.",
+          "por_que_importa": "Base citável pra programação de movimento do clube e pra conteúdo de longevidade, desde que o texto carregue a ressalva de associação.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Super Age Games, competição de longevidade com cerca de mil atletas de 19 a 80 anos e oito provas de medição, acontece em Nova York em 7 de novembro",
+          "source": "Athletech News",
+          "url": "https://athletechnews.com/beyond-strength-and-cardio-is-longevity-becoming-fitnesss-next-training-category/",
+          "date": "2026-11-07",
+          "region": "Nova York, EUA",
+          "escopo": "mundo",
+          "pilar": "eventos",
+          "resumo": "Matéria de 8 de outubro, fora da janela, com evento dentro dos próximos 60 dias. As oito provas medem capacidade aeróbica, equilíbrio, força de preensão, memória de trabalho e capacidade relacional, com cerca de mil atletas e 125 equipes, e cada participante recebe relatório. Entre os parceiros fundadores estão Whoop, Hyatt e o Buck Institute; o fundador diz receber de 50 a 100 perguntas por semana de treinadores sobre longevidade como categoria de treino.",
+          "por_que_importa": "Modelo de evento comunitário de longevidade com medição e relatório individual, adaptável numa versão menor pros sócios do clube e aberto a parceiro de wearable.",
+          "para": [
+            "clube",
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "ATHX Games, com apoio da Adidas, leva competição de fitness a seis cidades dos EUA em 2027, prevê 45 eventos em 18 países e finais em Lisboa",
+          "source": "Athletech News",
+          "url": "https://athletechnews.com/adidas-backed-athx-games-expands-across-us-new-york-chicago-las-vegas/",
+          "date": "2026-10-21",
+          "region": "Reino Unido e EUA",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "A prova dura cerca de 2,5 horas e combina força, resistência e condicionamento, individual ou em duplas, em três divisões. Pra 2027 a organização prevê 45 eventos em mais de 18 países, seis cidades americanas e finais mundiais em Lisboa, de 27 a 29 de novembro de 2027, mirando 80 mil atletas. Entra como concorrente do Hyrox e da Xenom, esta já publicada em 20/10.",
+          "por_que_importa": "Marca esportiva financiando evento coletivo como porta de entrada de comunidade: pista pra patrocínio do calendário de provas do clube.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "The LIV Method abre em janeiro de 2027 seu maior estúdio em Nova York, com 1.100 m² de treino e recuperação no mesmo espaço",
+          "source": "Athletech News",
+          "url": "https://athletechnews.com/the-liv-method-expands-nyc-footprint-largest-studio-yet-2-gansevoort/",
+          "date": "2026-10-19",
+          "region": "Nova York, EUA",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "O terceiro estúdio da rede na cidade fica no 2 Gansevoort, tem 12 mil pés quadrados e reúne treino particular, semiprivado e em grupo com cold plunge, sauna e tratamentos; as duas unidades atuais oferecem também soro intravenoso. A empresa é familiar e autofinanciada, e fala em sair de Nova York no futuro, sem plano firme.",
+          "por_que_importa": "Formato de treino mais recuperação num único espaço de assinatura, comparativo pro desenho da área de performance do clube.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Oura passa a medir esforço cardiovascular semanal e estimar VO2 máx em treinos com GPS, mirando quem treina pra longevidade",
+          "source": "Athletech News (dado de buscas atribuído a terceiros, não conferido na fonte primária)",
+          "url": "https://athletechnews.com/oura-makes-play-for-fitness-longevity-enthusiasts-cardio-vo2-max/",
+          "date": "2026-10-20",
+          "region": "EUA",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "O anel calcula um Cardio Effort semanal em cinco faixas e estima o VO2 máx a partir de treinos com GPS, sem o teste de caminhada de seis minutos. A matéria cita alta de 58% nas buscas pela Oura em um ano, contra 31,3% da Garmin, número de terceiros não conferido.",
+          "por_que_importa": "Wearable de longevidade já é hábito do público-alvo: abre conversa de parceria com marca de monitoramento e ideia de painel de métricas pro sócio.",
+          "para": [
+            "parcerias",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        }
+      ]
+    },
     {
       "data": "2026-10-21",
       "manchete": "O ritual semanal virou produto. E quase todo mundo está entrando de graça.",
