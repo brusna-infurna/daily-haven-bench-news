@@ -7,7 +7,8 @@ import json, os, sys, html, urllib.parse, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 URL = sys.argv[1] if len(sys.argv) > 1 else "https://www.projetorepertorio.com.br/benchnews/"
-SALA = "https://claude.ai/artifact/94ErZ3WjhqcMdVtzMxAc1Z"
+SALA = "https://www.projetorepertorio.com.br/benchnews/sala/"
+SALA_CLAUDE = "https://claude.ai/artifact/94ErZ3WjhqcMdVtzMxAc1Z"
 data = json.load(open(os.path.join(HERE, "radar-data.json"), encoding="utf-8"))
 day = data["dias"][0]
 NUM = len(data["dias"])
@@ -135,7 +136,7 @@ body = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta n
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
     <tr><td style="font-family:{SERIF};font-weight:500;font-size:34px;line-height:1.12;letter-spacing:-0.3px;color:{INK};padding:30px 0 18px">{e(day.get('manchete',''))}</td></tr>
     <tr><td style="font-family:{SERIF2};font-size:19px;line-height:1.5;color:{ESPRESSO};padding:0 0 22px">{e(day.get('editorial',''))}</td></tr>
-    <tr><td style="{KICK_MUTE};padding:0 0 14px"><a href="{e(URL)}" style="color:{TERRA};text-decoration:none;border-bottom:1px solid {TERRA}">Abrir a edição completa no site</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="{e(SALA)}" style="color:{TERRA};text-decoration:none;border-bottom:1px solid {TERRA}">Entrar na sala do time</a></td></tr>
+    <tr><td style="{KICK_MUTE};padding:0 0 14px"><a href="{e(URL)}" style="color:{TERRA};text-decoration:none;border-bottom:1px solid {TERRA}">Abrir a edição completa no site</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="{e(SALA)}" style="color:{TERRA};text-decoration:none;border-bottom:1px solid {TERRA}">Entrar na sala do time</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="{e(SALA_CLAUDE)}" style="color:{TERRA};text-decoration:none;border-bottom:1px solid {TERRA}">Sala com Claude</a></td></tr>
     <tr><td style="padding:0 0 26px"><a href="{e(wa_link)}" style="display:inline-block;background:{ESPRESSO};color:#F5F1EA;text-decoration:none;font-family:{SANS};font-size:13px;padding:11px 18px;border-radius:4px">Mandar pro grupo no WhatsApp</a><span style="font-family:{SANS};font-size:12px;color:{MUTE};margin-left:10px">abre o WhatsApp com a mensagem pronta, é só escolher o grupo</span></td></tr>
   </table>
 
