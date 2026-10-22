@@ -146,3 +146,19 @@ create policy com_anon    on comentarios for all to anon using (true) with check
 create policy pautas_anon on pautas      for all to anon using (true) with check (true);
 create policy ideias_anon on ideias      for all to anon using (true) with check (true);
 -- sala_export: nome = coalesce(membros.nome, registro.email)
+
+-- 22/10/2026: Brainstorm do time (benchnews/brainstorm/), mesas por área com Supabase Realtime.
+create table if not exists brainstorm (
+  id    uuid primary key default gen_random_uuid(),
+  area  text not null check (area in ('vendas','membership','parcerias','marketing')),
+  autor text not null check (length(autor) between 1 and 40),
+  texto text not null check (length(texto) between 1 and 4000),
+  edicao date,
+  t     timestamptz not null default now()
+);
+create index if not exists brainstorm_area_t on brainstorm (area, t);
+alter table brainstorm enable row level security;
+create policy brainstorm_anon on brainstorm for all to anon using (true) with check (true);
+create policy brainstorm_auth on brainstorm for all to authenticated using (true) with check (true);
+alter publication supabase_realtime add table brainstorm;
+alter publication supabase_realtime add table comentarios;
