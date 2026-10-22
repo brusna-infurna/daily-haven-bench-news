@@ -38,6 +38,8 @@ V2 = r"""
   .bar .jump::-webkit-scrollbar{display:none}
   .bar .jump a{white-space:nowrap;padding:4px 0;border-bottom:2px solid transparent;color:var(--soft)}
   .bar .jump a.on,.bar .jump a:hover{color:var(--ink);border-bottom-color:var(--terracotta)}
+  .bar .jump a.bs{color:var(--teal);font-weight:700;border-bottom-color:transparent}
+  .bar .jump a.bs:hover{border-bottom-color:var(--teal)}
   .bar .jump a em{font-style:normal;color:var(--mute);margin-left:4px;font-size:10px}
   .bar .who{display:flex;align-items:center;gap:10px;flex:none;white-space:nowrap}
   .bar .who b{color:var(--ink)}
@@ -140,6 +142,7 @@ SALA_HTML = r"""
     <div class="box andamento"><h2>Grupo de Discussão</h2><p class="sub">ideias do Bench que alguém do time assumiu, de qualquer edição</p><ul id="andamento"></ul>
       <div class="row" style="margin-top:12px"><a class="btn" href="../../brainstorm/">Abrir o brainstorm</a><button class="fechar" data-p="disc" style="margin:0">fechar</button></div></div>
   </section>
+  <details class="ajuda"><summary>como funciona a sala</summary><p>A sala é o jornal do Bench com o time dentro. Em cada item você marca <b>Serviu</b> ou <b>Não serviu</b> e deixa comentário; o que você escreve aparece pra todo mundo na hora e a Bru responde pela rotina do Bench ao longo do dia. Em cada ideia do <b>Bench pro Haven</b> dá pra mudar o status e clicar em <b>Assumir</b>: a ideia entra no <b>Grupo de Discussão</b> aqui em cima e, ao mesmo tempo, na mesa certa do <b>Brainstorm</b> (Vendas, Membership, Parcerias ou Marketing/Social), onde a conversa continua ao vivo e pode ir pro Basecamp. Comentário feito num item marcado pra uma área também cai na mesa dessa área. Em <b>Pra pauta</b> você pede um tema, um link ou uma dúvida de mercado: entra na pesquisa da manhã seguinte e a resposta aparece embaixo do pedido. Link colado em qualquer lugar da sala ou do brainstorm é aberto, conferido e publicado na edição seguinte com a marca "trazido pelo time". Seu nome fica guardado neste aparelho; pra trocar, use "Trocar nome" na régua.</p></details>
 """
 
 TEMPLATE = r"""<!doctype html>
@@ -380,7 +383,7 @@ out = (TEMPLATE
   .replace("__TITLE__", "Sala do Time · Haven Bench News" if is_sala else "Daily Haven Bench News")
   .replace("__KICKER__", "Sala do time · radar diário de wellness residences, membership, longevidade e lifestyle" if is_sala else "Radar diário de wellness residences, membership, longevidade e lifestyle")
   .replace("__SBJS__", '<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>' if is_sala else "")
-  .replace("__JUMP_SALA__", "" )
+  .replace("__JUMP_SALA__", '<a href="../../brainstorm/" class="bs">Brainstorm ↗</a>' if is_sala else "")
   .replace("__WHO__", '<span class="live" id="live"><i></i><span id="live-txt">conectando</span></span><span class="me" id="me"></span><button class="btn sm ghost" id="sair" hidden>Trocar nome</button>' if is_sala else '<a href="__SALA_LINK__" style="text-decoration:underline">Sala do time</a>')
   .replace("__LOGIN__", LOGIN if is_sala else "")
   .replace("__APP_HIDDEN__", "hidden" if is_sala else "")

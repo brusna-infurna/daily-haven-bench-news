@@ -310,9 +310,11 @@ const FN = SB_URL + "/functions/v1/basecamp";
 let bcStatus = null, bcProjects = null;
 const verEnc = {vendas:false,membership:false,parcerias:false,marketing:false};
 const ST = {aberta:"Aberta",andamento:"Em andamento",finalizada:"Finalizada",descartada:"Desprezada"};
-const data = {brainstorm:[], comentarios:[]};
+const data = {brainstorm:[], comentarios:[], ideias:[]};
+const IDST = {avaliando:"aberta", andamento:"andamento", feita:"finalizada", descartada:"descartada"};
+const IDST_BACK = {aberta:"avaliando", andamento:"andamento", finalizada:"feita", descartada:"descartada"};
 const ASSUNTO_MAX = 90;
-const respDe = m => { const R = m.tabela==="brainstorm" ? (RADAR.respostas_brainstorm||{}) : (RADAR.respostas_comentarios||{}); const r = R[m.id]; return r && r.resposta ? `<div class="bs-resp"><i>Bru, via Bench${r.t?" · "+esc(String(r.t).replace("T"," ")):""}</i>${esc(r.resposta)}</div>` : ""; };
+const respDe = m => { if (m.tabela==="ideias") return ""; const R = m.tabela==="brainstorm" ? (RADAR.respostas_brainstorm||{}) : (RADAR.respostas_comentarios||{}); const r = R[m.id]; return r && r.resposta ? `<div class="bs-resp"><i>Bru, via Bench${r.t?" · "+esc(String(r.t).replace("T"," ")):""}</i>${esc(r.resposta)}</div>` : ""; };
 
 /* identidade por nome, igual à sala */
 const NOME_KEY = "benchnews-sala-nome";
@@ -363,8 +365,9 @@ function montar(){
     const enc=e.target.closest(".bs-enc"); if (enc){ verEnc[enc.dataset.enc]=!verEnc[enc.dataset.enc]; render(); return; }
     const st=e.target.closest(".st button"); if (st){
       const msg=st.closest(".bs-msg"); const tab=msg.dataset.tabela, id=msg.dataset.id, novo=st.dataset.st;
-      const patch = tab==="brainstorm" ? {status:novo, status_por:me, status_t:new Date().toISOString()} : {bs_status:novo, bs_status_por:me, bs_status_t:new Date().toISOString()};
-      const { error } = await sb.from(tab).update(patch).eq("id", id);
+      const agora=new Date().toISOString();
+      const patch = tab==="brainstorm" ? {status:novo, status_por:me, status_t:agora} : tab==="ideias" ? {status:IDST_BACK[novo]||"avaliando", status_por:me, status_t:agora} : {bs_status:novo, bs_status_por:me, bs_status_t:agora};
+      const { error } = await sb.from(tab).update(patch).eq(tab==="ideias"?"chave":"id", id);
       if (error) note("Não deu pra mudar o estado: " + (error.message||"erro")); else await carregar();
       return; }
     const bc=e.target.closest(".bc"); if (bc){
@@ -388,8 +391,8 @@ function montar(){
   $("grid").addEventListener("keydown", e => { if (e.key==="Enter" && (e.metaKey||e.ctrlKey) && e.target.tagName==="TEXTAREA") e.target.form.requestSubmit(); });
 }
 async function carregar(){
-  const [b,c,l] = await Promise.all([sb.from("brainstorm").select("*").order("t"), sb.from("comentarios").select("*").order("t"), sb.from("basecamp_listas").select("*")]);
-  if (b.data) data.brainstorm=b.data; if (c.data) data.comentarios=c.data;
+  const [b,c,l,i] = await Promise.all([sb.from("brainstorm").select("*").order("t"), sb.from("comentarios").select("*").order("t"), sb.from("basecamp_listas").select("*"), sb.from("ideias").select("*")]);
+  if (b.data) data.brainstorm=b.data; if (c.data) data.comentarios=c.data; if (i.data) data.ideias=i.data;
   if (l.data) l.data.forEach(x => bcListas[x.area]=x);
   render();
 }
@@ -403,6 +406,8 @@ function render(){
   const por = {vendas:[],membership:[],parcerias:[],marketing:[]};
   data.comentarios.forEach(c => { if (c.tipo==="claude") return; const a=areaDoComentario(c); if(!a) return; const L=lookup[c.chave];
     por[a].push({id:c.id, tabela:"comentarios", autor:c.email, texto:c.texto, t:c.t, edicao:L.day.data, status:c.bs_status||"aberta", basecamp:c.bs_basecamp_t, basecampUrl:c.bs_basecamp_url, ref:{titulo: L.tipo==="item"?L.obj.title:L.obj.ideia, url: L.tipo==="item"?L.obj.url:null}, origem:"sala"}); });
+  data.ideias.forEach(s => { if (!s.status || s.status==="nova") return; const L=lookup[s.chave]; if (!L || L.tipo!=="bench") return; const a=PARA2AREA[String(L.obj.para||"").toLowerCase()]; if(!a) return;
+    por[a].push({id:s.chave, tabela:"ideias", autor:s.dono, texto:L.obj.ideia, t:s.t, edicao:L.day.data, status:IDST[s.status]||"aberta", basecamp:s.basecamp_t, basecampUrl:s.basecamp_url, ref:{titulo:"ideia do Bench pro Haven, assumida no Grupo de Discussão da sala", url:L.obj.url||null}, origem:"ideia"}); });
   data.brainstorm.forEach(m => por[m.area].push({id:m.id, tabela:"brainstorm", autor:m.autor, texto:m.texto, t:m.t, edicao:m.edicao, status:m.status||"aberta", basecamp:m.basecamp_t, basecampUrl:m.basecamp_url, origem:"mesa"}));
   const msgHtml = m => {
     const enc = m.status==="finalizada"||m.status==="descartada";
@@ -456,6 +461,7 @@ function assinar(){
   const ch = sb.channel("brainstorm-live")
     .on("postgres_changes", {event:"*", schema:"public", table:"brainstorm"}, () => carregar())
     .on("postgres_changes", {event:"*", schema:"public", table:"comentarios"}, () => carregar())
+    .on("postgres_changes", {event:"*", schema:"public", table:"ideias"}, () => carregar())
     .subscribe(st => { const ok = st==="SUBSCRIBED"; $("live").classList.toggle("on", ok); $("live-txt").textContent = ok ? "ao vivo" : (st==="CHANNEL_ERROR"||st==="TIMED_OUT" ? "atualizando a cada 30s" : "conectando"); });
 }
 boot();

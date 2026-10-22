@@ -207,6 +207,8 @@
   .bar .jump::-webkit-scrollbar{display:none}
   .bar .jump a{white-space:nowrap;padding:4px 0;border-bottom:2px solid transparent;color:var(--soft)}
   .bar .jump a.on,.bar .jump a:hover{color:var(--ink);border-bottom-color:var(--terracotta)}
+  .bar .jump a.bs{color:var(--teal);font-weight:700;border-bottom-color:transparent}
+  .bar .jump a.bs:hover{border-bottom-color:var(--teal)}
   .bar .jump a em{font-style:normal;color:var(--mute);margin-left:4px;font-size:10px}
   .bar .who{display:flex;align-items:center;gap:10px;flex:none;white-space:nowrap}
   .bar .who b{color:var(--ink)}
@@ -304,7 +306,7 @@
   <div class="bar" id="bar">
     <span class="num" id="folio-left"></span>
     <span class="ed"><label for="day">Edição</label><select id="day" aria-label="Escolher edição"></select></span>
-    <nav class="jump" id="jump" aria-label="Seções"><a href="#manchete">Manchete</a><a href="#atencao">Atenção</a><a href="#bench">Bench <em id="j-bench"></em></a><a href="#mural">Mural <em id="j-mural"></em></a></nav>
+    <nav class="jump" id="jump" aria-label="Seções"><a href="#manchete">Manchete</a><a href="#atencao">Atenção</a><a href="#bench">Bench <em id="j-bench"></em></a><a href="#mural">Mural <em id="j-mural"></em></a><a href="../brainstorm/" class="bs">Brainstorm ↗</a></nav>
     <span class="who" id="who"><span class="live" id="live"><i></i><span id="live-txt">conectando</span></span><span class="me" id="me"></span><button class="btn sm ghost" id="sair" hidden>Trocar nome</button></span>
   </div>
   <div class="ro" id="ro" hidden></div>
@@ -331,6 +333,7 @@
     <div class="box andamento"><h2>Grupo de Discussão</h2><p class="sub">ideias do Bench que alguém do time assumiu, de qualquer edição</p><ul id="andamento"></ul>
       <div class="row" style="margin-top:12px"><a class="btn" href="../brainstorm/">Abrir o brainstorm</a><button class="fechar" data-p="disc" style="margin:0">fechar</button></div></div>
   </section>
+  <details class="ajuda"><summary>como funciona a sala</summary><p>A sala é o jornal do Bench com o time dentro. Em cada item você marca <b>Serviu</b> ou <b>Não serviu</b> e deixa comentário; o que você escreve aparece pra todo mundo na hora e a Bru responde pela rotina do Bench ao longo do dia. Em cada ideia do <b>Bench pro Haven</b> dá pra mudar o status e clicar em <b>Assumir</b>: a ideia entra no <b>Grupo de Discussão</b> aqui em cima e, ao mesmo tempo, na mesa certa do <b>Brainstorm</b> (Vendas, Membership, Parcerias ou Marketing/Social), onde a conversa continua ao vivo e pode ir pro Basecamp. Comentário feito num item marcado pra uma área também cai na mesa dessa área. Em <b>Pra pauta</b> você pede um tema, um link ou uma dúvida de mercado: entra na pesquisa da manhã seguinte e a resposta aparece embaixo do pedido. Link colado em qualquer lugar da sala ou do brainstorm é aberto, conferido e publicado na edição seguinte com a marca "trazido pelo time". Seu nome fica guardado neste aparelho; pra trocar, use "Trocar nome" na régua.</p></details>
 
   <nav class="chips" id="chips" aria-label="Filtros">
     <span class="lbl">Pra quem</span><span data-f="para"><button class="on" data-v="">Tudo</button><button data-v="parcerias">Parcerias</button><button data-v="marketing">Marketing</button><button data-v="vendas">Vendas</button><button data-v="clube">Clube</button></span>

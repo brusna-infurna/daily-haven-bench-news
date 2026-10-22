@@ -194,10 +194,10 @@ Deno.serve(async (req) => {
       const todo = await bc(`/buckets/${cfg.bucket_id}/todolists/${cfg.todolist_id}/todos.json`, { method: "POST", body: JSON.stringify({ content, description: b.description || "" }) }, cfg.account_id);
       const app_url = todo?.app_url || null;
       if (b.tabela && b.id) {
-        const patch = b.tabela === "brainstorm"
-          ? { basecamp_t: new Date().toISOString(), basecamp_por: b.por || null, basecamp_url: app_url }
-          : { bs_basecamp_t: new Date().toISOString(), bs_basecamp_por: b.por || null, bs_basecamp_url: app_url };
-        await db.from(b.tabela === "brainstorm" ? "brainstorm" : "comentarios").update(patch).eq("id", b.id);
+        const agora = new Date().toISOString();
+        if (b.tabela === "brainstorm") await db.from("brainstorm").update({ basecamp_t: agora, basecamp_por: b.por || null, basecamp_url: app_url }).eq("id", b.id);
+        else if (b.tabela === "ideias") await db.from("ideias").update({ basecamp_t: agora, basecamp_por: b.por || null, basecamp_url: app_url }).eq("chave", b.id);
+        else await db.from("comentarios").update({ bs_basecamp_t: agora, bs_basecamp_por: b.por || null, bs_basecamp_url: app_url }).eq("id", b.id);
       }
       return json({ ok: true, url: app_url, lista: cfg.lista, projeto: cfg.projeto });
     }
