@@ -215,7 +215,7 @@
   .bs-col h2 small{display:block;font-family:var(--sans);font-style:normal;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin-top:6px}
   .bs-feed{flex:1 1 auto;overflow-y:auto;padding:6px 16px 10px;display:flex;flex-direction:column;gap:12px;scroll-behavior:smooth}
   .bs-msg{font-family:var(--serif2);font-size:16.5px;line-height:1.42;color:var(--espresso);padding:8px 0 10px;border-bottom:1px solid var(--rule);white-space:pre-wrap;word-break:break-word}
-  .bs-msg.me{color:var(--ink)}
+  .bs-msg.mine{color:var(--ink)}
   .bs-msg .who{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-bottom:4px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;white-space:normal}
   .bs-msg .who b{color:var(--ink);font-weight:700}
   .bs-msg .ref{display:block;font-family:var(--sans);font-size:11px;color:var(--mute);margin-top:6px;white-space:normal}
@@ -227,6 +227,15 @@
   .bs-form textarea{min-height:52px}
   .bs-form .row{justify-content:space-between}
   .bs-form .hint{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+  .bs-msg .st{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;align-items:center}
+  .bs-msg .st button{font-family:var(--sans);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;background:transparent;border:1px solid var(--rule);color:var(--soft);padding:4px 8px;cursor:pointer}
+  .bs-msg .st button:hover{border-color:var(--espresso);color:var(--ink)}
+  .bs-msg.st-andamento{border-left:3px solid var(--forest);padding-left:10px}
+  .bs-msg .pill{margin:0}
+  .bs-enc{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);background:transparent;border:0;border-bottom:1px solid var(--rule);padding:8px 0;cursor:pointer;text-align:left}
+  .bs-enc:hover{color:var(--ink)}
+  .bs-msg.encerrada{opacity:.6}
+  .bs-msg.encerrada.st-descartada{text-decoration:line-through}
   .live{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);display:inline-flex;align-items:center;gap:6px}
   .live i{width:7px;height:7px;border-radius:50%;background:var(--sand);display:inline-block}
   .live.on i{background:var(--forest)}
@@ -253,7 +262,7 @@
   </section>
 
   <div id="app" hidden>
-    <p class="bs-intro">Quatro mesas, uma por área. Entram aqui os comentários que o time deixa nos itens da sala, já separados pela área do item, e o que for escrito direto nestas mesas. Tudo aparece na hora pra quem estiver com a página aberta.</p>
+    <p class="bs-intro">Quatro mesas, uma por área. Entram aqui os comentários que o time deixa nos itens da sala, já separados pela área do item, e o que for escrito direto nestas mesas. Tudo aparece na hora pra quem estiver com a página aberta. Cada conversa fica na mesa até alguém marcar em andamento, finalizar ou desprezar; as encerradas ficam guardadas na dobra de cada mesa.</p>
     <nav class="bs-tabs" id="tabs" aria-label="Áreas"></nav>
     <div class="bs-grid" id="grid"></div>
   </div>
@@ -278,6 +287,8 @@ function note(msg){ const ro=$("ro"); ro.hidden=!msg; ro.innerHTML = msg ? `<b>A
 
 let RADAR = {dias:[]}; const lookup = {};
 let me = "", isAdmin = false, tab = "vendas";
+const verEnc = {vendas:false,membership:false,parcerias:false,marketing:false};
+const ST = {aberta:"Aberta",andamento:"Em andamento",finalizada:"Finalizada",descartada:"Desprezada"};
 const data = {brainstorm:[], comentarios:[]};
 
 /* identidade por nome, igual à sala */
@@ -322,6 +333,13 @@ function montar(){
     ta.value=""; await carregar();
   });
   $("grid").addEventListener("click", async e => {
+    const enc=e.target.closest(".bs-enc"); if (enc){ verEnc[enc.dataset.enc]=!verEnc[enc.dataset.enc]; render(); return; }
+    const st=e.target.closest(".st button"); if (st){
+      const msg=st.closest(".bs-msg"); const tab=msg.dataset.tabela, id=msg.dataset.id, novo=st.dataset.st;
+      const patch = tab==="brainstorm" ? {status:novo, status_por:me, status_t:new Date().toISOString()} : {bs_status:novo, bs_status_por:me, bs_status_t:new Date().toISOString()};
+      const { error } = await sb.from(tab).update(patch).eq("id", id);
+      if (error) note("Não deu pra mudar o estado: " + (error.message||"erro")); else await carregar();
+      return; }
     const b=e.target.closest(".apagar"); if(!b) return;
     const { error } = await sb.from("brainstorm").delete().eq("id", b.dataset.id);
     if (error) note("Não deu pra apagar: " + (error.message||"erro")); else await carregar();
@@ -342,16 +360,28 @@ function areaDoComentario(c){
 function render(){
   const por = {vendas:[],membership:[],parcerias:[],marketing:[]};
   data.comentarios.forEach(c => { if (c.tipo==="claude") return; const a=areaDoComentario(c); if(!a) return; const L=lookup[c.chave];
-    por[a].push({id:"c"+c.id, autor:c.email, texto:c.texto, t:c.t, edicao:L.day.data, ref:{titulo: L.tipo==="item"?L.obj.title:L.obj.ideia, url: L.tipo==="item"?L.obj.url:null}, origem:"sala"}); });
-  data.brainstorm.forEach(m => por[m.area].push({id:m.id, autor:m.autor, texto:m.texto, t:m.t, edicao:m.edicao, origem:"mesa"}));
+    por[a].push({id:c.id, tabela:"comentarios", autor:c.email, texto:c.texto, t:c.t, edicao:L.day.data, status:c.bs_status||"aberta", ref:{titulo: L.tipo==="item"?L.obj.title:L.obj.ideia, url: L.tipo==="item"?L.obj.url:null}, origem:"sala"}); });
+  data.brainstorm.forEach(m => por[m.area].push({id:m.id, tabela:"brainstorm", autor:m.autor, texto:m.texto, t:m.t, edicao:m.edicao, status:m.status||"aberta", origem:"mesa"}));
+  const msgHtml = m => {
+    const enc = m.status==="finalizada"||m.status==="descartada";
+    const acts = enc ? `<button data-st="aberta">reabrir</button>`
+      : (m.status==="andamento" ? `<button data-st="finalizada">finalizar</button><button data-st="descartada">desprezar</button><button data-st="aberta">voltar pra aberta</button>`
+                                : `<button data-st="andamento">em andamento</button><button data-st="finalizada">finalizar</button><button data-st="descartada">desprezar</button>`);
+    return `<div class="bs-msg ${m.autor===me?'mine':''} st-${m.status} ${enc?'encerrada':''}" data-id="${esc(m.id)}" data-tabela="${m.tabela}">
+      <div class="who"><b>${esc(m.autor||"Alguém do time")}</b><span>${m.edicao?"edição "+fmtShort(m.edicao):""}</span><span>${fmtTs(m.t)}</span>${m.status!=="aberta"?`<span class="pill ${esc(m.status)}">${esc(ST[m.status])}</span>`:""}${m.origem==="mesa"&&(m.autor===me||isAdmin)?`<button class="apagar" data-id="${esc(m.id)}">apagar</button>`:""}</div>${esc(m.texto)}${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}
+      <div class="st">${acts}</div>
+    </div>`; };
   for (const k of Object.keys(por)){
     const lista = por[k].sort((x,y)=>new Date(x.t)-new Date(y.t));
-    const n=$("n-"+k); if(n) n.textContent = lista.length||"";
+    const abertas = lista.filter(m=>m.status==="aberta"||m.status==="andamento");
+    const encerradas = lista.filter(m=>m.status==="finalizada"||m.status==="descartada");
+    const n=$("n-"+k); if(n) n.textContent = abertas.length||"";
     const feed=$("feed-"+k); const atBottom = feed.scrollHeight - feed.scrollTop - feed.clientHeight < 60;
-    feed.innerHTML = lista.length ? lista.map(m => `
-      <div class="bs-msg ${m.autor===me?'me':''}">
-        <div class="who"><b>${esc(m.autor||"Alguém do time")}</b><span>${m.edicao?"edição "+fmtShort(m.edicao):""}</span><span>${fmtTs(m.t)}</span>${m.origem==="mesa"&&(m.autor===me||isAdmin)?`<button class="apagar" data-id="${esc(m.id)}">apagar</button>`:""}</div>${esc(m.texto)}${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}
-      </div>`).join("") : `<div class="bs-vazio">Mesa vazia. Comece a conversa.</div>`;
+    let h = "";
+    if (encerradas.length) h += `<button class="bs-enc" data-enc="${k}">${verEnc[k]?"esconder":"ver"} encerradas (${encerradas.length})</button>`;
+    if (verEnc[k]) h += encerradas.map(msgHtml).join("");
+    h += abertas.length ? abertas.map(msgHtml).join("") : `<div class="bs-vazio">${encerradas.length?"Nada em aberto nesta mesa.":"Mesa vazia. Comece a conversa."}</div>`;
+    feed.innerHTML = h;
     if (atBottom || !feed.dataset.init) { feed.scrollTop = feed.scrollHeight; feed.dataset.init="1"; }
   }
 }

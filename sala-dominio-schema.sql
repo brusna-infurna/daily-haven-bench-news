@@ -162,3 +162,10 @@ create policy brainstorm_anon on brainstorm for all to anon using (true) with ch
 create policy brainstorm_auth on brainstorm for all to authenticated using (true) with check (true);
 alter publication supabase_realtime add table brainstorm;
 alter publication supabase_realtime add table comentarios;
+-- 22/10/2026: estado das conversas do brainstorm (aberta, andamento, finalizada, descartada), inclusive comentários da sala.
+alter table brainstorm  add column if not exists status text not null default 'aberta' check (status in ('aberta','andamento','finalizada','descartada'));
+alter table brainstorm  add column if not exists status_por text;
+alter table brainstorm  add column if not exists status_t timestamptz;
+alter table comentarios add column if not exists bs_status text not null default 'aberta' check (bs_status in ('aberta','andamento','finalizada','descartada'));
+alter table comentarios add column if not exists bs_status_por text;
+alter table comentarios add column if not exists bs_status_t timestamptz;
