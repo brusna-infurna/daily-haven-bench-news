@@ -125,7 +125,10 @@ $("login-form").addEventListener("submit", async e => {
   e.preventDefault(); const email = $("login-email").value.trim().toLowerCase(); if(!email) return;
   $("login-btn").disabled = true; $("login-note").textContent = "Enviando...";
   const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin + location.pathname } });
-  $("login-note").textContent = error ? "Não deu pra mandar o link. Confira o email e tente de novo." : "Link enviado. Abra o email neste mesmo aparelho e clique.";
+  const m = error && String(error.message||"").toLowerCase();
+  $("login-note").textContent = !error ? "Link enviado. Abra o email neste mesmo aparelho e clique."
+    : (m.includes("rate limit") ? "O serviço de email atingiu o limite de envios por hora. Tente de novo em uma hora, ou use o link que já chegou no seu email."
+    : "Não deu pra mandar o link. Motivo: " + (error.message||"desconhecido"));
   $("login-btn").disabled = false;
 });
 $("sair").addEventListener("click", async () => { await sb.auth.signOut(); location.reload(); });
