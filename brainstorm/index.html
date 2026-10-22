@@ -202,24 +202,28 @@
 
   /* brainstorm */
   .bs-intro{font-family:var(--serif2);font-size:18px;line-height:1.5;color:var(--espresso);max-width:70ch;padding:22px 0 8px}
-  .bs-tabs{display:flex;gap:6px;flex-wrap:wrap;padding:10px 0 14px;border-bottom:1px solid var(--rule-strong)}
-  .bs-tabs button{font-family:var(--sans);font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;background:transparent;border:1px solid var(--rule);color:var(--soft);padding:8px 12px;cursor:pointer}
-  .bs-tabs button.on{background:var(--espresso);color:var(--paper);border-color:var(--espresso)}
-  .bs-tabs button em{font-style:normal;font-variant-numeric:tabular-nums;margin-left:6px;opacity:.75}
-  .bs-grid{display:grid;grid-template-columns:1fr;gap:22px;padding-top:22px}
-  @media(min-width:1100px){.bs-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.bs-tabs{display:none}}
-  @media(max-width:1099px){.bs-col{display:none}.bs-col.on{display:flex}}
-  .bs-col{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--rule);border-top:3px solid var(--terracotta);min-height:520px;max-height:78vh}
+  .bs-grid{display:flex;flex-direction:column;gap:18px;padding-top:22px}
+  .bs-col{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--rule);border-top:3px solid var(--terracotta)}
   .bs-col.a-vendas{border-top-color:var(--forest)} .bs-col.a-membership{border-top-color:var(--terracotta)} .bs-col.a-parcerias{border-top-color:var(--teal)} .bs-col.a-marketing{border-top-color:var(--plum)}
-  .bs-col h2{font-family:var(--serif);font-weight:500;font-style:italic;font-size:22px;line-height:1.1;padding:14px 16px 8px;border-bottom:1px solid var(--rule)}
-  .bs-col h2 small{display:block;font-family:var(--sans);font-style:normal;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin-top:6px}
-  .bs-feed{flex:1 1 auto;overflow-y:auto;padding:6px 16px 10px;display:flex;flex-direction:column;gap:12px;scroll-behavior:smooth}
-  .bs-msg{font-family:var(--serif2);font-size:16.5px;line-height:1.42;color:var(--espresso);padding:8px 0 10px;border-bottom:1px solid var(--rule);white-space:pre-wrap;word-break:break-word}
+  .bs-col h2{font-family:var(--serif);font-weight:500;font-style:italic;font-size:24px;line-height:1.1;padding:14px 16px 10px;border-bottom:1px solid var(--rule);cursor:pointer;display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;user-select:none}
+  .bs-col h2:hover{background:rgba(63,56,50,.04)}
+  .bs-col h2 small{font-family:var(--sans);font-style:normal;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute)}
+  .bs-col h2 em{font-style:normal;font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-left:10px}
+  .bs-col.expand{order:-1;border-width:1px;border-top-width:4px;box-shadow:0 10px 30px rgba(43,38,34,.08)}
+  .bs-col.expand h2{font-size:30px}
+  .bs-feed{overflow-y:auto;max-height:260px;padding:6px 16px 10px;display:flex;flex-direction:column;gap:12px;scroll-behavior:smooth}
+  .bs-col.expand .bs-feed{max-height:68vh;min-height:40vh}
+  @media(min-width:900px){.bs-col .bs-form{flex-direction:row;align-items:flex-end}.bs-col .bs-form textarea{flex:1 1 auto}.bs-col .bs-form .row{flex-direction:column;align-items:flex-end;gap:6px}}
+  .bs-msg{font-family:var(--serif2);font-size:16.5px;line-height:1.42;color:var(--espresso);padding:8px 0 10px;border-bottom:1px solid var(--rule);word-break:break-word}
+  .bs-msg .txt{white-space:pre-wrap;display:block}
   .bs-msg.mine{color:var(--ink)}
   .bs-msg .who{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-bottom:4px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;white-space:normal}
   .bs-msg .who b{color:var(--ink);font-weight:700}
   .bs-msg .ref{display:block;font-family:var(--sans);font-size:11px;color:var(--mute);margin-top:6px;white-space:normal}
   .bs-msg .ref a{text-decoration:underline;color:var(--soft)}
+  .bs-msg .bc{font-family:var(--sans);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;background:transparent;border:1px solid var(--ochre);color:var(--ochre);padding:4px 8px;cursor:pointer}
+  .bs-msg .bc:hover{background:var(--ochre);color:var(--paper)}
+  .bs-msg .pill.basecamp{color:var(--ochre);border-color:var(--ochre)}
   .bs-msg .apagar{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;background:none;border:0;color:var(--mute);cursor:pointer;padding:0}
   .bs-msg .apagar:hover{color:var(--terracotta)}
   .bs-vazio{font-family:var(--serif2);font-style:italic;font-size:16px;color:var(--mute);padding:16px 0}
@@ -262,14 +266,12 @@
   </section>
 
   <div id="app" hidden>
-    <p class="bs-intro">Quatro mesas, uma por área. Entram aqui os comentários que o time deixa nos itens da sala, já separados pela área do item, e o que for escrito direto nestas mesas. Tudo aparece na hora pra quem estiver com a página aberta. Cada conversa fica na mesa até alguém marcar em andamento, finalizar ou desprezar; as encerradas ficam guardadas na dobra de cada mesa.</p>
-    <nav class="bs-tabs" id="tabs" aria-label="Áreas"></nav>
+    <p class="bs-intro">Quatro mesas, uma por área. Entram aqui os comentários que o time deixa nos itens da sala, já separados pela área do item, e o que for escrito direto nestas mesas. Tudo aparece na hora pra quem estiver com a página aberta. Toque no título de uma mesa pra abrir só ela em cima, com espaço pra rolar a conversa; toque de novo pra voltar. Cada conversa fica na mesa até alguém marcar em andamento, finalizar ou desprezar; as encerradas ficam na dobra de cada mesa. "Levar pro Basecamp" cria a tarefa na lista da área.</p>
     <div class="bs-grid" id="grid"></div>
   </div>
 
   <footer>
-    <p>Cada mensagem traz autor, edição do Bench a que se refere e hora. A Bru lê este quadro na rotina da manhã. A sala do time fica em <a href="../sala/" style="text-decoration:underline">benchnews/sala</a>.</p>
-    <span class="sig">Bru</span>
+    <p>Cada mensagem traz autor, edição do Bench a que se refere e hora. O quadro é lido pela rotina da manhã do Bench. A sala do time fica em <a href="../sala/" style="text-decoration:underline">benchnews/sala</a>.</p>
   </footer>
 </div>
 <script>
@@ -286,10 +288,12 @@ const $ = id => document.getElementById(id);
 function note(msg){ const ro=$("ro"); ro.hidden=!msg; ro.innerHTML = msg ? `<b>Aviso.</b> ${esc(msg)}` : ""; }
 
 let RADAR = {dias:[]}; const lookup = {};
-let me = "", isAdmin = false, tab = "vendas";
+let me = "", isAdmin = false, expandida = "";
+const bcListas = {};
 const verEnc = {vendas:false,membership:false,parcerias:false,marketing:false};
 const ST = {aberta:"Aberta",andamento:"Em andamento",finalizada:"Finalizada",descartada:"Desprezada"};
 const data = {brainstorm:[], comentarios:[]};
+const ASSUNTO_MAX = 90;
 
 /* identidade por nome, igual à sala */
 const NOME_KEY = "benchnews-sala-nome";
@@ -316,14 +320,18 @@ async function entrar(nome){
   montar(); await carregar(); assinar(); setInterval(carregar, 30000);
 }
 function montar(){
-  $("tabs").innerHTML = AREAS.map(([k,l]) => `<button data-a="${k}" class="${k===tab?'on':''}">${esc(l)}<em id="n-${k}"></em></button>`).join("");
-  $("tabs").addEventListener("click", e => { const b=e.target.closest("button"); if(!b) return; tab=b.dataset.a; document.querySelectorAll(".bs-tabs button").forEach(x=>x.classList.toggle("on",x.dataset.a===tab)); document.querySelectorAll(".bs-col").forEach(c=>c.classList.toggle("on",c.dataset.a===tab)); });
   $("grid").innerHTML = AREAS.map(([k,l,sub]) => `
-    <section class="bs-col a-${k} ${k===tab?'on':''}" data-a="${k}">
-      <h2>${esc(l)}<small>${esc(sub)} e conversa direta</small></h2>
+    <section class="bs-col a-${k}" data-a="${k}">
+      <h2 data-exp="${k}"><span>${esc(l)}<em id="n-${k}"></em></span><small>${esc(sub)} e conversa direta · <span id="exp-${k}">abrir em cima</span></small></h2>
       <div class="bs-feed" id="feed-${k}"></div>
       <form class="bs-form" data-a="${k}"><textarea rows="2" placeholder="Escreva pra mesa de ${esc(l)}"></textarea><div class="row"><span class="hint">assina como ${esc(me)}</span><button class="btn sm" type="submit">Enviar</button></div></form>
     </section>`).join("");
+  $("grid").addEventListener("click", e => {
+    const h=e.target.closest("h2[data-exp]"); if(!h) return;
+    expandida = expandida===h.dataset.exp ? "" : h.dataset.exp;
+    document.querySelectorAll(".bs-col").forEach(c => { const on = c.dataset.a===expandida; c.classList.toggle("expand", on); $("exp-"+c.dataset.a).textContent = on ? "recolher" : "abrir em cima"; });
+    if (expandida) window.scrollTo({top: $("grid").offsetTop - 12, behavior:"smooth"});
+  });
   $("grid").addEventListener("submit", async e => {
     e.preventDefault(); const f=e.target; const ta=f.querySelector("textarea"); const txt=ta.value.trim(); if(!txt) return;
     const btn=f.querySelector("button"); btn.disabled=true;
@@ -340,6 +348,17 @@ function montar(){
       const { error } = await sb.from(tab).update(patch).eq("id", id);
       if (error) note("Não deu pra mudar o estado: " + (error.message||"erro")); else await carregar();
       return; }
+    const bc=e.target.closest(".bc"); if (bc){
+      const msg=bc.closest(".bs-msg"); const tab=msg.dataset.tabela, id=msg.dataset.id, area=msg.closest(".bs-col").dataset.a;
+      const lista = bcListas[area]; if (!lista){ note("A lista do Basecamp da mesa de " + area + " ainda não foi cadastrada. Peça pra Bru configurar."); return; }
+      const texto = msg.dataset.texto||""; const autor = msg.dataset.autor||""; const edicao = msg.dataset.edicao||"";
+      const assunto = texto.length>ASSUNTO_MAX ? texto.slice(0,ASSUNTO_MAX-1).trimEnd()+"…" : texto;
+      const corpo = texto + "\n\nOrigem: Brainstorm do Bench News, mesa " + area + (edicao?", edição "+fmtShort(edicao):"") + ", por " + autor + ".\n" + location.href;
+      window.open("mailto:" + encodeURIComponent(lista) + "?subject=" + encodeURIComponent(assunto) + "&body=" + encodeURIComponent(corpo), "_blank");
+      const patch = tab==="brainstorm" ? {basecamp_t:new Date().toISOString(), basecamp_por:me} : {bs_basecamp_t:new Date().toISOString(), bs_basecamp_por:me};
+      const { error } = await sb.from(tab).update(patch).eq("id", id);
+      if (error) note("Abri o email, mas não consegui marcar aqui: " + (error.message||"erro")); else await carregar();
+      return; }
     const b=e.target.closest(".apagar"); if(!b) return;
     const { error } = await sb.from("brainstorm").delete().eq("id", b.dataset.id);
     if (error) note("Não deu pra apagar: " + (error.message||"erro")); else await carregar();
@@ -347,8 +366,9 @@ function montar(){
   $("grid").addEventListener("keydown", e => { if (e.key==="Enter" && (e.metaKey||e.ctrlKey) && e.target.tagName==="TEXTAREA") e.target.form.requestSubmit(); });
 }
 async function carregar(){
-  const [b,c] = await Promise.all([sb.from("brainstorm").select("*").order("t"), sb.from("comentarios").select("*").order("t")]);
+  const [b,c,l] = await Promise.all([sb.from("brainstorm").select("*").order("t"), sb.from("comentarios").select("*").order("t"), sb.from("basecamp_listas").select("*")]);
   if (b.data) data.brainstorm=b.data; if (c.data) data.comentarios=c.data;
+  if (l.data) l.data.forEach(x => bcListas[x.area]=x.email);
   render();
 }
 function areaDoComentario(c){
@@ -360,22 +380,22 @@ function areaDoComentario(c){
 function render(){
   const por = {vendas:[],membership:[],parcerias:[],marketing:[]};
   data.comentarios.forEach(c => { if (c.tipo==="claude") return; const a=areaDoComentario(c); if(!a) return; const L=lookup[c.chave];
-    por[a].push({id:c.id, tabela:"comentarios", autor:c.email, texto:c.texto, t:c.t, edicao:L.day.data, status:c.bs_status||"aberta", ref:{titulo: L.tipo==="item"?L.obj.title:L.obj.ideia, url: L.tipo==="item"?L.obj.url:null}, origem:"sala"}); });
-  data.brainstorm.forEach(m => por[m.area].push({id:m.id, tabela:"brainstorm", autor:m.autor, texto:m.texto, t:m.t, edicao:m.edicao, status:m.status||"aberta", origem:"mesa"}));
+    por[a].push({id:c.id, tabela:"comentarios", autor:c.email, texto:c.texto, t:c.t, edicao:L.day.data, status:c.bs_status||"aberta", basecamp:c.bs_basecamp_t, ref:{titulo: L.tipo==="item"?L.obj.title:L.obj.ideia, url: L.tipo==="item"?L.obj.url:null}, origem:"sala"}); });
+  data.brainstorm.forEach(m => por[m.area].push({id:m.id, tabela:"brainstorm", autor:m.autor, texto:m.texto, t:m.t, edicao:m.edicao, status:m.status||"aberta", basecamp:m.basecamp_t, origem:"mesa"}));
   const msgHtml = m => {
     const enc = m.status==="finalizada"||m.status==="descartada";
     const acts = enc ? `<button data-st="aberta">reabrir</button>`
       : (m.status==="andamento" ? `<button data-st="finalizada">finalizar</button><button data-st="descartada">desprezar</button><button data-st="aberta">voltar pra aberta</button>`
                                 : `<button data-st="andamento">em andamento</button><button data-st="finalizada">finalizar</button><button data-st="descartada">desprezar</button>`);
-    return `<div class="bs-msg ${m.autor===me?'mine':''} st-${m.status} ${enc?'encerrada':''}" data-id="${esc(m.id)}" data-tabela="${m.tabela}">
-      <div class="who"><b>${esc(m.autor||"Alguém do time")}</b><span>${m.edicao?"edição "+fmtShort(m.edicao):""}</span><span>${fmtTs(m.t)}</span>${m.status!=="aberta"?`<span class="pill ${esc(m.status)}">${esc(ST[m.status])}</span>`:""}${m.origem==="mesa"&&(m.autor===me||isAdmin)?`<button class="apagar" data-id="${esc(m.id)}">apagar</button>`:""}</div>${esc(m.texto)}${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}
-      <div class="st">${acts}</div>
+    return `<div class="bs-msg ${m.autor===me?'mine':''} st-${m.status} ${enc?'encerrada':''}" data-id="${esc(m.id)}" data-tabela="${m.tabela}" data-texto="${esc(m.texto)}" data-autor="${esc(m.autor||"")}" data-edicao="${esc(m.edicao||"")}">
+      <div class="who"><b>${esc(m.autor||"Alguém do time")}</b><span>${m.edicao?"edição "+fmtShort(m.edicao):""}</span><span>${fmtTs(m.t)}</span>${m.status!=="aberta"?`<span class="pill ${esc(m.status)}">${esc(ST[m.status])}</span>`:""}${m.basecamp?`<span class="pill basecamp">no Basecamp</span>`:""}${m.origem==="mesa"&&(m.autor===me||isAdmin)?`<button class="apagar" data-id="${esc(m.id)}">apagar</button>`:""}</div><span class="txt">${esc(m.texto)}</span>${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}
+      <div class="st">${acts}${enc?"":`<button class="bc" type="button">${m.basecamp?"Reenviar pro Basecamp":"Levar pro Basecamp"}</button>`}</div>
     </div>`; };
   for (const k of Object.keys(por)){
     const lista = por[k].sort((x,y)=>new Date(x.t)-new Date(y.t));
     const abertas = lista.filter(m=>m.status==="aberta"||m.status==="andamento");
     const encerradas = lista.filter(m=>m.status==="finalizada"||m.status==="descartada");
-    const n=$("n-"+k); if(n) n.textContent = abertas.length||"";
+    const n=$("n-"+k); if(n) n.textContent = abertas.length ? abertas.length+" em aberto" : "";
     const feed=$("feed-"+k); const atBottom = feed.scrollHeight - feed.scrollTop - feed.clientHeight < 60;
     let h = "";
     if (encerradas.length) h += `<button class="bs-enc" data-enc="${k}">${verEnc[k]?"esconder":"ver"} encerradas (${encerradas.length})</button>`;

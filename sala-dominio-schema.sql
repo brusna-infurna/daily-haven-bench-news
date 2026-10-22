@@ -169,3 +169,12 @@ alter table brainstorm  add column if not exists status_t timestamptz;
 alter table comentarios add column if not exists bs_status text not null default 'aberta' check (bs_status in ('aberta','andamento','finalizada','descartada'));
 alter table comentarios add column if not exists bs_status_por text;
 alter table comentarios add column if not exists bs_status_t timestamptz;
+-- 22/10/2026: Basecamp por email (cada lista de to-dos do Basecamp tem endereço próprio). Cadastro por área:
+create table if not exists basecamp_listas (area text primary key check (area in ('vendas','membership','parcerias','marketing')), email text not null, projeto text);
+alter table basecamp_listas enable row level security;
+create policy basecamp_listas_anon on basecamp_listas for select to anon using (true);
+create policy basecamp_listas_auth on basecamp_listas for all to authenticated using (true) with check (true);
+alter table brainstorm  add column if not exists basecamp_t timestamptz;
+alter table brainstorm  add column if not exists basecamp_por text;
+alter table comentarios add column if not exists bs_basecamp_t timestamptz;
+alter table comentarios add column if not exists bs_basecamp_por text;
