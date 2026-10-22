@@ -62,6 +62,8 @@ EXTRA_CSS = r"""
   .int .cm{list-style:none;display:flex;flex-direction:column;gap:6px}
   .int .cm li{font-family:var(--serif2);font-size:16px;line-height:1.4;color:var(--espresso);padding:6px 0 6px 12px;border-left:2px solid var(--rule)}
   .int .cm li.claude{border-left-color:var(--teal)}
+  .bench li .int .cm li{display:block;grid-template-columns:none;padding:6px 0 6px 12px;border-bottom:0}
+  .bench li .int .cm li .who b{display:inline;font-size:10px;letter-spacing:.16em;color:var(--ink);margin:0 4px 0 0}
   .int .cm li .who{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-top:3px}
   .int .cm li .who b{color:var(--ink);font-weight:600}
   .int .ask{display:flex;flex-direction:column;gap:6px}
