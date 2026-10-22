@@ -83,26 +83,66 @@ Deno.serve(async (req) => {
       const tok = await r.json();
       const ar = await fetch(`${LAUNCHPAD}/authorization.json`, { headers: { "Authorization": `Bearer ${tok.access_token}`, "User-Agent": UA } });
       const info = await ar.json();
-      const acc = (info.accounts || []).find((a: any) => a.product === "bc3") || (info.accounts || [])[0];
+      const contas = (info.accounts || []).filter((a: any) => a.product === "bc3");
+      // Conta do Haven (6302304) tem prioridade; senão a primeira conta bc3 do login.
+      const acc = contas.find((a: any) => String(a.id) === "6302304") || contas[0] || (info.accounts || [])[0];
       if (!acc) return html("<h2>Autorizou, mas não achei uma conta do Basecamp nesse login.</h2>");
       await saveTokens(tok, { id: String(acc.id), nome: acc.name });
       return html(`<h2>Basecamp conectado.</h2><p>Conta: <b>${acc.name}</b>. Pode fechar esta aba e voltar pro Brainstorm pra escolher as listas de cada mesa.</p>`);
+    }
+    if (route === "/accounts") {
+      const a = await getAuth();
+      const ar = await fetch(`${LAUNCHPAD}/authorization.json`, { headers: { "Authorization": `Bearer ${a?.access_token}`, "User-Agent": UA } });
+      const info = await ar.json();
+      return json({ atual: a?.account_id, contas: (info.accounts || []).map((x: any) => ({ id: x.id, name: x.name, product: x.product })) });
     }
     if (route === "/status") {
       const a = await getAuth();
       return json({ connected: !!(a?.access_token && a?.account_id), account: a?.account_nome || null, client_configured: !!CLIENT_ID });
     }
+    if (route === "/trash") {
+      // Manda pra lixeira as listas indicadas e desliga as mesas que apontavam pra elas.
+      const bucket = Number(url.searchParams.get("bucket"));
+      const ids = (url.searchParams.get("ids") || "").split(",").map((s) => Number(s.trim())).filter(Boolean);
+      if (!bucket || !ids.length) return json({ error: "informe bucket e ids" }, 400);
+      const feito: any[] = [];
+      for (const id of ids) {
+        await bc(`/buckets/${bucket}/recordings/${id}/status/trashed.json`, { method: "PUT" });
+        await db.from("basecamp_listas").delete().eq("todolist_id", id);
+        feito.push(id);
+      }
+      return json({ ok: true, lixeira: feito });
+    }
     if (route === "/projects") {
+      const todos = url.searchParams.get("all") === "1";
       const projects: any[] = await bc("/projects.json");
       const out = [];
       for (const p of projects) {
         const todoset = (p.dock || []).find((d: any) => d.name === "todoset" && d.enabled);
-        if (!todoset) continue;
-        let lists: any[] = [];
-        try { lists = await bc(`/buckets/${p.id}/todosets/${todoset.id}/todolists.json`); } catch (_) { lists = []; }
-        out.push({ id: p.id, name: p.name, lists: lists.map((l: any) => ({ id: l.id, name: l.name })) });
+        if (!todoset) { if (todos) out.push({ id: p.id, name: p.name, todoset_id: null, lists: [], lists_error: "to-dos desligados nesse projeto" }); continue; }
+        let lists: any[] = []; let lists_error: string | null = null;
+        try { lists = await bc(`/buckets/${p.id}/todosets/${todoset.id}/todolists.json`); } catch (e) { lists = []; lists_error = String((e as Error).message || e); }
+        out.push({ id: p.id, name: p.name, todoset_id: todoset.id, lists: lists.map((l: any) => ({ id: l.id, name: l.name })), lists_error });
       }
       return json({ projects: out });
+    }
+    if (route === "/setup") {
+      // Cria (se faltar) uma lista por mesa no projeto indicado e liga as quatro mesas.
+      const bucket = Number(url.searchParams.get("bucket") || (await req.json().catch(() => ({}))).bucket);
+      if (!bucket) return json({ error: "informe bucket (id do projeto)" }, 400);
+      const p = await bc(`/projects/${bucket}.json`);
+      const todoset = (p.dock || []).find((d: any) => d.name === "todoset" && d.enabled);
+      if (!todoset) return json({ error: "projeto sem to-dos habilitados" }, 400);
+      const existentes: any[] = await bc(`/buckets/${bucket}/todosets/${todoset.id}/todolists.json`);
+      const nomes: Record<string, string> = { vendas: "Brainstorm · Vendas", membership: "Brainstorm · Membership", parcerias: "Brainstorm · Parcerias", marketing: "Brainstorm · Marketing/Social" };
+      const feito: any[] = [];
+      for (const area of Object.keys(nomes)) {
+        let l = existentes.find((x: any) => x.name === nomes[area]);
+        if (!l) l = await bc(`/buckets/${bucket}/todosets/${todoset.id}/todolists.json`, { method: "POST", body: JSON.stringify({ name: nomes[area], description: "Conversas levadas do Brainstorm do Haven Bench News (mesa de " + area + ")." }) });
+        await db.from("basecamp_listas").upsert({ area, bucket_id: bucket, todolist_id: l.id, projeto: p.name, lista: l.name });
+        feito.push({ area, lista: l.name, id: l.id, url: l.app_url });
+      }
+      return json({ ok: true, projeto: p.name, listas: feito });
     }
     if (route === "/config" && req.method === "POST") {
       const b = await req.json();
