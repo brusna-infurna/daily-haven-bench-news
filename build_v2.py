@@ -46,6 +46,7 @@ V2 = r"""
   /* filtros em uma linha */
   .chips{display:flex;align-items:center;gap:6px;padding:10px 0;border-bottom:1px solid var(--rule);overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
   .chips::-webkit-scrollbar{display:none}
+  .chips [data-f]{display:flex;gap:4px;flex:none;align-items:center}
   .chips .lbl{font-family:var(--sans);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--terracotta);font-weight:700;margin:0 4px 0 14px;flex:none}
   .chips .lbl:first-child{margin-left:0}
   .chips button{font-family:var(--serif2);font-size:16px;font-weight:500;background:transparent;border:1px solid transparent;border-radius:14px;color:var(--soft);cursor:pointer;padding:3px 10px;line-height:1.2;white-space:nowrap;flex:none}
@@ -78,9 +79,7 @@ V2 = r"""
   .bench,.open{scroll-margin-top:60px}
   .art{gap:10px;padding-bottom:26px}
   .art h3{font-size:23px;line-height:1.2}
-  .art:not(.aberto) h3,.art:not(.aberto) .txt{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
-  .art:not(.aberto) h3{-webkit-line-clamp:3}
-  .art:not(.aberto) .txt{-webkit-line-clamp:4}
+  .art:not(.aberto) .txt{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;-webkit-line-clamp:4}
   .art .txt{font-size:17px}
   .art .use{background:var(--paper);border-left:3px solid var(--terracotta);padding:10px 12px 10px 14px;font-size:16.5px}
   .art .use i{font-size:10px}
@@ -88,7 +87,6 @@ V2 = r"""
   .art .foot{flex-direction:row;flex-wrap:wrap;gap:4px 10px;font-size:10.5px;letter-spacing:.08em}
   .art .foot span+span:before{content:"·";margin-right:10px;color:var(--mute)}
   .brief h3{font-size:19px}
-  .brief:not(.aberto) h3{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;-webkit-line-clamp:3}
 
   /* faixa ao vivo (sala) */
   .strip{display:flex;align-items:stretch;gap:0;border-bottom:1px solid var(--rule-strong);background:var(--paper);margin-top:0}
@@ -290,8 +288,7 @@ function intHtml(key, isBench){
 const tagHtml = i => `<div class="tag">${esc(PILAR[i.pilar]||i.pilar)}<span>${i.escopo==="brasil"?"Brasil":"Mundo"} · ${esc(i.region||"")}</span></div>`;
 const artHtml = (i,key) => `<article class="art p-${esc(i.pilar)} ${abertos.has(key)?"aberto":""}" data-k="${esc(key)}">${tagHtml(i)}<h3><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3><p class="txt">${esc(i.resumo)}</p><button class="mais" type="button">${abertos.has(key)?"fechar":"ler tudo"}</button><div class="use"><i>O que o Haven faz com isso</i>${esc(i.por_que_importa)}</div><div class="foot"><span><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}</a></span><span>${fmtShort(i.date)}</span><span>${(i.para||[]).map(esc).join(" · ")}</span></div>${intHtml(key,false)}</article>`;
 const briefHtml = (i,key) => `<article class="brief p-${esc(i.pilar)}" data-k="${esc(key)}">${tagHtml(i)}<h3><a href="${esc(i.url)}" target="_blank" rel="noopener" title="${esc(i.title)}">${esc(i.title)}</a></h3><p class="use">${esc(i.por_que_importa)}</p><div class="foot"><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}</a> · ${fmtShort(i.date)} · ${(i.para||[]).map(esc).join(" · ")}</div>${intHtml(key,false)}</article>`;
-const splitIdeia = t => { const s=String(t||""); const m = s.match(/^(.{20,110}?[.:])\s+(.*)$/s); return m ? `<strong>${esc(m[1].replace(/[.:]$/,""))}</strong>${esc(m[2])}` : esc(s); };
-const benchHtml = (b,n,key) => `<li><span class="k"></span><div><b data-n="${String(n).padStart(2,"0")}">${esc(b.area||b.para||"")}</b><p>${splitIdeia(b.ideia)}</p>${b.ref?`<div class="ref"><i>A partir de</i>${b.url?`<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.ref)}</a>`:esc(b.ref)}</div>`:""}${intHtml(key,true)}</div></li>`;
+const benchHtml = (b,n,key) => `<li><span class="k"></span><div><b data-n="${String(n).padStart(2,"0")}">${esc(b.area||b.para||"")}</b><p>${b.titulo?`<strong>${esc(b.titulo)}</strong>`:""}${esc(b.ideia)}</p>${b.ref?`<div class="ref"><i>A partir de</i>${b.url?`<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.ref)}</a>`:esc(b.ref)}</div>`:""}${intHtml(key,true)}</div></li>`;
 const splitWatch = a => { const m = String(a).match(/^([^:]{2,24}):\s*(.*)$/s); return m ? `<span><b>${esc(m[1])}</b>${esc(m[2])}</span>` : `<span>${esc(a)}</span>`; };
 
 function render(){
