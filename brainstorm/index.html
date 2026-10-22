@@ -248,6 +248,9 @@
   .bc-box label{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);display:block;margin-bottom:4px}
   .bc-box select{font-size:15px;padding:8px 10px}
   .bc-box .ok{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--forest)}
+
+  .bs-resp{margin-top:8px;padding:8px 0 2px 12px;border-left:2px solid var(--teal);font-family:var(--serif2);font-size:16px;line-height:1.42;color:var(--ink);white-space:pre-wrap}
+  .bs-resp i{font-family:var(--sans);font-style:normal;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);display:block;margin-bottom:4px}
   .live{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);display:inline-flex;align-items:center;gap:6px}
   .live i{width:7px;height:7px;border-radius:50%;background:var(--sand);display:inline-block}
   .live.on i{background:var(--forest)}
@@ -309,6 +312,7 @@ const verEnc = {vendas:false,membership:false,parcerias:false,marketing:false};
 const ST = {aberta:"Aberta",andamento:"Em andamento",finalizada:"Finalizada",descartada:"Desprezada"};
 const data = {brainstorm:[], comentarios:[]};
 const ASSUNTO_MAX = 90;
+const respDe = m => { const R = m.tabela==="brainstorm" ? (RADAR.respostas_brainstorm||{}) : (RADAR.respostas_comentarios||{}); const r = R[m.id]; return r && r.resposta ? `<div class="bs-resp"><i>Bru, via Bench${r.t?" · "+esc(String(r.t).replace("T"," ")):""}</i>${esc(r.resposta)}</div>` : ""; };
 
 /* identidade por nome, igual à sala */
 const NOME_KEY = "benchnews-sala-nome";
@@ -406,7 +410,7 @@ function render(){
       : (m.status==="andamento" ? `<button data-st="finalizada">finalizar</button><button data-st="descartada">desprezar</button><button data-st="aberta">voltar pra aberta</button>`
                                 : `<button data-st="andamento">em andamento</button><button data-st="finalizada">finalizar</button><button data-st="descartada">desprezar</button>`);
     return `<div class="bs-msg ${m.autor===me?'mine':''} st-${m.status} ${enc?'encerrada':''}" data-id="${esc(m.id)}" data-tabela="${m.tabela}" data-texto="${esc(m.texto)}" data-autor="${esc(m.autor||"")}" data-edicao="${esc(m.edicao||"")}">
-      <div class="who"><b>${esc(m.autor||"Alguém do time")}</b><span>${m.edicao?"edição "+fmtShort(m.edicao):""}</span><span>${fmtTs(m.t)}</span>${m.status!=="aberta"?`<span class="pill ${esc(m.status)}">${esc(ST[m.status])}</span>`:""}${m.basecamp?(m.basecampUrl?`<a class="pill basecamp" href="${esc(m.basecampUrl)}" target="_blank" rel="noopener">no Basecamp ↗</a>`:`<span class="pill basecamp">no Basecamp</span>`):""}${m.origem==="mesa"&&(m.autor===me||isAdmin)?`<button class="apagar" data-id="${esc(m.id)}">apagar</button>`:""}</div><span class="txt">${esc(m.texto)}</span>${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}
+      <div class="who"><b>${esc(m.autor||"Alguém do time")}</b><span>${m.edicao?"edição "+fmtShort(m.edicao):""}</span><span>${fmtTs(m.t)}</span>${m.status!=="aberta"?`<span class="pill ${esc(m.status)}">${esc(ST[m.status])}</span>`:""}${m.basecamp?(m.basecampUrl?`<a class="pill basecamp" href="${esc(m.basecampUrl)}" target="_blank" rel="noopener">no Basecamp ↗</a>`:`<span class="pill basecamp">no Basecamp</span>`):""}${m.origem==="mesa"&&(m.autor===me||isAdmin)?`<button class="apagar" data-id="${esc(m.id)}">apagar</button>`:""}</div><span class="txt">${esc(m.texto)}</span>${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}${respDe(m)}
       <div class="st">${acts}${enc?"":`<button class="bc" type="button">${m.basecamp?"Reenviar pro Basecamp":"Levar pro Basecamp"}</button>`}</div>
     </div>`; };
   for (const k of Object.keys(por)){

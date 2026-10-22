@@ -208,6 +208,9 @@
   .top .me{font-family:var(--sans);font-size:12px;color:var(--soft);letter-spacing:0;text-transform:none}
   .top .me b{color:var(--ink)}
   .top .btn.sm{font-size:10px;padding:6px 10px}
+
+  .bs-resp{margin-top:8px;padding:8px 0 2px 12px;border-left:2px solid var(--teal);font-family:var(--serif2);font-size:16px;line-height:1.42;color:var(--ink);white-space:pre-wrap}
+  .bs-resp i{font-family:var(--sans);font-style:normal;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);display:block;margin-bottom:4px}
   .live{font-family:var(--sans);font-size:11px;color:var(--mute);display:inline-flex;align-items:center;gap:6px}
   .live i{width:7px;height:7px;border-radius:50%;background:var(--sand);display:inline-block}
   .live.on i{background:var(--forest)}
@@ -323,6 +326,7 @@ const verEnc = {vendas:false,membership:false,parcerias:false,marketing:false};
 const ST = {aberta:"Aberta",andamento:"Em andamento",finalizada:"Finalizada",descartada:"Desprezada"};
 const data = {brainstorm:[], comentarios:[]};
 const ASSUNTO_MAX = 90;
+const respDe = m => { const R = m.tabela==="brainstorm" ? (RADAR.respostas_brainstorm||{}) : (RADAR.respostas_comentarios||{}); const r = R[m.id]; return r && r.resposta ? `<div class="bs-resp"><i>Bru, via Bench${r.t?" · "+esc(String(r.t).replace("T"," ")):""}</i>${esc(r.resposta)}</div>` : ""; };
 const nome = a => { if(!a) return "Alguém do time"; const k=String(a).toLowerCase(); if (nomes[k]) return nomes[k]; if (k.includes("@")) return k.split("@")[0].replace(/[._]/g," ").replace(/\b\w/g,c=>c.toUpperCase()); return a; };
 
 const NOME_KEY = "benchnews-sala-nome";
@@ -434,7 +438,7 @@ function render(){
     const del = m.origem==="mesa"&&(mine||isAdmin) ? `<button class="apagar" data-id="${esc(m.id)}">Apagar</button>` : "";
     return `<div class="msg ${mine?'mine':''} st-${m.status} ${enc?'encerrada':''}" data-id="${esc(m.id)}" data-tabela="${m.tabela}" data-texto="${esc(m.texto)}" data-autor="${esc(m.autor||"")}" data-edicao="${esc(m.edicao||"")}">
       <div class="head"><b>${esc(nome(m.autor))}</b><span>${fmtTs(m.t)}</span>${m.edicao?`<span>· ed. ${fmtShort(m.edicao)}</span>`:""}${m.status!=="aberta"?`<span class="tag ${esc(m.status)}">${esc(ST[m.status])}</span>`:""}${m.basecamp?(m.basecampUrl?`<a class="tag basecamp" href="${esc(m.basecampUrl)}" target="_blank" rel="noopener">no Basecamp ↗</a>`:`<span class="tag basecamp">no Basecamp</span>`):""}<details class="acts"><summary title="ações">···</summary><div class="menu">${acts}${bcBtn}${del}</div></details></div>
-      <span class="txt">${esc(m.texto)}</span>${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}
+      <span class="txt">${esc(m.texto)}</span>${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}${respDe(m)}
     </div>`; };
   for (const k of Object.keys(por)){
     const lista = por[k].sort((x,y)=>new Date(x.t)-new Date(y.t));

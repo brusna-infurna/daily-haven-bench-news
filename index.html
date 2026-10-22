@@ -260,6 +260,7 @@
   .art .mais{font-family:var(--sans);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--terracotta);background:none;border:0;cursor:pointer;padding:0;align-self:flex-start;text-decoration:underline;text-underline-offset:3px}
   .art .foot{flex-direction:row;flex-wrap:wrap;gap:4px 10px;font-size:10.5px;letter-spacing:.08em}
   .art .foot span+span:before{content:"·";margin-right:10px;color:var(--mute)}
+  .tag em.time{font-style:normal;color:var(--teal);margin-left:10px;letter-spacing:.14em;font-weight:600}
   .brief h3{font-size:19px}
 
   /* faixa ao vivo (sala) */
@@ -429,7 +430,7 @@ function intHtml(key, isBench){
   }
   return h + `</div>`;
 }
-const tagHtml = i => `<div class="tag">${esc(PILAR[i.pilar]||i.pilar)}<span>${i.escopo==="brasil"?"Brasil":"Mundo"} · ${esc(i.region||"")}</span></div>`;
+const tagHtml = i => `<div class="tag">${esc(PILAR[i.pilar]||i.pilar)}${i.origem==="time"?`<em class="time">trazido pelo time</em>`:""}<span>${i.escopo==="brasil"?"Brasil":"Mundo"} · ${esc(i.region||"")}</span></div>`;
 const artHtml = (i,key) => `<article class="art p-${esc(i.pilar)} ${abertos.has(key)?"aberto":""}" data-k="${esc(key)}">${tagHtml(i)}<h3><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3><p class="txt">${esc(i.resumo)}</p><button class="mais" type="button">${abertos.has(key)?"fechar":"ler tudo"}</button><div class="use"><i>O que o Haven faz com isso</i>${esc(i.por_que_importa)}</div><div class="foot"><span><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}</a></span><span>${fmtShort(i.date)}</span><span>${(i.para||[]).map(esc).join(" · ")}</span></div>${intHtml(key,false)}</article>`;
 const briefHtml = (i,key) => `<article class="brief p-${esc(i.pilar)}" data-k="${esc(key)}">${tagHtml(i)}<h3><a href="${esc(i.url)}" target="_blank" rel="noopener" title="${esc(i.title)}">${esc(i.title)}</a></h3><p class="use">${esc(i.por_que_importa)}</p><div class="foot"><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}</a> · ${fmtShort(i.date)} · ${(i.para||[]).map(esc).join(" · ")}</div>${intHtml(key,false)}</article>`;
 const benchHtml = (b,n,key) => `<li><span class="k"></span><div><b data-n="${String(n).padStart(2,"0")}">${esc(b.area||b.para||"")}</b><p>${b.titulo?`<strong>${esc(b.titulo)}</strong>`:""}${esc(b.ideia)}</p>${b.ref?`<div class="ref"><i>A partir de</i>${b.url?`<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.ref)}</a>`:esc(b.ref)}</div>`:""}${intHtml(key,true)}</div></li>`;
