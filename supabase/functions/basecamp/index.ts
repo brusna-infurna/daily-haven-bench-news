@@ -57,9 +57,9 @@ async function accessToken(): Promise<{ token: string; account: string }> {
   return { token: a.access_token, account: a.account_id };
 }
 
-async function bc(path: string, init: RequestInit = {}) {
+async function bc(path: string, init: RequestInit = {}, conta?: string | number | null) {
   const { token, account } = await accessToken();
-  const url = path.startsWith("http") ? path : `https://3.basecampapi.com/${account}${path}`;
+  const url = path.startsWith("http") ? path : `https://3.basecampapi.com/${conta || account}${path}`;
   const r = await fetch(url, { ...init, headers: { ...(init.headers || {}), "Authorization": `Bearer ${token}`, "User-Agent": UA, "Content-Type": "application/json" } });
   if (!r.ok) throw new Error(`Basecamp respondeu ${r.status} em ${path}: ${(await r.text()).slice(0, 300)}`);
   return r.status === 204 ? null : await r.json();
@@ -126,22 +126,39 @@ Deno.serve(async (req) => {
       }
       return json({ projects: out });
     }
-    if (route === "/setup-unico") {
-      // Cria (se faltar) o projeto e UMA lista pra todas as mesas; a mesa vai no título do to-do.
-      const projNome = url.searchParams.get("projeto") || "Brainstorm Bench News";
-      const listaNome = url.searchParams.get("lista") || "ToDo Brainstorm BenchNews";
-      const projects: any[] = await bc("/projects.json");
-      let p = projects.find((x: any) => x.name === projNome);
-      if (!p) p = await bc("/projects.json", { method: "POST", body: JSON.stringify({ name: projNome, description: "Conversas levadas do Brainstorm do Haven Bench News." }) });
-      const todoset = (p.dock || []).find((d: any) => d.name === "todoset" && d.enabled);
-      if (!todoset) return json({ error: "projeto sem to-dos habilitados", projeto: p.name }, 400);
-      const existentes: any[] = await bc(`/buckets/${p.id}/todosets/${todoset.id}/todolists.json`);
-      let l = existentes.find((x: any) => x.name === listaNome);
-      if (!l) l = await bc(`/buckets/${p.id}/todosets/${todoset.id}/todolists.json`, { method: "POST", body: JSON.stringify({ name: listaNome, description: "Cada to-do traz a mesa (Vendas, Membership, Parcerias, Marketing/Social) no título." }) });
-      for (const area of ["vendas", "membership", "parcerias", "marketing"]) {
-        await db.from("basecamp_listas").upsert({ area, bucket_id: p.id, todolist_id: l.id, projeto: p.name, lista: l.name });
+    if (route === "/setup-mapa") {
+      // Mapa definitivo: lista "Brainstorm Bench News" nos To-dos de um projeto por mesa.
+      //   vendas     -> projeto "Vendas" (conta Haven, cria se faltar)
+      //   parcerias  -> projeto "Parcerias" (conta Haven, cria se faltar)
+      //   membership -> projeto "Membership Club" (conta Haven)
+      //   marketing  -> projeto "Haven - MKT" (conta Omi, 5696129)
+      const LISTA = "Brainstorm Bench News";
+      const HAVEN = "6302304", OMI = "5696129";
+      const mapa: Record<string, { conta: string; projeto: string; criar: boolean }> = {
+        vendas: { conta: HAVEN, projeto: "Vendas", criar: true },
+        parcerias: { conta: HAVEN, projeto: "Parcerias", criar: true },
+        membership: { conta: HAVEN, projeto: "Membership Club", criar: false },
+        marketing: { conta: OMI, projeto: "Haven - MKT", criar: false },
+      };
+      const cache: Record<string, any[]> = {};
+      const feito: any[] = [];
+      for (const area of Object.keys(mapa)) {
+        const m = mapa[area];
+        if (!cache[m.conta]) cache[m.conta] = await bc("/projects.json", {}, m.conta);
+        let p = cache[m.conta].find((x: any) => x.name === m.projeto);
+        if (!p && m.criar) { p = await bc("/projects.json", { method: "POST", body: JSON.stringify({ name: m.projeto }) }, m.conta); cache[m.conta].push(p); }
+        if (!p) { feito.push({ area, erro: `projeto ${m.projeto} não encontrado na conta ${m.conta}` }); continue; }
+        const todoset = (p.dock || []).find((d: any) => d.name === "todoset" && d.enabled);
+        if (!todoset) { feito.push({ area, erro: `to-dos desligados em ${p.name}` }); continue; }
+        const existentes: any[] = await bc(`/buckets/${p.id}/todosets/${todoset.id}/todolists.json`, {}, m.conta);
+        let l = existentes.find((x: any) => x.name === LISTA);
+        if (!l) l = await bc(`/buckets/${p.id}/todosets/${todoset.id}/todolists.json`, { method: "POST", body: JSON.stringify({ name: LISTA, description: "Conversas levadas do Brainstorm do Haven Bench News." }) }, m.conta);
+        await db.from("basecamp_listas").upsert({ area, account_id: m.conta, bucket_id: p.id, todolist_id: l.id, projeto: p.name, lista: l.name });
+        feito.push({ area, conta: m.conta, projeto: p.name, lista: l.name, url: l.app_url });
       }
-      return json({ ok: true, projeto: p.name, projeto_url: p.app_url, lista: l.name, lista_url: l.app_url });
+      const lixo = url.searchParams.get("trash_project");
+      if (lixo) { try { await bc(`/projects/${lixo}.json`, { method: "DELETE" }, HAVEN); } catch (e) { feito.push({ trash_project: lixo, erro: String((e as Error).message) }); } }
+      return json({ ok: true, mapa: feito });
     }
     if (route === "/setup") {
       // Cria (se faltar) uma lista por mesa no projeto indicado e liga as quatro mesas.
@@ -172,11 +189,9 @@ Deno.serve(async (req) => {
       const b = await req.json();
       const { data: cfg } = await db.from("basecamp_listas").select("*").eq("area", b.area).maybeSingle();
       if (!cfg?.bucket_id || !cfg?.todolist_id) return json({ error: `A mesa de ${b.area} ainda não está ligada a uma lista do Basecamp.` }, 400);
-      const mesa: Record<string, string> = { vendas: "Vendas", membership: "Membership", parcerias: "Parcerias", marketing: "Marketing/Social" };
-      let content = String(b.content || "").trim().slice(0, 180);
+      const content = String(b.content || "").trim().slice(0, 200);
       if (!content) return json({ error: "sem texto" }, 400);
-      if (mesa[b.area]) content = `[${mesa[b.area]}] ${content}`;
-      const todo = await bc(`/buckets/${cfg.bucket_id}/todolists/${cfg.todolist_id}/todos.json`, { method: "POST", body: JSON.stringify({ content, description: b.description || "" }) });
+      const todo = await bc(`/buckets/${cfg.bucket_id}/todolists/${cfg.todolist_id}/todos.json`, { method: "POST", body: JSON.stringify({ content, description: b.description || "" }) }, cfg.account_id);
       const app_url = todo?.app_url || null;
       if (b.tabela && b.id) {
         const patch = b.tabela === "brainstorm"

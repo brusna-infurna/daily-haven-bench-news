@@ -189,3 +189,8 @@ alter table brainstorm  add column if not exists basecamp_url text;
 alter table comentarios add column if not exists bs_basecamp_url text;
 -- Segredos da função: BASECAMP_CLIENT_ID e BASECAMP_CLIENT_SECRET (registro em launchpad.37signals.com/integrations,
 -- redirect URI = <SUPABASE_URL>/functions/v1/basecamp/callback). Autorizar uma vez em /functions/v1/basecamp/authorize.
+
+-- 22/10 (tarde): Basecamp por mesa. basecamp_listas ganhou account_id (conta do Basecamp da lista).
+-- Mapa definitivo (rota /setup-mapa): vendas -> projeto "Vendas" (conta Haven 6302304); parcerias -> "Parcerias" (Haven);
+-- membership -> "Membership Club" (Haven); marketing -> "Haven - MKT" (conta Omi 5696129). Lista "Brainstorm Bench News" em cada um.
+alter table public.basecamp_listas add column if not exists account_id text;
