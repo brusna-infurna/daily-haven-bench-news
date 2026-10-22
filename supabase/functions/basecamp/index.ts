@@ -126,6 +126,23 @@ Deno.serve(async (req) => {
       }
       return json({ projects: out });
     }
+    if (route === "/setup-unico") {
+      // Cria (se faltar) o projeto e UMA lista pra todas as mesas; a mesa vai no título do to-do.
+      const projNome = url.searchParams.get("projeto") || "Brainstorm Bench News";
+      const listaNome = url.searchParams.get("lista") || "ToDo Brainstorm BenchNews";
+      const projects: any[] = await bc("/projects.json");
+      let p = projects.find((x: any) => x.name === projNome);
+      if (!p) p = await bc("/projects.json", { method: "POST", body: JSON.stringify({ name: projNome, description: "Conversas levadas do Brainstorm do Haven Bench News." }) });
+      const todoset = (p.dock || []).find((d: any) => d.name === "todoset" && d.enabled);
+      if (!todoset) return json({ error: "projeto sem to-dos habilitados", projeto: p.name }, 400);
+      const existentes: any[] = await bc(`/buckets/${p.id}/todosets/${todoset.id}/todolists.json`);
+      let l = existentes.find((x: any) => x.name === listaNome);
+      if (!l) l = await bc(`/buckets/${p.id}/todosets/${todoset.id}/todolists.json`, { method: "POST", body: JSON.stringify({ name: listaNome, description: "Cada to-do traz a mesa (Vendas, Membership, Parcerias, Marketing/Social) no título." }) });
+      for (const area of ["vendas", "membership", "parcerias", "marketing"]) {
+        await db.from("basecamp_listas").upsert({ area, bucket_id: p.id, todolist_id: l.id, projeto: p.name, lista: l.name });
+      }
+      return json({ ok: true, projeto: p.name, projeto_url: p.app_url, lista: l.name, lista_url: l.app_url });
+    }
     if (route === "/setup") {
       // Cria (se faltar) uma lista por mesa no projeto indicado e liga as quatro mesas.
       const bucket = Number(url.searchParams.get("bucket") || (await req.json().catch(() => ({}))).bucket);
@@ -155,8 +172,10 @@ Deno.serve(async (req) => {
       const b = await req.json();
       const { data: cfg } = await db.from("basecamp_listas").select("*").eq("area", b.area).maybeSingle();
       if (!cfg?.bucket_id || !cfg?.todolist_id) return json({ error: `A mesa de ${b.area} ainda não está ligada a uma lista do Basecamp.` }, 400);
-      const content = String(b.content || "").trim().slice(0, 200);
+      const mesa: Record<string, string> = { vendas: "Vendas", membership: "Membership", parcerias: "Parcerias", marketing: "Marketing/Social" };
+      let content = String(b.content || "").trim().slice(0, 180);
       if (!content) return json({ error: "sem texto" }, 400);
+      if (mesa[b.area]) content = `[${mesa[b.area]}] ${content}`;
       const todo = await bc(`/buckets/${cfg.bucket_id}/todolists/${cfg.todolist_id}/todos.json`, { method: "POST", body: JSON.stringify({ content, description: b.description || "" }) });
       const app_url = todo?.app_url || null;
       if (b.tabela && b.id) {

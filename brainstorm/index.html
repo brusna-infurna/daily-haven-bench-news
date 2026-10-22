@@ -430,7 +430,8 @@ async function bcInit(){
   if (!bcStatus || !bcStatus.client_configured){ txt.innerHTML = "Integração ainda não configurada. Falta registrar a integração no Basecamp e guardar as chaves no Supabase."; return; }
   if (!bcStatus.connected){ txt.innerHTML = `Basecamp ainda não autorizado. <a href="${esc(FN)}/authorize" style="text-decoration:underline">Autorizar com a conta do Haven</a> (uma vez, por quem administra).`; return; }
   const ligadas = AREAS.filter(([k])=>bcListas[k]&&bcListas[k].todolist_id).length;
-  txt.innerHTML = `Conectado à conta <b>${esc(bcStatus.account||"")}</b>. ${ligadas===4?'<span class="ok">as quatro mesas estão ligadas a listas</span>':`${ligadas} de 4 mesas ligadas a listas.`} <button class="btn sm ghost" id="bc-cfg" type="button">${ligadas===4?"Mudar listas":"Escolher listas"}</button>`;
+  const unica = ligadas===4 && new Set(AREAS.map(([k])=>bcListas[k].todolist_id)).size===1 ? bcListas[AREAS[0][0]] : null;
+  txt.innerHTML = `Conectado à conta <b>${esc(bcStatus.account||"")}</b>. ${unica?`<span class="ok">as quatro mesas vão pra lista <b>${esc(unica.lista||"")}</b> (${esc(unica.projeto||"")})</span>, com a mesa no título do to-do.`:ligadas===4?'<span class="ok">as quatro mesas estão ligadas a listas</span>':`${ligadas} de 4 mesas ligadas a listas.`} <button class="btn sm ghost" id="bc-cfg" type="button">${ligadas===4?"Mudar listas":"Escolher listas"}</button>`;
   $("bc-cfg").addEventListener("click", async () => {
     $("bc-cfg").disabled=true; $("bc-cfg").textContent="Carregando projetos...";
     try { bcProjects = (await (await fetch(FN + "/projects", {headers:{"apikey":SB_KEY}})).json()).projects || []; } catch(e){ note("Não consegui listar os projetos do Basecamp."); $("bc-cfg").disabled=false; return; }
