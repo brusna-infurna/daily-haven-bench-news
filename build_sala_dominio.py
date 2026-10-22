@@ -21,6 +21,7 @@ extra += r"""
   .login h2{font-family:var(--serif);font-weight:500;font-style:italic;font-size:26px;margin-bottom:8px}
   .login p{font-family:var(--serif2);font-size:17px;line-height:1.45;color:var(--espresso);margin-bottom:14px}
   .top-actions{display:flex;gap:14px;align-items:center}
+  input[type=email],input[type=password]{font-family:var(--serif2);font-size:17px;line-height:1.4;color:var(--ink);background:var(--paper);border:1px solid var(--rule);padding:10px 12px;width:100%}
   .int .cm li .resp{margin-top:8px;padding:8px 0 2px 12px;border-left:2px solid var(--teal);font-size:16px}
   .int .cm li .resp i{font-family:var(--sans);font-style:normal;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);display:block;margin-bottom:4px}
 """
@@ -56,7 +57,7 @@ TEMPLATE = r"""<!doctype html>
   <section class="login" id="login" hidden>
     <h2>Entrar na sala</h2>
     <p>Digite o email que a Bru cadastrou. Você recebe um link e entra sem senha.</p>
-    <form class="form" id="login-form"><input type="email" id="login-email" placeholder="seu@email.com" required><button class="btn" type="submit" id="login-btn">Mandar o link</button><div class="note" id="login-note"></div></form>
+    <form class="form" id="login-form"><input type="email" id="login-email" placeholder="seu@email.com" required><input type="password" id="login-pass" placeholder="Senha (se a Bru te deu uma)" autocomplete="current-password"><div class="row"><button class="btn" type="submit" id="login-btn">Entrar</button><button class="btn ghost" type="button" id="login-link">Mandar link por email</button></div><div class="note" id="login-note"></div></form>
   </section>
 
   <div id="app" hidden>
@@ -122,14 +123,23 @@ function note(msg){ const ro=$("ro"); ro.hidden=!msg; ro.innerHTML = msg ? `<b>A
 
 /* login por link no email */
 $("login-form").addEventListener("submit", async e => {
-  e.preventDefault(); const email = $("login-email").value.trim().toLowerCase(); if(!email) return;
-  $("login-btn").disabled = true; $("login-note").textContent = "Enviando...";
+  e.preventDefault(); const email = $("login-email").value.trim().toLowerCase(); const pass = $("login-pass").value; if(!email) return;
+  if (!pass) { $("login-note").textContent = "Digite a senha, ou peça o link por email."; return; }
+  $("login-btn").disabled = true; $("login-note").textContent = "Entrando...";
+  const { data, error } = await sb.auth.signInWithPassword({ email, password: pass });
+  $("login-btn").disabled = false;
+  if (error) { $("login-note").textContent = "Não entrou. Motivo: " + (error.message||"desconhecido"); return; }
+  $("login-note").textContent = ""; if (data && data.session) entrar(data.session);
+});
+$("login-link").addEventListener("click", async () => {
+  const email = $("login-email").value.trim().toLowerCase(); if(!email) { $("login-note").textContent="Digite o email."; return; }
+  $("login-link").disabled = true; $("login-note").textContent = "Enviando...";
   const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin + location.pathname } });
   const m = error && String(error.message||"").toLowerCase();
   $("login-note").textContent = !error ? "Link enviado. Abra o email neste mesmo aparelho e clique."
     : (m.includes("rate limit") ? "O serviço de email atingiu o limite de envios por hora. Tente de novo em uma hora, ou use o link que já chegou no seu email."
     : "Não deu pra mandar o link. Motivo: " + (error.message||"desconhecido"));
-  $("login-btn").disabled = false;
+  $("login-link").disabled = false;
 });
 $("sair").addEventListener("click", async () => { await sb.auth.signOut(); location.reload(); });
 
