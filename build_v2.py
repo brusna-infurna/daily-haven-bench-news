@@ -47,6 +47,7 @@ V2 = r"""
   .chips{display:flex;align-items:center;gap:6px;padding:10px 0;border-bottom:1px solid var(--rule);overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
   .chips::-webkit-scrollbar{display:none}
   .chips [data-f]{display:flex;gap:4px;flex:none;align-items:center}
+  @media(min-width:960px){.chips{flex-wrap:wrap;row-gap:8px;overflow:visible}.chips .n{margin-left:auto}}
   .chips .lbl{font-family:var(--sans);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--terracotta);font-weight:700;margin:0 4px 0 14px;flex:none}
   .chips .lbl:first-child{margin-left:0}
   .chips button{font-family:var(--serif2);font-size:16px;font-weight:500;background:transparent;border:1px solid transparent;border-radius:14px;color:var(--soft);cursor:pointer;padding:3px 10px;line-height:1.2;white-space:nowrap;flex:none}
