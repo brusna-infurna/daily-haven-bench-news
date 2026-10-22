@@ -16,9 +16,9 @@ A página é estática e lê o radar-data.json do GitHub Pages ao abrir, então 
 
 ## Rotina da manhã
 
-Leitura: POST em `URL/rest/v1/rpc/sala_export` com headers `apikey: CHAVE_ANON` e `Content-Type: application/json`, corpo `{"p_token":"SEGREDO"}`. Devolve votos, comentários, pautas e ideias com o nome de quem escreveu.
+Leitura (GET, funciona com WebFetch): `URL/rest/v1/rpc/sala_export?apikey=CHAVE_PUBLISHABLE&select=*&p_token=SEGREDO&limit=5`. A função precisa estar marcada `stable`.
 
-Resposta a uma pauta: POST em `URL/rest/v1/rpc/sala_responder` com `{"p_token":"SEGREDO","p_id":"uuid","p_edicao":"2026-10-23","p_resposta":"texto"}`.
+Resposta a uma pauta: a rotina não grava no Supabase (só faz GET). Ela escreve em radar-data.json, no topo, `respostas_sala: {"<id da pauta>": {"edicao": "AAAA-MM-DD", "resposta": "texto"}}`, e a página cruza pelo id. A função sala_responder fica no banco como alternativa manual.
 
 O segredo fica no prompt da tarefa agendada (privado da conta da Bru), nunca na página.
 

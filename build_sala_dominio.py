@@ -204,7 +204,9 @@ function render(){
   } else if (rest.length) html += `<div class="sec"><h2>Em pauta</h2><span>${rest.length} ${rest.length>1?"itens":"item"}</span></div><div class="pauta">${rest.map(x=>briefHtml(x.i,x.key)).join("")}</div>`;
   if (!list.length) html += `<div class="empty">Nenhum item com esses filtros. Escolha outro pilar ou volte pra tudo.</div>`;
   $("main").innerHTML = html;
-  $("pautas").innerHTML = shared.pautas.length ? shared.pautas.map(p=>`<li>${esc(p.texto)}<div class="who"><b>${esc(nameOf(p.email))}</b> ${fmtTs(p.t)} · ${p.status==="respondida"?"respondida na edição "+fmtShort(p.edicao||""):"aberta"}${(p.email===meEmail||isAdmin)?` · <button class="toggle" data-act="apagar-pauta" data-id="${esc(p.id)}">apagar</button>`:""}</div>${p.resposta?`<div class="resp"><i>Resposta da Bru</i>${esc(p.resposta)}</div>`:""}</li>`).join("")
+  const RS = RADAR.respostas_sala || {};
+  $("pautas").innerHTML = shared.pautas.length ? shared.pautas.map(p=>{ const r = RS[p.id]; const resp = (r&&r.resposta)||p.resposta; const ed = (r&&r.edicao)||p.edicao; const done = p.status==="respondida"||!!r;
+    return `<li>${esc(p.texto)}<div class="who"><b>${esc(nameOf(p.email))}</b> ${fmtTs(p.t)} · ${done?"respondida na edição "+fmtShort(ed||""):"aberta"}${(p.email===meEmail||isAdmin)?` · <button class="toggle" data-act="apagar-pauta" data-id="${esc(p.id)}">apagar</button>`:""}</div>${resp?`<div class="resp"><i>Resposta da Bru</i>${esc(resp)}</div>`:""}</li>`; }).join("")
     : `<li class="vazio">Nenhuma pauta ainda. O primeiro pedido do time aparece aqui e entra no radar da manhã seguinte.</li>`;
   const ativos = Object.values(shared.ideias).filter(s=>s.status && s.status!=="nova" && lookup[s.chave]).sort((a,b)=>new Date(b.t)-new Date(a.t));
   $("andamento").innerHTML = ativos.length ? ativos.map(s=>{ const L=lookup[s.chave]; return `<li><span class="pill ${esc(s.status)}">${esc(STATUS[s.status]||s.status)}</span><div>${esc(L.obj.ideia)}<div class="who"><b>${esc(s.dono?nameOf(s.dono):"sem responsável")}</b> · ${esc(L.obj.area||"")} · edição ${fmtShort(L.day.data)}</div></div></li>`; }).join("")
