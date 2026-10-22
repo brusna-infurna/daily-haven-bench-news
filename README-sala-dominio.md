@@ -25,3 +25,6 @@ O segredo fica no prompt da tarefa agendada (privado da conta da Bru), nunca na 
 ## Quem vê o quê
 
 Só membro logado lê e escreve. Cada um apaga só o próprio comentário e a própria pauta; `admin` (Bru) apaga qualquer um. Status e responsável das ideias qualquer membro muda. Visitante sem login vê só a tela de entrada.
+
+## 22/10, noite: v2 no ar
+Home e sala passaram pra `build_v2.py` (régua fixa com atalhos de seção, filtros em chips, mural com cartão de estrutura fixa, faixa ao vivo com contadores na sala). As páginas leem o radar-data.json ao abrir, então não precisam ser regeradas a cada edição. `build.py` continua sendo rodado pela rotina da manhã e, no fim, gera a v2 como `index.html` (o template antigo fica só como base de CSS). Pra regerar à mão: `python3 build_v2.py home oficial destino` e `python3 build_v2.py sala oficial URL CHAVE_ANON destino`. `build_sala_dominio.py` ficou como referência; não é mais usado. Pendente: a rotina passar a gerar um campo `titulo` em cada item do bench, que a v2 mostra como manchete do bloco.

@@ -250,3 +250,7 @@ render();
 out = TEMPLATE.replace("__DATA__", data_js)
 open(os.path.join(HERE, "index.html"), "w", encoding="utf-8").write(out)
 print("index.html gerado:", len(out), "bytes;", sum(len(d["itens"]) for d in data["dias"]), "itens em", len(data["dias"]), "edição(ões)")
+
+# Desde 22/10 a página publicada é a v2 (régua fixa, chips, mural com cartão fixo). Mantém o layout acima como base de CSS.
+import subprocess, sys as _sys
+subprocess.run([_sys.executable, os.path.join(HERE, "build_v2.py"), "home", "oficial", os.path.join(HERE, "index.html")], check=True)

@@ -9,11 +9,15 @@ import os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 if len(sys.argv) < 3:
     print(__doc__); sys.exit(1)
-MODE = sys.argv[1]
+OFICIAL = "oficial" in sys.argv          # caminhos oficiais (/benchnews/ e /benchnews/sala/) em vez de /v2/
+args = [a for a in sys.argv[1:] if a != "oficial"]
+MODE = args[0]
 if MODE == "home":
-    SB_URL, SB_KEY, dest = "", "", sys.argv[2]
+    SB_URL, SB_KEY, dest = "", "", args[1]
 else:
-    SB_URL, SB_KEY, dest = sys.argv[2], sys.argv[3], sys.argv[4]
+    SB_URL, SB_KEY, dest = args[1], args[2], args[3]
+UP = "../" if OFICIAL else "../../"       # da sala até /benchnews/
+SALA_LINK = "sala/" if OFICIAL else "../sala/v2/"
 
 site = open(os.path.join(HERE, "build.py"), encoding="utf-8").read()
 css = re.search(r"<style>(.*?)</style>", site, re.S).group(1)
@@ -376,13 +380,13 @@ out = (TEMPLATE
   .replace("__KICKER__", "Sala do time · radar diário de wellness residences, membership, longevidade e lifestyle" if is_sala else "Radar diário de wellness residences, membership, longevidade e lifestyle")
   .replace("__SBJS__", '<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>' if is_sala else "")
   .replace("__JUMP_SALA__", "" )
-  .replace("__WHO__", '<span class="live" id="live"><i></i><span id="live-txt">conectando</span></span><span class="me" id="me"></span><button class="btn sm ghost" id="sair" hidden>Trocar nome</button>' if is_sala else '<a href="../sala/v2/" style="text-decoration:underline">Sala do time</a>')
+  .replace("__WHO__", '<span class="live" id="live"><i></i><span id="live-txt">conectando</span></span><span class="me" id="me"></span><button class="btn sm ghost" id="sair" hidden>Trocar nome</button>' if is_sala else '<a href="__SALA_LINK__" style="text-decoration:underline">Sala do time</a>')
   .replace("__LOGIN__", LOGIN if is_sala else "")
   .replace("__APP_HIDDEN__", "hidden" if is_sala else "")
   .replace("__SALA__", SALA_HTML if is_sala else "")
   .replace("__FOOT__", 'Cada item foi aberto e conferido na fonte no dia da edição. Nesta sala, reações, comentários, status e pautas são compartilhados com todo o time e lidos pela rotina da manhã do Bench. A edição pública fica em <a href="../../" style="text-decoration:underline">benchnews</a>.' if is_sala else "Cada item foi aberto e conferido na fonte no dia da edição. Conteúdo patrocinado está marcado junto ao veículo. O radar roda toda manhã e manda um resumo por email; as edições anteriores ficam no seletor da régua.")
   .replace("__SALA_FLAG__", "true" if is_sala else "false")
-  .replace("__SB_URL__", SB_URL).replace("__SB_KEY__", SB_KEY))
+  .replace("__SB_URL__", SB_URL).replace("__SB_KEY__", SB_KEY).replace("__SALA_LINK__", SALA_LINK).replace("../../", UP))
 os.makedirs(os.path.dirname(os.path.abspath(dest)), exist_ok=True)
 open(dest, "w", encoding="utf-8").write(out)
 print(MODE, "v2 gerado:", dest, len(out), "bytes")
