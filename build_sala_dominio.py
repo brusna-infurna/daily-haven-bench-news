@@ -21,6 +21,8 @@ extra += r"""
   .login h2{font-family:var(--serif);font-weight:500;font-style:italic;font-size:26px;margin-bottom:8px}
   .login p{font-family:var(--serif2);font-size:17px;line-height:1.45;color:var(--espresso);margin-bottom:14px}
   .top-actions{display:flex;gap:14px;align-items:center}
+  .int .cm li .resp{margin-top:8px;padding:8px 0 2px 12px;border-left:2px solid var(--teal);font-size:16px}
+  .int .cm li .resp i{font-family:var(--sans);font-style:normal;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);display:block;margin-bottom:4px}
 """
 
 TEMPLATE = r"""<!doctype html>
@@ -172,7 +174,8 @@ function intHtml(key, isBench){
   }
   h += `<button class="toggle" data-act="toggle">${opened.has(key)?"Fechar":"Comentar"}${cs.length?` (${cs.length})`:""}</button></div>`;
   if (opened.has(key)) {
-    h += `<ul class="cm">${cs.map(c=>`<li class="${c.tipo==="claude"?"claude":""}">${esc(c.texto)}<div class="who"><b>${esc(nameOf(c.email))}</b> ${fmtTs(c.t)}${(c.email===meEmail||isAdmin)?` · <button class="toggle" data-act="apagar" data-id="${esc(c.id)}">apagar</button>`:""}</div></li>`).join("")}</ul>`;
+    const RC = RADAR.respostas_comentarios || {};
+    h += `<ul class="cm">${cs.map(c=>{ const r = RC[c.id]; return `<li class="${c.tipo==="claude"?"claude":""}">${esc(c.texto)}<div class="who"><b>${esc(nameOf(c.email))}</b> ${fmtTs(c.t)}${(c.email===meEmail||isAdmin)?` · <button class="toggle" data-act="apagar" data-id="${esc(c.id)}">apagar</button>`:""}</div>${r?`<div class="resp"><i>Resposta da Bru, via Bench</i>${esc(r.resposta)}</div>`:""}</li>`; }).join("")}</ul>`;
     h += `<form class="form" data-act="comment"><textarea rows="2" placeholder="Comentário pro time"></textarea><div class="row"><button class="btn sm" type="submit">Publicar</button></div></form>`;
   }
   return h + `</div>`;

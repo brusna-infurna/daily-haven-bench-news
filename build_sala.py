@@ -74,6 +74,16 @@ EXTRA_CSS = r"""
   .ro b{color:var(--terracotta)}
   .me{font-family:var(--sans);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
   .me b{color:var(--ink);font-weight:600}
+  .chat{margin-top:26px;border-top:3px solid var(--teal);padding-top:12px}
+  .chat h2{font-family:var(--serif);font-weight:500;font-style:italic;font-size:26px;line-height:1.1}
+  .chat .sub{font-family:var(--serif2);font-style:italic;font-size:16px;color:var(--mute);margin:6px 0 10px}
+  .chat .log{display:flex;flex-direction:column;gap:10px;max-width:78ch}
+  .chat .msg{font-family:var(--serif2);font-size:17px;line-height:1.45;color:var(--ink);padding:8px 0 8px 14px;border-left:2px solid var(--rule);white-space:pre-wrap}
+  .chat .msg.me{border-left-color:var(--terracotta);color:var(--espresso)}
+  .chat .msg.ai{border-left-color:var(--teal)}
+  .chat .msg i{font-family:var(--sans);font-style:normal;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);display:block;margin-bottom:4px}
+  .chat .form{max-width:78ch}
+  .chat .form textarea{min-height:56px}
 """
 
 TEMPLATE = r"""<title>Sala do Time · Haven Bench News</title>
@@ -103,6 +113,12 @@ TEMPLATE = r"""<title>Sala do Time · Haven Bench News</title>
     <span class="n" id="count"></span>
   </nav>
 
+  <section class="chat" id="chat" hidden>
+    <h2>Fale com o Claude sobre o Haven</h2>
+    <p class="sub">conhece o projeto e a edição de hoje; responde na hora, na sua conta; não pesquisa fora. Pra pergunta de mercado, use a caixa Pra pauta</p>
+    <div class="log" id="chat-log"></div>
+    <form class="form" id="chat-form"><textarea id="chat-txt" rows="2" placeholder="Ex.: como o Preserve Life se compara ao nosso membership? Ou: me dá três ângulos pra falar do Bench de hoje com um Founding."></textarea><div class="row"><button class="btn" type="submit" id="chat-btn">Perguntar</button><button class="btn ghost" type="button" id="chat-stop" hidden>Parar</button><button class="btn ghost" type="button" id="chat-clear" hidden>Limpar conversa</button><span class="note" id="chat-note"></span></div></form>
+  </section>
   <section class="sala-top">
     <div class="box" id="pautas-box">
       <h2>Pra pauta</h2>
@@ -181,7 +197,7 @@ function intHtml(key, ps, isBench){
   if (sample) h += `<button class="toggle" data-act="ask">Perguntar ao Claude</button>`;
   h += `</div>`;
   if (opened.has(key)) {
-    h += `<ul class="cm">${cs.map(c=>`<li class="${c.tipo==="claude"?"claude":""}">${esc(c.texto)}<div class="who"><b>${esc(c.tipo==="claude"?"Claude, salvo por "+nameOf(ps,c.uid):nameOf(ps,c.uid))}</b> ${fmtTs(c.t)}</div></li>`).join("")}</ul>`;
+    h += `<ul class="cm">${cs.map(c=>`<li class="${(c.tipo==="claude"||c.uid==="bench")?"claude":""}">${esc(c.texto)}<div class="who"><b>${esc(c.tipo==="claude"?"Claude, salvo por "+nameOf(ps,c.uid):(c.uid==="bench"?"Resposta da Bru, via Bench":nameOf(ps,c.uid)))}</b> ${fmtTs(c.t)}</div></li>`).join("")}</ul>`;
     if (w) h += `<form class="form" data-act="comment"><textarea rows="2" placeholder="Comentário pro time"></textarea><div class="row"><button class="btn sm" type="submit">Publicar</button></div></form>`;
     if (opened.has(key+"#ask")) h += `<div class="ask"><input type="text" placeholder="Ex.: me dá três ângulos pra post sobre isso" data-ask="q"><div class="row"><button class="btn sm" data-act="askgo">Perguntar</button><button class="btn sm ghost" data-act="askstop" hidden>Parar</button><button class="btn sm ghost" data-act="asksave" hidden>Salvar como comentário</button></div><div class="out" data-ask="out"></div><div class="note" data-ask="note"></div></div>`;
   }
@@ -310,16 +326,27 @@ function alertNote(msg){ const ro=document.getElementById("ro"); ro.hidden=false
 /* pergunta pro Claude, dentro da página */
 const asks = {};
 function contextFor(key){
-  const L = lookup[key]; if (!L) return "";
+  const L = lookup[key]; if (!L) return BRIEF;
   const d = L.day;
-  let ctx = `Edição do Daily Haven Bench News de ${d.data}.\nManchete: ${d.manchete}\nEditorial: ${d.editorial}\n`;
+  let ctx = BRIEF + `\nEdição do Daily Haven Bench News de ${d.data}.\nManchete: ${d.manchete}\nEditorial: ${d.editorial}\n`;
   if (L.tipo==="item"){ const i=L.obj; ctx += `\nItem em discussão:\nTítulo: ${i.title}\nFonte: ${i.source} (${i.date}), ${i.region}\nResumo: ${i.resumo}\nO que o Haven faz com isso: ${i.por_que_importa}\nTimes: ${(i.para||[]).join(", ")}\n`; }
   else { const b=L.obj; ctx += `\nIdeia do Bench pro Haven em discussão:\nÁrea: ${b.area}\nIdeia: ${b.ideia}\nReferência: ${b.ref}\n`; }
   const cs = commentsFor(key).filter(c=>c.tipo!=="claude").slice(-6);
   if (cs.length) ctx += `\nComentários do time até agora:\n` + cs.map(c=>`- ${c.texto}`).join("\n") + "\n";
   return ctx;
 }
-const RULES = `Você ajuda o time do Haven, um projeto de wellness residence com clube de membership em Porto Feliz, SP (75 casas, membership curado, longevidade, future living, comunidade). Stephanie Fleury (Teti) é founder e CEO; Bruna Infurna (Bru) edita o Bench News. Responda em português brasileiro, direto, em prosa curta (no máximo 180 palavras, a não ser que peçam lista), capitalização normal, sem travessão, sem "não é X, é Y", sem pergunta retórica, sem fechamento moralizante, sem jargão de marketing (alavancar, desbloquear, empoderar). Use só os fatos do contexto abaixo; não invente número, fonte ou data. Se faltar dado, diga que não está no material e sugira o que pedir na caixa Pra pauta.\n\n`;
+const BRIEF = `BRIEFING DO HAVEN (uso interno do time; números marcados como hipótese estão em validação e não devem ser citados como fechados)
+O que é: residence club com alma brasileira em Porto Feliz, SP, a cerca de 90 minutos de São Paulo. Uma vila de casas prontas pra morar e um social club com admissão por comitê. A comunidade vem antes do metro quadrado: toda casa começa com uma candidatura ao Haven Club, lida por um comitê de curadores que procura alinhamento e repertório, antes de bolso, cargo ou idade. Founding members escolhem casa primeiro. Fundadora e CEO: Stephanie Fleury (Teti). Bruna Infurna (Bru) cuida de estratégia, marca e do Bench News. O projeto chegou a ser chamado Ma Haven (versão anterior em Mairinque, 15 casas); o nome atual é Haven, em Porto Feliz, com cerca de 75 casas no masterplan em validação.
+Pilares: longevidade e bem-estar como rotina da porta de casa; future living (casa pronta, tecnologia discreta, House of AI); comunidade curada; repertório como critério; natureza no comando, mais de 70% da gleba preservada como mata, jardim ou cultivo (hipótese do masterplan).
+As casas (The Havens, specs em fechamento com engenharia): Nest (1 suíte, 100 m², lote 1.000 m²), Duet (2 suítes, 200 m², lote 1.500 m²), Tribe (3 suítes, 300 m², lote 2.000 m²), Family (4 suítes, 400 m², lote 2.000 m²), Estates (lotes de 5.000 m² pra projeto próprio). Entregues prontas: marcenaria, marmoraria, ar e aquecimento, esquadrias, louças e metais, iluminação, kit tech, paisagismo, garagem solar. Opcionais: piscina, sauna, adega, automação, banheira, piso aquecido, enxoval premium, acessibilidade. Preços de referência de versões anteriores (hipótese): a partir de R$ 5,5 milhões (Duet) a R$ 8 milhões (Family).
+O clube (Haven Club, cerca de 2.800 m² de áreas comuns, programação o ano inteiro): Wellness (academia, sauna, banheira de gelo, massagem, yoga, sound healing); Wine & Dine (cozinha gourmet, pool bar, chefs convidados, adega); Lazer & Sports (piscinas, tênis, beach tennis, vôlei, SUP, wake surf); Cultivo (horta e pomar do canteiro à mesa); Little Haven (brinquedoteca e playground); Cine ao ar livre, fire pit, picnic; Listening Bar (vinil, DJs, karaokê, estúdio de podcast); House of AI ("inteligência nada artificial", conversas sobre o futuro, coworking, espresso bar); Empório e conveniência.
+Membership, cinco formas de pertencer, todas pelo mesmo comitê: Founding (entra antes, ajuda a moldar o clube, escolhe casa primeiro, assento na curadoria), Resident (dono de casa, acesso completo), Social (sem casa, usa o clube e tem diárias de hospedagem incluídas), Guest (frequenta programação e eventos, sem diárias), Corporate (empresas: offsites, retiros, hospedagem de time). Business case do clube (junho de 2026, hipóteses de partida): o clube é a isca e a residência é a pesca; a sala mira gente interessante com poder aquisitivo, núcleo de empresários e executivos que paga, alma cultural parcialmente subsidiada (teto de 15%), sensibilidade centro-esquerda humanista, anti-perfil é ostentação sem repertório. Faixas hipótese: Círculo Fundador R$ 60 mil de adesão e R$ 30 mil por ano (cohort pequeno, fecha); Membro R$ 20 mil e R$ 26 mil por ano; Jovem sub-35 R$ 5 mil e R$ 13 mil por ano; Assento Cultural de R$ 0 a 6 mil por ano, curado; Parceiro/Casa corporativo a partir de R$ 150 mil por ano, poucos. Diárias por categoria na operação e na rede de parceiros, com blackout em alta temporada. Recomendação vigente: lançar o Círculo Fundador primeiro como teste de preço e densidade.
+Ownspitality: o dono vira anfitrião. Quem quiser coloca a casa no pool de hospedagem do clube quando não está usando; gestão com padrão de hotel; hóspede também passa pela curadoria. Adesão opcional; social members usam diárias nessas casas.
+Curadoria e embaixadores (nomes pendentes de autorização de uso, não publicar fora do time): curadores Tatiana Foresta (arte e cultura), Renata Vanzetto (gastronomia), Michelle Schneider (wellness), Gaby e Nat Graf (música), Nat Brandão (House of AI), Mary Olivetti (drinks e vinho); embaixadores Alice Braga, Glenda Kozlowski, Ronaldo Lemos, German Carmona, Lara D'avila, Pedro Bookster.
+Vizinhança e mercado: Porto Feliz tem Fazenda Boa Vista e Boa Vista Village (JHSF) e a chegada da Cyrela com o Heritage Riviera; o Haven lê isso como validação da região e se diferencia falando de quem você vai encontrar, não do que vai ter. Referências globais: Aman, Six Senses, 1 Hotel, Serenbe; no Brasil não há wellness residence consolidada. Vocabulário a evitar: superlativos, "exclusivo", "inimaginável", lista de amenities como manchete.
+Times do Bench News: parcerias, marketing, vendas e clube. O Bench News é o radar diário (site em projetorepertorio.com.br/benchnews) com itens verificados na fonte, destaques, Pra prestar atenção e o Bench pro Haven (ideias aplicadas ao projeto).
+`;
+const RULES = `Você ajuda o time do Haven, um projeto de wellness residence com clube de membership em Porto Feliz, SP (75 casas, membership curado, longevidade, future living, comunidade). Stephanie Fleury (Teti) é founder e CEO; Bruna Infurna (Bru) edita o Bench News. Responda em português brasileiro, direto, em prosa curta (no máximo 180 palavras, a não ser que peçam lista), capitalização normal, sem travessão, sem "não é X, é Y", sem pergunta retórica, sem fechamento moralizante, sem jargão de marketing (alavancar, desbloquear, empoderar). Use só os fatos do briefing e do contexto abaixo; não invente número, fonte ou data; trate números marcados como hipótese como hipótese. Se faltar dado, diga que não está no material e sugira o que pedir na caixa Pra pauta, que a Bru responde na edição seguinte com pesquisa.\n\n`;
 async function askHandle(key, act, box){
   const q = box.querySelector("[data-ask=q]"), out = box.querySelector("[data-ask=out]"), note = box.querySelector("[data-ask=note]");
   const go = box.querySelector("[data-act=askgo]"), stop = box.querySelector("[data-act=askstop]"), save = box.querySelector("[data-act=asksave]");
@@ -349,11 +376,52 @@ async function askHandle(key, act, box){
   } finally { go.disabled=false; stop.hidden=true; }
 }
 
+/* conversa geral sobre o Haven */
+const chat = {turns:[], ctl:null};
+function edicaoResumo(){
+  const d = RADAR.dias.find(x=>x.data===state.day) || RADAR.dias[0];
+  let t = `\nEdição de hoje (${d.data}).\nManchete: ${d.manchete}\nEditorial: ${d.editorial}\nPra prestar atenção: ${(d.atencao||[]).join(" | ")}\nBench pro Haven: ${(d.bench||[]).map((b,i)=>`${i+1}. [${b.area}] ${b.ideia}`).join(" ")}\nItens: ${(d.itens||[]).map(i=>`${i.title} (${i.source}, ${i.date})`).join("; ")}\n`;
+  const pend = shared.pautas.filter(p=>p.status!=="respondida").slice(0,8).map(p=>"- "+p.texto).join("\n");
+  if (pend) t += `\nPautas abertas do time:\n${pend}\n`;
+  return t;
+}
+function chatRender(){
+  const log = document.getElementById("chat-log");
+  log.innerHTML = chat.turns.map(t=>`<div class="msg ${t.role==="user"?"me":"ai"}"><i>${t.role==="user"?esc(meName||"você"):"Claude"}</i>${esc(t.content)}</div>`).join("");
+  document.getElementById("chat-clear").hidden = !chat.turns.length;
+}
+document.getElementById("chat-clear").addEventListener("click", ()=>{ chat.turns=[]; chatRender(); });
+document.getElementById("chat-stop").addEventListener("click", ()=>{ chat.ctl?.abort(); });
+document.getElementById("chat-form").addEventListener("submit", async e => {
+  e.preventDefault(); if (!sample) return;
+  const ta = document.getElementById("chat-txt"); const q = ta.value.trim(); if (!q) return;
+  const btn=document.getElementById("chat-btn"), stop=document.getElementById("chat-stop"), note=document.getElementById("chat-note");
+  chat.turns.push({role:"user", content:q}); ta.value=""; chatRender();
+  const live = document.createElement("div"); live.className="msg ai"; live.innerHTML="<i>Claude</i>Pensando..."; document.getElementById("chat-log").appendChild(live);
+  btn.disabled=true; stop.hidden=false; note.textContent="";
+  chat.ctl = new AbortController();
+  const input = [{role:"user", content: RULES + BRIEF + edicaoResumo() + "\nA conversa abaixo é com uma pessoa do time do Haven. Responda à última mensagem."}, ...chat.turns.slice(-12)];
+  try {
+    const r = await sample(input, {cache:false, signal:chat.ctl.signal, onText:({text})=>{ live.innerHTML="<i>Claude</i>"+esc(text); }});
+    chat.turns.push({role:"assistant", content:r.text}); chatRender();
+    if (r.truncated) note.textContent="Resposta cortada no limite. Pergunte em partes.";
+  } catch(err){
+    const c = err && err.code; live.remove();
+    if (err && err.text) { chat.turns.push({role:"assistant", content:err.text}); chatRender(); }
+    if (c==="cancelled") note.textContent="Interrompido.";
+    else if (c==="not_granted"||c==="sampling_disabled"||c==="not_declared"||c==="capability_disabled"){ note.textContent="O Claude não está liberado nesta visualização."; sample=null; document.getElementById("chat").hidden=true; }
+    else if (c==="rate_limited") note.textContent="Muitas perguntas por agora. Tente em alguns minutos.";
+    else if (c==="refused") note.textContent="O Claude não respondeu a essa. Reformule.";
+    else note.textContent="Falhou no meio. Tente de novo.";
+  } finally { btn.disabled=false; stop.hidden=true; }
+});
+
 /* liga as capacidades */
 render();
 (async () => {
   const [u, d, s] = await Promise.all([claude.use("user"), claude.use("db"), claude.use("sample")]);
   user=u; db=d; sample=s;
+  if (sample) document.getElementById("chat").hidden=false;
   if (user){ const me = await user.me(); uid = me.id; meName = me.name; canWrite = await user.can("data.write");
     document.getElementById("me").innerHTML = uid ? `Você: <b>${esc(meName||"sem nome")}</b>` : ""; }
   if (!db || !uid || canWrite===false){ canWrite=false; document.getElementById("ro").hidden=false; }
