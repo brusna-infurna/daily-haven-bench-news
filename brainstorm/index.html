@@ -240,6 +240,14 @@
   .bs-enc:hover{color:var(--ink)}
   .bs-msg.encerrada{opacity:.6}
   .bs-msg.encerrada.st-descartada{text-decoration:line-through}
+  .bc-box{margin-top:18px;padding:14px 16px;background:var(--paper);border:1px solid var(--rule);border-left:3px solid var(--ochre)}
+  .bc-box h3{font-family:var(--serif);font-weight:500;font-style:italic;font-size:20px;margin-bottom:6px}
+  .bc-box p{font-family:var(--serif2);font-size:16px;line-height:1.45;color:var(--espresso);margin-bottom:10px}
+  .bc-box .grid{display:grid;grid-template-columns:1fr;gap:10px}
+  @media(min-width:900px){.bc-box .grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  .bc-box label{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);display:block;margin-bottom:4px}
+  .bc-box select{font-size:15px;padding:8px 10px}
+  .bc-box .ok{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--forest)}
   .live{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);display:inline-flex;align-items:center;gap:6px}
   .live i{width:7px;height:7px;border-radius:50%;background:var(--sand);display:inline-block}
   .live.on i{background:var(--forest)}
@@ -266,7 +274,12 @@
   </section>
 
   <div id="app" hidden>
-    <p class="bs-intro">Quatro mesas, uma por área. Entram aqui os comentários que o time deixa nos itens da sala, já separados pela área do item, e o que for escrito direto nestas mesas. Tudo aparece na hora pra quem estiver com a página aberta. Toque no título de uma mesa pra abrir só ela em cima, com espaço pra rolar a conversa; toque de novo pra voltar. Cada conversa fica na mesa até alguém marcar em andamento, finalizar ou desprezar; as encerradas ficam na dobra de cada mesa. "Levar pro Basecamp" cria a tarefa na lista da área.</p>
+    <p class="bs-intro">Quatro mesas, uma por área. Entram aqui os comentários que o time deixa nos itens da sala, já separados pela área do item, e o que for escrito direto nestas mesas. Tudo aparece na hora pra quem estiver com a página aberta. Toque no título de uma mesa pra abrir só ela em cima, com espaço pra rolar a conversa; toque de novo pra voltar. Cada conversa fica na mesa até alguém marcar em andamento, finalizar ou desprezar; as encerradas ficam na dobra de cada mesa. "Levar pro Basecamp" cria a tarefa na lista do Basecamp ligada à mesa.</p>
+    <div class="bc-box" id="bc-box" hidden>
+      <h3>Basecamp</h3>
+      <p id="bc-txt"></p>
+      <div class="grid" id="bc-grid" hidden></div>
+    </div>
     <div class="bs-grid" id="grid"></div>
   </div>
 
@@ -290,6 +303,8 @@ function note(msg){ const ro=$("ro"); ro.hidden=!msg; ro.innerHTML = msg ? `<b>A
 let RADAR = {dias:[]}; const lookup = {};
 let me = "", isAdmin = false, expandida = "";
 const bcListas = {};
+const FN = SB_URL + "/functions/v1/basecamp";
+let bcStatus = null, bcProjects = null;
 const verEnc = {vendas:false,membership:false,parcerias:false,marketing:false};
 const ST = {aberta:"Aberta",andamento:"Em andamento",finalizada:"Finalizada",descartada:"Desprezada"};
 const data = {brainstorm:[], comentarios:[]};
@@ -317,7 +332,7 @@ async function entrar(nome){
   me = nome; isAdmin = nome === "Bru";
   $("me").innerHTML = `Você: <b>${esc(nome)}</b>`; $("sair").hidden=false;
   $("login").hidden=true; $("app").hidden=false;
-  montar(); await carregar(); assinar(); setInterval(carregar, 30000);
+  montar(); await carregar(); assinar(); setInterval(carregar, 30000); bcInit();
 }
 function montar(){
   $("grid").innerHTML = AREAS.map(([k,l,sub]) => `
@@ -350,14 +365,17 @@ function montar(){
       return; }
     const bc=e.target.closest(".bc"); if (bc){
       const msg=bc.closest(".bs-msg"); const tab=msg.dataset.tabela, id=msg.dataset.id, area=msg.closest(".bs-col").dataset.a;
-      const lista = bcListas[area]; if (!lista){ note("A lista do Basecamp da mesa de " + area + " ainda não foi cadastrada. Peça pra Bru configurar."); return; }
+      const cfg = bcListas[area]; if (!cfg || !cfg.todolist_id){ note("A mesa de " + area + " ainda não está ligada a uma lista do Basecamp. Escolha no quadro Basecamp, no topo."); window.scrollTo({top:0,behavior:"smooth"}); return; }
       const texto = msg.dataset.texto||""; const autor = msg.dataset.autor||""; const edicao = msg.dataset.edicao||"";
-      const assunto = texto.length>ASSUNTO_MAX ? texto.slice(0,ASSUNTO_MAX-1).trimEnd()+"…" : texto;
-      const corpo = texto + "\n\nOrigem: Brainstorm do Bench News, mesa " + area + (edicao?", edição "+fmtShort(edicao):"") + ", por " + autor + ".\n" + location.href;
-      window.open("mailto:" + encodeURIComponent(lista) + "?subject=" + encodeURIComponent(assunto) + "&body=" + encodeURIComponent(corpo), "_blank");
-      const patch = tab==="brainstorm" ? {basecamp_t:new Date().toISOString(), basecamp_por:me} : {bs_basecamp_t:new Date().toISOString(), bs_basecamp_por:me};
-      const { error } = await sb.from(tab).update(patch).eq("id", id);
-      if (error) note("Abri o email, mas não consegui marcar aqui: " + (error.message||"erro")); else await carregar();
+      const content = texto.length>ASSUNTO_MAX ? texto.slice(0,ASSUNTO_MAX-1).trimEnd()+"…" : texto;
+      const description = `<div>${esc(texto)}</div><div><br></div><div>Origem: Brainstorm do Bench News, mesa ${esc(area)}${edicao?", edição "+fmtShort(edicao):""}, por ${esc(autor)}. <a href="${esc(location.href)}">Abrir o brainstorm</a></div>`;
+      bc.disabled=true; bc.textContent="Criando...";
+      try {
+        const r = await fetch(FN + "/todo", {method:"POST", headers:{"Content-Type":"application/json","apikey":SB_KEY}, body: JSON.stringify({area, content, description, tabela:tab, id, por:me})});
+        const j = await r.json();
+        if (!r.ok || j.error) throw new Error(j.error || ("erro " + r.status));
+        note(""); await carregar();
+      } catch(err){ note("Não deu pra criar no Basecamp: " + err.message); bc.disabled=false; bc.textContent="Levar pro Basecamp"; }
       return; }
     const b=e.target.closest(".apagar"); if(!b) return;
     const { error } = await sb.from("brainstorm").delete().eq("id", b.dataset.id);
@@ -368,7 +386,7 @@ function montar(){
 async function carregar(){
   const [b,c,l] = await Promise.all([sb.from("brainstorm").select("*").order("t"), sb.from("comentarios").select("*").order("t"), sb.from("basecamp_listas").select("*")]);
   if (b.data) data.brainstorm=b.data; if (c.data) data.comentarios=c.data;
-  if (l.data) l.data.forEach(x => bcListas[x.area]=x.email);
+  if (l.data) l.data.forEach(x => bcListas[x.area]=x);
   render();
 }
 function areaDoComentario(c){
@@ -380,15 +398,15 @@ function areaDoComentario(c){
 function render(){
   const por = {vendas:[],membership:[],parcerias:[],marketing:[]};
   data.comentarios.forEach(c => { if (c.tipo==="claude") return; const a=areaDoComentario(c); if(!a) return; const L=lookup[c.chave];
-    por[a].push({id:c.id, tabela:"comentarios", autor:c.email, texto:c.texto, t:c.t, edicao:L.day.data, status:c.bs_status||"aberta", basecamp:c.bs_basecamp_t, ref:{titulo: L.tipo==="item"?L.obj.title:L.obj.ideia, url: L.tipo==="item"?L.obj.url:null}, origem:"sala"}); });
-  data.brainstorm.forEach(m => por[m.area].push({id:m.id, tabela:"brainstorm", autor:m.autor, texto:m.texto, t:m.t, edicao:m.edicao, status:m.status||"aberta", basecamp:m.basecamp_t, origem:"mesa"}));
+    por[a].push({id:c.id, tabela:"comentarios", autor:c.email, texto:c.texto, t:c.t, edicao:L.day.data, status:c.bs_status||"aberta", basecamp:c.bs_basecamp_t, basecampUrl:c.bs_basecamp_url, ref:{titulo: L.tipo==="item"?L.obj.title:L.obj.ideia, url: L.tipo==="item"?L.obj.url:null}, origem:"sala"}); });
+  data.brainstorm.forEach(m => por[m.area].push({id:m.id, tabela:"brainstorm", autor:m.autor, texto:m.texto, t:m.t, edicao:m.edicao, status:m.status||"aberta", basecamp:m.basecamp_t, basecampUrl:m.basecamp_url, origem:"mesa"}));
   const msgHtml = m => {
     const enc = m.status==="finalizada"||m.status==="descartada";
     const acts = enc ? `<button data-st="aberta">reabrir</button>`
       : (m.status==="andamento" ? `<button data-st="finalizada">finalizar</button><button data-st="descartada">desprezar</button><button data-st="aberta">voltar pra aberta</button>`
                                 : `<button data-st="andamento">em andamento</button><button data-st="finalizada">finalizar</button><button data-st="descartada">desprezar</button>`);
     return `<div class="bs-msg ${m.autor===me?'mine':''} st-${m.status} ${enc?'encerrada':''}" data-id="${esc(m.id)}" data-tabela="${m.tabela}" data-texto="${esc(m.texto)}" data-autor="${esc(m.autor||"")}" data-edicao="${esc(m.edicao||"")}">
-      <div class="who"><b>${esc(m.autor||"Alguém do time")}</b><span>${m.edicao?"edição "+fmtShort(m.edicao):""}</span><span>${fmtTs(m.t)}</span>${m.status!=="aberta"?`<span class="pill ${esc(m.status)}">${esc(ST[m.status])}</span>`:""}${m.basecamp?`<span class="pill basecamp">no Basecamp</span>`:""}${m.origem==="mesa"&&(m.autor===me||isAdmin)?`<button class="apagar" data-id="${esc(m.id)}">apagar</button>`:""}</div><span class="txt">${esc(m.texto)}</span>${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}
+      <div class="who"><b>${esc(m.autor||"Alguém do time")}</b><span>${m.edicao?"edição "+fmtShort(m.edicao):""}</span><span>${fmtTs(m.t)}</span>${m.status!=="aberta"?`<span class="pill ${esc(m.status)}">${esc(ST[m.status])}</span>`:""}${m.basecamp?(m.basecampUrl?`<a class="pill basecamp" href="${esc(m.basecampUrl)}" target="_blank" rel="noopener">no Basecamp ↗</a>`:`<span class="pill basecamp">no Basecamp</span>`):""}${m.origem==="mesa"&&(m.autor===me||isAdmin)?`<button class="apagar" data-id="${esc(m.id)}">apagar</button>`:""}</div><span class="txt">${esc(m.texto)}</span>${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}
       <div class="st">${acts}${enc?"":`<button class="bc" type="button">${m.basecamp?"Reenviar pro Basecamp":"Levar pro Basecamp"}</button>`}</div>
     </div>`; };
   for (const k of Object.keys(por)){
@@ -404,6 +422,30 @@ function render(){
     feed.innerHTML = h;
     if (atBottom || !feed.dataset.init) { feed.scrollTop = feed.scrollHeight; feed.dataset.init="1"; }
   }
+}
+async function bcInit(){
+  const box=$("bc-box"), txt=$("bc-txt"), grid=$("bc-grid");
+  try { bcStatus = await (await fetch(FN + "/status", {headers:{"apikey":SB_KEY}})).json(); } catch(e){ bcStatus = null; }
+  box.hidden=false;
+  if (!bcStatus || !bcStatus.client_configured){ txt.innerHTML = "Integração ainda não configurada. Falta registrar a integração no Basecamp e guardar as chaves no Supabase."; return; }
+  if (!bcStatus.connected){ txt.innerHTML = `Basecamp ainda não autorizado. <a href="${esc(FN)}/authorize" style="text-decoration:underline">Autorizar com a conta do Haven</a> (uma vez, por quem administra).`; return; }
+  const ligadas = AREAS.filter(([k])=>bcListas[k]&&bcListas[k].todolist_id).length;
+  txt.innerHTML = `Conectado à conta <b>${esc(bcStatus.account||"")}</b>. ${ligadas===4?'<span class="ok">as quatro mesas estão ligadas a listas</span>':`${ligadas} de 4 mesas ligadas a listas.`} <button class="btn sm ghost" id="bc-cfg" type="button">${ligadas===4?"Mudar listas":"Escolher listas"}</button>`;
+  $("bc-cfg").addEventListener("click", async () => {
+    $("bc-cfg").disabled=true; $("bc-cfg").textContent="Carregando projetos...";
+    try { bcProjects = (await (await fetch(FN + "/projects", {headers:{"apikey":SB_KEY}})).json()).projects || []; } catch(e){ note("Não consegui listar os projetos do Basecamp."); $("bc-cfg").disabled=false; return; }
+    const opts = (sel) => `<option value="">Escolher lista</option>` + bcProjects.map(p => `<optgroup label="${esc(p.name)}">${p.lists.map(l => `<option value="${p.id}|${l.id}" ${sel&&sel.todolist_id==l.id?"selected":""}>${esc(l.name)}</option>`).join("")}</optgroup>`).join("");
+    grid.hidden=false; grid.innerHTML = AREAS.map(([k,l]) => `<div><label>Mesa de ${esc(l)}</label><select data-area="${k}">${opts(bcListas[k])}</select></div>`).join("");
+    $("bc-cfg").disabled=false; $("bc-cfg").textContent="Listas carregadas";
+  });
+  grid.addEventListener("change", async e => {
+    const sel=e.target; if(!sel.dataset.area || !sel.value) return;
+    const [bucket_id, todolist_id] = sel.value.split("|").map(Number);
+    const p = bcProjects.find(x=>x.id===bucket_id); const l = p && p.lists.find(x=>x.id===todolist_id);
+    const r = await fetch(FN + "/config", {method:"POST", headers:{"Content-Type":"application/json","apikey":SB_KEY}, body: JSON.stringify({area:sel.dataset.area, bucket_id, todolist_id, projeto:p?p.name:"", lista:l?l.name:""})});
+    const j = await r.json(); if (!r.ok || j.error) { note("Não deu pra salvar: " + (j.error||r.status)); return; }
+    await carregar(); bcInit();
+  });
 }
 function assinar(){
   const ch = sb.channel("brainstorm-live")

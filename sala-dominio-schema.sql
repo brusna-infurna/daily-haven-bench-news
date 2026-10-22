@@ -178,3 +178,14 @@ alter table brainstorm  add column if not exists basecamp_t timestamptz;
 alter table brainstorm  add column if not exists basecamp_por text;
 alter table comentarios add column if not exists bs_basecamp_t timestamptz;
 alter table comentarios add column if not exists bs_basecamp_por text;
+-- 22/10/2026: integração nativa com o Basecamp (edge function supabase/functions/basecamp/index.ts).
+create table if not exists basecamp_auth (id int primary key default 1 check (id=1), account_id text, account_nome text, access_token text, refresh_token text, expires_at timestamptz, updated_at timestamptz default now());
+alter table basecamp_auth enable row level security; -- sem políticas: só a função (service role) lê
+alter table basecamp_listas alter column email drop not null;
+alter table basecamp_listas add column if not exists bucket_id bigint;
+alter table basecamp_listas add column if not exists todolist_id bigint;
+alter table basecamp_listas add column if not exists lista text;
+alter table brainstorm  add column if not exists basecamp_url text;
+alter table comentarios add column if not exists bs_basecamp_url text;
+-- Segredos da função: BASECAMP_CLIENT_ID e BASECAMP_CLIENT_SECRET (registro em launchpad.37signals.com/integrations,
+-- redirect URI = <SUPABASE_URL>/functions/v1/basecamp/callback). Autorizar uma vez em /functions/v1/basecamp/authorize.
