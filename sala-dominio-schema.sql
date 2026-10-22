@@ -194,3 +194,4 @@ alter table comentarios add column if not exists bs_basecamp_url text;
 -- Mapa definitivo (rota /setup-mapa): vendas -> projeto "Vendas" (conta Haven 6302304); parcerias -> "Parcerias" (Haven);
 -- membership -> "Membership Club" (Haven); marketing -> "Haven - MKT" (conta Omi 5696129). Lista "Brainstorm Bench News" em cada um.
 alter table public.basecamp_listas add column if not exists account_id text;
+create policy membros_anon on public.membros for select to anon using (true); -- 22/10: nomes no brainstorm v2
