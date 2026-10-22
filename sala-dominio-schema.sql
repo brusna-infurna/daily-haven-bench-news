@@ -138,3 +138,11 @@ revoke all on function sala_export(text) from public;
 revoke all on function sala_responder(text, uuid, date, text) from public;
 grant execute on function sala_export(text) to anon, authenticated;
 grant execute on function sala_responder(text, uuid, date, text) to anon, authenticated;
+
+-- 22/10/2026: sala aberta. Quem tem o link lê e escreve, identificado pelo nome escolhido na página
+-- (coluna email passa a guardar o nome). Aplicado direto no projeto; registrado aqui pra referência.
+create policy votos_anon  on votos       for all to anon using (true) with check (true);
+create policy com_anon    on comentarios for all to anon using (true) with check (true);
+create policy pautas_anon on pautas      for all to anon using (true) with check (true);
+create policy ideias_anon on ideias      for all to anon using (true) with check (true);
+-- sala_export: nome = coalesce(membros.nome, registro.email)

@@ -1,6 +1,6 @@
 # Sala do Time no domínio próprio
 
-Versão da Sala do Time pra rodar em www.projetorepertorio.com.br/benchnews/sala/, com Supabase como banco e login por link no email. Mesmo layout do site e da sala do claude.ai. Sem a pergunta ao Claude por enquanto (segunda fase, precisa de chave de API e de uma função no meio).
+Versão da Sala do Time pra rodar em www.projetorepertorio.com.br/benchnews/sala/, com Supabase como banco. Desde 22/10 a sala é aberta: quem tem o link entra, escolhe o nome uma vez (fica no aparelho) e esse nome assina o que escreve. Login por email foi desligado. Mesmo layout do site e da sala do claude.ai. Sem a pergunta ao Claude por enquanto (segunda fase, precisa de chave de API e de uma função no meio).
 
 A página é estática e lê o radar-data.json do GitHub Pages ao abrir, então não precisa ser regerada a cada edição. Só muda quando mudar o layout ou a lista de membros.
 

@@ -214,14 +214,14 @@
     <span id="folio-left"></span>
     <span><label for="day" style="margin-right:8px">Edição</label><select id="day" aria-label="Escolher edição"></select></span>
     <span id="tally"></span>
-    <span class="top-actions"><span class="me" id="me"></span><button class="btn sm ghost" id="sair" hidden>Sair</button></span>
+    <span class="top-actions"><span class="me" id="me"></span><button class="btn sm ghost" id="sair" hidden>Trocar nome</button></span>
   </div>
   <div class="ro" id="ro" hidden></div>
 
   <section class="login" id="login" hidden>
-    <h2>Entrar na sala</h2>
-    <p>Digite o email que a Bru cadastrou. Você recebe um link e entra sem senha.</p>
-    <form class="form" id="login-form"><input type="email" id="login-email" placeholder="seu@email.com" required><input type="password" id="login-pass" placeholder="Senha (se a Bru te deu uma)" autocomplete="current-password"><div class="row"><button class="btn" type="submit" id="login-btn">Entrar</button><button class="btn ghost" type="button" id="login-link">Mandar link por email</button></div><div class="note" id="login-note"></div></form>
+    <h2>Quem é você?</h2>
+    <p>A sala é aberta pra quem tem o link. Escolha seu nome uma vez; ele fica guardado neste aparelho e assina o que você escrever.</p>
+    <form class="form" id="login-form"><select id="login-nome"><option value="">Escolher nome</option><option>Bru</option><option>Teti</option><option>Carolina</option><option>Omi</option><option>Julia</option><option>Julinha</option><option value="__outro">Outro nome</option></select><input type="text" id="login-outro" placeholder="Seu nome" maxlength="40" hidden><div class="row"><button class="btn" type="submit" id="login-btn">Entrar na sala</button></div><div class="note" id="login-note"></div></form>
   </section>
 
   <div id="app" hidden>
@@ -282,30 +282,22 @@ const keyItem = (day,n) => `e${day.data}-i${n}`;
 const keyBench = (day,n) => `e${day.data}-b${n}`;
 
 const $ = id => document.getElementById(id);
-const nameOf = e => (shared.membros[e] && shared.membros[e].nome) || "Alguém do time";
+const nameOf = e => (shared.membros[e] && shared.membros[e].nome) || (e && !String(e).includes("@") ? String(e) : "Alguém do time");
 function note(msg){ const ro=$("ro"); ro.hidden=!msg; ro.innerHTML = msg ? `<b>Aviso.</b> ${esc(msg)}` : ""; }
 
-/* login por link no email */
-$("login-form").addEventListener("submit", async e => {
-  e.preventDefault(); const email = $("login-email").value.trim().toLowerCase(); const pass = $("login-pass").value; if(!email) return;
-  if (!pass) { $("login-note").textContent = "Digite a senha, ou peça o link por email."; return; }
-  $("login-btn").disabled = true; $("login-note").textContent = "Entrando...";
-  const { data, error } = await sb.auth.signInWithPassword({ email, password: pass });
-  $("login-btn").disabled = false;
-  if (error) { $("login-note").textContent = "Não entrou. Motivo: " + (error.message||"desconhecido"); return; }
-  $("login-note").textContent = ""; if (data && data.session) entrar(data.session);
+/* identidade por nome, guardada no aparelho */
+const NOME_KEY = "benchnews-sala-nome";
+const lerNome = () => { try { return (localStorage.getItem(NOME_KEY)||"").trim(); } catch(e){ return ""; } };
+const guardarNome = n => { try { localStorage.setItem(NOME_KEY, n); } catch(e){} };
+$("login-nome").addEventListener("change", e => { $("login-outro").hidden = e.target.value !== "__outro"; if (!$("login-outro").hidden) $("login-outro").focus(); });
+$("login-form").addEventListener("submit", e => {
+  e.preventDefault();
+  let n = $("login-nome").value; if (n === "__outro") n = $("login-outro").value;
+  n = (n||"").trim().replace(/\s+/g," ").slice(0,40);
+  if (!n) { $("login-note").textContent = "Escolha ou digite um nome."; return; }
+  guardarNome(n); entrar(n);
 });
-$("login-link").addEventListener("click", async () => {
-  const email = $("login-email").value.trim().toLowerCase(); if(!email) { $("login-note").textContent="Digite o email."; return; }
-  $("login-link").disabled = true; $("login-note").textContent = "Enviando...";
-  const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin + location.pathname } });
-  const m = error && String(error.message||"").toLowerCase();
-  $("login-note").textContent = !error ? "Link enviado. Abra o email neste mesmo aparelho e clique."
-    : (m.includes("rate limit") ? "O serviço de email atingiu o limite de envios por hora. Tente de novo em uma hora, ou use o link que já chegou no seu email."
-    : "Não deu pra mandar o link. Motivo: " + (error.message||"desconhecido"));
-  $("login-link").disabled = false;
-});
-$("sair").addEventListener("click", async () => { await sb.auth.signOut(); location.reload(); });
+$("sair").addEventListener("click", () => { try { localStorage.removeItem(NOME_KEY); } catch(e){} location.reload(); });
 
 async function boot(){
   try { RADAR = await (await fetch(RADAR_URL, {cache:"no-store"})).json(); } catch(e){ note("Não consegui carregar as edições agora. Tente de novo em instantes."); return; }
@@ -317,16 +309,12 @@ async function boot(){
   document.querySelectorAll(".grp[data-f]").forEach(g => g.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
     g.querySelectorAll("button").forEach(x=>x.classList.remove("on")); b.classList.add("on"); state[g.dataset.f]=b.dataset.v; render();
   })));
-  const { data: { session } } = await sb.auth.getSession();
-  sb.auth.onAuthStateChange((_e, s) => { if (s && !me) entrar(s); });
-  if (session) await entrar(session); else { $("login").hidden=false; }
+  const n = lerNome();
+  if (n) await entrar(n); else { $("login").hidden=false; }
 }
-async function entrar(session){
-  me = session.user; meEmail = (me.email||"").toLowerCase();
-  const { data: ms } = await sb.from("membros").select("email,nome,papel");
-  if (!ms || !ms.length || !ms.some(m=>m.email===meEmail)) { $("login").hidden=true; note("Seu email não está na lista da sala. Peça pra Bru incluir."); $("sair").hidden=false; return; }
-  ms.forEach(m => shared.membros[m.email]=m); isAdmin = shared.membros[meEmail].papel==="admin";
-  $("me").innerHTML = `Você: <b>${esc(shared.membros[meEmail].nome)}</b>`; $("sair").hidden=false;
+async function entrar(nome){
+  me = {nome}; meEmail = nome; isAdmin = nome === "Bru";
+  $("me").innerHTML = `Você: <b>${esc(nome)}</b>`; $("sair").hidden=false;
   $("login").hidden=true; $("app").hidden=false;
   await carregar(); setInterval(carregar, 60000);
 }
