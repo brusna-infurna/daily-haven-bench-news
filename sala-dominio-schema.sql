@@ -196,3 +196,4 @@ alter table comentarios add column if not exists bs_basecamp_url text;
 alter table public.basecamp_listas add column if not exists account_id text;
 create policy membros_anon on public.membros for select to anon using (true); -- 22/10: nomes no brainstorm v2
 alter table public.ideias add column if not exists basecamp_t timestamptz, add column if not exists basecamp_por text, add column if not exists basecamp_url text, add column if not exists status_por text, add column if not exists status_t timestamptz; -- 22/10 noite: ideias assumidas aparecem no brainstorm e vão pro Basecamp; ideias entrou na publicação supabase_realtime
+-- 22/10 noite: mesa marketing passou pro projeto "Marketing" na conta Haven (6302304); a lista no Haven - MKT da Omi foi pra lixeira.

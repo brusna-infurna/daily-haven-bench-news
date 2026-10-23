@@ -103,11 +103,12 @@ Deno.serve(async (req) => {
     if (route === "/trash") {
       // Manda pra lixeira as listas indicadas e desliga as mesas que apontavam pra elas.
       const bucket = Number(url.searchParams.get("bucket"));
+      const conta = url.searchParams.get("conta") || null;
       const ids = (url.searchParams.get("ids") || "").split(",").map((s) => Number(s.trim())).filter(Boolean);
       if (!bucket || !ids.length) return json({ error: "informe bucket e ids" }, 400);
       const feito: any[] = [];
       for (const id of ids) {
-        await bc(`/buckets/${bucket}/recordings/${id}/status/trashed.json`, { method: "PUT" });
+        await bc(`/buckets/${bucket}/recordings/${id}/status/trashed.json`, { method: "PUT" }, conta);
         await db.from("basecamp_listas").delete().eq("todolist_id", id);
         feito.push(id);
       }
@@ -131,14 +132,14 @@ Deno.serve(async (req) => {
       //   vendas     -> projeto "Vendas" (conta Haven, cria se faltar)
       //   parcerias  -> projeto "Parcerias" (conta Haven, cria se faltar)
       //   membership -> projeto "Membership Club" (conta Haven)
-      //   marketing  -> projeto "Haven - MKT" (conta Omi, 5696129)
+      //   marketing  -> projeto "Marketing" (conta Haven, cria se faltar). Até 22/10 à noite era "Haven - MKT" na conta Omi.
       const LISTA = "Brainstorm Bench News";
       const HAVEN = "6302304", OMI = "5696129";
       const mapa: Record<string, { conta: string; projeto: string; criar: boolean }> = {
         vendas: { conta: HAVEN, projeto: "Vendas", criar: true },
         parcerias: { conta: HAVEN, projeto: "Parcerias", criar: true },
         membership: { conta: HAVEN, projeto: "Membership Club", criar: false },
-        marketing: { conta: OMI, projeto: "Haven - MKT", criar: false },
+        marketing: { conta: HAVEN, projeto: "Marketing", criar: true },
       };
       const cache: Record<string, any[]> = {};
       const feito: any[] = [];
