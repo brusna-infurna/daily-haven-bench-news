@@ -129,17 +129,17 @@ Deno.serve(async (req) => {
     }
     if (route === "/setup-mapa") {
       // Mapa definitivo: lista "Brainstorm Bench News" nos To-dos de um projeto por mesa.
-      //   vendas     -> projeto "Vendas" (conta Haven, cria se faltar)
-      //   parcerias  -> projeto "Parcerias" (conta Haven, cria se faltar)
+      //   vendas     -> projeto "Parcerias" (conta Haven, cria se faltar)
+      //   parcerias  -> projeto "Parcerias" (conta Haven)
       //   membership -> projeto "Membership Club" (conta Haven)
-      //   marketing  -> projeto "Marketing" (conta Haven, cria se faltar). Até 22/10 à noite era "Haven - MKT" na conta Omi.
+      //   marketing  -> projeto "Haven - MKT" (conta Omi, 5696129)
       const LISTA = "Brainstorm Bench News";
       const HAVEN = "6302304", OMI = "5696129";
       const mapa: Record<string, { conta: string; projeto: string; criar: boolean }> = {
-        vendas: { conta: HAVEN, projeto: "Vendas", criar: true },
+        vendas: { conta: HAVEN, projeto: "Parcerias", criar: true },
         parcerias: { conta: HAVEN, projeto: "Parcerias", criar: true },
         membership: { conta: HAVEN, projeto: "Membership Club", criar: false },
-        marketing: { conta: HAVEN, projeto: "Marketing", criar: true },
+        marketing: { conta: OMI, projeto: "Haven - MKT", criar: false },
       };
       const cache: Record<string, any[]> = {};
       const feito: any[] = [];
@@ -157,8 +157,9 @@ Deno.serve(async (req) => {
         await db.from("basecamp_listas").upsert({ area, account_id: m.conta, bucket_id: p.id, todolist_id: l.id, projeto: p.name, lista: l.name });
         feito.push({ area, conta: m.conta, projeto: p.name, lista: l.name, url: l.app_url });
       }
-      const lixo = url.searchParams.get("trash_project");
-      if (lixo) { try { await bc(`/projects/${lixo}.json`, { method: "DELETE" }, HAVEN); } catch (e) { feito.push({ trash_project: lixo, erro: String((e as Error).message) }); } }
+      for (const lixo of (url.searchParams.get("trash_project") || "").split(",").map((x) => x.trim()).filter(Boolean)) {
+        try { await bc(`/projects/${lixo}.json`, { method: "DELETE" }, HAVEN); feito.push({ trash_project: lixo, ok: true }); } catch (e) { feito.push({ trash_project: lixo, erro: String((e as Error).message) }); }
+      }
       return json({ ok: true, mapa: feito });
     }
     if (route === "/setup") {
@@ -190,8 +191,9 @@ Deno.serve(async (req) => {
       const b = await req.json();
       const { data: cfg } = await db.from("basecamp_listas").select("*").eq("area", b.area).maybeSingle();
       if (!cfg?.bucket_id || !cfg?.todolist_id) return json({ error: `A mesa de ${b.area} ainda não está ligada a uma lista do Basecamp.` }, 400);
-      const content = String(b.content || "").trim().slice(0, 200);
+      let content = String(b.content || "").trim().slice(0, 190);
       if (!content) return json({ error: "sem texto" }, 400);
+      if (b.area === "vendas") content = "[Vendas] " + content; // Vendas e Parcerias dividem a lista do projeto Parcerias
       const todo = await bc(`/buckets/${cfg.bucket_id}/todolists/${cfg.todolist_id}/todos.json`, { method: "POST", body: JSON.stringify({ content, description: b.description || "" }) }, cfg.account_id);
       const app_url = todo?.app_url || null;
       if (b.tabela && b.id) {
