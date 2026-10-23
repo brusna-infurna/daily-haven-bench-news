@@ -303,7 +303,8 @@ const fmtTs = t => { const d=new Date(t); return isNaN(d)?"":`${d.getDate()} ${M
 const $ = id => document.getElementById(id);
 function note(msg){ const ro=$("ro"); ro.hidden=!msg; ro.innerHTML = msg ? `<b>Aviso.</b> ${esc(msg)}` : ""; }
 
-let RADAR = {dias:[]}; const lookup = {};
+let RADAR = {dias:[]}; const lookup = {}; const nomes = {};
+const nome = a => { if(!a) return "Alguém do time"; const k=String(a).toLowerCase(); if (nomes[k]) return nomes[k]; if (k.includes("@")) return k.split("@")[0].replace(/[._]/g," ").replace(/\b\w/g,c=>c.toUpperCase()); return a; };
 let me = "", isAdmin = false, expandida = "";
 const bcListas = {};
 const FN = SB_URL + "/functions/v1/basecamp";
@@ -332,11 +333,12 @@ $("sair").addEventListener("click", () => { try { localStorage.removeItem(NOME_K
 async function boot(){
   try { RADAR = await (await fetch(RADAR_URL, {cache:"no-store"})).json(); } catch(e){ note("Não consegui carregar as edições agora. O quadro abre mesmo assim."); }
   (RADAR.dias||[]).forEach(d => { (d.itens||[]).forEach((i,n)=>lookup[`e${d.data}-i${n}`]={day:d,obj:i,tipo:"item"}); (d.bench||[]).forEach((b,n)=>lookup[`e${d.data}-b${n}`]={day:d,obj:b,tipo:"bench"}); });
+  try { const m = await sb.from("membros").select("email,nome"); (m.data||[]).forEach(x => { if (x.email && x.nome) nomes[String(x.email).toLowerCase()] = x.nome; }); } catch(e){}
   const n = lerNome(); if (n) await entrar(n); else $("login").hidden=false;
 }
-async function entrar(nome){
-  me = nome; isAdmin = nome === "Bru";
-  $("me").innerHTML = `Você: <b>${esc(nome)}</b>`; $("sair").hidden=false;
+async function entrar(nomeEscolhido){
+  me = nomeEscolhido; isAdmin = me === "Bru";
+  $("me").innerHTML = `Você: <b>${esc(me)}</b>`; $("sair").hidden=false;
   $("login").hidden=true; $("app").hidden=false;
   montar(); await carregar(); assinar(); setInterval(carregar, 30000); bcInit();
 }
@@ -375,7 +377,7 @@ function montar(){
       const cfg = bcListas[area]; if (!cfg || !cfg.todolist_id){ note("A mesa de " + area + " ainda não está ligada a uma lista do Basecamp. Escolha no quadro Basecamp, no topo."); window.scrollTo({top:0,behavior:"smooth"}); return; }
       const texto = msg.dataset.texto||""; const autor = msg.dataset.autor||""; const edicao = msg.dataset.edicao||"";
       const content = texto.length>ASSUNTO_MAX ? texto.slice(0,ASSUNTO_MAX-1).trimEnd()+"…" : texto;
-      const description = `<div>${esc(texto)}</div><div><br></div><div>Origem: Brainstorm do Bench News, mesa ${esc(area)}${edicao?", edição "+fmtShort(edicao):""}, por ${esc(autor)}. <a href="${esc(location.href)}">Abrir o brainstorm</a></div>`;
+      const description = `<div>${esc(texto)}</div><div><br></div><div>Origem: Brainstorm do Bench News, mesa ${esc(area)}${edicao?", edição "+fmtShort(edicao):""}, por ${esc(nome(autor))}. <a href="${esc(location.href)}">Abrir o brainstorm</a></div>`;
       bc.disabled=true; bc.textContent="Criando...";
       try {
         const r = await fetch(FN + "/todo", {method:"POST", headers:{"Content-Type":"application/json","apikey":SB_KEY}, body: JSON.stringify({area, content, description, tabela:tab, id, por:me})});
@@ -414,8 +416,8 @@ function render(){
     const acts = enc ? `<button data-st="aberta">reabrir</button>`
       : (m.status==="andamento" ? `<button data-st="finalizada">finalizar</button><button data-st="descartada">desprezar</button><button data-st="aberta">voltar pra aberta</button>`
                                 : `<button data-st="andamento">em andamento</button><button data-st="finalizada">finalizar</button><button data-st="descartada">desprezar</button>`);
-    return `<div class="bs-msg ${m.autor===me?'mine':''} st-${m.status} ${enc?'encerrada':''}" data-id="${esc(m.id)}" data-tabela="${m.tabela}" data-texto="${esc(m.texto)}" data-autor="${esc(m.autor||"")}" data-edicao="${esc(m.edicao||"")}">
-      <div class="who"><b>${esc(m.autor||"Alguém do time")}</b><span>${m.edicao?"edição "+fmtShort(m.edicao):""}</span><span>${fmtTs(m.t)}</span>${m.status!=="aberta"?`<span class="pill ${esc(m.status)}">${esc(ST[m.status])}</span>`:""}${m.basecamp?(m.basecampUrl?`<a class="pill basecamp" href="${esc(m.basecampUrl)}" target="_blank" rel="noopener">no Basecamp ↗</a>`:`<span class="pill basecamp">no Basecamp</span>`):""}${m.origem==="mesa"&&(m.autor===me||isAdmin)?`<button class="apagar" data-id="${esc(m.id)}">apagar</button>`:""}</div><span class="txt">${esc(m.texto)}</span>${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}${respDe(m)}
+    return `<div class="bs-msg ${(m.autor===me||nome(m.autor)===me)?'mine':''} st-${m.status} ${enc?'encerrada':''}" data-id="${esc(m.id)}" data-tabela="${m.tabela}" data-texto="${esc(m.texto)}" data-autor="${esc(m.autor||"")}" data-edicao="${esc(m.edicao||"")}">
+      <div class="who"><b>${esc(nome(m.autor))}</b><span>${m.edicao?"edição "+fmtShort(m.edicao):""}</span><span>${fmtTs(m.t)}</span>${m.status!=="aberta"?`<span class="pill ${esc(m.status)}">${esc(ST[m.status])}</span>`:""}${m.basecamp?(m.basecampUrl?`<a class="pill basecamp" href="${esc(m.basecampUrl)}" target="_blank" rel="noopener">no Basecamp ↗</a>`:`<span class="pill basecamp">no Basecamp</span>`):""}${m.origem==="mesa"&&(m.autor===me||isAdmin)?`<button class="apagar" data-id="${esc(m.id)}">apagar</button>`:""}</div><span class="txt">${esc(m.texto)}</span>${m.ref?`<span class="ref">sobre: ${m.ref.url?`<a href="${esc(m.ref.url)}" target="_blank" rel="noopener">${esc(m.ref.titulo)}</a>`:esc(m.ref.titulo)}</span>`:""}${respDe(m)}
       <div class="st">${acts}${enc?"":`<button class="bc" type="button">${m.basecamp?"Reenviar pro Basecamp":"Levar pro Basecamp"}</button>`}</div>
     </div>`; };
   for (const k of Object.keys(por)){
