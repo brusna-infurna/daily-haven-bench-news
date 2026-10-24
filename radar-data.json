@@ -1,6 +1,6 @@
 {
   "projeto": "Daily Haven Bench News",
-  "atualizado": "2026-10-23",
+  "atualizado": "2026-10-24",
   "respostas_sala": {},
   "respostas_comentarios": {
     "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,222 @@
     }
   },
   "dias": [
+    {
+      "data": "2026-10-24",
+      "manchete": "O clube virou a parte mais cara da casa. Em Porto Belo, R$ 60 milhões só pro spa, com entrega em 2030.",
+      "editorial": "Saiu na Exame de hoje que a All Wert começou a obra do Gaia All Resort, 7 mil m² de spa, academia e recuperação dentro do All Resort Club Residence, em Porto Belo, com R$ 60 milhões só nessa estrutura e abertura no primeiro trimestre de 2030. A leitura fácil é que o bem-estar virou amenidade de lançamento. Por baixo dela está o mecanismo: o spa é vendido hoje, com membership atrelado à unidade, e o comprador paga por uma estrutura que só vai usar daqui a três anos e meio, enquanto a incorporadora projeta R$ 20 bilhões de VGV até 2040. Quem perde é quem compra o render. O que esse convívio custa já está tabelado em outro lugar: a SIX cobra de R$ 2.500 a R$ 4.000 por mês em Belo Horizonte pra entregar treino, recuperação e um número limitado de membros, sem casa nenhuma junto, e em Sydney o Broad Church cobra AU$ 850 por uma cadeira, sem porteiro e sem meta de lucro. A Canyon Ranch, no release oficial de Austin, resume a regra que faz o clube valer pro morador: acesso exclusivo dos proprietários ao resort, por escrito. Dia fraco de notícia, oito itens, e três deles vieram de pendências antigas que finalmente abriram na fonte.",
+      "atencao": [
+        "Marketing: O Gaia vende R$ 60 milhões de spa com entrega em 2030; o Haven ganha argumento se mostrar, com data, o que o sócio usa no primeiro ano, sem render de longo prazo.",
+        "Vendas: A SIX em Belo Horizonte tabela R$ 2.500 a R$ 4.000 por mês pra treino, recuperação e comunidade sem imóvel; essa é a régua de preço que o comprador de alta renda já conhece quando ouve a anuidade do clube.",
+        "Clube e parcerias: Lucia e Tintin mostram que o sem álcool brasileiro já tem escala pra bar de clube, e a Festuris, de 12 a 15 de novembro em Gramado, junta num só lugar os operadores de luxo que o Haven quer sentar pra conversar."
+      ],
+      "bench": [
+        {
+          "area": "Produto e estrutura",
+          "para": "vendas",
+          "titulo": "Cronograma público do clube por fase, com o que abre antes das casas",
+          "ideia": "Publicar no deck e no site uma linha do tempo do clube em três fases, com data e lista do que o sócio usa em cada uma, começando pelo que fica pronto primeiro. Serve de contraponto direto ao modelo do Gaia, que vende hoje um spa de 2030.",
+          "ref": "Gaia All Resort, Exame",
+          "url": "https://exame.com/negocios/resort-bilionario-em-sc-investe-r-60-milhoes-para-transformar-bem-estar-em-luxo/"
+        },
+        {
+          "area": "Produto e estrutura",
+          "para": "clube",
+          "titulo": "Papel de concierge de bem-estar no organograma do clube",
+          "ideia": "Descrever a função de concierge de bem-estar do morador antes de contratar: o que faz (agenda de spa, médico parceiro, protocolo de chegada), o que não faz, e se entra na taxa do clube ou é cobrado à parte. A Canyon Ranch usa esse cargo como argumento de venda das 134 casas.",
+          "ref": "Canyon Ranch Austin, release oficial",
+          "url": "https://www.austinchamber.com/member-news/canyon-ranch-austin-announces-october-15-2026-opening"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "titulo": "Mensalidade do sócio externo escalonada por prazo de compromisso",
+          "ideia": "Montar a tabela do sócio que não mora com três prazos (12 meses, 6 meses e avulso), com a mensalidade caindo conforme o compromisso cresce, no formato que a SIX usa em Belo Horizonte (R$ 2.500 em 15 parcelas até R$ 4.000 no avulso). Simplifica a conversa de venda e protege a receita recorrente.",
+          "ref": "SIX Sport Life BH, Diário do Comércio",
+          "url": "https://diariodocomercio.com.br/negocios/six-sport-life-bh/"
+        },
+        {
+          "area": "Comercialização",
+          "para": "vendas",
+          "titulo": "Slide de contexto: interior paulista no radar das redes só no econômico",
+          "ideia": "Um slide no deck com a leitura do índice da Accor (Bauru e Franca como potenciais, luxo e lifestyle fora da conta) ao lado da lista dos hotéis de alto padrão que já existem no eixo de Porto Feliz, com fonte em cada linha. Sustenta a tese de oferta rara sem precisar de adjetivo.",
+          "ref": "Índice Accor, Exame",
+          "url": "https://exame.com/mercado-imobiliario/bauru-ou-anapolis-ia-da-accor-aponta-cidades-que-podem-virar-destinos-hoteleiros/"
+        },
+        {
+          "area": "Comunicação e sociais",
+          "para": "marketing",
+          "titulo": "Página pública de como entrar no clube, em linguagem de convite",
+          "ideia": "Escrever uma página 'Como entrar' com o critério de curadoria, o prazo de resposta e o que acontece depois do pedido, em tom de hospitalidade. O Broad Church cresce em Sydney justamente por se vender como clube sem porteiro; o Haven pode manter a curadoria e tirar a cara de porteiro do texto.",
+          "ref": "Broad Church, Monocle",
+          "url": "https://monocle.com/business/broad-church-sydneys-answer-members-club/"
+        },
+        {
+          "area": "Comunicação e sociais",
+          "para": "marketing",
+          "titulo": "Encontro de design e longevidade no Haven com os arquitetos do projeto",
+          "ideia": "Meio dia no terreno com arquitetura, paisagismo, iluminação e um médico parceiro falando do que a casa faz pelo corpo, aberto a prospects e imprensa, com registro em vídeo pras redes. Formato do fórum Longevity In Culture, que estreou numa residência de marca em Miami.",
+          "ref": "Longevity In Culture, Fitt Insider",
+          "url": "https://insider.fitt.co/?p=35684"
+        },
+        {
+          "area": "Parcerias",
+          "para": "parcerias",
+          "titulo": "Lucia e Tintin na carta sem álcool do bar do clube e dos eventos de venda",
+          "ideia": "Procurar as duas marcas pra uma carta sem álcool assinada por produtor brasileiro, começando pelos eventos de venda e pelo dia de visita. A Lucia mira 300 bares, restaurantes e hotéis até o fim de 2026 e deve aceitar um ponto de venda com esse perfil.",
+          "ref": "Mocktails brasileiros, Exame",
+          "url": "https://exame.com/casual/mais-amargo-menos-alcool-as-apostas-brasileiras-para-o-mercado-de-mocktails/"
+        },
+        {
+          "area": "Parcerias",
+          "para": "parcerias",
+          "titulo": "Agenda na Festuris, 12 a 15/11, com dez operadores de luxo do Espaço Luxury",
+          "ideia": "Marcar reuniões em Gramado com operadores de spa e hotelaria de luxo presentes na feira (o Espaço Luxury passou de oito pra mais de 150 marcas), levando uma página do modelo do clube pra testar interesse de operação ou de intercâmbio de sócios.",
+          "ref": "Festuris 2026, Mercado & Eventos",
+          "url": "https://www.mercadoeeventos.com.br/?p=727703"
+        }
+      ],
+      "itens": [
+        {
+          "title": "All Wert começa a obra do Gaia All Resort em Porto Belo: R$ 60 milhões só em spa e fitness, 7 mil m² e abertura no primeiro trimestre de 2030",
+          "source": "Exame",
+          "url": "https://exame.com/negocios/resort-bilionario-em-sc-investe-r-60-milhoes-para-transformar-bem-estar-em-luxo/",
+          "date": "2026-10-24",
+          "region": "Porto Belo, SC",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "Fato novo sobre o All Resort Club Residence, que já entrou no radar em 16/10: a incorporadora iniciou a obra do Gaia All Resort, no Setor Terra, com mais de 40 ambientes em cerca de 7 mil m², 16 voltados a treino, desempenho, longevidade e recuperação e 24 a relaxamento, estética e tratamentos, além de piscina semiolímpica, Vitality Pool em três níveis, Recovery Lounge, Mind Spa e cinco experiências térmicas. Os R$ 60 milhões cobrem só fitness e spa; a abertura é prevista pro primeiro trimestre de 2030 e a empresa projeta VGV de cerca de R$ 20 bilhões até 2040 (projeção da própria incorporadora). O texto descreve um sistema de membros vinculado às unidades imobiliárias e não diz se o espaço abre a quem não mora.",
+          "por_que_importa": "Concorrente direto de proposta no litoral catarinense, com spa, recuperação e longevidade dentro do residencial, mas com entrega em 2030. Vendas usa o prazo como argumento; marketing ganha um programa de espaços pra comparar com o do Haven.",
+          "para": [
+            "vendas",
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "SIX Sport Life abre em novembro em Belo Horizonte com mensalidade de R$ 2.500 a R$ 4.000, conforme o prazo do plano",
+          "source": "Diário do Comércio (matéria de 18/09, fora da janela; entra por fechar a pendência de preço registrada em 19/10)",
+          "url": "https://diariodocomercio.com.br/negocios/six-sport-life-bh/",
+          "date": "2026-09-18",
+          "region": "Belo Horizonte, MG",
+          "escopo": "brasil",
+          "pilar": "membership",
+          "resumo": "A unidade do Belvedere ocupa uma casa neoclássica adaptada e abre em novembro de 2026. A tabela é de 15 parcelas de R$ 2.500, 12 de R$ 2.850, 6 de R$ 3.400 ou pagamento único de R$ 4.000, com Technogym, saunas seca e a vapor, crioterapia, recovery, concierge, salão e número limitado de membros. A rede, fundada em 2024, faturou R$ 24 milhões em 2025, tem cinco unidades e mira 15 até 2028; o investimento em BH não é informado. A matéria é de setembro e entra porque o preço era a pendência anotada desde 19/10.",
+          "por_que_importa": "Fecha a régua de preço: R$ 2.500 a R$ 4.000 por mês é o que o público de alta renda já paga por treino, recuperação e comunidade sem imóvel, fora de São Paulo. Clube e vendas usam a faixa pra calibrar a anuidade do sócio externo.",
+          "para": [
+            "clube",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Sem álcool brasileiro ganha escala: Lucia passou de 150 mil garrafas no primeiro ano e mira 300 bares, restaurantes e hotéis até o fim de 2026",
+          "source": "Exame (publicada em 21/10, atualizada em 23/10; Datafolha, IWSR e ABIR citados pela matéria, não conferidos na fonte primária)",
+          "url": "https://exame.com/casual/mais-amargo-menos-alcool-as-apostas-brasileiras-para-o-mercado-de-mocktails/",
+          "date": "2026-10-23",
+          "region": "Brasil",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "A Lucia, aperitivo sem álcool de maçã, cupuaçu e frutas vermelhas, esgotou o primeiro lote em 20 dias e passou de 150 mil garrafas no primeiro ano. A Tintin lançou o Carysma, drink pronto com 2,8% de álcool e bitter amazônico, a R$ 98 a garrafa de 750 ml. A matéria cita Datafolha (53% dos brasileiros que bebem reduziram o consumo no fim de 2025) e IWSR (alta de cerca de 7% ao ano até 2028), sem link pras fontes.",
+          "por_que_importa": "Carta de bar do clube e dos eventos com produtor nacional de sem álcool, e duas marcas candidatas a parceria de produto. O dado de redução de consumo só entra em material de venda depois de conferido na fonte.",
+          "para": [
+            "parcerias",
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Accor cria índice com IA que pontua 1.209 municípios e aponta Bauru e Franca como destinos hoteleiros em potencial, sem a divisão de luxo na conta",
+          "source": "Exame (índice IDAB e dados de hotéis informados pela Accor)",
+          "url": "https://exame.com/mercado-imobiliario/bauru-ou-anapolis-ia-da-accor-aponta-cidades-que-podem-virar-destinos-hoteleiros/",
+          "date": "2026-10-18",
+          "region": "Brasil, interior de SP",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "O Índice de Desenvolvimento Accor Brasil dá nota de 0 a 1.000 a 1.209 municípios, com dez critérios como PIB, aeroporto, hospitais e potencial turístico. No interior paulista aparecem Bauru e Franca. A Accor tem cerca de 320 hotéis no país e o Brasil responde por 56% da receita de quartos da região; o índice é triagem inicial, sem compromisso de construir, e a divisão de luxo e lifestyle fica fora dele.",
+          "por_que_importa": "Mostra onde as redes enxergam demanda no interior paulista, e só nos segmentos econômico e médio. Vendas usa como contexto de que o alto padrão do interior segue pouco atendido por hotelaria de marca.",
+          "para": [
+            "vendas",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Festuris acontece de 12 a 15 de novembro no Serra Park, em Gramado, com 11 palcos e um Espaço Luxury que passou de oito pra mais de 150 marcas",
+          "source": "Mercado & Eventos (matéria de 01/10/2026)",
+          "url": "https://www.mercadoeeventos.com.br/?p=727703",
+          "date": "2026-11-12",
+          "region": "Gramado, RS",
+          "escopo": "brasil",
+          "pilar": "eventos",
+          "resumo": "A 38ª edição da feira de turismo de Gramado vai de 12 a 15 de novembro no Serra Park, com 11 palcos de conteúdo, a Paraíba como estado convidado e a estreia do Japão no Espaço Luxury, que saiu de oito marcas na origem pra mais de 150. Fecha a pendência de data e local, que desde 17/10 só tinha a nota da Panrotas de junho.",
+          "por_que_importa": "Gramado concentra Club Med Exclusive Collection, Kurotel e residências de marca; a feira é o lugar de sentar com operadores de luxo e agentes especializados numa viagem só.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Broad Church, em Sydney, vende clube sem porteiro: cadeira de coworking a AU$ 850 por mês num prédio de 1886, a 2 km de onde a Soho House abre em 2028",
+          "source": "Monocle (publicado em 30/09, atualizado em 22/10)",
+          "url": "https://monocle.com/business/broad-church-sydneys-answer-members-club/",
+          "date": "2026-10-22",
+          "region": "Sydney, Austrália",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "Jessy Wu, 31 anos, ex-investidora de venture capital, abriu o espaço em Chippendale, num prédio de 1886 que já foi missão ecumênica e galeria, com contrato de aluguel de quatro anos. A cadeira dedicada custa AU$ 850 por mês (cerca de € 520) e o plano de três dias por semana AU$ 550; ela diz que não busca lucro e que os membros quase cobrem o aluguel. A Soho House prevê uma casa de cinco andares a cerca de 2 km, em 2028. O texto não informa o número de sócios.",
+          "por_que_importa": "Clube de bairro barato e sem porteiro crescendo na sombra de um Soho House. Ajuda o time a dizer o que o Haven oferece que um espaço aberto não oferece, e a escrever a curadoria sem cara de porteiro.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Canyon Ranch Austin, na fonte primária: 141 quartos, spa de 3.700 m² com 37 salas, centro médico de 1.100 m² e 134 lotes com acesso exclusivo dos proprietários ao resort",
+          "source": "Canyon Ranch (release oficial de 16/06/2026, via Austin Chamber of Commerce; entra por fechar a pendência de fonte primária anotada em 23/10)",
+          "url": "https://www.austinchamber.com/member-news/canyon-ranch-austin-announces-october-15-2026-opening",
+          "date": "2026-06-16",
+          "region": "Austin, Texas, EUA",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "O release que anunciou a abertura de 15/10 traz 141 quartos, spa de 40 mil pés quadrados (cerca de 3.700 m²) com 37 salas de tratamento, academia de 27 mil pés quadrados e centro médico de 12 mil pés quadrados (cerca de 1.100 m²), num terreno de mais de 600 acres às margens do Lake Travis. A Ranch Home Collection soma 134 lotes, com casas em construção, acesso exclusivo dos proprietários ao resort e a um programa de bem-estar com concierge. Não há preço de lote nem de casa. A abertura já tinha entrado em 23/10 por fonte secundária; o fato novo é a regra de acesso do morador, na fonte oficial.",
+          "por_que_importa": "Dá ao time a fonte primária pra citar a Canyon Ranch como resort com casas dentro do terreno e, principalmente, a regra escrita de acesso exclusivo do proprietário, que é o argumento que faz o clube valer pra quem compra. Preço das casas segue sem divulgação.",
+          "para": [
+            "vendas",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Fórum Longevity In Culture estreia no Kempinski Residences Miami Design District juntando arquitetos, iluminação e ciência da longevidade",
+          "source": "Fitt Insider (press release da Longevity Design Leaders; números do release sem fonte)",
+          "url": "https://insider.fitt.co/?p=35684",
+          "date": "2026-10-19",
+          "region": "Miami, EUA",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "O fórum Longevity In Culture: Design Meets Science estreia no Kempinski Residences Miami Design District, com Axxes Capital e ZEO Scientifix, moderação de Courtney Lukitsch e participação de Kobi Karp Architecture, Ero Lighting e escritórios de interiores. O release não informa a data do encontro e cita mercado imobiliário ligado à longevidade de US$ 6,5 trilhões com crescimento de 26% ao ano, números sem fonte apontada e não conferidos na fonte primária.",
+          "por_que_importa": "Residência de marca usada como palco de conversa entre design e longevidade, formato que o Haven pode copiar com os arquitetos do projeto e um médico parceiro. Os números do release não entram em material do Haven.",
+          "para": [
+            "marketing",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        }
+      ]
+    },
     {
       "data": "2026-10-23",
       "manchete": "Sauna virou item de série na residência de marca. O prêmio agora está na porta de entrada.",
