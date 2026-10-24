@@ -101,7 +101,7 @@ TEMPLATE = r"""<!doctype html>
     <div class="kicker">Vendas · Membership · Parcerias · Marketing/Social</div>
   </header>
   <div class="folio">
-    <span><a href="../sala/" style="text-decoration:underline">Voltar pra sala do time</a></span>
+    <span><a href="../" style="text-decoration:underline">Voltar pro Bench News</a></span>
     <span class="live" id="live"><i></i><span id="live-txt">conectando</span></span>
     <span class="top-actions"><span class="me" id="me"></span><button class="btn sm ghost" id="sair" hidden>Trocar nome</button></span>
   </div>
@@ -124,7 +124,7 @@ TEMPLATE = r"""<!doctype html>
   </div>
 
   <footer>
-    <p>Cada mensagem traz autor, edição do Bench a que se refere e hora. O quadro é lido pela rotina da manhã do Bench. A sala do time fica em <a href="../sala/" style="text-decoration:underline">benchnews/sala</a>.</p>
+    <p>Cada mensagem traz autor, edição do Bench a que se refere e hora. O quadro é lido pela rotina da manhã do Bench. A sala do time é a própria página do Bench, em <a href="../" style="text-decoration:underline">benchnews</a>.</p>
   </footer>
 </div>
 <script>

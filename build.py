@@ -253,4 +253,5 @@ print("index.html gerado:", len(out), "bytes;", sum(len(d["itens"]) for d in dat
 
 # Desde 22/10 a página publicada é a v2 (régua fixa, chips, mural com cartão fixo). Mantém o layout acima como base de CSS.
 import subprocess, sys as _sys
-subprocess.run([_sys.executable, os.path.join(HERE, "build_v2.py"), "home", "oficial", os.path.join(HERE, "index.html")], check=True)
+# desde 24/10 a página do Bench é a própria sala do time (votos, comentários, pautas, brainstorm); não existe mais /sala/ separada
+subprocess.run([_sys.executable, os.path.join(HERE, "build_v2.py"), "sala", "oficial", "raiz", "https://fapighshlsqbrixlqend.supabase.co", "sb_publishable_lJWsqnf3cY66cpOr_EsSRw_fXbgy1b9", os.path.join(HERE, "index.html")], check=True)
