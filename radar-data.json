@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-10-25",
+ "atualizado": "2026-10-26",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,301 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-10-26",
+   "manchete": "A longevidade ganhou tabela de preço no hospital. O acesso ao clube, por outro lado, está ficando de graça.",
+   "editorial": "Dois movimentos no mesmo fim de semana, em direções opostas. De um lado, os hospitais acadêmicos americanos publicaram a tabela da longevidade: US$ 5.500 por ano no Northwestern, US$ 12.000 com consultas trimestrais no Weill Cornell, Mount Sinai abrindo este mês. Com uma diferença que vale mais que o preço: Northwestern recusa ressonância de corpo inteiro e genoma por falta de evidência, Mount Sinai oferece os dois. O mesmo produto, dois critérios, e quem compra não tem como saber qual está certo. Do outro lado, o acesso ao convívio está perdendo a catraca: a Spiritland abre 100 lugares no Barbican sem ingresso nem membership, a TotalPass põe academia de alto padrão dentro do benefício da empresa, a Red Bull cria uma prova que qualquer um corre sem equipamento. Quem perde nisso é o clube que vendia só a porta. O que sobra pra cobrar é o critério: qual exame entra, qual fica de fora, quem opera, e a Deloitte lembra no HCM Invest que o terreno viável, que o Haven já tem, é hoje o gargalo de quem quer abrir. Brasil fraco de novo na janela, com três itens; o Festival da Longevidade de Florianópolis entrou com a programação que faltava desde sábado.",
+   "atencao": [
+    "Marketing: A Spiritland e o Red Bull Power Race mostram ritual sem porteiro e prova sem equipamento; vale testar no conteúdo do Haven o formato de hábito fixo (álbum às 18h, amanhecer no lago) antes de falar em exclusividade.",
+    "Vendas: A Urban Developer fechou o preço do Aria (1,99 a 4,01 milhões por tipologia, lista própria primeiro, público depois com preço maior) e o Becker's trouxe a tabela de longevidade dos hospitais; os dois servem pra calibrar pré-venda e argumento de longevidade, com a ressalva de moeda e de fonte secundária.",
+    "Clube e parcerias: A escolha do parceiro médico precisa começar pelo critério de evidência, não pelo cardápio de exames; a TotalPass e a Silva Gym abrem a pergunta da categoria corporativa, e a Fazenda Sant'Anna, em Amparo, é candidata a hospedagem de prospect."
+   ],
+   "bench": [
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Álbum inteiro às 18h no listening bar, sem reserva, aberto a convidado",
+     "ideia": "Fixar um horário diário no listening bar do clube em que um álbum é tocado na íntegra, escolhido por um sócio da semana e anunciado na véspera. Sem reserva e sem comanda mínima, com direito a um convidado por sócio, pra virar o hábito de fim de tarde do Haven.",
+     "ref": "Spiritland no Barbican, Bar Magazine",
+     "url": "https://barmagazine.co.uk/spiritland-announces-new-listening-bar-at-the-barbican-opening-20-october/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Carta de evidência: o que o Haven oferece de longevidade e o que recusa",
+     "ideia": "Antes de escolher o parceiro médico, escrever uma página com o critério de evidência do clube: quais exames entram (sangue, composição corporal, força, sono) e quais ficam de fora de propósito (ressonância de corpo inteiro, genoma) e por quê. Usar a carta como pauta da conversa com dois ou três parceiros candidatos e publicar a versão final no material do clube.",
+     "ref": "Hospitais acadêmicos e longevidade, Becker's",
+     "url": "https://www.beckershospitalreview.com/quality/patient-safety-outcomes/longevity-medicine-moves-into-academic-health-systems/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Categoria de sócio corporativo vendida pra empresas de Campinas e Sorocaba",
+     "ideia": "Desenhar uma categoria de membership comprada pela empresa, com dez a vinte acessos nominais rotativos pra diretoria e um dia de clube por trimestre pra equipe, e oferecer a cinco empresas da região antes de abrir ao público. Preço anual fechado, lista de espera e teto de empresas por ano.",
+     "ref": "TotalPass e Silva Gym, Máquina do Esporte",
+     "url": "https://maquinadoesporte.com.br/mercado/totalpass-se-une-a-silva-gym-para-ampliar-oferta-de-academias-de-alto-padrao"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Percurso de 400 m marcado no terreno com quatro estações de peso corporal",
+     "ideia": "Demarcar no projeto do paisagismo um circuito de 400 m com quatro estações de flexão, abdominal, agachamento e prancha, sem equipamento, com placa de tempo recorde por categoria. Serve de prova de temporada entre sócios e de atividade de visita pra prospect sem precisar de academia pronta.",
+     "ref": "Red Bull Power Race, Athletech News",
+     "url": "https://athletechnews.com/red-bull-wants-in-on-the-fitness-racing-boom-power-race-asia/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Sala de treino cognitivo no clube, separada da academia",
+     "ideia": "Reservar na planta do clube uma sala pequena de treino cognitivo e saúde cerebral, com sessões guiadas de memória, atenção e coordenação, operada pelo parceiro de longevidade. Entra como item de série no deck ao lado da sauna e do cold plunge, e é fácil de explicar pra quem tem 60 anos.",
+     "ref": "HCM Summit, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Sold-out-HCM-Summit-puts-brain-health-prevention-and-sustainable-growth-centre-stage/363831"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Crédito na horta do clube por presença no treino",
+     "ideia": "Cada sessão de treino ou de circuito registrada no app do sócio vira crédito pra retirar produto da horta ou da feira do Haven no fim de semana. Regra simples, teto mensal, e o saldo aparece na catraca, pra ligar a frequência ao que o terreno produz.",
+     "ref": "Jims Fitness Move & Save no HCM Summit, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Sold-out-HCM-Summit-puts-brain-health-prevention-and-sustainable-growth-centre-stage/363831"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Fazenda hotel vizinha como hospedagem oficial dos fins de semana de visita",
+     "ideia": "Fechar com uma fazenda hotel da região (Amparo ou mais perto de Porto Feliz) um pacote de duas noites pra prospects do Haven, com transfer até o terreno e café da manhã com o time de vendas. Enquanto as casas não ficam prontas, a visita já tem onde dormir e a fazenda ganha ocupação de semana.",
+     "ref": "Fazenda Sant'Anna em Amparo, ABC Repórter",
+     "url": "https://abcreporter.com.br/2026/10/25/de-fazenda-cafeeira-a-hotel-propriedade-no-interior-paulista-preserva-mais-de-um-seculo-de-historia/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Amanhecer no lago: sessão coletiva de respiração e movimento que abre a visita",
+     "ideia": "Toda visita de fim de semana começa com uma sessão de 40 minutos de respiração e movimento em grupo na beira do lago, conduzida por um instrutor fixo, antes do café. Filmar sempre do mesmo ângulo e no mesmo horário pra virar série recorrente nas sociais, sem texto de impacto, só o terreno e as pessoas.",
+     "ref": "Sanctum no Global Wellness Summit, release do GWS",
+     "url": "https://www.globalwellnesssummit.com/press/press-releases/gws-to-explore-the-soul-of-wellness/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Slide do investidor: o terreno viável é o gargalo do setor, e o Haven já tem",
+     "ideia": "Abrir a seção de clube do deck de investidor com o achado da Deloitte (local viável e custo de operação travam as redes, capital existe pra quem prova retorno) e em seguida a economia por sócio do Haven em três linhas: receita por categoria, custo de operação por m² e ponto de equilíbrio em número de sócios.",
+     "ref": "Deloitte no HCM Invest, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Steffen-Gausselmann-presents-new-findings-from-Deloitte-at-HCM-Invest/363817"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Hospitais acadêmicos dos EUA entram na longevidade com tabela: US$ 5.500 por ano no Northwestern, US$ 7.500 a US$ 12.000 no Weill Cornell, e Mount Sinai abre em outubro",
+     "source": "Becker's Hospital Review (16/10; compila reportagem do New York Times que não abriu)",
+     "url": "https://www.beckershospitalreview.com/quality/patient-safety-outcomes/longevity-medicine-moves-into-academic-health-systems/",
+     "date": "2026-10-16",
+     "region": "Estados Unidos",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "O Becker's, citando o New York Times de 16/10, lista Cedars-Sinai, Northwestern e Weill Cornell com programas de longevidade já em operação e o Mount Sinai abrindo o seu neste mês. Northwestern cobra US$ 5.500 por ano e não oferece ressonância de corpo inteiro nem sequenciamento de genoma por falta de evidência; Weill Cornell cobra US$ 7.500 por uma avaliação única ou US$ 12.000 com consultas trimestrais; o Mount Sinai oferece os dois exames depois de o paciente discutir riscos com o médico. Fato novo em relação ao item da STAT de 13 e 19/10: Cedars-Sinai, Mount Sinai e a divergência de critério entre os hospitais. O texto do NYT não abriu; os dados são os repassados pelo Becker's.",
+     "por_que_importa": "Dá faixa de preço e, mais útil, o critério de evidência que cada hospital adotou. Serve pra escolher o parceiro médico do clube e pra dizer com clareza, na venda, o que o Haven oferece e o que deixa de fora de propósito.",
+     "para": [
+      "parcerias",
+      "vendas",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Spiritland abre listening bar de 100 lugares no Barbican, em Londres, sem ingresso e sem membership, com um álbum inteiro tocado todo dia às 17h",
+     "source": "Bar Magazine (nota de 07/10 sobre a abertura de 20/10)",
+     "url": "https://barmagazine.co.uk/spiritland-announces-new-listening-bar-at-the-barbican-opening-20-october/",
+     "date": "2026-10-20",
+     "region": "Londres, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "A Spiritland abriu em 20/10 um listening bar de 100 lugares no nível 2 do Barbican, com sistema de som construído em torno de um par de caixas Living Voice R252. Funciona de terça a domingo, sem ingresso e sem membership, com DJs e colecionadores todo dia, palestras, degustações, supper clubs, semanas dedicadas a um artista e um álbum tocado na íntegra diariamente às 17h. A nota é anterior à abertura; a inauguração em si não foi reconfirmada em matéria posterior.",
+     "por_que_importa": "O álbum inteiro em horário fixo é o ritual mais barato de copiar pro listening bar do clube: cria hábito sem depender de artista ou de reserva. Também mostra um espaço cultural grande abrindo a sala sem porteiro, que é o oposto do que os clubes de membros vendem.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Fazenda Sant'Anna, em Amparo, a 125 km da capital, vende wellness numa fazenda cafeeira do século XIX com 42 acomodações e spa de 3 mil m²",
+     "source": "ABC Repórter (25/10; texto com cara de divulgação, sem falas de executivo e sem preço)",
+     "url": "https://abcreporter.com.br/2026/10/25/de-fazenda-cafeeira-a-hotel-propriedade-no-interior-paulista-preserva-mais-de-um-seculo-de-historia/",
+     "date": "2026-10-25",
+     "region": "Amparo (SP), Serra da Mantiqueira",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "O Fazenda Sant'Anna Hotel and Wellness ocupa uma fazenda cafeeira do século XIX perto de Campinas, com mais de 1,5 milhão de m², 42 acomodações em três categorias (Sede Histórica, Recanto Capela e Refúgio Jaboticabeira), o Quintaessência Spa de cerca de 3 mil m², lago, trilhas, academia, pensão completa e uma fazendinha pra crianças. A matéria não traz preço, investimento nem regra de acesso pra quem não está hospedado, e tem tom de material do hotel.",
+     "por_que_importa": "É o farm hospitality com spa grande mais perto do eixo Campinas que apareceu no radar, e serve de comparação de escala no argumento de venda. Também é candidata a hospedar prospects do Haven enquanto as casas não ficam prontas.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Aria divulga o preço inicial do Sanctuary Residences, em Brisbane: 1,99 milhão pra dois quartos, 2,72 milhões pra três e 4,01 milhões pra quatro, em dólares australianos pelo contexto",
+     "source": "The Urban Developer (15/10; fecha a pendência de preço de 25/10)",
+     "url": "https://www.theurbandeveloper.com/articles/aria-sanctuary-residences-apartment-sales-500m-230-apartments-brisbane-qld",
+     "date": "2026-10-15",
+     "region": "Brisbane, Austrália",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A Urban Developer confirma os 519 milhões vendidos em setembro pra base de clientes da Aria, sem lançamento nem publicidade, e traz o preço inicial por tipologia: 1,99 milhão (dois quartos), 2,72 milhões (três) e 4,01 milhões (quatro), com alta prevista quando o estoque restante for aberto, o que aconteceu em 19/10. Foram 231 unidades (100 de três quartos, 65 de quatro, 66 de dois); a meta descrição fala em 230. O texto escreve só o cifrão, sem a sigla da moeda, e não diz a regra de acesso ao clube de bem-estar e banhos de mais de 4.600 m².",
+     "por_que_importa": "Fecha o preço que faltava no item de 25/10 e confirma a mecânica: lista própria primeiro, preço menor, abertura pública com preço maior. Serve de referência direta pra desenhar a pré-venda do Haven pra lista do clube.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "TotalPass fecha exclusividade com a Silva Gym e põe academia de alto padrão, com reserva obrigatória e um profissional pra cada três alunos, no plano corporativo TP7",
+     "source": "Máquina do Esporte",
+     "url": "https://maquinadoesporte.com.br/mercado/totalpass-se-une-a-silva-gym-para-ampliar-oferta-de-academias-de-alto-padrao",
+     "date": "2026-10-22",
+     "region": "Rio de Janeiro, São Paulo e Balneário Camboriú",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A TotalPass anunciou acordo de exclusividade com a Silva Gym, rede carioca de treino de força criada em 2023, pra funcionários de empresas clientes com o plano TP7. A rede exige reserva prévia, controla a ocupação e mantém um profissional de educação física pra cada três alunos, com cinco unidades no Rio, duas em São Paulo (Moema e Pinheiros) e uma em Balneário Camboriú. A matéria cita um estudo Brand Health Tracking do Grupo Smart Fit, feito pela HSR, com cerca de 30% de alta na consideração por academias de alto padrão no segundo semestre de 2026, que ainda está em curso; dado não conferido na fonte primária.",
+     "por_que_importa": "O benefício corporativo está empurrando o alto padrão pra dentro da folha de pagamento das empresas, o que baixa a barreira de entrada desse público. Abre a pergunta de uma categoria de sócio do clube do Haven vendida pra empresas da região.",
+     "para": [
+      "clube",
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Red Bull cria o Power Race, prova de peso corporal sem equipamento: quatro corridas de 400 m intercaladas com flexão, abdominal e agachamento, com final em Bangkok em 18/10",
+     "source": "Athletech News (26/10; texto parcialmente fechado a assinantes do ATN Pro)",
+     "url": "https://athletechnews.com/red-bull-wants-in-on-the-fitness-racing-boom-power-race-asia/",
+     "date": "2026-10-26",
+     "region": "Bangkok, Tailândia",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A Red Bull estreou o Power Race, competição que alterna corridas de 400 m com flexões, abdominais e agachamentos, sem ski erg, remo ou peso, ao contrário de Hyrox, ATHX e Xenom. A temporada inaugural passou por Malásia, Indonésia, Mianmar e Tailândia e a final internacional foi em 18/10 em Bangkok, com os 12 melhores homens e as 12 melhores mulheres classificados. A parte aberta do texto não traz o número total de atletas nem planos de nova temporada, e cita outras parcerias da Red Bull (Peak500 com a F45, Amped Fitness).",
+     "por_que_importa": "Uma marca de bebida cria formato de prova que qualquer um faz em qualquer terreno, sem infraestrutura. É o desenho mais simples de desafio de comunidade pro clube, com percurso marcado no próprio terreno do Haven.",
+     "para": [
+      "clube",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Global Wellness Summit põe monge da tradição da floresta tailandesa, sessões de movimento na praia e canto budista na programação de 10 a 13/11 em Phuket",
+     "source": "Global Wellness Summit (release oficial, 19/10)",
+     "url": "https://www.globalwellnesssummit.com/press/press-releases/gws-to-explore-the-soul-of-wellness/",
+     "date": "2026-11-10",
+     "region": "Phuket, Tailândia",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "Release de 19/10 confirma a 20ª edição no Angsana Laguna Phuket, de 10 a 13 de novembro, com o tema 'A ciência, a arte e a alma do bem-estar'. Entram na programação o monge Ajahn Jayasāro, ordenado na Tailândia sob Ajahn Chah, o cineasta Louie Schwartzberg, duas sessões matinais de música, respiração e movimento coletivo na praia com a Sanctum (Luuk Melisse) e um canto budista de alunas da Dhammajarinee Witthaya School. O release repete os US$ 6,8 trilhões da economia do bem-estar. Fato novo em relação aos itens de 13 e 18/10: a programação coletiva e espiritual.",
+     "por_que_importa": "O evento mais importante do setor abre o dia com movimento em grupo e fecha com ritual, ao lado da ciência da longevidade. É roteiro de programação pro clube e argumento de que convívio vende tanto quanto exame.",
+     "para": [
+      "clube",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "HCM Summit esgota em Londres com saúde cerebral, exercício prescrito e academia pagando ida ao treino com vale de frutas e legumes",
+     "source": "Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Sold-out-HCM-Summit-puts-brain-health-prevention-and-sustainable-growth-centre-stage/363831",
+     "date": "2026-10-22",
+     "region": "Londres, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "O HCM Summit aconteceu no Queen Elizabeth II Centre, com ingressos esgotados, no dia seguinte ao HCM Invest, na sede da EGYM. Oliver Patrick defendeu que um espaço separado de treino cognitivo dentro da academia é o próximo passo lógico; a Everyone Active apresentou uma parceria de encaminhamento com a Chemists 4U pra quem considera remédios GLP-1, combinando prescrição, força e nutrição; a Jims Fitness, do grupo Colruyt, mostrou o plano Move & Save, que troca idas à academia por vales de frutas e legumes; Sir Muir Gray lançou o National Activity Therapy Service. Próxima edição em 7/10/2027, no mesmo lugar. A matéria é de 22/10 e não diz o dia de abertura; a data usada é a da publicação.",
+     "por_que_importa": "Três ideias de programação saem prontas: sala de treino cognitivo, protocolo de treino pra quem usa GLP-1 e recompensa por presença com produto da horta. Todas cabem num clube de 75 casas sem virar clínica.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Deloitte, no HCM Invest: o que trava a expansão das redes de academia é terreno viável e custo de operação, com capital disponível só pra quem prova retorno",
+     "source": "Health Club Management (pesquisa da Deloitte encomendada pela HCM e pela LifeFit Group; primeiros resultados, sem números)",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Steffen-Gausselmann-presents-new-findings-from-Deloitte-at-HCM-Invest/363817",
+     "date": "2026-10-21",
+     "region": "Londres, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "Steffen Gausselmann, da Deloitte Alemanha, apresentou os primeiros achados da pesquisa no HCM Invest: a maior dificuldade dos operadores é achar locais adequados e viáveis, seguida de custo e capacidade operacional. Capital existe, mas o investidor prefere operador com histórico, dados claros e prova de retorno. A matéria não traz números e o próprio Gausselmann avisa que o foco em grandes redes pode enviesar as conclusões sobre financiamento. Relatório completo não conferido na fonte primária.",
+     "por_que_importa": "Serve de argumento pro deck de investidor do clube: o terreno já existe e o gargalo do setor é justamente esse. O que o investidor vai cobrar é a economia por sócio, com dado, não o tamanho.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Lodha lança The Ridge, vilas de longevidade a 2.100 m de altitude perto de Shimla, a partir de ₹ 9,5 crore, com clube de 25 mil pés quadrados e crioterapia, luz vermelha e câmara hiperbárica",
+     "source": "Orissa Diary (release da House of Abhinandan Lodha, 24/10)",
+     "url": "https://orissadiary.com/the-house-of-abhinandan-lodha-introduces-the-ridge-mashobra-a-longevity-led-luxury-villa-residence-with-seven-star-hospitality-in-himachal-pradesh/",
+     "date": "2026-10-24",
+     "region": "Mashobra, Himachal Pradesh, Índia",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A House of Abhinandan Lodha lançou o The Ridge em Mashobra, a cerca de 10 km de Shimla: vilas de três e quatro quartos em 11,5 acres a cerca de 7.000 pés, cercadas por floresta de cedro, com preço inicial de ₹ 9,5 crore. O clube de mais de 25 mil pés quadrados tem piscina aquecida, academia, restaurante e lounge com lareira; a Evavo Wellness opera crioterapia, luz vermelha e oxigenoterapia hiperbárica, e a Everly Hotels & Resorts cuida das vilas e dos serviços. O texto é comunicado da incorporadora e não diz o número de unidades.",
+     "por_que_importa": "Mais um caso de segunda casa sem hotel de marca em que o clube e os protocolos de recuperação são o produto. Referência de narrativa de longevidade e de operador de serviço separado do operador de wellness.",
+     "para": [
+      "vendas",
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Festival da Longevidade de Florianópolis faz a segunda edição em 28 e 29/10 no Cemupi, no antigo Clube 12, com Professor Gretz e mais cinco palestrantes",
+     "source": "FloripAmanhã (20/10, a partir da coluna de Cacau Menezes no ND; fecha a pendência de programação de 24/10)",
+     "url": "https://floripamanha.org/2026/10/festival-da-longevidade/",
+     "date": "2026-10-28",
+     "region": "Florianópolis, Brasil",
+     "escopo": "brasil",
+     "pilar": "eventos",
+     "resumo": "A segunda edição acontece em 28 e 29 de outubro no Cemupi, o Centro Multiuso da Pessoa Idosa instalado no prédio do antigo Clube 12, no Centro de Florianópolis. Os nomes divulgados são Professor Gretz, Zena Becker, Anita Pires, Karen Santos, Murillo Ronald Capella e Elisabete Junqueira, com inscrição pelo site do festival. A nota não traz horários, preço nem organizador, e a página oficial não foi conferida.",
+     "por_que_importa": "Longevidade virando evento público e gratuito numa capital fora de São Paulo é termômetro do tema no público 50+. Serve de referência de formato leve pro clube, sem palco grande.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "CEO da Smart Fit diz que juro perto de 15% inviabiliza empreender e detalha 192 estúdios, 89% em franquia, na plataforma BEON",
+     "source": "Seu Dinheiro (entrevista, 14/10)",
+     "url": "https://www.seudinheiro.com/2026/empresas/juros-sao-o-maior-desafio-da-smart-fit-smft3-diz-ceo-como-a-lider-do-setor-fitness-tem-crescido-nesse-cenario-giov/",
+     "date": "2026-10-14",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "Diogo Corona, há oito meses no cargo e criador da TotalPass, diz que o que mais afeta a Smart Fit é o juro e que operar com taxa perto de 15% é inviável. O grupo consolidou as marcas de estúdio na BEON Studios, com 192 unidades, 89% em franquia, e chegou a 17 países com a Venezuela. A compra de até 20% do Buddha Spa, já publicada em 17/10, aparece sem valor no corpo do texto. Item de contexto, fora da janela de 72 horas.",
+     "por_que_importa": "Retrato do custo de capital no setor e do avanço do estúdio boutique por franquia, útil pra calibrar a conversa com operadores parceiros do clube: quem vai operar precisa de modelo que feche com esse juro.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-10-25",
    "manchete": "O clube virou canal de venda. Em Brisbane, $ 519 milhões saíram pra lista de clientes antes do lançamento público.",
