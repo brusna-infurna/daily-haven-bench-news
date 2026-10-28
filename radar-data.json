@@ -1,6 +1,6 @@
 {
   "projeto": "Daily Haven Bench News",
-  "atualizado": "2026-10-27",
+  "atualizado": "2026-10-28",
   "respostas_sala": {},
   "respostas_comentarios": {
     "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,307 @@
     }
   },
   "dias": [
+    {
+      "data": "2026-10-28",
+      "manchete": "O Itaú virou porta de entrada do Boa Vista. O acesso ao clube do vizinho agora é benefício de banco.",
+      "editorial": "Em 27 de outubro a JHSF e o Itaú renovaram até 2030 a parceria que dá a clientes do Personnalité e do Private condições especiais nos hotéis Fasano, no São Paulo Surf Club e no CJ Boa Vista Village, em Porto Feliz. O diretor de clubes da JHSF resumiu o mecanismo numa frase: parceiro que entrega qualidade sem escala não serve. É isso que está em jogo quando um clube curado vira benefício de segmento bancário: a curadoria passa a ser a segmentação do banco, e quem decide quem entra na porta é o algoritmo de renda do Itaú, com 70% desses clientes viajando pro exterior todo ano. Lá fora o movimento é o mesmo em outra escala. A Everyone Active, rede de massa no Reino Unido, tem quase 70 mil pessoas numa camada paga de bem-estar e vai encaminhar quem usa GLP-1 pra uma farmácia parceira; a Whoop fechou pesquisa clínica com o governo de Abu Dhabi e levantou US$ 575 milhões pra virar plataforma de saúde preditiva; a Swire vendeu US$ 297 milhões de residências em Bangkok só por agendamento, antes de abrir ao público. Quem perde é o sócio que pagou pela porta estreita e vê a porta alargar por contrato, e o projeto que precisa de escala e não tem banco atrás. O custo pro Haven é escolher cedo: 75 casas e um clube curado não competem no canal do Itaú, e o argumento tem que ser a curadoria que o banco não faz.",
+      "atencao": [
+        "Marketing: A Exame lançou uma editoria de longevidade no evento de 27/10, com Kalache e a CEO do Fleury na abertura. É a hora de oferecer a pauta do Haven como casa e clube pensados pra viver mais, antes que o espaço seja ocupado por clínica e previdência.",
+        "Vendas: O preço por tipologia da Swire em Bangkok, de US$ 14,8 mil a mais de US$ 25,2 mil por metro quadrado na mesma torre, mostra o tamanho do prêmio que uma venda por agendamento sustenta. O Haven ainda não tem a tabela por tipologia publicada; vale montar antes da pré-venda.",
+        "Clube e parcerias: O vizinho de Porto Feliz acaba de amarrar o acesso ao clube a um banco até 2030. Qualquer conversa do Haven com banco de alta renda precisa começar pela regra de acesso, não pelo desconto, e o GLP-1 entra na pauta do parceiro médico com critério escrito, como a Everyone Active fez com a farmácia."
+      ],
+      "bench": [
+        {
+          "area": "Parcerias",
+          "para": "parcerias",
+          "titulo": "Banco de alta renda como canal de visita, sem desconto no título",
+          "ideia": "Mapear dois bancos de alta renda sem contrato com a JHSF e propor um benefício fechado: um fim de semana de visita ao terreno por cliente indicado, com o day use pago pelo banco, sem desconto na adesão ao clube. Termo de uma página com a regra de acesso antes de qualquer número.",
+          "ref": "JHSF e Itaú, Forbes Brasil",
+          "url": "https://forbes.com.br/forbes-money/2026/10/jhsf-itau-renovam-parceria/"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "titulo": "Regra escrita pro GLP-1 no clube: encaminha, não vende",
+          "ideia": "Escrever uma página de política do clube sobre medicamentos de emagrecimento: o clube não prescreve nem vende, encaminha ao parceiro médico, e o programa de treino do sócio em uso de GLP-1 ganha bloco de força e proteína. Entra no formulário de membership como pergunta opcional de saúde.",
+          "ref": "Everyone Active e Chemists 4U, Health Club Management",
+          "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Everyone-Actives-Duncan-Jefford-reveals-Chemists-4U-referral-partnership-at-HCM-Summit/363829"
+        },
+        {
+          "area": "Produto e estrutura",
+          "para": "clube",
+          "titulo": "Quadra de pickleball pintada no piso antes de qualquer quadra fixa",
+          "ideia": "Marcar uma quadra de 13,4 m por 6,1 m com fita ou tinta numa área pavimentada do terreno e usar nos fins de semana de visita, com raquetes emprestadas. Contar uso por três meses e só então decidir se entra quadra fixa no projeto do clube.",
+          "ref": "Pickleball no Brasil, Seu Dinheiro",
+          "url": "https://www.seudinheiro.com/2026/lifestyle/a-febre-do-pickleball-sera-que-o-esporte-que-esta-bombando-nos-eua-vai-se-tornar-olimpico-ate-2032-sama/"
+        },
+        {
+          "area": "Comunicação e sociais",
+          "para": "marketing",
+          "titulo": "Pauta trimestral pra editoria de longevidade da Exame",
+          "ideia": "Oferecer à nova editoria da Exame uma pauta por trimestre com dado próprio do Haven, começando pela casa desenhada pra 90 anos: o que muda na planta, no piso e na luz quando o morador vai envelhecer ali. Entrevistado é a founder, com o arquiteto ao lado.",
+          "ref": "Exame Longevidade, Exame",
+          "url": "https://exame.com/esg/exame-reune-principais-vozes-da-longevidade-para-debater-o-futuro-dos-negocios-no-brasil/"
+        },
+        {
+          "area": "Comercialização",
+          "para": "vendas",
+          "titulo": "Tabela por tipologia com o prêmio da casa de frente dito em número",
+          "ideia": "Publicar na pré-venda o preço por metro quadrado de cada tipologia, com o prêmio da casa de frente pro lago ou pro bosque escrito como percentual sobre a casa padrão. Uma página, sem faixa vaga, no modelo do que a Swire divulgou em Bangkok.",
+          "ref": "Upper House Bangkok, BRESI",
+          "url": "https://brandedresi.com/upper-house-branded-residences/"
+        },
+        {
+          "area": "Parcerias",
+          "para": "clube",
+          "titulo": "Um produtor por trimestre no calendário de saídas do clube",
+          "ideia": "Montar o calendário de saídas de sócio com um produtor da região por trimestre, com visita, degustação e transporte saindo do Haven. A Rio Manso, em Jacutinga, com hospedagem prevista pra 2027, é a primeira candidata; fechar a parceria antes da hospedagem abrir.",
+          "ref": "Rio Manso e Geisse, Exame",
+          "url": "https://exame.com/casual/rio-manso-aposta-em-parceria-com-a-geisse-e-prepara-novo-destino-de-enoturismo-na-mantiqueira/"
+        },
+        {
+          "area": "Comunicação e sociais",
+          "para": "marketing",
+          "titulo": "Dia de ocupação do terreno por dez grupos de Porto Feliz e Itu",
+          "ideia": "Convidar dez grupos locais (corrida, ciclismo, yoga, trilha) pra ocupar o terreno num sábado antes das casas, com kit e café pagos pelo Haven e cada grupo postando do próprio perfil. Repetir a cada seis meses com os mesmos grupos.",
+          "ref": "Run Clubhouse, Athletech News",
+          "url": "https://athletechnews.com/run-clubhouse-ops-run-rebrand-more-than-just-a-platform-for-running-communities/"
+        },
+        {
+          "area": "Produto e estrutura",
+          "para": "clube",
+          "titulo": "Regra da sala de escuta escrita antes de comprar a caixa de som",
+          "ideia": "Antes de especificar áudio do listening bar, escrever uma página com a regra da sala: o que toca, em que ordem, quando se fala, quem escolhe. A regra vai pro briefing do arquiteto e do fornecedor de som, pra evitar o cocktail bar com caixa cara que a Wallpaper descreve.",
+          "ref": "Listening bars em Londres, Wallpaper",
+          "url": "https://www.wallpaper.com/travel/bars/what-makes-a-good-bar"
+        }
+      ],
+      "itens": [
+        {
+          "title": "JHSF e Itaú renovam até 2030 a parceria que põe Fasano, São Paulo Surf Club e Boa Vista Village no pacote do Personnalité e do Private",
+          "source": "Forbes Brasil (27/10; a Meio & Mensagem publicou a mesma entrevista no mesmo dia)",
+          "url": "https://forbes.com.br/forbes-money/2026/10/jhsf-itau-renovam-parceria/",
+          "date": "2026-10-27",
+          "region": "São Paulo e Porto Feliz, SP",
+          "escopo": "brasil",
+          "pilar": "membership",
+          "resumo": "A parceria, iniciada em 2023, foi renovada e ampliada até 2030 pra clientes do Itaú Personnalité e do Itaú Private Bank. O pacote inclui melhor tarifa, early check-in, late check-out, massagem e terceira noite de cortesia em hotéis Fasano selecionados, isenção de rolha, valet, personal shopper no Cidade Jardim, condições especiais de associação ao São Paulo Surf Club e benefícios no CJ Faria Lima e no CJ Boa Vista Village; o Espaço Itaú Personnalité no shopping foi reinaugurado com cerca de 200 m². Leonardo Cid, da JHSF, diz que parceiro sem escala não serve; Adriana dos Santos, do Itaú, diz que 70% dos clientes do Personnalité viajam ao exterior todo ano. Sem preço de título nem número de clientes; a Meio & Mensagem registra a mesma vigência e os mesmos benefícios.",
+          "por_que_importa": "O vizinho direto do Haven em Porto Feliz transformou o acesso ao clube em benefício de segmento bancário. Serve de modelo e de alerta pra qualquer conversa com banco de alta renda: a regra de acesso vem antes do desconto, e a curadoria é o que o banco não entrega.",
+          "para": [
+            "parcerias",
+            "vendas",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Exame reúne Kalache e a CEO do Fleury em evento de longevidade em São Paulo e lança editoria sobre o tema",
+          "source": "Exame (programa do evento publicado pelo veículo organizador, 26/10)",
+          "url": "https://exame.com/esg/exame-reune-principais-vozes-da-longevidade-para-debater-o-futuro-dos-negocios-no-brasil/",
+          "date": "2026-10-27",
+          "region": "São Paulo, SP",
+          "escopo": "brasil",
+          "pilar": "eventos",
+          "resumo": "O Exame Longevidade aconteceu em 27/10 na sede da Exame, na Rua da Consolação, com abertura de Alexandre Kalache e fala de Jeane Tsutsui, CEO do Grupo Fleury. A programação teve painéis sobre hábitos de centenários, ciência e tecnologia na saúde, aposentadoria de 50 anos, empreendedorismo 60+ e um painel de infraestrutura pra longevidade com Flavia Ranieri, Rodrigo Goulart e Roberto Baranowski Coutinho, sem as empresas nomeadas na página. A Exame cita expectativa de vida de 76,6 anos, 17% da população acima de 60 e 40 milhões nessa faixa em 2030, e diz que o evento marca o lançamento de uma editoria de longevidade.",
+          "por_que_importa": "Uma editoria nova precisa de pauta todo mês. Vale pedir o material do painel de infraestrutura e oferecer o Haven como caso de ambiente construído pra viver mais.",
+          "para": [
+            "marketing",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Metro quadrado em Campinas chega a R$ 8,18 mil, com alta de 11,2% em doze meses, enquanto as escrituras no interior paulista caem 2,5%",
+          "source": "Forbes Brasil (Forbes Real Estate; dados do FipeZAP e do CNB/SP; o texto associa os 11,2% ora a doze meses, ora a 2021)",
+          "url": "https://forbes.com.br/forbes-money/forbes-real-estate/2026/10/mercado-imobiliario-interior-sao-paulo/",
+          "date": "2026-10-22",
+          "region": "Campinas e interior de SP",
+          "escopo": "brasil",
+          "pilar": "estudos",
+          "resumo": "Pelo FipeZAP, Campinas fechou setembro a R$ 8,18 mil por m², São José dos Campos a R$ 9,66 mil e a capital a R$ 12,2 mil; em cinco anos, Campinas subiu 49% e São José dos Campos 81%. Pelo CNB/SP, as escrituras nos quatro polos do interior analisados caíram de 41.007 pra 39.995, enquanto a capital subiu 4,2% e passou a 69,3% das escrituras do estado. Porto Feliz, Itu e Indaiatuba não aparecem; Sorocaba é citada por um executivo da Perplan como mercado que teve boom depois de 2020. A matéria é ambígua sobre o período dos 11,2% de Campinas.",
+          "por_que_importa": "Dado de valorização regional pro deck de vendas, com a ressalva de que o volume de negócios no interior está parado. O eixo Itu e Porto Feliz continua sem índice público, o que abre espaço pro Haven publicar o próprio dado.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Rio Manso fecha parceria com a Geisse e prepara destino de enoturismo em Jacutinga, na Mantiqueira, com hospedagem em 2027",
+          "source": "Exame (Casual)",
+          "url": "https://exame.com/casual/rio-manso-aposta-em-parceria-com-a-geisse-e-prepara-novo-destino-de-enoturismo-na-mantiqueira/",
+          "date": "2026-10-24",
+          "region": "Jacutinga, MG",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "A vinícola tem 82 hectares, 11 deles de vinhedo, e lançou com a Geisse um espumante Extra Brut em edição limitada, com 24 meses sobre leveduras. Visitas com degustação e gastronomia entram aos poucos e a hospedagem está prevista pra 2027. O texto não informa investimento.",
+          "por_que_importa": "Produtor a distância de fim de semana de Porto Feliz, com hospedagem a caminho. Candidato ao calendário de saídas do clube e à carta do bar.",
+          "para": [
+            "parcerias",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Pickleball chega a 21 clubes no estado de São Paulo e aparece em empreendimentos de alto padrão, com Brasileiro de 2.200 inscritos",
+          "source": "Seu Dinheiro (números da Federação Paulista e da organização do Brasileiro, informados na matéria)",
+          "url": "https://www.seudinheiro.com/2026/lifestyle/a-febre-do-pickleball-sera-que-o-esporte-que-esta-bombando-nos-eua-vai-se-tornar-olimpico-ate-2032-sama/",
+          "date": "2026-10-27",
+          "region": "São Paulo, SP",
+          "escopo": "brasil",
+          "pilar": "comunidade",
+          "resumo": "A Federação Paulista conta 21 clubes com a modalidade no estado, há federações em 17 estados e o Brasileiro de junho teve mais de 2.200 inscrições, de 24 estados e sete países. A matéria diz que o esporte entra em clubes e empreendimentos imobiliários de alto padrão, mas os exemplos de clube de bem-estar citados são da Flórida. A quadra mede cerca de 13,4 m por 6,1 m; a entrada olímpica em 2028 é dada como improvável.",
+          "por_que_importa": "Esporte social de quadra pequena, barato de testar antes de virar item de projeto. Serve de programação de convivência nos fins de semana de visita.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Whoop fecha pesquisa clínica com o governo de Abu Dhabi e levanta US$ 575 milhões pra virar plataforma de saúde preditiva",
+          "source": "The National (entrevista com o CEO; números informados pela empresa, não conferidos na fonte primária)",
+          "url": "https://www.thenationalnews.com/business/2026/10/21/whoop-abu-dhabi-will-ahmed-on-the-record/",
+          "date": "2026-10-21",
+          "region": "Abu Dhabi, Emirados Árabes",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "A Whoop assinou parceria de pesquisa clínica com o Departamento de Saúde de Abu Dhabi sobre prevenção, sono, saúde cardiovascular e envelhecimento. A Mubadala pôs US$ 75 milhões na Série G de US$ 575 milhões, liderada pela Collaborative Fund, que avalia a empresa em US$ 10,1 bilhões. O CEO fala em crescimento de mais de 85% da base no Golfo em um ano e a empresa informa, em separado, mais de 75%; entram escritório local, expansão do exame de sangue Advanced Labs e um laboratório no Catar até o fim de 2026.",
+          "por_que_importa": "A pulseira virou clínica com exame de sangue e capital soberano. Referência pro pacote de dados do sócio e pra conversa com o parceiro médico sobre o que o clube mede e o que não mede.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Everyone Active tem quase 70 mil sócios numa camada paga de bem-estar e vai encaminhar quem usa GLP-1 pra farmácia parceira",
+          "source": "Health Club Management (cobertura do HCM Summit; números da empresa)",
+          "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Everyone-Actives-Duncan-Jefford-reveals-Chemists-4U-referral-partnership-at-HCM-Summit/363829",
+          "date": "2026-10-22",
+          "region": "Reino Unido",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "O programa You+, lançado em janeiro de 2025, tem quase 70 mil membros e gera mais de £ 25 milhões. A rede passou de 49 unidades em 2010 pra 254, projeta cerca de £ 435 milhões em 2026 e tirou mais de £ 3 milhões de lucro de 15 estúdios de reformer pilates. A parceria com a Chemists 4U é um plano de encaminhamento de sócios interessados em medicamentos de emagrecimento, ainda não em operação.",
+          "por_que_importa": "Camada paga dentro de um clube de massa e o GLP-1 tratado como encaminhamento, não como venda. Dá o desenho da política do clube do Haven sobre o tema, com o parceiro médico no meio.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Swire vende cerca de 100 residências do Upper House em Bangkok, US$ 297 milhões em seis meses, só por agendamento e antes da venda pública",
+          "source": "BRESI (brandedresi.com; republica comunicado da Swire Properties de 23/10; números da City Dynamic)",
+          "url": "https://brandedresi.com/upper-house-branded-residences/",
+          "date": "2026-10-27",
+          "region": "Bangkok, Tailândia",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "Desde maio de 2026 as visitas são só por agendamento e já somam cerca de US$ 297 milhões (10 bilhões de bahts) em quase 100 unidades. Algumas passaram de US$ 25,2 mil por m² e outras ficaram entre US$ 14,8 mil e US$ 17,8 mil, na mesma torre; entregas em 2030 e 2031. A página fala em concierge e serviços de hotelaria e não cita spa, academia nem bem-estar.",
+          "por_que_importa": "Referência de ritmo e de dispersão de preço por tipologia numa venda fechada por convite. Vale pra desenhar a pré-venda do Haven com tabela por tipologia e prêmio explícito.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Meliá anuncia 145 residências de marca em Roatán, Honduras, ao lado de hotel de 350 quartos com beach club e spa, pra 2029",
+          "source": "BRESI (brandedresi.com; texto no formato de comunicado da rede)",
+          "url": "https://brandedresi.com/melia-roatan/",
+          "date": "2026-10-28",
+          "region": "Roatán, Honduras",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "O projeto soma 350 quartos e suítes e 145 residências à venda, com beach club, restaurantes, spa e instalações de bem-estar, abertura prevista pra 2029. O Media Luna Resort & Beach Club, que entrou na rede há menos de um ano, vai se chamar Sol Roatán. Sem preço.",
+          "por_que_importa": "Rede média da hotelaria entrando em residência de marca com o bem-estar como item de lista. Ajuda a posicionar o Haven como produto autoral, com clube curado, contra o pacote padrão de resort.",
+          "para": [
+            "marketing",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Biograph diz achar inflamação coronária elevada em 43% de adultos sem sintomas e de baixo risco pelos marcadores convencionais",
+          "source": "Longevity.Technology (republica release da Biograph via Business Wire de 22/10; resultado da própria clínica, sem revisão independente)",
+          "url": "https://longevity.technology/news/biograph-finds-coronary-inflammation-in-43-of-asymptomatic-adults/",
+          "date": "2026-10-26",
+          "region": "Estados Unidos",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "Com a ferramenta CaRi-Heart, da Caristo Diagnostics, aplicada a tomografia coronária, a clínica encontrou inflamação elevada em 42,9% dos assintomáticos e muito alta em 17,9%; entre quem não tinha placa, cerca de 47% tinham inflamação perivascular elevada. ApoB, hs-CRP e a calculadora PREVENT não apontaram esses casos. A própria empresa admite que faltam estudos de valor prognóstico; amostra e preço não aparecem.",
+          "por_que_importa": "Mostra como a clínica premium justifica o exame de imagem como porta de entrada. Serve pra escolher o parceiro médico do Haven com critério de evidência e pra não repetir promessa de diagnóstico sem validação.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Run Clubhouse reúne mais de 100 clubes de corrida em 25 cidades dos EUA e ocupa o SoHo com dez deles na semana da Maratona de Nova York",
+          "source": "Athletech News",
+          "url": "https://athletechnews.com/run-clubhouse-ops-run-rebrand-more-than-just-a-platform-for-running-communities/",
+          "date": "2026-10-27",
+          "region": "Nova York, EUA",
+          "escopo": "mundo",
+          "pilar": "comunidade",
+          "resumo": "A plataforma OPS Run virou Run Clubhouse na semana da maratona de 1º/11 e, desde setembro, reúne mais de 100 clubes em mais de 25 cidades. Na semana da prova faz uma ocupação em SoHo com mais de dez clubes em 29/10, um café da manhã patrocinado em 30/10 e banca kits de até dez clubes em Chicago, Washington e Nova York. É gratuita pros clubes.",
+          "por_que_importa": "Clube de corrida tratado como comunidade com agenda e rua, não como app. Referência pro formato de encontro dos grupos locais no terreno do Haven.",
+          "para": [
+            "clube",
+            "marketing",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Wallpaper ouve donos de listening bars de Londres: a música manda na sala, e caixa de som cara sem regra vira só cocktail bar reposicionado",
+          "source": "Wallpaper*",
+          "url": "https://www.wallpaper.com/travel/bars/what-makes-a-good-bar",
+          "date": "2026-10-20",
+          "region": "Londres, Reino Unido",
+          "escopo": "mundo",
+          "pilar": "lifestyle",
+          "resumo": "A reportagem ouve Waltz, Equal Parts (só vinil, álbuns inteiros na ordem), Lyaness e Scarfes Bar. Um entrevistado define o formato como bar em que a música manda na energia da sala; outro critica quem compra caixas boas só pra reposicionar um cocktail bar. Não há dado sobre quantos bares existem, e o texto diz que em Londres o preço precisa ser mais alto pra sustentar o negócio.",
+          "por_que_importa": "Critério de curadoria, acervo, regra de escuta e intenção, pra sala de escuta ou listening bar do Haven, e alerta pra não copiar a estética sem propósito.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Fitt Insider compila dados dizendo que só 38% dos americanos estão satisfeitos com o retorno do gasto em bem-estar e 18% seguem rotina estruturada",
+          "source": "Fitt Insider (newsletter de análise; só o dado de 38% cita fonte, a Circana; os demais números aparecem sem fonte, não conferidos na fonte primária)",
+          "url": "https://insider.fitt.co/wellness-loses-touch-with-consumers/",
+          "date": "2026-10-27",
+          "region": "Estados Unidos",
+          "escopo": "mundo",
+          "pilar": "estudos",
+          "resumo": "A Circana é a fonte dos 38% de satisfação com o retorno do gasto em bem-estar. Sem fonte nomeada, o texto diz que 43% planejam se exercitar mais, 18% seguem rotina estruturada, 80% querem espaço pra indulgência e cerca de um quarto lida com solidão, e que 84% apontam encontros religiosos e espirituais como o hábito de maior impacto, à frente de viagem em grupo e voluntariado. A página registra autoria divergente entre assinatura e metadado.",
+          "por_que_importa": "Reforça a tese de rotina simples e convivência acima de protocolo complexo na comunicação do clube. Usar só como indício até achar o dado original.",
+          "para": [
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        }
+      ]
+    },
     {
       "data": "2026-10-27",
       "manchete": "O capital institucional entrou na longevidade. € 145 milhões do Goldman pra uma clínica com hotel em volta.",
