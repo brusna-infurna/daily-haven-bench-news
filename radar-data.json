@@ -1,6 +1,6 @@
 {
   "projeto": "Daily Haven Bench News",
-  "atualizado": "2026-10-28",
+  "atualizado": "2026-10-29",
   "respostas_sala": {},
   "respostas_comentarios": {
     "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,290 @@
     }
   },
   "dias": [
+    {
+      "data": "2026-10-29",
+      "manchete": "A corrida híbrida virou esporte com federação. Quem mais cresce nela tem mais de 40 anos.",
+      "editorial": "A Hyrox fechou com a World Triathlon e passou a operar os campeonatos de corrida híbrida sancionados pela federação, em três formatos e com Brisbane 2032 no horizonte. O dado que importa pro Haven está no meio da matéria: a faixa acima de 40 anos é a que mais cresce, e Nova York juntou 50 mil atletas em dois fins de semana. No mesmo dia, a Athletech noticiou a falência da dona da Y7, com dívida acima de US$ 100 milhões, e a compra da Fitness Park pela Providence, 467 academias e 1,7 milhão de sócios. O capital está indo pra escala de baixo custo e pra prova de massa, e o estúdio boutique que cresceu por aquisição ficou sem dono. Quem vende convívio curado está fora dessa disputa e ainda assim precisa decidir onde o sócio de 45 anos vai treinar pra prova: dentro do clube, com grupo e calendário, ou numa academia afiliada da cidade vizinha. A Garmin ajuda a desenhar esse sócio: 16% de crescimento no trimestre vendendo pulseira sem tela e sem assinatura, pra quem quer o dado sem a notificação. No Brasil, a Exame pôs dois hotéis de Campos do Jordão entre os 20 melhores do país, e o Fasano Angra montou um fim de semana de biohacking com marca de beleza e clínica de BH, sem preço publicado.",
+      "atencao": [
+        "Marketing: A Garmin cresceu 16% vendendo pulseira sem tela e sem assinatura; o sócio do Haven quer o dado de saúde sem a notificação, e a comunicação do clube pode dizer isso com a tecnologia fora do centro da foto.",
+        "Vendas: A Exame pôs o Hotel Ort em 5º e o Botanique em 20º entre os 50 melhores hotéis do país, os dois em Campos do Jordão; é a régua de serviço que o comprador de segunda casa já conhece, útil no deck como comparação de hospedagem, sem comparação de preço.",
+        "Clube e parcerias: A Hyrox virou esporte regulado pela World Triathlon e a faixa acima de 40 anos é a que mais cresce; vale definir agora se o treino pra prova acontece dentro do clube, com grupo e calendário, antes que a academia da cidade vizinha vire o ponto de encontro dos sócios."
+      ],
+      "bench": [
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "titulo": "Resumo mensal do sócio em papel, entregue na casa, sem app do clube",
+          "ideia": "O clube recebe os dados do wearable que o sócio já usa e devolve, uma vez por mês, um resumo de uma página em papel na porta da casa: sono, treino, o que mudou. Sem app próprio, sem notificação. Formato de carta, assinado pelo parceiro de treino.",
+          "ref": "Garmin e a pulseira sem tela, Athletech",
+          "url": "https://athletechnews.com/garmin-fitness-revenue-jumps-16-percent-after-screenless-wearable-cirqa-launch/"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "titulo": "Prova do clube em três distâncias, com largada no mesmo dia pra 40, 55 e 70 anos",
+          "ideia": "Copiar a lógica dos formatos Ultimate, Fast e Ultra: a prova sazonal do Haven tem uma versão curta, uma padrão e uma longa, com largada no mesmo dia e pódio por faixa etária. O sócio de 70 anos e o filho de 40 cruzam a mesma linha. Regra publicada antes da primeira edição.",
+          "ref": "Hyrox e World Triathlon, Athletech",
+          "url": "https://athletechnews.com/hyrox-world-triathlon-partner-in-major-move-toward-the-olympics/"
+        },
+        {
+          "area": "Comercialização",
+          "para": "vendas",
+          "titulo": "Cláusula de continuidade do clube no contrato do título, com operador substituto nomeado",
+          "ideia": "Escrever no contrato de membership o que acontece se o operador do clube sair ou quebrar: fundo de reserva mínimo, prazo pra substituição e lista de operadores pré-aprovados pelo conselho de sócios. Vira argumento de venda em uma linha: o seu título sobrevive ao operador.",
+          "ref": "Falência da Fitlab, Athletech",
+          "url": "https://athletechnews.com/former-nike-partner-y7-owner-fitlab-files-for-bankruptcy-100-million-plus-in-debt/"
+        },
+        {
+          "area": "Comercialização",
+          "para": "vendas",
+          "titulo": "Nota de mercado de uma página anexa a todo release do Haven, com fonte nomeada",
+          "ideia": "A Rosewood anuncia 85 residências e, no mesmo release, cita o tamanho do mercado tailandês de residências de marca com a consultoria nomeada. O Haven faz igual: uma nota de mercado de uma página sobre segunda residência no interior paulista, com FipeZAP, Secovi e Savills citados, atualizada a cada trimestre e anexa a todo material de imprensa e de venda.",
+          "ref": "Rosewood Residences Bangkok, Hospitality Net",
+          "url": "https://www.hospitalitynet.org/announcement/41015329/rosewood-hotel-group-and-sc-asset-announce-rosewood-residences-bangkok"
+        },
+        {
+          "area": "Comunicação e sociais",
+          "para": "marketing",
+          "titulo": "Jurados do ranking da Exame na lista do primeiro fim de semana de visita",
+          "ideia": "Os 50 melhores hotéis do Brasil são votados por 34 jurados de imprensa e turismo. Levantar quem são, escolher dez e convidar pro primeiro fim de semana de visita ao terreno, como convidados e sem press trip pago, com pauta de repertório, sem pitch de lançamento. Quem julga hospedagem precisa conhecer o Haven antes de ele existir.",
+          "ref": "Os 50 melhores hotéis do Brasil 2026, Exame",
+          "url": "https://exame.com/especial/hoteis-2026/"
+        },
+        {
+          "area": "Parcerias",
+          "para": "parcerias",
+          "titulo": "Fim de semana de recovery no terreno, co-apresentado por marca de beleza e clínica de biohacking",
+          "ideia": "Antes do clube abrir, montar um fim de semana de sexta a domingo no terreno, com uma marca brasileira de beleza como co-apresentadora e uma clínica de recovery trazendo os protocolos, no formato do Fasano Angra. Diferença: preço e número de vagas publicados desde o convite, e vaga prioritária pra quem está na lista de membership.",
+          "ref": "Wellness Retreat Weekend do Fasano Angra, Revista Business",
+          "url": "https://revistabusiness.com.br/2026/10/28/fasano-angra-e-care-natural-beauty-apresentam-primeiro-wellness-retreat-com-biohacking-e-recovery/"
+        },
+        {
+          "area": "Produto e estrutura",
+          "para": "clube",
+          "titulo": "Restaurante do clube com noite aberta a não sócio, como linha de receita própria",
+          "ideia": "Em Atins, 40% da receita de uma hospedagem boutique vem de gastronomia. No business case do clube, separar o restaurante como linha própria e prever uma noite por semana aberta a não sócio, com reserva e teto de mesas, pra que a cozinha tenha escala antes das 75 casas estarem ocupadas.",
+          "ref": "Grupo Charme Atins, Exame",
+          "url": "https://exame.com/negocios/este-casal-paulistano-transformou-9-chales-em-um-negocio-de-r-16-milhoes-nos-lencois-maranhenses/"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "titulo": "Saídas do clube com vaga pareada pra sócio que viaja sozinho",
+          "ideia": "Nas saídas do clube (produtor, vinhedo, prova fora), reservar vagas pareadas por interesse pra quem viaja sozinho, com o pareamento feito pelo concierge e dito no convite. A pesquisa citada na Mercado&Consumo diz que a falta de companhia é a barreira pra 72% dos 60+ que querem viajar e têm como; o dado não tem instituto nomeado, a ideia vale mesmo assim.",
+          "ref": "Consumidor 60+ e viagem, Mercado&Consumo",
+          "url": "https://mercadoeconsumo.com.br/23/10/2026/artigos/oportunidades-na-economia-prateada-o-que-os-dados-reais-revelam-sobre-o-consumidor-60/"
+        }
+      ],
+      "itens": [
+        {
+          "title": "Exame publica os 50 melhores hotéis do Brasil de 2026, com Hotel Ort em 5º e Botanique em 20º, os dois em Campos do Jordão",
+          "source": "Exame (ranking Casual, terceira edição; a página não traz data, 28/10 vem da citação do Alô Alô Bahia)",
+          "url": "https://exame.com/especial/hoteis-2026/",
+          "date": "2026-10-28",
+          "region": "Campos do Jordão, SP (ranking nacional)",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "A Exame divulgou os 50 melhores hotéis do Brasil em 2026, votados por 34 jurados de imprensa, crítica e turismo, com hotéis de 33 cidades em 13 estados. Hotel das Cataratas, Rosewood São Paulo e Copacabana Palace ficam no topo; Hotel Ort aparece em 5º, Fasano Jardins em 6º, Uxua em 16º, Txai Itacaré em 19º e Botanique em 20º. A página mostra os 20 primeiros e esconde os demais atrás de um botão; nenhum hotel de Itu, Porto Feliz ou Bragança aparece nos 20 visíveis.",
+          "por_que_importa": "É a régua de hospedagem que o comprador de segunda casa do Haven já conhece. Vendas usa Ort e Botanique como comparação de serviço no deck, e parcerias mapeia os dois como troca de experiência na serra.",
+          "para": [
+            "vendas",
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Fasano Angra faz fim de semana de biohacking e recovery de 13 a 15/11 com a Care Natural Beauty e a Casulo BH",
+          "source": "Revista Business (texto com cara de divulgação: edição inaugural, contatos de reserva e lista de parceiros)",
+          "url": "https://revistabusiness.com.br/2026/10/28/fasano-angra-e-care-natural-beauty-apresentam-primeiro-wellness-retreat-com-biohacking-e-recovery/",
+          "date": "2026-10-28",
+          "region": "Angra dos Reis, RJ",
+          "escopo": "brasil",
+          "pilar": "marcas",
+          "resumo": "O Hotel Fasano Angra e a marca de beleza Care Natural Beauty apresentam o primeiro Wellness Retreat Weekend, de sexta às 18h a domingo ao meio-dia, com pensão completa e programação incluída: protocolos de biohacking da Casulo BH (luz vermelha, campos eletromagnéticos pulsados), imersão a frio, contraste de sauna e banho gelado, treino funcional, pilates, yoga, chi kung e ritual de sono, com apoio do 5AM. Club. A matéria não traz preço nem número de vagas.",
+          "por_que_importa": "É o formato de fim de semana curto que une hotel de marca, clínica de recovery e marca de beleza, montável no terreno do Haven antes do clube abrir. Parcerias olha o modelo de co-apresentação; clube anota os protocolos como repertório de programação.",
+          "para": [
+            "parcerias",
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Casal paulistano chega a R$ 16 milhões de faturamento com 44 acomodações em Atins, nos Lençóis Maranhenses, 40% vindo de gastronomia",
+          "source": "Exame",
+          "url": "https://exame.com/negocios/este-casal-paulistano-transformou-9-chales-em-um-negocio-de-r-16-milhoes-nos-lencois-maranhenses/",
+          "date": "2026-10-28",
+          "region": "Atins, MA",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "O Grupo Charme Atins, de Anna Teresa Ramus e Alexandre do Prado, soma 44 acomodações em três hospedagens, cinco operações de alimentação e cerca de 160 funcionários. A previsão pra 2026 é de R$ 16 milhões, 33% acima dos R$ 12 milhões de 2025, com 60% em hospedagem e 40% em gastronomia, e a meta é triplicar em três anos. A matéria não traz diária, investimento nem membership.",
+          "por_que_importa": "Mostra o peso da gastronomia na receita de uma hospedagem de destino, argumento pro desenho de receita do clube além da casa. Vendas usa o caso como comparável de operação enxuta.",
+          "para": [
+            "vendas",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Consultor ouve 1.500 brasileiros com 60 anos ou mais: 72% querem viajar e têm como, mas apontam falta de companhia como a barreira",
+          "source": "Mercado&Consumo (artigo de opinião de Luiz Paulo Foggetti; pesquisa do autor, sem instituto nem metodologia informados)",
+          "url": "https://mercadoeconsumo.com.br/23/10/2026/artigos/oportunidades-na-economia-prateada-o-que-os-dados-reais-revelam-sobre-o-consumidor-60/",
+          "date": "2026-10-23",
+          "region": "São Paulo, Brasil",
+          "escopo": "brasil",
+          "pilar": "estudos",
+          "resumo": "Luiz Paulo Foggetti, consultor em economia da longevidade e co-líder da iniciativa Vigora, apresenta dados de uma pesquisa com 1.500 pessoas de 60 anos ou mais: 72% dizem gostar de viajar e ter condição pra isso, e apontam a falta de companhia como principal barreira; 63% vivem com pets. O texto é opinião e não nomeia instituto nem metodologia, então os números ficam não conferidos na fonte primária.",
+          "por_que_importa": "A falta de companhia como barreira é o argumento de comunidade curada do clube pro público 60+. Marketing usa como hipótese de mensagem até achar a pesquisa original; sem ela, o número fica fora do material de venda.",
+          "para": [
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Hyrox fecha com a World Triathlon: a corrida híbrida vira disciplina sancionada, em três formatos, com meta olímpica em Brisbane 2032",
+          "source": "Athletech News (paywall parcial; usado só o trecho visível)",
+          "url": "https://athletechnews.com/hyrox-world-triathlon-partner-in-major-move-toward-the-olympics/",
+          "date": "2026-10-28",
+          "region": "Nova York, EUA (global)",
+          "escopo": "mundo",
+          "pilar": "comunidade",
+          "resumo": "A Hyrox passa a operar com exclusividade os campeonatos mundial, continental e nacionais de corrida híbrida de elite, sancionados e regulados pela World Triathlon, em três formatos: Ultimate, no desenho atual da prova, Fast, mais curto e intenso, e Ultra, de resistência. O evento de Nova York deste ano reuniu cerca de 50 mil atletas em dois fins de semana, e a matéria diz que a faixa acima de 40 anos é a que mais cresce na Hyrox. A página avisa que o artigo é pra assinantes do ATN Pro, embora o corpo apareça na captura.",
+          "por_que_importa": "O público que mais cresce na prova coletiva é o do Haven. Clube define onde o sócio treina pra prova e parcerias retoma a conversa com a Hyrox já com a etapa de São Paulo marcada pra maio de 2027.",
+          "para": [
+            "clube",
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Garmin cresce 16% em fitness no trimestre, US$ 694 milhões, e aposta na Cirqa, pulseira sem tela e sem assinatura a US$ 199,99",
+          "source": "Athletech News",
+          "url": "https://athletechnews.com/garmin-fitness-revenue-jumps-16-percent-after-screenless-wearable-cirqa-launch/",
+          "date": "2026-10-28",
+          "region": "EUA",
+          "escopo": "mundo",
+          "pilar": "lifestyle",
+          "resumo": "A receita de fitness da Garmin subiu 16% no terceiro trimestre encerrado em 26 de setembro, pra US$ 694 milhões, com resultado operacional de US$ 231 milhões e margem de 33%. A Cirqa, pulseira sem tela lançada em julho a US$ 199,99 pra competir com a Whoop, não cobra assinatura, e a empresa não abriu as vendas do produto. A matéria cita também as compras da TrainingPeaks e da TrainHeroic.",
+          "por_que_importa": "Parte do consumidor de longevidade está comprando dado sem tela e sem mensalidade. Marketing usa o sinal pra falar de tecnologia discreta na comunicação do clube, e clube pensa como devolver o dado ao sócio sem app próprio.",
+          "para": [
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Rosewood anuncia 85 residências em Bangkok, de frente pro Lumphini Park, em torre de 37 andares com entrega prevista pra 2030",
+          "source": "Hospitality Net (anúncio da Rosewood e da SC Asset)",
+          "url": "https://www.hospitalitynet.org/announcement/41015329/rosewood-hotel-group-and-sc-asset-announce-rosewood-residences-bangkok",
+          "date": "2026-10-28",
+          "region": "Bangkok, Tailândia",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "A Rosewood Hotel Group, a SC Asset e a Tokyo Tatemono Thailand anunciam o Rosewood Residences Bangkok: 85 residências privadas em 37 andares na Rama 4, com vista pro Lumphini Park e previsão de 2030. O anúncio cita a revisão de 2026 da C9 Hotelworks, que avalia o mercado tailandês de residências de marca em 205,3 bilhões de baht, cerca de US$ 6,4 bilhões, número não conferido na fonte primária. A página não traz preço, spa nem clube.",
+          "por_que_importa": "Lote pequeno vendido como produto raro por marca de hotelaria, a mesma lógica das 75 casas do Haven, e um release que já traz o tamanho do mercado com a consultoria nomeada. Vendas copia o formato do anúncio.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Fusion abre o LÈGACY Hanoi, com 133 apartamentos de serviço, 85 quartos e onsen com piscinas quente e fria no mesmo prédio",
+          "source": "Hotel Online (release da Fusion)",
+          "url": "https://www.hotel-online.com/news/fusion-debuts-legacy-hanoi-a-218-room-hotel-and-wellness-retreat-in-vietnams-capital",
+          "date": "2026-10-26",
+          "region": "Hanói, Vietnã",
+          "escopo": "mundo",
+          "pilar": "wellness-residence",
+          "resumo": "O LÈGACY Hanoi tem 218 unidades, 133 apartamentos de serviço e 85 quartos de hotel, de 37 a 105 m², e abre em outubro de 2026. O spa YÊN traz terapias de base vietnamita, onsen com piscinas quente e fria, sauna, vapor e lounge de descanso. O release não menciona membership nem preço.",
+          "por_que_importa": "Comparável de formato: apartamento de serviço ao lado de circuito térmico no mesmo prédio, sem camada de membership. Parcerias usa como referência de operação de spa num conjunto misto.",
+          "para": [
+            "parcerias",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Dona da Y7 e da Ragnar, a Fitlab pede recuperação judicial nos EUA com dívida estimada entre US$ 100 milhões e US$ 500 milhões",
+          "source": "Athletech News (paywall parcial; usado só o trecho visível)",
+          "url": "https://athletechnews.com/former-nike-partner-y7-owner-fitlab-files-for-bankruptcy-100-million-plus-in-debt/",
+          "date": "2026-10-28",
+          "region": "Califórnia, EUA",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "A Fitlab entrou com pedido de Chapter 11 em Delaware, com passivo estimado de US$ 100 milhões a US$ 500 milhões e ativos de US$ 10 milhões a US$ 50 milhões. A Y7 fechou todos os estúdios entre o fim de agosto e 11 de setembro, e a Nike Studios, operada pelo grupo, fechou em março. A fundadora da Y7 diz que a marca faturava US$ 10 milhões por ano e atribui a queda à gestão posterior; só o trecho aberto foi usado.",
+          "por_que_importa": "Mostra o risco de rede de estúdios que cresce por aquisição sem operação própria. Vendas e clube usam o caso pra escrever a regra de continuidade do clube no contrato do título.",
+          "para": [
+            "clube",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Providence Equity compra a Fitness Park, rede francesa de baixo custo com mais de 467 academias e 1,7 milhão de sócios",
+          "source": "Athletech News (paywall parcial; usado só o trecho visível)",
+          "url": "https://athletechnews.com/providence-equity-group-france-fitness-park-gym-acquisition/",
+          "date": "2026-10-28",
+          "region": "França",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "A Providence Equity Partners fechou acordo pra comprar a Fitness Park, rede de academias de baixo custo com mais de 467 unidades e 1,7 milhão de sócios, sujeito a aprovação regulatória e sem valor divulgado. Com a VivaGym, já na carteira, o grupo passa de 900 academias. A matéria cita, sem confirmação, um lance de cerca de € 600 milhões feito no mês anterior.",
+          "por_que_importa": "O capital está indo pra escala de baixo custo, o oposto do modelo curado do Haven. Serve de contraponto de mercado quando vendas e clube falarem de preço e escassez.",
+          "para": [
+            "clube",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Marcas de fora da corrida, de Celsius a Band-Aid, montam treinos leves e ativações na semana da Maratona de Nova York",
+          "source": "Athletech News (paywall; só a introdução está aberta)",
+          "url": "https://athletechnews.com/brands-across-industries-are-tapping-into-the-nyc-marathon-boom/",
+          "date": "2026-10-28",
+          "region": "Nova York, EUA",
+          "escopo": "mundo",
+          "pilar": "marcas",
+          "resumo": "A Athletech diz que dezenas de marcas sem ligação com corrida, de Celsius a Band-Aid, organizam eventos, shake-out runs e ativações na semana da Maratona de Nova York. O corpo da matéria, com o detalhe de cada ação, está fechado pra assinantes do ATN Pro; só a abertura foi conferida, e não há número de público nem de patrocínio.",
+          "por_que_importa": "Marcas de consumo pagam pra entrar em comunidade de corrida. Parcerias mapeia quais marcas brasileiras de fora do esporte poderiam financiar os encontros do clube.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Nutra Healthspan Summit reúne em Londres, em 10 e 11/11, mitocôndrias, vestíveis, regulação e saúde da mulher, com Euromonitor e Nestlé Research no palco",
+          "source": "NutraIngredients (organizadora do evento; matéria de 30/07 com os primeiros palestrantes)",
+          "url": "https://www.nutraingredients.com/Article/2026/07/30/nutra-healthspan-summit-first-speakers-announced/",
+          "date": "2026-11-10",
+          "region": "Londres, Reino Unido",
+          "escopo": "mundo",
+          "pilar": "eventos",
+          "resumo": "A segunda edição do Nutra Healthspan Summit acontece em 10 e 11 de novembro no Convene, em Houndsditch, Londres, organizada pela NutraIngredients. Entre os nomes anunciados estão David Weinkove, presidente da British Society for Research on Ageing, Nick Stene, da Euromonitor, Philipp Gut, da Nestlé Research, e Ohad Manor, da Thorne. Os temas são saúde mitocondrial, vestíveis e nutrição personalizada, regulação e o envelhecimento feminino, além da competição de startups Healthspan Innovators. A agenda completa e os preços não aparecem na matéria.",
+          "por_que_importa": "Radar de fornecedores de suplementação e vestíveis de longevidade que o clube pode trazer como parceiros. Relevância indireta, foco B2B de nutrição; parcerias acompanha os nomes das startups selecionadas.",
+          "para": [
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        }
+      ]
+    },
     {
       "data": "2026-10-28",
       "manchete": "O Itaú virou porta de entrada do Boa Vista. O acesso ao clube do vizinho agora é benefício de banco.",
