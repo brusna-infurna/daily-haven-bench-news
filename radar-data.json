@@ -1,6 +1,6 @@
 {
   "projeto": "Daily Haven Bench News",
-  "atualizado": "2026-10-29",
+  "atualizado": "2026-10-30",
   "respostas_sala": {},
   "respostas_comentarios": {
     "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,310 @@
     }
   },
   "dias": [
+    {
+      "data": "2026-10-30",
+      "manchete": "O retiro australiano desistiu de vender por AU$ 80 milhões pra apostar no sócio de 60 anos. O Fleury começa o mesmo cuidado aos 35.",
+      "editorial": "Tony de Leede pôs o Gwinganna à venda em 2025 por AU$ 70 a 80 milhões, tirou do mercado e vai gastar até AU$ 12 milhões em contraste térmico, sauna dentro de 80% dos quartos e um programa de longevidade em 2027, tudo mirando o baby boomer, que ele chama de mercado esquecido. No mesmo dia, em São Paulo, a CEO do Fleury contou que o laboratório deixou de vender exame e passou a vender acompanhamento, com um centro de longevidade que aceita gente a partir dos 35 anos e põe relação social ao lado de sono e exercício. A leitura fácil é que a longevidade virou produto. A leitura por baixo é que o setor descobriu que a receita boa está na continuidade, e a continuidade exige um lugar e um grupo: a SATS diz que o sócio de aula coletiva fica 1,8 vez mais tempo e vale quase o dobro, a Third Space cobra £ 265 por mês por um clube com sauna pra 19 pessoas e abre o 17º endereço em Londres. Quem perde é o modelo de visita única, o retiro de uma semana e o check-up anual, que entregam o pico e somem no dia seguinte. O que custa é capital parado por anos: AU$ 12 milhões num retiro de 320 acres, três aberturas num ano pra uma rede londrina. No Brasil, o Preá ganha 24 casas de 562 m² com sauna privativa, hotelaria da Anantara e pool de locação, ainda sem preço, e é esse o concorrente de segunda residência que o deck do Haven precisa saber responder.",
+      "atencao": [
+        "Marketing: A frase do Gwinganna sobre o mercado esquecido e a do Fleury sobre a musculatura da alma dão a pauta da semana pro público 55+, sem a palavra antienvelhecimento; Kalache, no painel da Exame, é o primeiro nome pra uma conversa pública do Haven.",
+        "Vendas: As 24 residências da Anantara no Preá vendem o mesmo pacote que o Haven, sauna privativa, hotelaria de marca e pool de locação, e ainda não têm preço publicado; vale montar a comparação por tipologia antes que ele saia.",
+        "Clube e parcerias: O centro de longevidade do Fleury aceita a partir dos 35 anos e mede idade biológica; é a conversa de parceria médica mais pronta do mês, e o dado da SATS sobre aula coletiva entra no business case do clube como hipótese de retenção."
+      ],
+      "bench": [
+        {
+          "area": "Produto e estrutura",
+          "para": "vendas",
+          "titulo": "Kit de recuperação dentro da casa como opcional de planta",
+          "ideia": "Oferecer sauna infravermelha, cadeira de massagem e painel de luz como pacote opcional por casa, com preço fechado e prazo de instalação, na tabela de personalização das 75 unidades. O Gwinganna vai pôr isso em 80% dos quartos; no Haven, a meta de adesão fica escrita no business case.",
+          "ref": "Gwinganna, Spa Business",
+          "url": "https://www.spabusiness.com/wellness-news/Exclusive-Tony-de-Leede-takes-Gwinganna-off-the-market-and-unveils-ambitious-plans-for-its-next-20-years/363867"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "clube",
+          "titulo": "Retenção por aula coletiva como hipótese escrita no business case",
+          "ideia": "Separar no modelo do clube duas coortes, sócio que frequenta programação coletiva e sócio que usa o clube sozinho, com permanência e receita por sócio projetadas pra cada uma e medidas pela catraca desde o primeiro mês. O 1,8 vez da SATS entra como hipótese inicial, com a ressalva de que é declaração do CEO.",
+          "ref": "SATS, Health Club Management",
+          "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/SATS-grows-earnings-as-group-exercise-strategy-pays-off-and-expansion-gathers-pace/363848"
+        },
+        {
+          "area": "Membership e clube",
+          "para": "vendas",
+          "titulo": "Mensalidade em três degraus por amplitude de acesso",
+          "ideia": "Desenhar a tabela do sócio externo em três níveis pela amplitude do acesso, um clube, todos os espaços, todos os espaços com adesão embutida, como a Third Space faz com £ 265, £ 299 e £ 345. O degrau de cima absorve a taxa de entrada e vira o produto padrão do time de vendas.",
+          "ref": "Third Space Queen's Park, Health Club Management",
+          "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Third-Space-brings-its-A-game-to-Queens-Park/363860"
+        },
+        {
+          "area": "Produto e estrutura",
+          "para": "clube",
+          "titulo": "Sala de força e equilíbrio pra sócio 70+ separada da academia",
+          "ideia": "Reservar no clube uma sala pequena com máquinas de apoio motorizado e sessões coletivas de força, equilíbrio e prevenção de queda, com instrutor próprio e horário fixo, no modelo Lilian's Room da Wave Active. Entra no briefing do arquiteto como ambiente, com porta separada da academia principal.",
+          "ref": "Wave Active, Health Club Management",
+          "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Wave-Active-opens-second-Lilians-Room-with-compact-Lite-format/363762"
+        },
+        {
+          "area": "Comercialização",
+          "para": "vendas",
+          "titulo": "Pool de locação gerido pelo clube como cláusula opcional do contrato",
+          "ideia": "Escrever a cláusula de pool de locação das casas antes do lançamento, com dias mínimos de uso do dono, teto de noites locadas por ano, regra de acesso do hóspede ao clube e divisão de receita, e publicar como anexo da proposta. A Anantara no Preá vende o pool sem preço nem regra; o Haven entrega os dois no primeiro contato.",
+          "ref": "Anantara Residences Preá, Money Report",
+          "url": "https://www.moneyreport.com.br/lifestyle/residencias-exclusivas-no-prea-apostam-em-luxo-servico-de-hotelaria-internacional-e-conexao-com-a-natureza/"
+        },
+        {
+          "area": "Parcerias",
+          "para": "parcerias",
+          "titulo": "Proposta ao Fleury: idade biológica como avaliação de entrada do clube",
+          "ideia": "Levar ao Fleury uma proposta de uma página em que o Centro de Longevidade Saudável faz a avaliação de entrada de cada sócio, com teste de idade biológica e plano de acompanhamento, e o clube cuida da parte social e do treino. A régua de 35 anos do centro bate com a faixa de idade dos compradores do Haven.",
+          "ref": "CEO do Fleury na Exame",
+          "url": "https://exame.com/esg/envelhecer-com-vitalidade-a-estrategia-do-fleury-para-o-cuidado-continuo/"
+        },
+        {
+          "area": "Comunicação e sociais",
+          "para": "marketing",
+          "titulo": "Primeira conversa pública do Haven com Kalache sobre viver depois dos 80",
+          "ideia": "Convidar Alexandre Kalache pra uma conversa gravada com a founder, no terreno ou em São Paulo, sobre trabalho, família e convivência entre gerações depois dos 60, cortada em três peças pros sociais e uma íntegra no site. É a peça que fixa o tom do Haven pro público 55+ sem a palavra antienvelhecimento.",
+          "ref": "Kalache no painel da Exame",
+          "url": "https://exame.com/esg/longevidade-wellness-os-mais-velhos-sao-parte-da-solucao-nao-um-problema/"
+        },
+        {
+          "area": "Parcerias",
+          "para": "parcerias",
+          "titulo": "Obra permanente de artista brasileiro no clube com marca de luxo como mecenas",
+          "ideia": "Encomendar uma obra permanente pro clube a um artista brasileiro e oferecer a uma marca de luxo o papel de mecenas, com a obra como peça de acervo do Haven e jantar de apresentação pra lista de membership. O modelo é a Bvlgari doando a obra do Gabriel Massan à Pinacoteca: a marca entra pelo acervo, e o evento é consequência.",
+          "ref": "Bvlgari e Pinacoteca, Exame",
+          "url": "https://exame.com/casual/bvlgari-doa-obra-serpenti-a-pinacoteca-e-reforca-conexao-com-a-arte/"
+        }
+      ],
+      "itens": [
+        {
+          "title": "Dono do Gwinganna cancela a venda de AU$ 80 milhões e investe até AU$ 12 milhões em contraste térmico, sauna nos quartos e projeto de longevidade pra boomers",
+          "source": "Spa Business (exclusivo, 29/10)",
+          "url": "https://www.spabusiness.com/wellness-news/Exclusive-Tony-de-Leede-takes-Gwinganna-off-the-market-and-unveils-ambitious-plans-for-its-next-20-years/363867",
+          "date": "2026-10-29",
+          "region": "Gold Coast, Austrália",
+          "escopo": "mundo",
+          "pilar": "longevidade",
+          "resumo": "Tony de Leede, 73 anos, tirou da venda o Gwinganna Lifestyle Retreat, de 320 acres em Queensland, anunciado em 2025 por AU$ 70 a 80 milhões, e vai investir até AU$ 12 milhões: área de contraste térmico com piscinas minerais quentes, dois cold plunges e saunas infravermelhas, estúdio de spin convertido em sala de recuperação, e sauna infravermelha, cadeira de massagem e painel de LED em cerca de 80% dos quartos, com obra até o fim de 2026 e programa completo em meados de 2027. Em 2027 entra o Gwinganna Longevity Project, com exames e suplementação personalizada por parceiro a definir, e há um projeto separado de dois domos pra visitante de um dia, de AU$ 6 a 8 milhões, previsto pro fim de 2027 ou início de 2028. O fundador diz que o mercado principal é o baby boomer, que chama de esquecido pelo setor, e afirma que quem tem 55 anos ou mais controla cerca de 80% da riqueza, número sem fonte na matéria; Hugh Jackman, acionista, mostrou interesse em se envolver mais, sem acordo.",
+          "por_que_importa": "É a referência mais completa do mês pra um pacote de recuperação dentro da casa e pra um programa de longevidade dirigido ao sócio 55+, que é o comprador do Haven; o detalhe de 80% dos quartos com sauna vira pergunta de produto. O argumento do dono preferindo reinvestir a vender serve na conversa com investidor sobre durabilidade do modelo.",
+          "para": [
+            "clube",
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Third Space abre o 17º clube em Londres com mensalidade de £ 265 a £ 345, sauna pra 19 pessoas e três aberturas no ano",
+          "source": "Health Club Management",
+          "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Third-Space-brings-its-A-game-to-Queens-Park/363860",
+          "date": "2026-10-28",
+          "region": "Londres, Reino Unido",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "A Third Space inaugurou em Queen's Park, num antigo Job Centre, sua primeira unidade no noroeste de Londres: academia em dois andares, área de treino no estilo Hyrox, três estúdios e spa com hidropiscina, cold plunge coletivo, sauna finlandesa pra 19 pessoas e vaporário pra 17. A mensalidade padrão é £ 265, a de grupo £ 299 e a Group+ £ 345, com taxa de adesão embutida; no andar de cima, tratamentos pagos à parte (luz vermelha, crioterapia, som e vibração) e áreas de convivência. É a terceira abertura de 2026, depois de Chelsea em maio e Paternoster Square em agosto, com Oxford Street prevista pra 2027.",
+          "por_que_importa": "Régua de preço e de composição de espaço de um clube premium urbano, com a recuperação cobrada à parte e três degraus de mensalidade por amplitude de acesso, útil pra calibrar a tabela do sócio externo do Haven.",
+          "para": [
+            "clube",
+            "vendas"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "SATS diz que o sócio de aula coletiva fica 1,8 vez mais tempo e vale quase o dobro; rede nórdica cresce 22% no EBITDA",
+          "source": "Health Club Management",
+          "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/SATS-grows-earnings-as-group-exercise-strategy-pays-off-and-expansion-gathers-pace/363848",
+          "date": "2026-10-27",
+          "region": "Oslo, Noruega",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "No terceiro trimestre a SATS, maior rede de academias dos países nórdicos, elevou o EBITDA em 22%, pra NOK 235 milhões, com receita de NOK 1,32 bilhão, 752 mil sócios e 268 clubes, e a presença em treino coletivo subiu 4%. O CEO disse no HCM Summit que quem faz aula em grupo permanece cerca de 1,8 vez mais tempo e tem quase o dobro de valor ao longo da vida de sócio. Os números do CEO são declaração dele, sem fonte primária na matéria.",
+          "por_que_importa": "É o dado de retenção mais direto pra defender programação coletiva e horário fixo como motor do clube do Haven, acima de equipamento e metragem; entra no business case como hipótese e pede conferência antes de ir pra material de venda.",
+          "para": [
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Wave Active abre a segunda Lilian's Room, sala compacta de força e equilíbrio pra idosos e quem volta de lesão",
+          "source": "Health Club Management",
+          "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Wave-Active-opens-second-Lilians-Room-with-compact-Lite-format/363762",
+          "date": "2026-10-29",
+          "region": "Newhaven, Reino Unido",
+          "escopo": "mundo",
+          "pilar": "comunidade",
+          "resumo": "A Wave Active, operadora de lazer de East Sussex, abriu em 5 de outubro a versão Lite da Lilian's Room em Newhaven, depois da primeira unidade, de fevereiro, em Seaford. A sala tem sete máquinas de apoio motorizado, ferramentas de reabilitação e sessões coletivas de força, equilíbrio e prevenção de quedas, voltadas a idosos, pessoas com condição crônica e quem retoma atividade. A matéria não informa preço nem metragem.",
+          "por_que_importa": "Formato pequeno e de baixa intimidação pro sócio mais velho, com convivência embutida; serve de ambiente no briefing do clube, separado da academia principal.",
+          "para": [
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Life Time cresce 14% no trimestre, chega a US$ 894 milhões e diz receber pedidos de expansão internacional",
+          "source": "Athletech News (aviso de ATN Pro; só o trecho aberto usado)",
+          "url": "https://athletechnews.com/life-time-floats-international-expansion-idea-after-q3-earnings/",
+          "date": "2026-10-29",
+          "region": "EUA",
+          "escopo": "mundo",
+          "pilar": "membership",
+          "resumo": "A receita do terceiro trimestre da Life Time subiu 14%, pra US$ 894 milhões, e a empresa elevou a projeção do ano. O CEO Bahram Akradi disse que há pedidos pra levar a marca ao exterior e comentou os limites de crescimento do pickleball. Fato novo em relação ao clube de Lakewood Ranch publicado em 14/10: o resultado trimestral e a fala sobre expansão. Contagem de sócios, clubes e preços ficam na parte fechada e não foram conferidos.",
+          "por_que_importa": "Mostra o clube atlético com convivência crescendo em escala nos EUA, argumento de demanda por membership de alto padrão pra conversa com investidor e parceiro; a fala sobre o pickleball dialoga com a pendência das quadras no interior paulista.",
+          "para": [
+            "vendas",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "CEO do Fleury diz no evento da Exame que o grupo passou do exame ao cuidado contínuo, com centro de longevidade a partir dos 35 anos",
+          "source": "Exame",
+          "url": "https://exame.com/esg/envelhecer-com-vitalidade-a-estrategia-do-fleury-para-o-cuidado-continuo/",
+          "date": "2026-10-28",
+          "region": "São Paulo, SP",
+          "escopo": "brasil",
+          "pilar": "longevidade",
+          "resumo": "No painel de 27/10 do Longevidade & Wellness da Exame, a CEO Jeane Tsutsui afirmou que o Fleury deixou de focar só em exames e passou a vender prevenção e acompanhamento, com vacinação, atendimento domiciliar e ambulatório. A matéria descreve o Centro de Longevidade Saudável, aberto em maio de 2026 pra maiores de 35 anos, com consulta, avaliação integrada, teste de idade biológica e acompanhamento, sobre cinco pilares: exercício, alimentação, sono, manejo do estresse e relações sociais de qualidade. Tsutsui falou em preparar a mente e a vida social pros anos à frente e em investir na musculatura da alma. Expectativa de vida de 76,6 anos atribuída ao IBGE; os 25% de cobertura privada são fala dela, sem fonte separada. Fecha a pendência de cobertura dos painéis de 27/10.",
+          "por_que_importa": "Um laboratório de escala vendendo longevidade a partir dos 35 e pondo relação social no mesmo nível de sono e treino é o argumento de comunidade do Haven dito por um terceiro; é a conversa de parceria médica mais pronta do mês, com a avaliação de idade biológica como porta de entrada do sócio.",
+          "para": [
+            "clube",
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Kalache no painel da Exame: envelhecer bem depende de trabalho, família e divisão do cuidado, e os 80+ seguem contribuindo",
+          "source": "Exame",
+          "url": "https://exame.com/esg/longevidade-wellness-os-mais-velhos-sao-parte-da-solucao-nao-um-problema/",
+          "date": "2026-10-28",
+          "region": "São Paulo, SP",
+          "escopo": "brasil",
+          "pilar": "longevidade",
+          "resumo": "Alexandre Kalache, presidente do ILC-Brasil, abriu o painel de 27/10 dizendo que envelhecer virou regra e que viver bem muito depois dos 60 exige mudança em saúde, trabalho e organização familiar, além das escolhas individuais. Defendeu que pessoas acima de 80 anos seguem contribuindo na cultura, na política e na convivência entre gerações. Dados do IBGE citados pela matéria: 16,6% da população com 60 anos ou mais em 2025, cerca de 40 milhões em 2030 e alta de mais de 53% de trabalhadores 60+ em dez anos.",
+          "por_que_importa": "Dá vocabulário e dados pra falar com o público 55+ sem tom de antienvelhecimento e abre a ideia de programação intergeracional no clube; Kalache é o primeiro nome pra uma conversa pública do Haven.",
+          "para": [
+            "marketing",
+            "clube",
+            "parcerias"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Anantara Residences Preá: 24 casas de 562 m² com sauna privativa, hotelaria da Minor e pool de locação, ainda sem preço",
+          "source": "Money Report (texto com cara de divulgação, só fontes do grupo)",
+          "url": "https://www.moneyreport.com.br/lifestyle/residencias-exclusivas-no-prea-apostam-em-luxo-servico-de-hotelaria-internacional-e-conexao-com-a-natureza/",
+          "date": "2026-10-29",
+          "region": "Preá, Ceará",
+          "escopo": "brasil",
+          "pilar": "wellness-residence",
+          "resumo": "O Grupo Carnaúba, de Julio Capua, cofundador da XP, apresentou 24 residências de quatro suítes no Vila Carnaúba, no litoral cearense, com rooftop, sauna e piscina privativos voltados a uma praia particular na lagoa, entregues mobiliadas e com serviço da equipe do Anantara Preá Ceará Resort, ainda em obra: limpeza diária, manutenção, room service, concierge e segurança 24 horas. O dono pode colocar a casa num pool de locação gerido pelo hotel. A matéria não traz preço, prazo nem unidades vendidas; os R$ 4 a 5 bilhões até 2034 são o plano do grupo pra região, dito pela empresa e não conferido. Arquitetura de Miguel Pinto Guimarães.",
+          "por_que_importa": "Concorrente direto de segunda residência com hotelaria de marca, sauna privativa e pool de locação; o deck de vendas do Haven precisa da comparação por tipologia (serviço incluído, acesso ao clube, renda de locação) antes de o preço sair.",
+          "para": [
+            "vendas",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "Ambev diz que a Michelob Ultra cresceu 478% no trimestre e que a linha wellness subiu 157%, com corrida como canal",
+          "source": "Money Report (números da empresa, não conferidos na fonte primária)",
+          "url": "https://www.moneyreport.com.br/lifestyle/michelob-ultra-dispara-478-e-reflete-avanco-do-consumo-ligado-ao-bem-estar/",
+          "date": "2026-10-29",
+          "region": "Brasil",
+          "escopo": "brasil",
+          "pilar": "lifestyle",
+          "resumo": "A matéria diz que as vendas da Michelob Ultra no Brasil subiram 478% no terceiro trimestre de 2026 contra o mesmo período de 2025 e que o portfólio wellness da Ambev cresceu 157%, com a marca apostando em corridas e patrocínio esportivo, inclusive o Michelob Move Fest de 7/11 em São Paulo, já no radar em 18/10. Os percentuais aparecem sem fonte nomeada, parecem da Ambev, e os dados de mercado são atribuídos à Nielsen via empresa; nada conferido na fonte primária. Fato novo: os números de venda.",
+          "por_que_importa": "Sinal de que a bebida ligada a treino virou categoria de massa com verba de patrocínio; pista de parceria de marca pros eventos do clube, com os números tratados como da empresa.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Hyrox Rio de Janeiro confirmado pra 21 e 22 de novembro no Riocentro, com provas individuais, duplas e revezamento",
+          "source": "Hyrox (página oficial do evento)",
+          "url": "https://hyrox.com/event/hyrox-rio-de-janeiro/",
+          "date": "2026-11-21",
+          "region": "Rio de Janeiro, RJ",
+          "escopo": "brasil",
+          "pilar": "eventos",
+          "resumo": "A página oficial confirma a etapa carioca da Hyrox pra sábado e domingo, 21 e 22 de novembro, no Riocentro, na Barra Olímpica, segunda vez da prova na cidade, com individuais e adaptados no sábado e duplas e revezamentos no domingo, premiação por faixa etária e vagas pro mundial em algumas faixas. Ingressos de atleta e espectador pelo brazil.hyrox.com, sem preço na página; horários provisórios. Fato novo em relação à parceria com a Amazon (27/10) e ao acordo com a World Triathlon (29/10): data e local confirmados na fonte oficial; a etapa de São Paulo segue em maio de 2027.",
+          "por_que_importa": "Data concreta pro time de parcerias ir ver de perto o formato, a zona de marcas e o público 40+ que a Hyrox diz ser o que mais cresce, antes de decidir a afiliação do clube e a conversa com a Amazon.",
+          "para": [
+            "parcerias",
+            "clube",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "On leva o Clubhouse Nights a São Paulo em dezembro, com Federer e João Fonseca, sem dia nem local",
+          "source": "Máquina do Esporte (nota sobre anúncio da marca)",
+          "url": "https://maquinadoesporte.com.br/tenis/on-reune-roger-federer-e-joao-fonseca-na-estreia-do-on-clubhouse-nights-no-brasil/",
+          "date": "2026-10-29",
+          "region": "São Paulo, SP",
+          "escopo": "brasil",
+          "pilar": "marcas",
+          "resumo": "A On, marca suíça de calçado esportivo, anunciou a estreia brasileira do Clubhouse Nights, plataforma própria que mistura tênis, música e cultura urbana e já passou por Nova York, Miami e Paris. Acontece em São Paulo em dezembro, com Roger Federer, investidor e parceiro da marca desde 2019, e João Fonseca, atleta patrocinado. A nota não informa dia, local nem venda de ingressos.",
+          "por_que_importa": "Marca de esporte montando um clube temporário em torno de cultura e convivência, referência pra programação social do Haven; parcerias acompanha a data pra avaliar convite ou contato com a marca.",
+          "para": [
+            "parcerias",
+            "marketing",
+            "clube"
+          ],
+          "verificado": true,
+          "destaque": true
+        },
+        {
+          "title": "American Express abre cafeteria de Fórmula 1 na Faria Lima até 8 de novembro, com entrada livre e prioridade pra cliente",
+          "source": "Máquina do Esporte (ativação de marca, texto com base em divulgação)",
+          "url": "https://maquinadoesporte.com.br/f1/american-express-ativa-patrocinio-a-formula-1-com-listening-bar-na-faria-lima/",
+          "date": "2026-10-29",
+          "region": "São Paulo, SP",
+          "escopo": "brasil",
+          "pilar": "marcas",
+          "resumo": "Pro GP de São Paulo, a American Express montou o The Coffee Stop na Avenida Brigadeiro Faria Lima, ao lado da Baleia, aberto todos os dias das 9h às 18h até 8 de novembro, com entrada gratuita, acesso prioritário e um segundo café de cortesia pra cliente do cartão, café especial, DJs e ambientação de automobilismo. A URL fala em listening bar, mas o texto descreve uma cafeteria com curadoria musical.",
+          "por_que_importa": "Banco usando espaço aberto ao público com benefício em camadas pra quem é cliente, a mesma lógica que o clube pode adotar em evento aberto a prospects; referência de ativação pra parcerias.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        },
+        {
+          "title": "Bvlgari doa obra digital de Gabriel Massan à Pinacoteca de São Paulo e amplia a parceria com o museu",
+          "source": "Exame",
+          "url": "https://exame.com/casual/bvlgari-doa-obra-serpenti-a-pinacoteca-e-reforca-conexao-com-a-arte/",
+          "date": "2026-10-28",
+          "region": "São Paulo, SP",
+          "escopo": "brasil",
+          "pilar": "marcas",
+          "resumo": "Em evento na Pinacoteca, a joalheria anunciou a doação ao acervo permanente de Serpenti, obra digital do brasileiro Gabriel Massan encomendada em 2023 pelos 75 anos da linha de joias, primeira colaboração criativa da marca com um artista brasileiro, ampliando a parceria com o museu anunciada em 2025. A noite teve apresentação de João Carlos Martins com a Orquestra Bachiana Filarmônica SESI-SP e jantar com convidados.",
+          "por_que_importa": "Marca de luxo entrando na cena cultural pelo acervo e pelo artista, com o evento como consequência; modelo pra uma obra permanente no clube com mecenas de marca.",
+          "para": [
+            "parcerias",
+            "marketing"
+          ],
+          "verificado": true,
+          "destaque": false
+        }
+      ]
+    },
     {
       "data": "2026-10-29",
       "manchete": "A corrida híbrida virou esporte com federação. Quem mais cresce nela tem mais de 40 anos.",
