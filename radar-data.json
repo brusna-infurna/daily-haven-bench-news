@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-10-31",
+ "atualizado": "2026-11-01",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,238 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-01",
+   "manchete": "O clube virou garantia de crédito. Em São Paulo, o Jockey vende título novo pra pagar dívida; em Miami, a Faena tomou US$ 817 milhões antes de abrir.",
+   "editorial": "O Jockey Club de São Paulo fechou na quinta um acordo que troca R$ 800 milhões de dívida por R$ 228 milhões, um parque de 85 mil m² e a venda de títulos novos, com o BTG financiando o pacote. Em Miami, a Faena tomou o maior empréstimo de construção da Flórida, US$ 817 milhões, com US$ 500 milhões já vendidos antes da obra. Os dois casos mostram o mesmo mecanismo: o clube, ou a pré-venda do clube, virou o lastro do dinheiro, e quem paga o título entra numa conta que já estava fechada com o banco. O custo aparece quando a receita de título cobre dívida em vez de obra, e é por isso que a regra de destinação precisa estar escrita antes do preço. Do outro lado, a Sotheby's descreve um comprador de alto padrão que pede a casa onde pretende ficar, com suíte no térreo e banho frio, e a Minor desenha 5 mil m² de bem-estar pra 210 residências em Phuket. O dia foi fraco no Brasil, com um item na janela e a SIX de BH entrando pela pendência; segunda-feira cobre a inauguração do Vila Galé Paiva e a abertura do Dior Spa em 3/11.",
+   "atencao": [
+    "Marketing: O comprador da Sotheby's descreve a casa onde quer ficar com as próprias palavras, suíte no térreo, sauna, banho frio, ar e água. É a linguagem do future living sem a palavra longevidade; vale usar como está, com crédito, e deixar os percentuais de fora.",
+    "Vendas: A Faena levantou US$ 817 milhões com US$ 500 milhões contratados antes da obra. O volume de pré-venda do Haven, com valor contratado e ritmo mensal, é o número que o investidor e o banco vão pedir primeiro.",
+    "Clube e parcerias: O Jockey vai vender título novo pra pagar dívida, com o BTG dentro. Antes de desenhar a venda de títulos do clube do Haven, vale ler o acordo e decidir se o banco entra como distribuidor ou como credor."
+   ],
+   "bench": [
+    {
+     "area": "Produto e estrutura",
+     "para": "vendas",
+     "titulo": "Suíte no térreo sem degrau como item de série nas 75 plantas",
+     "ideia": "Toda planta do Haven ganha pelo menos uma suíte no térreo com banheiro sem degrau e porta de 90 cm, descrita no memorial como a casa desenhada pra ficar. Na visita, o corretor faz a pergunta da ONE Sotheby's: essa é a última casa que você quer comprar?",
+     "ref": "Compradores de alto padrão nos EUA, Forbes",
+     "url": "https://www.forbes.com/sites/terriwilliams/2026/10/31/the-luxury-homebuyer-pool-is-diversifying-luxury-real-estate-trends/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Fisioterapeuta residente no recovery, com agenda aberta pro sócio 60+",
+     "ideia": "O espaço de recovery do clube tem um fisioterapeuta presente três dias por semana, com agenda de 20 minutos reservável pelo sócio, como linha do contrato do operador e não como serviço avulso. O modelo da SIX de BH, com clínica dentro da academia, é a referência.",
+     "ref": "SIX Belo Horizonte, O Tempo",
+     "url": "https://www.otempo.com.br/minas-sa/2026/10/16/six-em-belo-horizonte-tem-inauguracao-prevista-para-novembro-com-investimento-de-r-20-milhoes"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Regra de destinação do dinheiro de título escrita no estatuto",
+     "ideia": "O estatuto do clube diz pra onde vai cada real de título novo: obra, fundo de reserva ou operação, com percentuais, e proíbe título novo pra pagar dívida operacional. A regra vai como anexo da proposta de membership, antes do preço.",
+     "ref": "Jockey Club de São Paulo, Money Report",
+     "url": "https://www.moneyreport.com.br/lifestyle/jockey-club-planeja-parque-publico-e-novo-centro-de-lazer-em-sao-paulo/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "vendas",
+     "titulo": "Metro quadrado de clube por casa como número do deck",
+     "ideia": "Calcular a área de clube e spa dividida pelas 75 casas e publicar o número no deck ao lado do mercado: Phuket dá cerca de 16 m² de centro de bem-estar por unidade. Se o Haven ficar acima, o número vira argumento; se ficar abaixo, vira decisão de projeto.",
+     "ref": "Minor Reserve Collection Phuket, Rus Tourism News",
+     "url": "https://www.rustourismnews.com/2026/10/30/minor-hotels-announces-new-310-key-luxury-resort-in-phuket-for-2031/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Banco de investimento distribuindo os títulos do clube no private",
+     "ideia": "Separar a venda de títulos do clube da venda das casas e levar os títulos pra um banco de investimento (BTG, XP ou Itaú BBA) distribuir na base private, com cota reservada e preço travado pros compradores das casas. O desenho do Jockey com o BTG é o ponto de partida da conversa.",
+     "ref": "Jockey Club de São Paulo, Money Report",
+     "url": "https://www.moneyreport.com.br/lifestyle/jockey-club-planeja-parque-publico-e-novo-centro-de-lazer-em-sao-paulo/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Série A casa que fica, com três perfis da lista de membership",
+     "ideia": "Três posts em que pessoas da lista de membership respondem à mesma pergunta, qual é a casa onde você pretende ficar, com a planta do Haven aparecendo só na terceira peça. Sem a palavra longevidade e sem número de pesquisa; a frase de Philip White entra como citação com crédito.",
+     "ref": "Compradores de alto padrão nos EUA, Forbes",
+     "url": "https://www.forbes.com/sites/terriwilliams/2026/10/31/the-luxury-homebuyer-pool-is-diversifying-luxury-real-estate-trends/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Dez fornecedores da expo do Eudēmonia pra RFP do spa do clube",
+     "ideia": "Pedir a lista de expositores do Eudēmonia (5 a 8/11) e filtrar em dez fornecedores de recovery, diagnóstico e sono com representação no Brasil, que entram na RFP do spa do clube. Se alguém do time ou do parceiro clínico for, volta com o contato de cada um.",
+     "ref": "Eudēmonia Summit, Palm Beach County Convention Center",
+     "url": "https://www.pbconventioncenter.com/event/eudemonia-summit/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Milhas de companhia aérea como moeda da diária de convidado do clube",
+     "ideia": "Conversa com LATAM Pass ou Smiles pra aceitar milhas como pagamento da diária de convidado e do passe de visita, com acúmulo nas compras do spa e do restaurante. O sócio que viaja muito paga o fim de semana do amigo com o que já tem na conta.",
+     "ref": "Emirates EK FIT e Skywards, Money Report",
+     "url": "https://www.moneyreport.com.br/lifestyle/emirates-leva-sua-marca-para-fora-dos-avioes-com-colecao-fitness-e-de-viagem/"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Jockey Club de São Paulo renegocia R$ 800 milhões de dívida e vai vender título novo pra financiar parque de 85 mil m²",
+     "source": "Money Report",
+     "url": "https://www.moneyreport.com.br/lifestyle/jockey-club-planeja-parque-publico-e-novo-centro-de-lazer-em-sao-paulo/",
+     "date": "2026-10-30",
+     "region": "São Paulo, Brasil",
+     "escopo": "brasil",
+     "pilar": "membership",
+     "resumo": "O acordo com a Prefeitura, fechado em 29/10, renegocia uma dívida tributária de cerca de R$ 800 milhões, que cai pra R$ 228 milhões com os descontos do programa municipal. O plano prevê um parque público de 85 mil m² dentro da pista do hipódromo, com investimento privado estimado em R$ 100 milhões e entrega em outubro de 2028, mais a modernização do clube, novos espaços comerciais e gastronômicos e a venda de novos títulos pra cobrir obrigações com o banco. O BTG Pactual financia a reestruturação; a matéria não traz número de sócios nem preço de título.",
+     "por_que_importa": "O clube mais tradicional da cidade está usando título novo como instrumento de caixa pra pagar dívida, com banco de investimento estruturando. Vale conhecer o desenho antes de escrever a regra de destinação do dinheiro de título no estatuto do clube do Haven, e acompanhar o preço quando sair.",
+     "para": [
+      "clube",
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "SIX de Belo Horizonte abre no fim de novembro com R$ 20 milhões, 2 mil m², recovery com fisioterapeuta e clínica médica",
+     "source": "O Tempo (16/10; entra fora da janela por ser o primeiro fato novo na pendência da abertura de BH desde 24/10)",
+     "url": "https://www.otempo.com.br/minas-sa/2026/10/16/six-em-belo-horizonte-tem-inauguracao-prevista-para-novembro-com-investimento-de-r-20-milhoes",
+     "date": "2026-10-16",
+     "region": "Belo Horizonte, Brasil",
+     "escopo": "brasil",
+     "pilar": "membership",
+     "resumo": "A unidade do Belvedere ocupa uma casa neoclássica de 2 mil m², com capacidade pra 600 pessoas, espaço de recovery com fisioterapeuta, saunas úmida e seca, hot yoga, futevôlei, SIX Run, operação de alimentação do S Brunch, a Clínica Isa Santini e uma clínica médica. A matéria não traz preço; a tabela de R$ 2.500 a R$ 4.000 por mês veio do Diário do Comércio de 18/09 (edição de 24/10). Fato novo: investimento, área, capacidade e a data no fim de novembro.",
+     "por_que_importa": "É a academia-clube brasileira que mais se parece com o programa do clube do Haven, com clínica dentro e recovery com profissional de saúde. A razão de 600 pessoas pra 2 mil m² serve de régua de densidade pro dimensionamento do clube.",
+     "para": [
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Congresso Internacional de Longevidade e Terapias Integrativas reúne médicos no Frei Caneca, em São Paulo, de 20 a 22/11",
+     "source": "Grupo Longevidade Saudável (página oficial do evento; evento exclusivo pra médicos)",
+     "url": "https://congresso.longevidadesaudavel.com.br/congresso-ls-2026/",
+     "date": "2026-11-20",
+     "region": "São Paulo, Brasil",
+     "escopo": "brasil",
+     "pilar": "eventos",
+     "resumo": "A 11ª edição acontece no Centro de Convenções Frei Caneca, com inscrição a R$ 1.154 no terceiro lote e expositores falando com mais de 2 mil médicos, segundo a página. Entre os nomes estão Alessio Fasano, Felice Gersh, Robert Lustig, Nathan Bryan e Deanna Minich, dos Estados Unidos e da Itália, e brasileiros como Cicero Coimbra e Alain Dutra. A programação está sujeita a alteração e a página tem inconsistências de grafia nos nomes.",
+     "por_que_importa": "Serve pra mapear quem são os médicos brasileiros de longevidade com prática clínica e nome, a lista de onde pode sair o parceiro clínico ou um curador do clube. Parcerias pode pedir a lista de expositores.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Minor leva a Minor Reserve Collection à Ásia com 100 quartos, 210 residências e centro de bem-estar de 5 mil m² em Phuket, pra 2031",
+     "source": "Rus Tourism News (texto a partir do anúncio da Minor Hotels, com falas dos executivos)",
+     "url": "https://www.rustourismnews.com/2026/10/30/minor-hotels-announces-new-310-key-luxury-resort-in-phuket-for-2031/",
+     "date": "2026-10-30",
+     "region": "Phuket, Tailândia",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "O Gardens of Eden Resort Phuket, em Bang Tao, nasce de um contrato de gestão entre a Minor e o Amal Group, dentro de um terreno de 33 acres que também abriga o Etro Residences e o Gardens of Eden Residences. São 100 quartos e 210 residências de um a três dormitórios, com centro de bem-estar de mais de 5 mil m² e primeiros hóspedes em 2031. A matéria cita a Life Longevity como negócio de bem-estar da Minor na ilha, sem dizer que o resort vai operar sob essa marca. Sem preço nem lista de tratamentos.",
+     "por_que_importa": "Dá a proporção que o mercado está praticando entre residência e área de bem-estar: cerca de 16 m² de centro por unidade. O número entra na comparação do deck ao lado do metro quadrado de clube por casa do Haven.",
+     "para": [
+      "marketing",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Faena Residences Miami toma US$ 817 milhões, o maior empréstimo de construção da Flórida, com mais de US$ 500 milhões já vendidos",
+     "source": "Commercial Observer (dados de vendas são dos incorporadores); o centro Faena Rose vem do resumo mensal do BrandedResi de 31/10",
+     "url": "https://commercialobserver.com/?p=584542",
+     "date": "2026-10-28",
+     "region": "Miami, EUA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A Tyko Capital, apoiada pela Elliott, financia duas torres de 68 andares e 217 unidades cada no Rio Miami, projeto da Rafael Viñoly Architects pra Fortune International e KAR Properties, com conclusão em 2030. Os incorporadores dizem ter mais de US$ 500 milhões vendidos, inclusive uma cobertura de US$ 30 milhões. A matéria do empréstimo não cita bem-estar; o BrandedResi descreve o Faena Rose, centro cultural e social de cerca de 4,2 mil m² com gastronomia, bem-estar e eventos.",
+     "por_que_importa": "Mostra o tamanho do crédito que a pré-venda sustenta num produto em que o diferencial é cultura e convívio, sem hotel operando na torre. Pro investidor do Haven, é o exemplo de que o volume contratado antes da obra vira a garantia do financiamento.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Fouquet's Hotel & Residences, no Design District de Miami, mostra hammam e cold plunge em mais de 3,7 mil m² de áreas comuns pra 143 residências",
+     "source": "BrandedResi (resumo mensal de outubro; o anúncio original do projeto não foi aberto)",
+     "url": "https://brandedresi.com/branded-residences-stories-october/",
+     "date": "2026-10-31",
+     "region": "Miami, EUA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "O projeto junta 143 residências e um hotel Fouquet's de 85 chaves, com mais de 40 mil pés quadrados de amenidades assinadas pela RDAI: rooftop, piscina, academia, hammam e cold plunge. Sem preço nem prazo. A mesma edição registra o Trump Villas no Catar, com clube de golfe e praia só pra membros e villas a partir de 5 milhões de riais, e o Raffles Residences Coconut Grove, com 35 casas a partir de US$ 4 milhões e sem programa de bem-estar.",
+     "por_que_importa": "Hammam e banho frio viraram item de lista em residência de marca urbana, do mesmo jeito que a sauna virou em 23/10. Serve pra calibrar o circuito térmico do clube como o mínimo que o comprador de alto padrão já espera ver na planta.",
+     "para": [
+      "marketing",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Corretores da Sotheby's dizem que o comprador de alto padrão nos Estados Unidos pede a casa onde vai ficar: suíte no térreo, sauna, banho frio e qualidade de ar e água",
+     "source": "Forbes (coluna de colaboradora; percentuais atribuídos ao Luxury Outlook Report da Sotheby's e ao UBS, não conferidos na fonte primária)",
+     "url": "https://www.forbes.com/sites/terriwilliams/2026/10/31/the-luxury-homebuyer-pool-is-diversifying-luxury-real-estate-trends/",
+     "date": "2026-10-31",
+     "region": "Estados Unidos",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "Segundo a coluna, 55% dos corretores que vendem acima de US$ 10 milhões relatam mais compradores e 66% veem mais millennials, 73% na faixa acima de US$ 5 milhões. Os corretores da ONE Sotheby's descrevem clientes que tratam a compra como a última casa que pretendem comprar e pedem pelo menos uma suíte no térreo, academia, sauna, banho frio e boa qualidade de ar e água. Philip White, da Sotheby's, resume: o luxo do futuro é poder ficar na casa que você ama enquanto a vida muda.",
+     "por_que_importa": "O comprador descreve com as próprias palavras o que o Haven chama de future living. A frase da casa onde se fica serve de argumento de venda, e a suíte térrea com banheiro sem degrau vira item de série na planta.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Eudēmonia Summit reúne mais de 150 nomes de longevidade e uma expo de 160 marcas em West Palm Beach de 5 a 8/11",
+     "source": "Palm Beach County Convention Center (página oficial, com datas e local); palestrantes e números vêm do release da organização republicado pela Fitt Insider em 16/07",
+     "url": "https://www.pbconventioncenter.com/event/eudemonia-summit/",
+     "date": "2026-11-05",
+     "region": "West Palm Beach, EUA",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "A terceira edição junta ciência, medicina preventiva, nutrição, treino, saúde mental e recuperação, com prática ao vivo e shows à noite. O release de julho fala em mais de 150 palestrantes, entre eles Rich Roll, Gary Brecka, Stacy Sims e Tracy Anderson, expo de health-tech com mais de 160 marcas e expectativa de mais de 8,5 mil participantes; a abertura com Tom Brady aparece num comunicado da Business Wire com trechos ilegíveis na página. Sem preço de ingresso na página oficial.",
+     "por_que_importa": "É a feira onde as marcas de recovery e diagnóstico que o clube vai cotar estão todas no mesmo salão. Vale pedir a lista de expositores pra montar a RFP do spa.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Emirates lança as linhas EK FIT e EK Travel e paga em milhas Skywards a roupa de treino e de descanso",
+     "source": "Money Report",
+     "url": "https://www.moneyreport.com.br/lifestyle/emirates-leva-sua-marca-para-fora-dos-avioes-com-colecao-fitness-e-de-viagem/",
+     "date": "2026-10-21",
+     "region": "Dubai, Emirados Árabes",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A companhia aérea abriu duas linhas de lifestyle: a EK FIT, com legging, top, shorts, bolsa de academia impermeável e garrafa térmica com anel MagSafe, e a EK Travel, com peças largas em modal e algodão pra deslocamento e descanso. Os preços começam em 110 dirhams, cerca de R$ 150, na loja on-line e em pontos de Dubai, e os membros do Skywards acumulam e resgatam milhas na compra.",
+     "por_que_importa": "Marca de hospitalidade usando a base de membros pra vender rotina de treino e descanso, com a milha como moeda. Abre a conversa de programa de pontos de companhia aérea como meio de pagamento dentro do clube.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-10-31",
    "manchete": "Recuperação virou item de academia de US$ 60 por mês. O que ainda segura preço é a marca do hotel: no Preá, o lote triplicou.",
