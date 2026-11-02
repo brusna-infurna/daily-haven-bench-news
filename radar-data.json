@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-01",
+ "atualizado": "2026-11-02",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,314 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-02",
+   "manchete": "A casa dentro do resort de saúde ganhou preço: US$ 3,8 milhões em Austin. No Camboja, a moradia vitalícia com mensalidade fixa parou no custo do combustível.",
+   "editorial": "A Canyon Ranch publicou na sexta o preço das casas do resort de Austin, a partir de US$ 3,8 milhões, com concierge médico incluído e nenhuma linha sobre o que o morador paga pra usar o spa de 40 mil pés quadrados. Dois dias antes, o Odyssey, da Villa Vie, parou atracado no Camboja e cerca de 200 pessoas que tinham comprado cabine vitalícia por até US$ 440 mil, com mensalidade fixa de US$ 3.500 a US$ 11.000, saíram em poucas horas. O mecanismo é o mesmo nos dois casos: quem compra a casa compra junto um custo de operação que alguém vai pagar pelos próximos trinta anos, e a diferença entre um projeto e um naufrágio contratual está na regra de reajuste, no fundo de reserva e em quem decide quando o combustível triplica. Quem perde é o morador que pagou adiantado, e o custo aparece no primeiro reajuste que o contrato não previu. Do lado das parcerias, a Hyatt passou a vender com pontos o ingresso de uma competição de longevidade e a Raffles vende residência sem hotel com status elite no programa de fidelidade da Accor; a pesquisa da Accor, de marca e com essa ressalva, diz que 65% preferem marcas com pontos e benefícios. O Brasil veio fraco de novo, com um item na janela: o Seu Dinheiro listou as dez marcas de luxo que abriram a primeira loja no país em 2026 e duas delas estão no CJ Boa Vista Village, em Porto Feliz. O Dior Spa abre amanhã no Copacabana Palace e a inauguração do Vila Galé Paiva, em 31/10, ainda não teve cobertura.",
+   "atencao": [
+    "Marketing: James Perse e Fusalp abriram a primeira loja do Brasil no CJ Boa Vista Village, em maio e junho, e a lista do Seu Dinheiro põe Porto Feliz ao lado do Cidade Jardim. O argumento de vizinhança do Haven tem nomes e datas agora; vale usar assim, sem adjetivo.",
+    "Vendas: A Canyon Ranch vende a casa a partir de US$ 3,8 milhões com concierge de saúde incluído e sem dizer o que o morador paga pra usar o resort. A proposta do Haven precisa ter uma página que diga o que a casa dá de acesso ao clube e o que o sócio paga à parte, antes que o comprador pergunte.",
+    "Clube e parcerias: A mensalidade fixa da Villa Vie não cobriu o combustível, e 70% dos moradores recusaram o reajuste de US$ 1.500. A regra de reajuste da mensalidade do clube, com índice, teto e gatilho de custo, entra no contrato antes do preço."
+   ],
+   "bench": [
+    {
+     "area": "Produto e estrutura",
+     "para": "vendas",
+     "titulo": "Três projetos de casa assinados, numerados, no lugar da planta livre",
+     "ideia": "As 75 casas saem de três projetos assinados por um escritório brasileiro, com nome do arquiteto na tabela de preço e variação só de implantação e acabamento. Reduz obra, custo e prazo, e a assinatura vira argumento de venda, como a Lake Flato na Canyon Ranch.",
+     "ref": "Canyon Ranch Austin, PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/inside-canyon-ranch-austin-a-first-look-at-the-future-of-wellness-302924999.html"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Cláusula de reajuste da mensalidade com índice, teto e gatilho de custo",
+     "ideia": "O contrato do clube fixa o índice anual (IPCA ou IGP-M), um teto de reajuste e um gatilho explícito pra custo de operação fora do índice (energia, água, folha), que só passa com voto do conselho de sócios e com a conta aberta. A regra entra como anexo da proposta, antes do preço.",
+     "ref": "Villa Vie Odyssey, Seu Dinheiro",
+     "url": "https://www.seudinheiro.com/2026/lifestyle/caso-villa-vie-cruzeiro-que-prometeu-moradia-vitalicia-por-us-440-mil-termina-com-passageiros-abandonados-sama/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Temporada de quatro meses com um tema só e uma pessoa residente",
+     "ideia": "O clube organiza o ano em três temporadas de quatro meses, cada uma com um tema (a primeira, água, a partir do lago do terreno), dois rituais fixos na semana e uma pessoa residente que conduz e conversa com os sócios. O calendário sai antes da temporada começar, com vaga paga pra convidado.",
+     "ref": "Four Seasons Bali Sacred Water, Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Four-Seasons-Bali-unveils-Sacred-Water-wellness-journeys-at-Jimbaran-Bay-and-Sayan/363883"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Consultores de viagem de luxo como canal de indicação de sócios externos",
+     "ideia": "Convidar os nove consultores brasileiros que foram ao TFest e a BLTA pra um fim de semana de visita ao terreno, com uma categoria de sócio externo indicável por eles e comissão por título fechado. O consultor já vende o cliente que o Haven quer, e a conversa começa com a Camilla Barretto.",
+     "ref": "TFest 2026, Panrotas",
+     "url": "https://www.panrotas.com.br/viagens-de-luxo/eventos/2026/11/tfest-feira-global-de-viagens-de-luxo-continua-na-riviera-maya-ate-2030_233322.html"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Data de validade em toda afirmação de saúde do site e do deck",
+     "ideia": "Cada número ou afirmação de saúde publicado pelo Haven leva fonte, ano e data de revisão, revista a cada doze meses pelo parceiro clínico, e o site tem uma página com o que foi retirado e por quê. Blue zone, centenário e promessa de anos a mais ficam fora do vocabulário.",
+     "ref": "Blue zones com data de validade, Longevity.Technology",
+     "url": "https://longevity.technology/news/every-blue-zone-should-come-with-an-expiry-date/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Fim de semana de visita com as duas marcas que já estão em Porto Feliz",
+     "ideia": "Propor à James Perse e à Fusalp, que abriram no CJ Boa Vista Village em maio e junho, um trunk show no terreno durante um fim de semana de visita, com a loja de Porto Feliz como ponto de retirada. Os sociais contam a vizinhança com as marcas e as datas de abertura, sem a palavra luxo.",
+     "ref": "Dez marcas de luxo no Brasil em 2026, Seu Dinheiro",
+     "url": "https://www.seudinheiro.com/2026/lifestyle/10-marcas-globais-de-moda-e-beleza-de-luxo-que-inauguraram-suas-primeiras-lojas-no-brasil-este-ano-sama/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Status elite em programa de fidelidade hoteleiro pro proprietário do Haven",
+     "ideia": "Negociar com uma rede (Accor ALL, Minor Discovery ou um grupo brasileiro) que o proprietário e o sócio fundador do Haven ganhem nível elite do programa de fidelidade enquanto mantiverem o título, como a Raffles faz em Coconut Grove. Custa pouco ao clube, entra na proposta como benefício e abre a conversa de hospedagem parceira.",
+     "ref": "Raffles Residences Coconut Grove, Hospitality Net",
+     "url": "https://www.hospitalitynet.org/announcement/41015343/raffles-hotels-resorts-unveils-its-first-standalone-branded-residences-selecting-miamis-coveted-coconut-grove-neighborhood"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Convênio de imagem pra DEXA e escore de cálcio, agendado pelo concierge, sem máquina no clube",
+     "ideia": "Fechar com uma rede de imagem de Sorocaba ou Campinas um convênio pro sócio fazer DEXA e escore de cálcio coronário uma vez por ano, com agendamento pelo concierge do clube, preço de tabela publicado e laudo explicado pelo parceiro clínico. O clube fica sem equipamento de imagem e a rede ganha um fluxo previsível.",
+     "ref": "Fitnescity, Longevity.Technology",
+     "url": "https://longevity.technology/news/health-apps-can-now-book-dexa-calcium-scans/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Seguradora como patrocinadora de uma prova anual no terreno",
+     "ideia": "Oferecer a uma seguradora ou a um banco de alta renda o patrocínio-título de uma prova anual de 5 e 10 km no terreno do Haven, aberta a sócios e convidados, com avaliação de bem-estar antes e depois e os dados agregados compartilhados com o patrocinador. O Circuito da Longevidade da Bradesco Seguros, com quase vinte anos, é a referência do formato.",
+     "ref": "Circuito da Longevidade Bradesco Seguros, Revista Apólice",
+     "url": "https://revistaapolice.com.br/?p=143529"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Canyon Ranch Austin põe preço nas casas do resort de saúde: a partir de US$ 3,8 milhões, com concierge médico e sem regra escrita de acesso ao spa",
+     "source": "PR Newswire (release da empresa, 30/10; fecha a pendência de preço de 23/10)",
+     "url": "https://www.prnewswire.com/news-releases/inside-canyon-ranch-austin-a-first-look-at-the-future-of-wellness-302924999.html",
+     "date": "2026-10-30",
+     "region": "Austin, EUA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "O release da Canyon Ranch sobre o resort aberto em 15/10 traz pela primeira vez o preço da Ranch Home Collection: a partir de US$ 3,8 milhões, em três projetos da Lake Flato de 3.200 a 4.800 pés quadrados, em lotes de 0,8 a 3,7 acres. O comprador recebe acesso a cuidado de saúde com concierge; o texto não diz o que o morador paga ou deixa de pagar pra usar o spa de 40 mil pés quadrados e os 141 quartos do resort. O próprio release conta 131 casas no destaque e 134 lotes no corpo, e a divergência fica registrada.",
+     "por_que_importa": "É a referência de preço mais próxima do produto do Haven, casa dentro de um clube de saúde de marca forte, pra calibrar o ticket das 75 casas. A lacuna sobre o acesso do morador mostra a regra que a proposta do Haven precisa deixar escrita.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Navio-residência Villa Vie para no Camboja e cerca de 200 moradores que pagaram até US$ 440 mil pela cabine saem em poucas horas",
+     "source": "Seu Dinheiro (29/10; números de preço e combustível da própria empresa e do fundador)",
+     "url": "https://www.seudinheiro.com/2026/lifestyle/caso-villa-vie-cruzeiro-que-prometeu-moradia-vitalicia-por-us-440-mil-termina-com-passageiros-abandonados-sama/",
+     "date": "2026-10-29",
+     "region": "Sihanoukville, Camboja (operadora dos EUA)",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "O Odyssey, da americana Villa Vie Residences, suspendeu a operação em 27/10 atracado em Sihanoukville, com 203 passageiros e 156 tripulantes a bordo. As cabines vitalícias custavam de US$ 119.999 a US$ 439.999, mais mensalidade fixa de US$ 3.500 a US$ 11.000; a empresa diz que o combustível por cabine subiu de cerca de US$ 1.800 pra US$ 6.000 a 8.000 por mês em partes da Ásia e tentou cobrar US$ 1.500 extras, recusados por cerca de 70% dos moradores, segundo o fundador Mikael Petterson. Nenhum dos números tem fonte independente na matéria.",
+     "por_que_importa": "É o caso de moradia com mensalidade fixa que quebrou porque o custo de operação subiu e o contrato não tinha regra de reajuste. Serve de argumento de venda do Haven e de pauta pro contrato do clube: índice, teto e gatilho de custo escritos antes do preço.",
+     "para": [
+      "clube",
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "World of Hyatt vende ingresso dos Super Age Games com pontos e leva quatro protocolos de viagem pro app de longevidade",
+     "source": "Hyatt Newsroom (release da empresa)",
+     "url": "https://newsroom.hyatt.com/superage",
+     "date": "2026-10-30",
+     "region": "Nova York, EUA",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A Hyatt fechou parceria com a Super Age, empresa de mídia de longevidade, pros Super Age Games de 7/11 no Armory Track, em Nova York: os 69 milhões de membros do World of Hyatt compram ingresso com pontos pela plataforma FIND, os atletas têm bloco de quartos com desconto no Hyatt Regency Times Square e o app da Super Age ganhou quatro protocolos de viagem (Arrival Reset, 4x2 Strength Session, Midday Reset e um guia de sono). Os atletas têm de 21 a 81 anos e vêm de 14 países, em mais de 100 equipes. Fato novo em relação ao item de 22/10: a entrada de uma rede hoteleira com programa de fidelidade.",
+     "por_que_importa": "Programa de pontos de hotel pagando experiência de longevidade é o desenho de parceria que o clube pode propor a uma rede ou a um banco. Vale também como referência de protocolo curto de viagem pro sócio.",
+     "para": [
+      "parcerias",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Dez marcas de luxo abriram a primeira loja no Brasil em 2026, duas delas no CJ Boa Vista Village, em Porto Feliz; o Dior Spa ainda não tinha aberto em 30/10",
+     "source": "Seu Dinheiro",
+     "url": "https://www.seudinheiro.com/2026/lifestyle/10-marcas-globais-de-moda-e-beleza-de-luxo-que-inauguraram-suas-primeiras-lojas-no-brasil-este-ano-sama/",
+     "date": "2026-10-30",
+     "region": "São Paulo, Porto Feliz e Rio de Janeiro, Brasil",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A lista de Sara Magalhães tem Alaïa e Loro Piana (Cidade Jardim, outubro), Tom Ford Beauty (CJ Fashion, outubro), YSL Beauty (Mata Lab, Cidade Matarazzo, agosto), On Running (JK Iguatemi, julho) e duas marcas no CJ Boa Vista Village, em Porto Feliz: James Perse (maio) e Fusalp (junho). O Dior Spa do Copacabana Palace aparece como previsto pra novembro, com seis salas e boutique, ainda sem abrir na data da matéria; preço e regra de adesão do Wellness Club seguem sem publicação. O JHSF é o endereço de sete das dez aberturas.",
+     "por_que_importa": "Porto Feliz aparece ao lado do Cidade Jardim como endereço de primeira loja no Brasil, com duas marcas e data de abertura. É o argumento de vizinhança do Haven com nomes, e a lista de marcas pra conversa de parceria nos fins de semana de visita.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Coluna na Longevity.Technology pede data de validade pras blue zones e usa a candidata Bolotana, na Sardenha, como caso",
+     "source": "Longevity.Technology (coluna de convidada, Eva Novak, da newsletter Decades)",
+     "url": "https://longevity.technology/news/every-blue-zone-should-come-with-an-expiry-date/",
+     "date": "2026-10-30",
+     "region": "Bolotana, Sardenha, Itália",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "Bolotana, com cerca de 2.300 moradores, teve 19 centenários entre 2021 e 2025, o que daria a uma mulher de 70 anos 13,8% de chance de chegar aos 100, segundo o estudo citado. A colunista aponta que o dono da Blue Zones Inc. é coautor do estudo e propõe designação independente, dados públicos de validação e revisão a cada cinco a dez anos; os próprios autores dizem não conseguir determinar a causa da longevidade local. A estimativa de que só 18% dos supercentenários têm certidão de nascimento é atribuída a Saul Newman e não foi conferida na fonte primária.",
+     "por_que_importa": "Blue zone é o atalho mais usado em material de longevidade e está sendo questionado por dentro do setor. O time evita o termo e qualquer promessa de anos a mais; o que entra no site vem do parceiro clínico, com fonte e data.",
+     "para": [
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Accor ouve 7.019 viajantes em sete mercados: 56% citam natureza, 65% preferem marcas com pontos e benefícios e 25% valorizam acesso exclusivo",
+     "source": "Spa Business (pesquisa encomendada pela ALL Accor à OpinionWay, agosto de 2026)",
+     "url": "https://www.spabusiness.com/wellness-news/Accor-study-finds-travellers-prioritising-freedom-connection-and-meaningful-experiences/363879",
+     "date": "2026-11-01",
+     "region": "Global (sete mercados)",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "Na pesquisa, 44% querem liberdade do cotidiano, 43% relaxar depois de trabalho intenso e 32% relatam estresse ou cansaço; 43% priorizam tempo com quem amam, 56% citam natureza como parte da boa viagem e 25% valorizam acesso exclusivo. Entre 25 e 35 anos, 75% preferem marcas que dão pontos ou benefícios. A pesquisa é de marca e não trata de longevidade; comunidade aparece só como convívio com família e amigos.",
+     "por_que_importa": "Dado de demanda pra usar com a ressalva de que é pesquisa de marca. Natureza, convívio e benefício de membro são os três argumentos que o programa de sócios e a comunicação do clube já usam, agora com número ao lado.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Raffles lança a primeira residência sem hotel em Coconut Grove, Miami: 35 unidades a partir de US$ 4,5 milhões, com benefícios de proprietário no programa de fidelidade da Accor",
+     "source": "Hospitality Net (release da empresa; preço inicial via BrandedResi)",
+     "url": "https://www.hospitalitynet.org/announcement/41015343/raffles-hotels-resorts-unveils-its-first-standalone-branded-residences-selecting-miamis-coveted-coconut-grove-neighborhood",
+     "date": "2026-10-30",
+     "region": "Miami, EUA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "Raffles, do grupo Accor, com a Mast Capital e o BH Group, lança 35 residências na 2545 South Bayshore Drive, com mordomo e benefícios de proprietário ligados ao ALL Accor (nível Elite e tarifas em mais de 5.800 hotéis). O release não descreve spa nem clube e não dá prazo de entrega; a venda abre neste outono americano. O preço inicial de US$ 4,5 milhões vem da BrandedResi, que no resumo mensal fala em cerca de US$ 4 milhões.",
+     "por_que_importa": "Residência de marca sem hotel vendendo serviço e fidelidade em vez de bem-estar, contraponto pro argumento do Haven. O benefício de proprietário dentro de um programa de fidelidade hoteleiro é uma parceria que custa pouco ao clube.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Fitnescity liga mais de mil locais de DEXA e escore de cálcio nos EUA a apps de saúde por uma API, com a Superpower entre os primeiros",
+     "source": "Longevity.Technology (texto com cara de divulgação; números da empresa)",
+     "url": "https://longevity.technology/news/health-apps-can-now-book-dexa-calcium-scans/",
+     "date": "2026-10-29",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A Fitnescity diz ter mais de mil locais de exame nos EUA conectados por uma única API e dez plataformas de saúde já assinadas; os exames são DEXA e escore de cálcio coronário, com VO2 máx opcional. Preço não foi divulgado, e o texto não trata de como o resultado é explicado ao usuário nem do debate sobre escanear quem está bem.",
+     "por_que_importa": "Mostra o caminho de terceirizar exame de imagem numa rede em vez de montar clínica própria. Referência pra conversa com laboratórios e redes de imagem de Sorocaba e Campinas.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Repórter do Seu Dinheiro testa câmara de biohacking de US$ 170 mil em spa da Flórida; a sessão custa de US$ 115 a US$ 165",
+     "source": "Seu Dinheiro (dado dos EUA em veículo brasileiro)",
+     "url": "https://www.seudinheiro.com/2026/lifestyle/testamos-o-ammortal-chamber-como-sao-25-minutos-na-maquina-de-biohacking-de-us-170-mil-que-promete-longevidade-sama/",
+     "date": "2026-10-30",
+     "region": "Boca Raton, EUA",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A Ammortal Chamber junta luz vermelha e infravermelha, campos elétricos, hidrogênio inalado, vibroacústica e respiração guiada numa sessão de 25 minutos. A máquina custa US$ 169,5 mil, está em mais de 40 spas médicos nos EUA e o fabricante a classifica como aparelho de bem-estar, sem registro médico; a matéria diz que falta evidência clínica robusta.",
+     "por_que_importa": "É o tipo de equipamento que o público do clube já lê a respeito. Ajuda a decidir o que entra no recovery e com que linguagem, sem alegação clínica.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Four Seasons Bali lança a temporada Sacred Water, com programas de bem-estar de duas noites em Jimbaran Bay e Sayan até 31/3/2027",
+     "source": "Spa Business (texto com cara de divulgação, sem preço)",
+     "url": "https://www.spabusiness.com/wellness-news/Four-Seasons-Bali-unveils-Sacred-Water-wellness-journeys-at-Jimbaran-Bay-and-Sayan/363883",
+     "date": "2026-11-02",
+     "region": "Bali, Indonésia",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "Dois programas com tema de água e mínimo de duas noites: em Jimbaran, ritual de 120 minutos com som de mar e gongo; em Sayan, conversa com mentora residente e cochilo de 60 minutos em redes de seda sobre o vale do rio. Todo o conteúdo vem da operadora e o texto não informa preço.",
+     "por_que_importa": "Referência de programação sazonal com um tema só e uma pessoa residente, formato que o clube pode adaptar em ciclos de alguns meses.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "TFest, feira de viagens de luxo, reúne 660 profissionais no México; os brasileiros subiram de cinco pra nove consultores e o Casana, do Preá, expôs pelo segundo ano",
+     "source": "Panrotas (data da feira não informada na matéria; a data é a da publicação)",
+     "url": "https://www.panrotas.com.br/viagens-de-luxo/eventos/2026/11/tfest-feira-global-de-viagens-de-luxo-continua-na-riviera-maya-ate-2030_233322.html",
+     "date": "2026-11-01",
+     "region": "Playa del Carmen, México",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "A edição 2026 do TFest, no Fairmont Mayakoba, teve cerca de 660 profissionais, 330 consultores de viagem e 15 mil reuniões pré-agendadas, 20% a mais que no ano anterior. Nove consultores brasileiros foram, entre eles Marcia Eskenazi (TurisVip) e Gianpaolo Morselli (Bespoke); a CEO da BLTA, Camilla Barretto, foi como observadora. A feira fica no mesmo hotel até 2030.",
+     "por_que_importa": "Dá nomes de consultores brasileiros de viagem de luxo e a entidade BLTA, canais possíveis de indicação de sócios externos e de hospedagem parceira.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Boss Parfums vira patrocinadora do Hyrox em nove mercados europeus, com etapa própria em Poznań de 20 a 22/11",
+     "source": "Athletech News (19/10, no limite da extensão de 14 dias; a URL não abria em 21/10)",
+     "url": "https://athletechnews.com/hyrox-boss-parfums-europe-sponsorship/",
+     "date": "2026-10-19",
+     "region": "Europa",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A Boss Parfums, marca de perfumes da Coty, assinou patrocínio de vários anos com o Hyrox pra Alemanha, Áustria, Suíça, Reino Unido, Irlanda, Espanha, países nórdicos, Benelux e Polônia. A primeira ativação foi em outubro em Karlsruhe, e a etapa de Poznań terá a marca como patrocinadora principal, com amostra de produto e experiências premium no dia da prova pra linha Boss Bottled Beyond. A matéria não traz valores.",
+     "por_que_importa": "Marca de beleza masculina comprando o público do fitness competitivo em vez de mídia. Argumento pra marcas de beleza, relógios e bebidas patrocinarem a programação de prova e treino do clube.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Bradesco Seguros fecha o ano do Circuito da Longevidade com a primeira etapa em Manaus, em 29/11, com percursos de 5 e 10 km",
+     "source": "Revista Apólice (informação da empresa; número de participantes da seguradora)",
+     "url": "https://revistaapolice.com.br/?p=143529",
+     "date": "2026-10-21",
+     "region": "Manaus, Brasil",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A última etapa de 2026 do Circuito da Longevidade, do Grupo Bradesco Seguros, acontece em 29/11, às 6h, no Complexo Turístico da Ponta Negra, com percursos de 5 e 10 km e atividades de bem-estar antes e depois. É a primeira vez do circuito em Manaus; ele existe desde 2007 e já passou de 40 mil participantes, segundo a seguradora, sem fonte independente.",
+     "por_que_importa": "Uma seguradora ocupa há quase vinte anos o nome longevidade com corrida de rua. Referência de como banco e seguradora entram nesse território e porta pra conversa de patrocínio com as instituições financeiras do público do Haven.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-01",
    "manchete": "O clube virou garantia de crédito. Em São Paulo, o Jockey vende título novo pra pagar dívida; em Miami, a Faena tomou US$ 817 milhões antes de abrir.",
