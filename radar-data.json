@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-02",
+ "atualizado": "2026-11-03",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,359 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-03",
+   "manchete": "A longevidade ganhou três tabelas de preço no mesmo dia: R$ 1.300 a sessão no Copacabana Palace, US$ 3.000 por mês na Equinox, US$ 129 na academia do Wahlberg.",
+   "editorial": "O Dior Spa abre hoje no Copacabana Palace com tratamento de 60 minutos a partir de R$ 1.300, aberto a quem não é hóspede e sem membership publicado. No mesmo dia a Equinox troca o CEO por um executivo de cerveja, levanta mais de US$ 1 bilhão pra abrir 50 clubes e vende o Optimize, plano de longevidade a US$ 3.000 por mês com os exames da Function Health na mão do treinador. Em Las Vegas, a academia do Mark Wahlberg começou a vender a US$ 129 e US$ 179 por mês com crioterapia e sauna infravermelha. O mesmo produto, recuperação com camada de dado, está sendo vendido por sessão, por mês e por lista de fundador, e a escolha do formato diz quem é o cliente antes de dizer o que ele recebe. Quem perde é o clube que cobra mensalidade de alto padrão sem explicar o que o sócio tem que o avulso do hotel ou a academia de US$ 129 não dão. O Blue Lagoon mostra o tamanho do prêmio quando a resposta é boa: 1 milhão de visitas por ano, 156 milhões de euros de receita e abertura de capital em novembro. No Brasil, a VR e a Lancet dão o argumento do outro lado da conta, 12,5 anos de vida com doença e o atestado crônico começando entre 25 e 44 anos. O Haven tem 75 casas e um clube que precisa escolher em qual dessas três tabelas quer ser lido.",
+   "atencao": [
+    "Marketing: A Dior abre hoje no Copa com preço por sessão e horário publicados, e nada de membership; vale acompanhar a cobertura da abertura ao longo da semana e guardar a tabela como régua pública de spa de marca no Brasil.",
+    "Vendas: Os dados da VR e da Lancet na Exame (12,5 anos com doença, 59% dos atestados crônicos entre 25 e 44 anos) são brasileiros, recentes e abertos; entram no deck com fonte e data, e servem pro comprador de 40 a 55 que ainda não se vê como público de longevidade.",
+    "Clube e parcerias: Equinox com Function Health e Municipal com teste epigenético mostram o treinador trabalhando com exame; a conversa com o parceiro clínico do Haven precisa definir desde já quem vê o dado do sócio, com que consentimento e em que formato o operador do clube recebe."
+   ],
+   "bench": [
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Sala de recuperação autônoma no clube, reservável por 30 minutos",
+     "ideia": "Uma sala de 20 a 25 m² com poltrona vibroacústica, compressão pneumática e painel de luz, sem profissional, reservada pelo celular em blocos de 30 minutos. Entra no projeto do clube como item separado do spa, com custo de equipamento e ocupação medidos no primeiro ano.",
+     "ref": "Paradisus Cancún, Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Melia-Hotels-unveils-55-million-Paradisus-Cancun-renovation/363881"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Horário de silêncio diário nas áreas comuns, escrito no regulamento",
+     "ideia": "Das 7h às 9h, sem música ambiente, sem celular nas áreas comuns do clube e sem evento marcado. A regra entra no regulamento do clube e no briefing de paisagismo e acústica, e vira o primeiro ritual do lugar antes de qualquer programação.",
+     "ref": "Kempinski Augustine, Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Kempinski-embraces-monastic-wellness-as-it-relaunches-Augustine-Hotel-in-Prague/363871"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Treino escrito a partir dos exames do parceiro clínico",
+     "ideia": "O operador do clube recebe, com autorização do sócio no formulário de membership, um resumo dos exames do parceiro clínico e escreve o plano de treino a partir dele. O formato do resumo, o prazo e quem acessa ficam no contrato do operador.",
+     "ref": "Equinox e Function Health, Athletech",
+     "url": "https://athletechnews.com/equinox-hires-anheuser-busch-boss-brendan-whitworth-as-ceo-1-billion-growth-financing/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Check-up de entrada pago pelo prospect, abatido do título na compra",
+     "ideia": "Prospect da lista faz a avaliação de entrada com o parceiro clínico por um preço fechado, no modelo do scan avulso de US$ 499 da Neko. Se comprar a casa ou o título em até 90 dias, o valor é abatido. A avaliação vira a primeira conversa de venda, com dado da pessoa e não do projeto.",
+     "ref": "Neko Health Miami, Refresh Miami",
+     "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-neko-health-scans-on-way-palantir-and-ondas-team-up-jaca-bags-1m-plus-news-from-mana-tech-notion-inmune-bio-mdc-codepath-the-source-google-launched-m/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Ficha de custo de vida 55+: Porto Feliz ao lado de Boca Raton e Miami",
+     "ideia": "Uma página com imposto, clima, distância da família, custo de casa e de saúde, comparando Porto Feliz com Boca Raton e Miami, com fonte em cada linha. Entra no kit de vendas pro comprador que está decidindo onde passar a fase 55+ e já olhou pra Flórida.",
+     "ref": "Boca Raton, Seu Dinheiro",
+     "url": "https://www.seudinheiro.com/2026/lifestyle/esqueca-miami-e-os-hamptons-por-que-boca-raton-e-o-reduto-dos-milionarios-aposentados-nos-eua-sama/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Blue Lagoon no deck de investidor: o spa térmico que foi pra bolsa",
+     "ideia": "Um slide com a receita de 156,1 milhões de euros, o Ebitda de 29,4 milhões, o 1 milhão de visitas por ano e o preço do The Retreat, com a fonte e a data. Serve pra mostrar ao investidor do clube que experiência térmica com hotel de ticket alto ao lado sustenta operação própria, e qual é a escala do caso.",
+     "ref": "Blue Lagoon, Seu Dinheiro",
+     "url": "https://www.seudinheiro.com/2026/lifestyle/de-fenomeno-geotermico-a-negocio-milionario-o-spa-da-islandia-que-quer-abrir-capital-sama/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Três posts, um dado brasileiro em cada, e o que o clube faz com ele",
+     "ideia": "Três peças: 12,5 anos de vida com doença (Lancet), 13,7 dias por atestado crônico (VR) e 59% dos atestados crônicos entre 25 e 44 anos (VR). Cada post traz a fonte, a data e uma linha sobre o que a programação do clube faz com aquilo, sem a palavra longevidade.",
+     "ref": "VR e Lancet, Exame",
+     "url": "https://exame.com/esg/o-brasileiro-vive-mais-mas-adoece-por-mais-tempo-e-a-conta-chega-as-empresas/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Termo pro spa de marca: quem paga obra, produto e equipe",
+     "ideia": "Antes de conversar com Natura, Granado ou uma marca internacional, um termo de uma página com três colunas (obra e mobiliário, produto e treinamento, equipe e gestão) e quem paga cada uma, no modelo que a Dior e a Belmond fecharam no Copa. O termo vai junto com a RFP do spa e evita negociar marca sem saber o que ela banca.",
+     "ref": "Dior Spa Copacabana Palace, La Revue des Hôtels",
+     "url": "https://larevuedeshotels.com/en/copacabana-palace-hotel-opens-latin-america-first-dior-spa-rio"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Dior Spa abre hoje no Copacabana Palace com tratamento a partir de R$ 1.300 e porta aberta a quem não é hóspede",
+     "source": "La Revue des Hôtels (matéria de 09/10 sobre a abertura de 03/11; preços lidos pelo veículo no site da Belmond em 09/10; a abertura em si não foi reconfirmada hoje)",
+     "url": "https://larevuedeshotels.com/en/copacabana-palace-hotel-opens-latin-america-first-dior-spa-rio",
+     "date": "2026-11-03",
+     "region": "Rio de Janeiro, RJ",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "O Dior Spa abre em 3/11 na ala da piscina do Copacabana Palace, com seis salas de tratamento, uma delas dupla, e é a primeira unidade da parceria Belmond e Dior fora da Europa. Pela tabela da Belmond, os tratamentos de 60 minutos partem de R$ 1.300, os de 90 minutos custam R$ 2.350 e o 9 Moons de 90 minutos sai a R$ 1.600; spa e Wellness Club funcionam todos os dias das 10h às 20h e recebem hóspedes e público externo. O Wellness Club tem academia Technogym, estúdio de yoga, área de jiu-jitsu, saunas com infravermelho, hammam e banho de gelo, e a matéria não descreve membership; a ABIH-RJ, em 14/10, dava 15/11 pro clube, divergência já registrada em 19/10 e ainda sem resposta. Fato novo em relação ao já publicado: os preços e o horário.",
+     "por_que_importa": "É a primeira régua pública de preço de spa de marca de beleza em hotel de luxo no Brasil, e o modelo é por sessão, sem membership. O time do clube e de parcerias usa a tabela como referência e o Wellness Club como caso de spa de marca com obra e nome negociados entre hotel e marca.",
+     "para": [
+      "clube",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Equinox troca o CEO pelo ex-chefe da Anheuser-Busch, levanta mais de US$ 1 bilhão e vende longevidade a US$ 3.000 por mês",
+     "source": "Athletech News (aviso ATN Pro, corpo visível)",
+     "url": "https://athletechnews.com/equinox-hires-anheuser-busch-boss-brendan-whitworth-as-ceo-1-billion-growth-financing/",
+     "date": "2026-11-02",
+     "region": "Nova York, EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "Brendan Whitworth, ex-CEO da Anheuser-Busch, assume a Equinox e Harvey Spevak, no comando desde 1999, vai pro conselho. Um refinanciamento com Silver Lake, sócios da Related, Ares e Sixth Street libera mais de US$ 1 bilhão pra cerca de 50 clubes novos, somados aos 118 atuais em 18 mercados; valores e condições da dívida não foram divulgados. A rede vende o Optimize, plano de longevidade a US$ 3.000 por mês, tem parceria com a Function Health pra que treinadores montem programas a partir dos exames do membro, e abre o Terminal Warehouse em Chelsea em 10/11, com circuitos no estilo Hyrox, terapia de contraste e reformer.",
+     "por_que_importa": "Capital institucional entrando em clube de alta performance com camada médica, e um executivo de consumo de massa no comando. O time de clube e de vendas usa o Optimize como régua de preço de longevidade e a parceria com a Function Health como modelo de treinador que lê exame.",
+     "para": [
+      "clube",
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Academia do Wahlberg em Las Vegas começa a vender a US$ 129 e US$ 179 por mês, com abertura adiada pro início de 2027",
+     "source": "CLADglobal (Leisure Media, Liz Terry; conferido pelo subagente, a sessão principal não reabriu por permissão)",
+     "url": "https://www.cladglobal.com/CLADnews/architecture-design/Mark-Wahlbergs-Municipal-Gym-prepares-for-Las-Vegas-launch-with-EOS-Fitness-partnership/363892?source=news",
+     "date": "2026-11-02",
+     "region": "Las Vegas (Summerlin), EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "Fato novo sobre o Municipal Gym, já no radar em 17/10 e 25/10: as vendas começaram em 2/11, com taxa de fundador de US$ 99 por mês numa promoção de um dia e duas faixas mensais, Municipal a US$ 129 e Municipal Mindset a US$ 179. O primeiro clube ocupa 2.979 m² no Downtown Summerlin, com crioterapia, luz vermelha, sauna infravermelha, mergulho frio seco e café; a EōS Fitness dá apoio de marketing, finanças e RH, atribuição que vem do Las Vegas Review-Journal e não foi conferida na fonte primária. A abertura, que a Fitt Insider dava em dezembro, passou pro início de 2027.",
+     "por_que_importa": "Uma escada de preço de recuperação e longevidade abaixo de US$ 200 por mês, com lista de fundador e promoção de um dia. O time do clube usa como contraponto de acesso ao desenhar as faixas do Haven e o treino gratuito ao ar livre como forma de encher a lista de espera.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Blue Lagoon, spa islandês com 1 milhão de visitas por ano, abre capital em novembro",
+     "source": "Seu Dinheiro (dado da Islândia em veículo brasileiro)",
+     "url": "https://www.seudinheiro.com/2026/lifestyle/de-fenomeno-geotermico-a-negocio-milionario-o-spa-da-islandia-que-quer-abrir-capital-sama/",
+     "date": "2026-11-02",
+     "region": "Islândia",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "Os acionistas da Bláa Lónid, dona do Blue Lagoon, aprovaram em 30/10 a oferta de ações, com estreia prevista pra novembro no mercado principal da Nasdaq Islândia. A receita de 2025 foi de 156,1 milhões de euros, com Ebitda de 29,4 milhões e lucro operacional de 6,6 milhões, e o hotel The Retreat parte de 420 mil coroas por duas noites, cerca de R$ 18,8 mil. A matéria não informa o tamanho nem o valor da oferta.",
+     "por_que_importa": "Caso de spa térmico com hotel de ticket alto ao lado que virou empresa de bolsa, com receita e margem públicas. O time de parcerias e de vendas usa os números no deck de investidor do clube como referência de escala do negócio térmico.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Brasileiro passa 12,5 anos com doença, e o atestado crônico começa entre 25 e 44 anos",
+     "source": "Exame (levantamento da VR exclusivo pro veículo; Lancet e IBGE citados)",
+     "url": "https://exame.com/esg/o-brasileiro-vive-mais-mas-adoece-por-mais-tempo-e-a-conta-chega-as-empresas/",
+     "date": "2026-10-31",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "longevidade",
+     "resumo": "Levantamento da VR com 309.423 atestados de 154.773 trabalhadores, entre julho de 2025 e julho de 2026, mostra que doenças crônicas como diabetes, hipertensão, câncer, ansiedade e depressão respondem por 6% dos atestados e 12% dos dias de afastamento, com média de 13,7 dias contra 7,1 das demais. Mulheres são 65% dos afastamentos crônicos e 59% dos atestados crônicos estão na faixa de 25 a 44 anos. A matéria cita estudo da Lancet com 12,5 anos de vida com problema de saúde em média, contra 10,4 em 1990, e o IBGE com expectativa de vida de 76,6 anos em 2024.",
+     "por_que_importa": "Dado brasileiro, recente e aberto pro discurso de prevenção e de anos de vida saudável, com a surpresa de que a doença crônica já pesa antes dos 45. O time de vendas e de marketing usa no deck e nos sociais com fonte e data, pro comprador que ainda não se vê como público de longevidade.",
+     "para": [
+      "vendas",
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Vila Galé inaugura o Reserva do Paiva com 298 apartamentos e spa, beach club e restaurantes abertos a quem não se hospeda",
+     "source": "WSCOM (texto com cara de divulgação, sem investimento informado)",
+     "url": "https://wscom.com.br/destaque/destaque-relevante/2026/11/02/grupo-vila-gale-soma-duas-inauguracoes-nessa-semana-e-consolida-expansao-no-nordeste/",
+     "date": "2026-11-02",
+     "region": "Cabo de Santo Agostinho, PE",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "O resort abriu oficialmente no sábado, 31/10, no bairro Reserva do Paiva, com 298 apartamentos e uma suíte presidencial de 124 m², e a matéria o trata como a segunda grande inauguração da rede em quatro dias, depois de São Luís. O público externo pode usar o Beach Club, os quatro restaurantes e o Spa Satsanga, com menu pra adultos e crianças. Sem preço de acesso externo nem valor de investimento; fato novo em relação ao item de 20/10: a inauguração oficial, que fecha a pendência de cobertura.",
+     "por_que_importa": "Resort de rede abrindo spa e áreas sociais pra quem não se hospeda, desenho de receita e de vizinhança que o clube do Haven compara com o acesso de convidado. O preço do acesso externo segue sem publicação e continua sendo o dado que interessa.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Painel da Exame coloca vestíveis e biomarcadores na base da longevidade, com Fleury Lifecare na mesa",
+     "source": "Exame (cobertura do próprio evento Longevidade & Wellness de 27/10; números de IDC e GlobalData não conferidos na fonte primária)",
+     "url": "https://exame.com/esg/entre-dispositivos-ciencia-e-escolhas-o-segredo-da-longevidade/",
+     "date": "2026-10-30",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "longevidade",
+     "resumo": "Terceira matéria da editoria de longevidade da Exame sobre o evento de 27/10, agora com o painel de dispositivos: Chao Lung Wen (USP), Pedro Saddi (Fleury Lifecare) e Karla Camargo (Afya). O texto cita 148 milhões de vestíveis vendidos no mundo no segundo trimestre de 2026 (IDC) e projeção de US$ 232,2 bilhões pro setor até 2030 (GlobalData), e os painelistas falam do uso de vestíveis na prevenção de internação por insuficiência cardíaca em maiores de 60 e da lipoproteína(a) na avaliação de risco cardiovascular. Fato novo em relação aos itens de 28 e 30/10: o conteúdo do painel de dispositivos.",
+     "por_que_importa": "Repertório pra programação de saúde do clube, como oficinas com vestíveis e check-up com biomarcadores, e mais um nome do Fleury Lifecare pra conversa de parceria que o bench de 30/10 propôs. A editoria segue publicando sobre o evento, o que alimenta a pauta de PR que a Bru está avaliando.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Asics relança o Lume Club, comunidade feminina de corrida com embaixadora local e grupo de WhatsApp",
+     "source": "Máquina do Esporte (números do estudo da marca, não conferidos na fonte primária)",
+     "url": "https://maquinadoesporte.com.br/running/asics-relanca-comunidade-feminina-de-corrida-com-foco-em-engajamento-e-rede-de-apoio-local/",
+     "date": "2026-10-28",
+     "region": "São Paulo e Fortaleza",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A Asics relançou em 27/10, no centro de São Paulo, o Lume Club, criado em 2022 pra levar um grupo de mulheres à Maratona de Paris, agora como plataforma contínua com treinos coletivos, embaixadoras locais, comunicação diária por WhatsApp e benefícios como cortesia de inscrição em prova, desconto e produto. Os primeiros encontros dos polos são em 3/11 em Fortaleza e 4/11 em São Paulo. A marca cita o estudo Move Her Mind, de 2024, em mais de 40 países: 74% das mulheres apontam falta de tempo e 43% falta de espaço seguro pra treinar.",
+     "por_que_importa": "Modelo de comunidade de marca liderada por embaixadora local, com ritual semanal, benefício e WhatsApp como canal do dia a dia. O time do clube e de marketing compara com o desenho de grupos do Haven e anota a Asics como candidata a polo de corrida feminina no terreno.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Olympikus lança app e o Corre Clube, fidelidade em quatro níveis por gasto anual",
+     "source": "Máquina do Esporte",
+     "url": "https://maquinadoesporte.com.br/running/olympikus-lanca-aplicativo-proprio-e-programa-de-fidelidade-corre-clube-para-corredores/",
+     "date": "2026-10-23",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A Olympikus lançou aplicativo próprio ligado ao Corre Clube, com níveis por gasto acumulado em 12 meses: Membro até R$ 999,99 com até 7% de desconto, Bronze de R$ 1.000 a R$ 1.999,99 com até 10%, Prata de R$ 2.000 a R$ 4.999,99 com até 15% e frete grátis, Ouro a partir de R$ 5.000 com até 20% e coleta grátis pra troca. Há pontos extras no mês de aniversário, bônus por indicação e pontuação dobrada no app, e a marca prevê convites e descontos pra treinos e provas.",
+     "por_que_importa": "Exemplo brasileiro de membership por faixa de gasto, com benefício subindo de nível. O time do clube compara a lógica de degraus com a do Haven, que é curada e por categoria, e anota a indicação com bônus como mecânica de lista.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Kempinski reabre o Augustine em Praga, hotel num mosteiro do século 13 onde os monges ainda moram",
+     "source": "Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Kempinski-embraces-monastic-wellness-as-it-relaunches-Augustine-Hotel-in-Prague/363871",
+     "date": "2026-11-03",
+     "region": "Praga, República Tcheca",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "A Kempinski relança no início de 2027 o Augustine, 101 quartos e 20 suítes em sete prédios do mosteiro agostiniano de São Tomás, onde uma comunidade de monges continua vivendo. Comprado em abril de 2026, é a primeira aquisição integral de hotel do grupo em mais de 50 anos. O spa atual tem hammam, sauna, vapor e o ritual do mosteiro, com academia 24 horas e mais de 650 m² de terraços e jardins; a matéria não diz se o spa muda, nem traz preço.",
+     "por_que_importa": "Referência de bem-estar ancorado em lugar, silêncio e rotina, sem tecnologia de longevidade. Serve ao time de marketing e de clube como imagem de ritmo e pertencimento, e como fonte de um ritual diário de silêncio no regulamento do clube.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Neko Health confirma Miami no Aventura Mall em 9/12, com scan de uma hora a US$ 499 e sem assinatura",
+     "source": "Refresh Miami (20/10; preço e data conferidos pelo subagente na página da Neko, sem data de publicação)",
+     "url": "https://refreshmiami.com/news/10-things-to-know-in-miamitech-neko-health-scans-on-way-palantir-and-ondas-team-up-jaca-bags-1m-plus-news-from-mana-tech-notion-inmune-bio-mdc-codepath-the-source-google-launched-m/",
+     "date": "2026-10-20",
+     "region": "Miami (Aventura), EUA",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "Fecha a pendência de 25/10: a segunda clínica americana da Neko fica no Aventura Mall e abre em 9 de dezembro de 2026. A Refresh Miami não traz preço; a página da Neko pra Miami lista o scan de uma hora a US$ 499, elegível a HSA e FSA, só com lista de espera e sem plano de assinatura divulgado. A matéria está fora da janela de 72 horas e entra por ser pendência com condição explícita.",
+     "por_que_importa": "Dá data e formato concretos pra comparar com a avaliação de entrada do Haven: scan avulso a US$ 499 em shopping, sem assinatura. O time de vendas usa como argumento do que o sócio tem dentro do clube em vez de fila numa clínica externa, e como referência de preço de check-up avulso pra prospect.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Meliá gasta US$ 55 milhões no Paradisus Cancún, com suíte de longevidade, hidroterapia e quatro quadras de pickleball",
+     "source": "Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Melia-Hotels-unveils-55-million-Paradisus-Cancun-renovation/363881",
+     "date": "2026-11-02",
+     "region": "Cancún, México",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "Fato novo sobre o Paradisus Cancún, já no radar em 21/10: a reforma custou US$ 55 milhões e alcançou o YHI Spa, com circuito de hidroterapia, sauna e vapor, a academia YHI Moves 24 horas com estúdio de pilates e barre, os quartos e o lazer, com quatro piscinas e quatro quadras novas de pickleball. A Longevity Suite usa poltronas vibroacústicas Oakworks Sovi, compressão e PEMF da Therabody e luz Celluma. Divergência entre fontes: o item de 21/10 dava 657 quartos e a Spa Business fala em 773 suítes.",
+     "por_que_importa": "Preço de dar a um resort de massa um cardápio de recuperação e longevidade, com a lista de equipamentos da suíte. O time do clube usa como referência de sala de recuperação autônoma e de investimento por área ao dimensionar o recovery.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Founders Club de Mark Mastrov custa US$ 10 milhões, abre no início de 2027 e cadastra fundadores em novembro",
+     "source": "Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Mark-Mastrov-unveils-Founders-Club-brand-combining-fitness-recovery-and-a-medical-spa/363891",
+     "date": "2026-10-31",
+     "region": "Las Vegas (Summerlin), EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "Fato novo sobre o Founders Club da 24 Hour Fitness, já no radar em 31/10: investimento de US$ 10 milhões, 4.181 m² abertos 24 horas, mais de US$ 1 milhão em equipamentos de recuperação (câmaras hiperbáricas, sauna de luz vermelha, cadeiras de crioterapia), spa médico com soro e abertura no início de 2027 na West Sahara Avenue. O cadastro de fundadores começa em novembro, com acesso prioritário pelo site, a US$ 59,99 a 99,99 por mês, sem detalhar o que cada faixa inclui nem o número de vagas.",
+     "por_que_importa": "Pré-venda por cadastro prioritário antes de abrir, com preço baixo de fundador e investimento publicado. O time de clube e de vendas compara com a lista de interesse e a categoria fundador do Haven.",
+     "para": [
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Fairmont Waterfront leva o bem-estar pra TV do quarto e vende mergulho frio com brunch a C$ 179",
+     "source": "Rus Tourism News (release da operadora republicado)",
+     "url": "https://rustourismnews.com/2026/11/02/fairmont-waterfront-launches-in-room-wellness-with-yoga-and-sleep-programs",
+     "date": "2026-11-02",
+     "region": "Vancouver, Canadá",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "O hotel de 489 quartos lança seis vídeos de yoga, respiração, mobilidade e sono com a especialista Tianne Allan, acessíveis pela TV e por QR code e disponíveis depois do check-out, e empresta tênis e roupa de treino pra membros ALL Accor. O Polar Plunge & Brunch na Third Beach custa C$ 179, com termo médico, e acontece em 8/11, 13/12, 24/1 e 21/2.",
+     "por_que_importa": "Programação barata e sazonal: mergulho frio em grupo com brunch, e conteúdo guiado que a pessoa leva pra casa. O time do clube anota o formato pro calendário de inverno e o termo médico como parte do produto.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Estúdios boutique abrem 72% mais em um ano, e três quartos dos novos têm pilates",
+     "source": "Athletech News (aviso ATN Pro, só a introdução visível; dados atribuídos à Mariana Tek, fornecedora de software de estúdios, não conferidos na fonte primária)",
+     "url": "https://athletechnews.com/pilates-boom-fuels-72-precent-surge-in-new-boutique-fitness-studios-mariana-tek-data/",
+     "date": "2026-11-02",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "A Athletech reporta alta de 72% nas aberturas de estúdios boutique no último ano nos Estados Unidos, com 75% das novas unidades oferecendo pilates ou formato parecido. A parte aberta não descreve metodologia nem período, e a origem dos dados aparece só na URL, apontando pra Mariana Tek. Números não conferidos.",
+     "por_que_importa": "Sinal de que a aula pequena e recorrente segue puxando comunidade, com pilates na frente. O time do clube usa pra decidir o peso de reformer na grade e pra conversar com estúdio local; sem citar os números em material de venda até achar o relatório.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Boca Raton atrai aposentado milionário com clima, imposto zero e vizinhança brasileira",
+     "source": "Seu Dinheiro (dado dos Estados Unidos em veículo brasileiro)",
+     "url": "https://www.seudinheiro.com/2026/lifestyle/esqueca-miami-e-os-hamptons-por-que-boca-raton-e-o-reduto-dos-milionarios-aposentados-nos-eua-sama/",
+     "date": "2026-11-02",
+     "region": "Boca Raton, EUA",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "Boca Raton tem cerca de 100 mil moradores, 24,6% com 65 anos ou mais, renda mediana de US$ 106 mil e casa mediana de US$ 775 mil. A Flórida não cobra imposto de renda estadual e o condado de Palm Beach recebeu mais de US$ 3 bilhões em renda tributável de famílias vindas de outros estados; Deerfield Beach, ao lado, tem mais de 6 mil brasileiros. Números da matéria, sem a fonte primária nomeada em cada um.",
+     "por_que_importa": "Perfil do comprador que escolhe onde envelhecer por clima, imposto e vizinhança, e que já olha pra Flórida. O time de vendas usa pra montar a comparação de custo de vida de Porto Feliz com Boca Raton e Miami pro comprador 55+.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-02",
    "manchete": "A casa dentro do resort de saúde ganhou preço: US$ 3,8 milhões em Austin. No Camboja, a moradia vitalícia com mensalidade fixa parou no custo do combustível.",
