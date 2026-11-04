@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-03",
+ "atualizado": "2026-11-04",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,366 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-04",
+   "manchete": "A pílula de GLP-1 chegou ao Brasil. E o índice de preparo pra envelhecer diz onde o problema mora: comunidade 71, cuidado 43.",
+   "editorial": "A Anvisa aprovou hoje o Wegovy em comprimido, e a partir daí a medicação que as academias-clube vendem em protocolo com caneta vira coisa de farmácia, mais barata de operar e mais difícil de embalar como serviço. No mesmo dia, o índice da John Hancock com o MIT AgeLab mostrou o que ninguém precisa de clube pra ter: o americano se dá 71 em comunidade e 43 em cuidado, 56 em moradia. O mecanismo é simples. As pessoas acham que já têm gente em volta, o que elas não têm é quem cuide e onde morar quando o corpo pedir. Quem perde é o clube que vendeu só convívio, porque convívio é a parte que o mercado considera resolvida; quem ganha é a casa com serviço dentro, que é a parte com nota baixa. A Ipsos fecha o quadro dizendo que a vida bem vivida tem vergonha de câmera, e a Xponential, dona do Club Pilates, mostra o custo do modelo de aula avulsa em franquia: receita 13% menor e US$ 522 milhões de dívida. O Haven vende a casa, o cuidado e a regra. Convívio vem junto.",
+   "atencao": [
+    "Marketing: A Ipsos deu a régua do tom, bem-estar fora da tela e relação forte como base; os sociais do Haven ganham uma regra de câmera e menos corpo em performance, e o artigo da economia prateada dá a pauta pra um texto assinado pela founder sobre moradia 50+.",
+    "Vendas: Os R$ 1,8 trilhão de consumo dos 50+ da Data8 e a nota 43 em cuidado do índice americano são os dois números do deck desta semana, cada um com fonte e ressalva; o planejador financeiro parceiro no fim de semana de visita é a forma de transformar o segundo em etapa de venda.",
+    "Clube e parcerias: O GLP-1 oral pede posição escrita do clube com o parceiro clínico antes do primeiro sócio perguntar; a Arcana mostra como vender créditos de aula em estúdios parceiros antes das salas ficarem prontas, e a Xponential lembra que balanço de operador é critério de RFP."
+   ],
+   "bench": [
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Regra de câmera nas áreas de bem-estar, dita no site e no regulamento",
+     "ideia": "Escrever no regulamento do clube e na página de membership que spa, sala de escuta e recovery são áreas sem câmera, e fazer os sociais do Haven só com casa, terreno, objeto e paisagem, sem corpo em performance. Testar por três meses contra o formato atual e medir salvamento e mensagem direta em vez de curtida.",
+     "ref": "Ipsos, a vida bem vivida tem vergonha de câmera",
+     "url": "https://www.ipsos.com/en-ch/life-well-lived-camera-shy"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Sessão de planejamento financeiro de longevidade no fim de semana de visita",
+     "ideia": "Fechar com um planejador patrimonial parceiro (family office ou mesa de planejamento de banco de alta renda) uma sessão de 40 minutos por casal no fim de semana de visita, sobre custo de envelhecer e sucessão da casa e do título. Entra como etapa da jornada de venda, sem comissão sobre o imóvel, e o parceiro ganha a lista de membership.",
+     "ref": "Longevity Preparedness Index, John Hancock e MIT AgeLab, Longevity.Technology",
+     "url": "https://longevity.technology/news/americans-score-60-out-of-100-on-longevity-prep/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Créditos mensais de aula válidos em estúdios parceiros de Itu, Sorocaba e Campinas",
+     "ideia": "Antes do clube ter todas as salas prontas, vender o sócio fundador com um pacote de créditos mensais de aula (pilates, yoga, força) válidos numa lista curada de oito a doze estúdios da região, com teto de uso por estúdio, crédito que expira no mês e multa por falta. O clube negocia o preço por aula no atacado e fica com a curadoria e a agenda.",
+     "ref": "Arcana, membership curado de estúdios em Nova York, Athletech News",
+     "url": "https://athletechnews.com/top-nyc-studios-join-arcana-new-premium-fitness-membership/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "parcerias",
+     "titulo": "Clínica de longevidade franqueada de 100 m² dentro do clube, sem obra própria",
+     "ideia": "Pedir a duas redes com modelo de franquia ou unidade satélite (Humanaut, Fleury Lifecare, SP Check-up) proposta de uma unidade de 80 a 100 m² dentro do clube, com royalty ou aluguel por m² no lugar de clínica construída pelo Haven. Comparar as três propostas pela mesma régua: investimento do parceiro, preço de entrada do sócio e o que o clube inclui na mensalidade.",
+     "ref": "Humanaut Health, seis clínicas franqueadas, Athletech News",
+     "url": "https://athletechnews.com/humanaut-health-plans-6-new-longevity-clinics-us-and-mexico/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Sócio como guia voluntário de corredor com deficiência nas provas do Haven",
+     "ideia": "Fechar com a Achilles Brasil um programa de guias voluntários do clube, com seleção e treinamento feitos pela entidade, e inscrição isenta pros atletas da região de Sorocaba e Araçoiaba nas provas e nos dias de ocupação do terreno. Começar com dez guias entre os sócios fundadores e uma prova por semestre.",
+     "ref": "Achilles Brasil, NeoFeed",
+     "url": "https://neofeed.com.br/finde/muito-alem-dos-42-quilometros-da-maratona-de-nova-york/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Artigo assinado pela founder sobre moradia 50+, com os dados da Data8 conferidos",
+     "ideia": "Responder ao artigo do CEO da Cuidare com um texto assinado pela Teti num veículo de negócios (Valor, Estadão, Exame, O Tempo), sobre moradia como a parte do preparo pra envelhecer que ninguém está resolvendo, com os números do Brasil Prateado pedidos à Data8 e conferidos. Mil palavras, sem a palavra longevidade no título.",
+     "ref": "Economia prateada, O Tempo, dados da Data8",
+     "url": "https://www.otempo.com.br/opiniao/2026/11/3/quanto-vale-a-economia-prateada"
+    },
+    {
+     "area": "Parcerias",
+     "para": "clube",
+     "titulo": "Balanço do operador de estúdio como critério escrito da RFP",
+     "ideia": "Incluir na RFP de operadores de estúdio e academia do clube três perguntas de saúde financeira com resposta obrigatória: dívida líquida, vendas comparáveis dos últimos quatro trimestres e percentual de unidades franqueadas. Operador que não responde fica fora; operador alavancado só entra com a cláusula de substituição já prevista no título.",
+     "ref": "Xponential Fitness, oferta pra fechar capital, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Fund-1-seeks-to-take-Xponential-Fitness-private/363913"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Anvisa aprova o Wegovy em comprimido, primeiro GLP-1 oral contra obesidade no Brasil, com perda média de mais de 13% do peso em 64 semanas",
+     "source": "Money Report (dados do estudo OASIS 4 informados pela Novo Nordisk; sem preço nem data de chegada às farmácias)",
+     "url": "https://www.moneyreport.com.br/negocios/anvisa-aprova-primeiro-medicamento-oral-de-glp-1-para-tratamento-da-obesidade/",
+     "date": "2026-11-04",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "longevidade",
+     "resumo": "A Anvisa liberou a semaglutida em comprimido diário, em jejum, nas doses de 1,5 mg a 25 mg, pra adultos com IMC a partir de 30 ou de 27 com comorbidade. No estudo de fase 3 OASIS 4, de 64 semanas, quem tomou 25 mg perdeu em média mais de 13% do peso, junto com dieta e exercício. A matéria diz que a venda depende das condições regulatórias e da estratégia da fabricante; preço e data não saíram.",
+     "por_que_importa": "O remédio em comprimido muda o acesso e o preço da medicação que as academias-clube e as clínicas de longevidade já tratam em protocolo. O clube precisa ter posição escrita, com o parceiro clínico, antes do primeiro sócio perguntar, e o treino de força vira a resposta do clube à perda de massa magra.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Brasileiros com 50 anos ou mais consumiram R$ 1,8 trilhão em 2024 e devem chegar a R$ 3,8 trilhões em 2044, segundo a Data8",
+     "source": "O Tempo (artigo de opinião de Etevaldo Miranda Jr., CEO da Cuidare, empresa de cuidado domiciliar; números da Data8, IBGE, IEMI e Sebrae, não conferidos na fonte primária)",
+     "url": "https://www.otempo.com.br/opiniao/2026/11/3/quanto-vale-a-economia-prateada",
+     "date": "2026-11-03",
+     "region": "Belo Horizonte, Brasil",
+     "escopo": "brasil",
+     "pilar": "estudos",
+     "resumo": "O autor cita o estudo Brasil Prateado, da Data8: os 50+ responderam por 24% do consumo das famílias em 2024 e devem chegar a 35% em 2044. Pelo IEMI, a idade média do consumidor brasileiro subiu de 28 pra 36 anos em 25 anos, e a fatia dos 45+ foi de 23% pra 38%; pelo Sebrae, as pequenas empresas de cuidado domiciliar cresceram 74% entre 2020 e 2025. É opinião de quem vende cuidado, e a projeção de que os 60+ vão passar as crianças até 2030 vem sem fonte.",
+     "por_que_importa": "São os números que faltavam pro deck de vendas e pra conversa com investidor sobre o comprador 50+, com instituto nomeado. Vale pedir o estudo à Data8 antes de citar, e a frase do autor sobre moradia e cuidado dá a deixa pra posicionar o Haven como resposta de moradia, com o clube dentro.",
+     "para": [
+      "vendas",
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Índice de preparo pra longevidade dos EUA fica em 60 de 100: comunidade pontua 71, cuidado 43 e moradia 56",
+     "source": "Longevity.Technology (cobertura do 2026 Longevity Preparedness Index da John Hancock com o MIT AgeLab; pesquisa custeada pela seguradora)",
+     "url": "https://longevity.technology/news/americans-score-60-out-of-100-on-longevity-prep/",
+     "date": "2026-11-02",
+     "region": "Estados Unidos",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "A John Hancock e o MIT AgeLab ouviram 1.340 adultos americanos em maio de 2026, pelo painel NORC AmeriSpeak, e chegaram à mesma nota de 2025. Comunidade (71) e conexão social (69) são os pontos altos; cuidados (43), moradia (56) e saúde (56) são os baixos. Quem tem consultor financeiro marca 67, contra 58 de quem nunca teve, em todas as oito áreas, e o veículo lembra que é associação, sem causa provada.",
+     "por_que_importa": "O buraco do preparo pra envelhecer está em cuidado e moradia, exatamente onde uma casa com clube e rede de serviço entra. Dá argumento de narrativa pra vendas e um recorte pro clube: a comunidade as pessoas já acham que têm, o que elas não têm é quem cuida e onde morar.",
+     "para": [
+      "vendas",
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Ipsos diz que a vida bem vivida tem vergonha de câmera: o bem-estar que importa aparece em retiro, privacidade e relação forte, fora da tela",
+     "source": "Ipsos Views (artigo da Ipsos Suíça de 27/10, destacado no Ipsos Update de 02/11; pesquisa qualitativa moderada por IA em EUA, França e China; PDF de 1 MB aberto pra download, sem números no texto)",
+     "url": "https://www.ipsos.com/en-ch/life-well-lived-camera-shy",
+     "date": "2026-10-27",
+     "region": "Suíça, mundo",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "A Ipsos descreve a passagem do bem-estar como autoaperfeiçoamento individual pra uma ideia de vida plena, puxada por pressão econômica, social e de saúde mental. Nas três culturas, relação forte é a base, e o que as pessoas querem é reduzir atrito, recuperar equilíbrio e proteger o que importa, longe da exposição. O recado às marcas é largar a mensagem de desempenho e apoiar conexão real.",
+     "por_que_importa": "Primeiro instituto de tendência grande a render item aberto desde a Mintel. Serve de régua pro tom do Haven nos sociais e no site: menos corpo em performance, mais casa, terreno e encontro; e sustenta uma regra de câmera nas áreas de bem-estar do clube.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Arcana estreia em Nova York como membership curado de aulas em 14 estúdios, de US$ 325 a US$ 595 por mês, com eventos por convite",
+     "source": "Athletech News (aviso ATN Pro, corpo visível; números da empresa)",
+     "url": "https://athletechnews.com/top-nyc-studios-join-arcana-new-premium-fitness-membership/",
+     "date": "2026-11-02",
+     "region": "Nova York, EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "A Arcana vende créditos mensais de aula válidos em estúdios parceiros de pilates, yoga e força: US$ 325 por 9 aulas, US$ 460 por 13 e US$ 595 por 17, com crédito perdido e multa de US$ 25 por falta e créditos que expiram no fim do mês. Mais de mil pessoas entraram na lista de espera antes do lançamento e o beta de três meses somou mais de 400 reservas. Os fundadores, Felicia Dodge e Cole Tomlinson, dizem que o modelo é mais comunitário que o ClassPass e prometem eventos por convite e desconto em serviços de bem-estar.",
+     "por_que_importa": "É um desenho de membership que agrega estúdios de terceiros sob uma curadoria e uma regra de uso, o que o clube do Haven pode fazer com estúdios de Itu, Sorocaba e Campinas antes de ter todas as salas prontas. A regra de teto por estúdio e a multa por falta valem como referência de contrato.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Humanaut Health planeja seis clínicas de longevidade, em parte franqueadas, com a primeira fora dos EUA na Cidade do México no início de 2027",
+     "source": "Athletech News (aviso ATN Pro, só a introdução visível; números da empresa)",
+     "url": "https://athletechnews.com/humanaut-health-plans-6-new-longevity-clinics-us-and-mexico/",
+     "date": "2026-11-03",
+     "region": "Austin, EUA e Cidade do México",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A rede texana opera Austin, Dallas e Palm Beach Gardens e prevê Palm Desert e Park City em novembro, San Antonio em janeiro de 2027 e Cidade do México no início de 2027, com Houston e Kansas City em obra a partir de dezembro. Parte das unidades é franqueada. A empresa captou US$ 8,7 milhões em seed em 2024; o trecho aberto não traz preço nem plano de membro.",
+     "por_que_importa": "Clínica de longevidade virando franquia em cidade média e chegando à América Latina é um modelo que o Haven pode pedir em proposta, em vez de construir clínica própria: unidade pequena dentro do clube, royalty no lugar de obra. Vale acompanhar a unidade mexicana como primeiro teste do modelo na região.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Fundo propõe tirar a Xponential Fitness da bolsa; a dona do Club Pilates teve receita 13% menor no trimestre e dívida de US$ 522 milhões",
+     "source": "Health Club Management (dados do fundo e da companhia)",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Fund-1-seeks-to-take-Xponential-Fitness-private/363913",
+     "date": "2026-11-02",
+     "region": "Estados Unidos",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "A Fund 1, que já tem cerca de 9,9% das ações classe A, ofereceu entre US$ 5,61 e US$ 7,00 por ação, prêmio de 50% a cerca de 87% sobre o fechamento de US$ 3,74 em 29/10; a proposta não é vinculante. A franqueadora de Club Pilates, Pure Barre, StretchLab, YogaSix e BFT reportou receita de US$ 66 milhões no segundo trimestre, queda de 13%, vendas comparáveis na América do Norte 6,8% menores e dívida de longo prazo de US$ 522,4 milhões.",
+     "por_que_importa": "Contrapeso ao dado de ontem sobre o boom de pilates: a franquia de estúdio boutique está sob pressão de demanda e dívida. Quem negocia operador de estúdio pro clube olha balanço e estrutura de franquia, e a cláusula de continuidade do título ganha mais um motivo.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Hilton diz ter cerca de 30 projetos contratados pra dobrar no Brasil até 2030 e trabalha pra trazer Waldorf Astoria e Conrad",
+     "source": "Money Report (reproduz entrevista da Exame Insight com Leonardo Lido, diretor de desenvolvimento da Hilton pro Brasil; números da empresa)",
+     "url": "https://www.moneyreport.com.br/negocios/exame-hilton-prepara-expansao-para-dobrar-no-brasil-ate-2030/",
+     "date": "2026-11-03",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A meta é chegar a 30 hotéis em operação até o primeiro trimestre de 2027 e dobrar a rede até 2030, com foco nas bandeiras intermediárias (Hilton Garden Inn, Hampton, Tru) em capitais e interior; quase metade da rede brasileira veio de conversão. Sobre a Waldorf Astoria, o executivo diz que deve ter novidade em breve. Hotéis de lazer e eventos no interior paulista aparecem como oportunidade, e resorts all inclusive estão em análise, com interesse no Nordeste.",
+     "por_que_importa": "Uma bandeira de luxo da Hilton no Brasil entra no mapa de residências de marca e de concorrência por hóspede de alto padrão. Parcerias acompanha se algum projeto de lazer no interior paulista aparece no pipeline, porque hotel de lazer a uma hora de Porto Feliz vira hospedagem de visita ou concorrente de fim de semana.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Achilles Brasil reúne cerca de 600 membros em São Paulo, sem custo e com guias voluntários, e leva um atleta de Araçoiaba da Serra à Maratona de Nova York",
+     "source": "NeoFeed (reportagem de Tania Menai)",
+     "url": "https://neofeed.com.br/finde/muito-alem-dos-42-quilometros-da-maratona-de-nova-york/",
+     "date": "2026-11-01",
+     "region": "São Paulo, Brasil",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "O braço brasileiro da Achilles International, fundada em 1983 pra levar pessoas com deficiência a provas de rua, tem cerca de 600 membros ativos, 80% de baixa renda, a maioria com deficiência visual, e guias voluntários que passam por seleção e treinamento; entre 30% e 40% dos guias só caminham. A Track & Field patrocina e isenta os atletas de inscrição. Fábio Faborges, de 46 anos, de Araçoiaba da Serra, corre na categoria handcycle em Nova York.",
+     "por_que_importa": "Comunidade que se sustenta por voluntariado e por ritual fora da prova é o modelo mais barato de programação coletiva que existe, e o atleta é da região de Sorocaba, vizinho de Porto Feliz. O patrocínio por isenção de inscrição é um formato que o clube pode copiar nas próprias provas.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "The Mark, em Nova York, abre em novembro um spa de três cabines com a Augustinus Bader, o primeiro da marca num hotel dos EUA",
+     "source": "Hospitality Net (anúncio enviado pelo hotel, 26/10; sem preço nem membership)",
+     "url": "https://www.hospitalitynet.org/announcement/41015310/the-mark-hotel-to-open-the-mark-wellness-longevity-spa-by-augustinus-bader",
+     "date": "2026-10-26",
+     "region": "Nova York, EUA",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "O Mark Wellness & Longevity Spa fica na Madison com a 77, num hotel de 151 acomodações, e tem três salas de tratamento em torno da tecnologia TFC8 da marca, com microcorrente, ultrassom, LED e oxigênio ionizado. Abre em novembro, sem dia, preço ou plano de membro informados. A nota é de 26/10, fora da janela, e entra pelo movimento de marca.",
+     "por_que_importa": "Marca de skincare científica entrando em hotel urbano com o rótulo de longevidade segue o caminho da Dior no Copacabana Palace, só que em três cabines. É escala de referência pro spa do Haven: pequeno, com marca licenciada, antes de pensar em andar inteiro.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Apple lança o Gym Strength no Fitness+ e entra no treino de força com plano de quatro semanas ajustado pela carga, em 49 mercados",
+     "source": "Athletech News (aviso ATN Pro, corpo visível; informações da Apple)",
+     "url": "https://athletechnews.com/apple-gym-strength-personalized-strength-training-plans/",
+     "date": "2026-11-03",
+     "region": "Estados Unidos, mundo",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "O recurso monta planos individuais de quatro semanas pra quem treina com peso, ajusta a carga conforme o desempenho e reconhece mais de 30 tipos de equipamento. Vem como atualização gratuita do Fitness+ (US$ 9,99 por mês ou US$ 79,99 por ano) ainda este ano, junto com o Training Note, com Apple Intelligence, pra orientação e marcos de progresso.",
+     "por_que_importa": "A big tech escolheu força como a categoria de longevidade a disputar, e o dado de carga vai pro relógio do sócio. O clube pode pensar a sala de força já compatível com o que o relógio registra, e o marketing ganha um sinal de que força vai ser o vocabulário de saúde dos próximos anos.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "GOCO nomeia diretor de operações pra tocar a expansão da Fivelements, com Koh Samui prevista pro início de 2027",
+     "source": "Spa Business (fato novo em relação ao anúncio de 18/10: a nomeação do responsável operacional)",
+     "url": "https://www.spabusiness.com/wellness-news/GOCO-Hospitality-appoints-Clive-McNish-to-lead-Fivelements-operations/363916",
+     "date": "2026-11-03",
+     "region": "Reino Unido e Tailândia",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "Clive McNish, com passagens por Chewton Glen e Glen Ivy Hot Springs, assumiu em 1º de novembro a operação da marca, que a GOCO comprou em 2025. A próxima abertura é Fivelements Samui, no início de 2027, e a GOCO já tinha anunciado Suíça e Montenegro com residências e comunidade.",
+     "por_que_importa": "Quem expande marca de retiro em vários países contrata operador antes de abrir prédio. É o perfil que o Haven precisa descrever quando for buscar quem opera o clube, e a Fivelements segue como referência de consistência entre destinos.",
+     "para": [
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Sam Nazarian, da The Estate, fala de clubes urbanos de longevidade e residências no INSPIRE 2026, em Orlando, em 15 e 16/12",
+     "source": "PR Newswire (release da ILHA, organizadora, 29/10)",
+     "url": "https://www.prnewswire.com/news-releases/global-hotelier-and-founder-of-the-estate-sam-nazarian-to-join-inspire-2026-for-a-conversation-on-longevity-the-next-frontier-of-luxury-302924184.html",
+     "date": "2026-12-15",
+     "region": "Orlando, EUA",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "O cofundador da The Estate, com Tony Robbins, abre o segundo dia do evento da International Luxury Hotel Association, em 16/12 no JW Marriott Orlando Bonnet Creek, com a conversa Longevity: The Next Frontier of Luxury; o temário inclui estender a relação com o hóspede por imóvel residencial e clube urbano de longevidade. O Chief Longevity Officer da empresa, Kenneth Ryan, entra no painel de medicina de bem-estar em 15/12.",
+     "por_que_importa": "A The Estate é a aposta mais barulhenta em juntar hotel, residência e clube de longevidade, o mesmo raciocínio do Haven sem o hotel. Vale acompanhar o discurso pra posicionamento e mapear Kenneth Ryan como nome pra conversa de parceria ou benchmark.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Longevity Global Summit reúne Buck Institute, Function Health, Dean Ornish e Altos Labs em 9 e 10/12, na Califórnia, com acesso virtual",
+     "source": "Longevity Global (página oficial do evento, sem data de publicação; sem preço de ingresso)",
+     "url": "https://longevitygl.org/longevity-global-summit-2026/",
+     "date": "2026-12-09",
+     "region": "Novato, Califórnia, EUA",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "O evento é híbrido, no Buck Institute for Research on Aging, com inscrição por link e entrada gratuita só pra empresas selecionadas no concurso de pitch. Entre os confirmados estão Eric Verdin (Buck), Jonathan Swerdlin (Function Health), Dean Ornish, Michael Snyder (Stanford) e Susanna Rosi (Altos Labs), com mais nomes prometidos.",
+     "por_que_importa": "Fórum científico com acesso remoto, útil pro clube acompanhar o que os parceiros de exame estão prometendo (Function Health é a parceira da Equinox no Optimize) sem viagem. Pouco aplicável a venda de curto prazo.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Ranking da Luxury Travel Intelligence põe Mandarin Oriental em 1º entre marcas de hotel de luxo e derruba a Aman de 2º pra 9º depois de vazamento de dados",
+     "source": "Seu Dinheiro (ranking global em veículo brasileiro; critérios da LTI, que diz se financiar por assinatura)",
+     "url": "https://www.seudinheiro.com/2026/lifestyle/mandarin-oriental-four-seasons-ou-rosewood-qual-e-a-melhor-marca-de-hotel-de-luxo-do-mundo-segundo-ranking-sama/",
+     "date": "2026-11-03",
+     "region": "Mundo",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "A LTI avaliou 20 marcas em 134 pontos e deu o topo à Mandarin Oriental (81,1%), seguida por Oetker Collection e Bulgari; Four Seasons ficou em 4º, Rosewood em 5º e Belmond, dona do Copacabana Palace, em 7º. A Aman caiu de 2º pra 9º depois de um vazamento de dados de clientes.",
+     "por_que_importa": "Régua de percepção de marca no luxo pra escolher parceiros e referências de serviço. O caso da Aman serve de lembrete pro clube: dado de sócio é ativo de reputação, e o formulário de membership precisa de regra de guarda escrita.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "New Balance leva o 15K a Brasília e trata o circuito de provas como plataforma de comunidade fora do eixo Rio e São Paulo",
+     "source": "Máquina do Esporte (23/10; a prova foi em 1/11; números de inscrições da federação local)",
+     "url": "https://maquinadoesporte.com.br/running/new-balance-15k-em-brasilia-entenda-a-estrategia-por-tras-da-chegada-da-prova-a-capital-federal/",
+     "date": "2026-10-23",
+     "region": "Brasília, Brasil",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A estreia em Brasília teve 5K, 10K e 21K, e o circuito já passa por São Paulo e Rio. A federação local diz que as inscrições em provas no DF foram de 26 mil em 2015 pra mais de 82 mil em 2025. A marca abriu a primeira loja física na cidade em 2025 e prevê outra em 2026.",
+     "por_que_importa": "Mostra como uma marca de esporte usa a prova como porta de relacionamento numa praça nova. É o desenho que o marketing pode levar pra conversa com Decathlon, Centauro ou New Balance sobre uma prova no interior paulista.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Bossa Nova Sotheby's abre loja nos Jardins com exposição de aquarelas e agenda cultural como parte da venda de imóveis",
+     "source": "Money Report (coluna de lifestyle, material de divulgação da imobiliária)",
+     "url": "https://www.moneyreport.com.br/lifestyle/arte-ocupa-nova-loja-imobiliaria-nos-jardins/",
+     "date": "2026-11-03",
+     "region": "São Paulo, Brasil",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A loja na Alameda Lorena inaugurou com a exposição Viva Água Viva, aquarelas de Coca Rodriguez Coelho com curadoria de Elisabeth Leone, sétima edição do projeto Viva Arte, que a imobiliária mantém desde 2018. O fundador, Marcello Romero, diz que o espaço foi pensado pra receber atividades culturais além da venda.",
+     "por_que_importa": "É o canal de venda de alto padrão em São Paulo usando programação cultural como porta de entrada. Vendas pode comparar o formato com o plano do estande e das casas decoradas do Haven e decidir se o ponto de venda em São Paulo também vira sala de programação.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-03",
    "manchete": "A longevidade ganhou três tabelas de preço no mesmo dia: R$ 1.300 a sessão no Copacabana Palace, US$ 3.000 por mês na Equinox, US$ 129 na academia do Wahlberg.",
