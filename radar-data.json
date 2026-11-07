@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-06",
+ "atualizado": "2026-11-07",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,338 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-07",
+   "manchete": "Só 13% dizem atingir a meta de bem-estar, diz a McKinsey. A resposta do mercado chegou no mesmo dia: diagnóstico na porta de entrada, na Chenot, no clube de Miami e nas residências de Sam Nazarian com a Fountain Life.",
+   "editorial": "A European Spa Magazine publicou ontem a prévia do quinto Future of Wellness da McKinsey, com 84% de mais de 9.000 pessoas em quatro países dizendo que bem-estar é prioridade e só 13% dizendo que chegam à própria meta, e o relatório põe longevidade, GLP-1 e bem-estar social entre as sete áreas de crescimento. No mesmo dia a Chenot passou a vender exame de sangue e microbioma como módulo plugável em qualquer programa, a JAEMUS anunciou em Wynwood um clube que empacota recuperação em sequências guiadas com leitura biométrica, e a The Estate, de Sam Nazarian, mostrou ao The Real Deal uma carteira de mais de US$ 1 bilhão em residências em que a clínica da Fountain Life é a âncora do pacote, com vendas em 2027. O mecanismo por baixo é simples: quando a promessa genérica deixa de vender, o diagnóstico vira o produto de entrada, e a Euromonitor mediu isso na quarta com 40 mil consumidores, produto de promessa verificável crescendo 33% contra 18% do produto de benefício vago. Quem perde é o spa de cabines e o retiro que vende descanso sem número, e o que isso custa é um parceiro clínico com nome antes da primeira planta, mais responsabilidade por dado de saúde e por resultado que o incorporador nunca carregou. O dia brasileiro veio fraco de novo: só a BPM Wellness do Grupo All em Florianópolis, que põe meditação e sound healing antes do show, a pesquisa da Lek com 44% de quem emagreceu já em caneta GLP-1 e um evento de corrida em São Paulo; nada do interior paulista na janela. O corpo que vai chegar ao Haven já chega medicado e medido, e o clube precisa decidir o que faz com esse dado antes que o comprador pergunte.",
+   "atencao": [
+    "Marketing: A Euromonitor diz que produto com promessa concreta e verificável cresceu 33% de 2024 a 2026 contra 18% do produto de benefício genérico; cada frase do site e do deck do Haven que promete bem-estar precisa de um número, uma fonte ou um mecanismo ao lado, e a que não tiver sai.",
+    "Vendas: A The Estate vende residência com a clínica da Fountain Life dentro do pacote e cita 13 acordos novos em seis países; o nome do parceiro clínico virou argumento de venda de residência, e o deck do Haven precisa de um nome nessa linha antes das vendas de 2027 dos concorrentes de modelo.",
+    "Clube e parcerias: A McKinsey põe o bem-estar social, com circuito térmico e banho de gelo em grupo, entre as sete áreas que crescem, e a Bathhouse abriu em Nova Jersey como âncora de um campus de US$ 500 milhões ao lado de uma Life Time e 328 apartamentos; o circuito térmico do clube é infraestrutura social e pede decisão de operador além da decisão de projeto."
+   ],
+   "bench": [
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Ritual de chegada em três zonas escrito no briefing de arquitetura",
+     "ideia": "Desenhar a recepção do clube como percurso em três zonas, chegada (troca de roupa, chá, silêncio), travessia (circuito térmico e salas) e convivência (sala comum de recuperação com bancada de chá), e escrever isso no briefing do arquiteto e do operador com metragem por zona. A chegada ganha 15 minutos de protocolo fixo pra todo sócio, sem exceção por horário.",
+     "ref": "JAEMUS em Wynwood, Fitt Insider",
+     "url": "https://insider.fitt.co/press-release/jaemus-launches-a-new-wellness-club-in-miami-structuring-recovery/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Day use: decidir entre o passe de 8 horas e o zero de Ponte Vedra",
+     "ideia": "O Ponte Vedra fecha o Sports Club de 84 mil pés quadrados a quem não é hóspede nem sócio, e o Bench de 27/10 propôs um passe de 8 horas pra prospect nos fins de semana de visita. As duas regras não convivem; escrever uma nota de decisão de uma página com as duas opções, o critério (receita do passe contra percepção de exclusividade do sócio) e o que precisa ser verdade pra cada uma, antes do regulamento.",
+     "ref": "Ponte Vedra Inn and Club, Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Ponte-Vedra-Inn-Club-opens-84000sq-ft-Sports-Club/363911"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Pergunta dos dois pilares no formulário de membership",
+     "ideia": "O Aethos Lisbon organiza o clube em quatro pilares (bem-estar, cultura, conexão, experiências) e programa corrida, sauna, música e jantares a partir deles. Incluir no formulário de membership do Haven uma pergunta obrigatória em que o candidato escolhe os dois pilares que mais quer, e usar a soma das respostas pra montar a grade do primeiro ano e publicar, por pilar, quantos encontros houve.",
+     "ref": "Aethos Lisbon, The Hospitality Tribune",
+     "url": "https://thehospitalitytribune.com/aethos-lisbon-five-star-hotel-opening-2027/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Day use: decidir entre o passe de 8 horas e o zero de Ponte Vedra",
+     "ideia": "Montar uma página do deck com The Estate Coral Gables, Canyon Ranch Austin, Life Time Raleigh e Six Senses Dubai em quatro colunas e três linhas: quem opera a saúde, quem opera o clube e o que o título inclui. O Haven entra na quinta coluna com as três respostas preenchidas; linha em branco vira pendência com dono e data.",
+     "ref": "The Estate by sbe, The Real Deal",
+     "url": "https://therealdeal.com/national/2026/11/06/sam-nazarian-tony-robbins-marc-anthony-wellness-condos/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Day use: decidir entre o passe de 8 horas e o zero de Ponte Vedra",
+     "ideia": "A Euromonitor mediu 72% de confiança em recomendação de amigos e família contra 54% em marca. Dar a cada sócio fundador duas indicações por ano, sem comissão, com o nome de quem indicou gravado no cadastro do candidato e prioridade na fila; medir no CRM a meta de metade dos títulos de 2027 vindos de indicação.",
+     "ref": "Euromonitor Top Global Consumer Trends 2027, Consumidor Moderno",
+     "url": "https://consumidormoderno.com.br/o-que-fara-o-consumidor-escolher-uma-marca-em-2027/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Módulo de diagnóstico como cortesia de fechamento, com prazo",
+     "ideia": "A Chenot deu o módulo de exames sem custo em Weggis até 31/12. Oferecer o painel de entrada do parceiro clínico (sangue, composição corporal, microbioma) como cortesia pros títulos assinados até uma data fixa de 2027, com o valor do módulo impresso na proposta, pra que o desconto tenha nome e prazo e fique fora do preço da casa.",
+     "ref": "Chenot, European Spa Magazine",
+     "url": "https://europeanspamagazine.com/chenot-introduces-immune-optimisation-module/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Day use: decidir entre o passe de 8 horas e o zero de Ponte Vedra",
+     "ideia": "A Lek diz que 44% de quem emagreceu no último ano no Brasil usa caneta e que a ingestão calórica cai cerca de 22%. Publicar três posts com o parceiro de treino do clube sobre o que muda na rotina de força e proteína de quem usa GLP-1, com o dado nomeado e sem recomendação médica; o terceiro post responde às perguntas dos dois primeiros.",
+     "ref": "Lek Consulting, canetas emagrecedoras no Brasil",
+     "url": "https://www.lek.com/pt-br/insights/produtos-de-consumo/canetas-emagrecedoras-e-o-novo-consumidor-brasileiro-como-o-glp-1"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Respiração e som ao pôr do sol no terreno antes de um show pequeno",
+     "ideia": "A BPM Sense do Grupo All põe meditação, sound healing e yoga três horas antes do show, com marcas parceiras na área de convivência. Fazer duas datas de verão no terreno do Haven com o mesmo desenho, inscrição por lista e uma marca de bebida sem álcool como patrocinadora, e medir quantos inscritos pedem o fim de semana de visita.",
+     "ref": "BPM Wellness do Grupo All, De Olho na Ilha",
+     "url": "https://www.deolhonailha.com.br/florianopolis/noticias/grupo-all-lanca-bpm-wellness-bem-estar-musica-florianopolis/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Day use: decidir entre o passe de 8 horas e o zero de Ponte Vedra",
+     "ideia": "A Bathhouse entrou como marca âncora de um campus misto em Nova Jersey, ao lado de academia e apartamentos. Abrir conversa com dois operadores de banho e sauna (uma rede com marca e um operador de spa de hotel) pra tocar o circuito térmico do Haven com contrato de operação e marca na porta, e comparar com a opção de operar com equipe própria em três linhas: custo, horário e programação.",
+     "ref": "Bathhouse em Berkeley Heights, PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/bathhouse-expands-to-new-jersey-with-major-new-location-at-the-park-in-berkeley-heights-302924572.html"
+    }
+   ],
+   "itens": [
+    {
+     "title": "The Estate, de Sam Nazarian, Tony Robbins e Marc Anthony, anuncia carteira de mais de US$ 1 bilhão em residências com clube de longevidade da Fountain Life, vendas a partir de 2027",
+     "source": "The Real Deal",
+     "url": "https://therealdeal.com/national/2026/11/06/sam-nazarian-tony-robbins-marc-anthony-wellness-condos/",
+     "date": "2026-11-06",
+     "region": "Coral Gables e Tampa (EUA) e El Salvador",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A plataforma cita três projetos, The Estate Residences Coral Gables, The Estate Residences Tampa e o The Estate Resort & Residences em El Salvador, e diz ter assinado 13 acordos novos em seis países; a meta anunciada em 2024 era 15 resort-residences e 10 clubes de longevidade. Em El Salvador são 1.000 acres, quase 500 residências, hotel de 125 quartos e clube de longevidade de 30 mil pés quadrados, com lançamento no início de 2028. As vendas dos condomínios da Flórida começam em 2027, sem unidades nem preços divulgados. Fato novo em relação ao item de 04/11, que falava só da palestra de Nazarian no INSPIRE.",
+     "por_que_importa": "É o concorrente de modelo mais parecido com o Haven: residência com clube de longevidade como âncora e um operador clínico nomeado dentro do pacote. Serve de régua pro deck de vendas e pra conversa com parceiros clínicos.",
+     "para": [
+      "vendas",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "McKinsey publica a quinta edição do Future of Wellness: 84% dizem que bem-estar é prioridade, 13% dizem atingir a meta, e longevidade, GLP-1 e bem-estar social entram nas sete áreas de crescimento",
+     "source": "European Spa Magazine (prévia jornalística do relatório da McKinsey; números conferidos na revista, não no relatório)",
+     "url": "https://europeanspamagazine.com/first-look-at-mckinseys-future-of-wellness-report/",
+     "date": "2026-11-06",
+     "region": "EUA, Reino Unido, Alemanha e China",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "A pesquisa ouviu mais de 9.000 consumidores em quatro países: 84% dizem que bem-estar é prioridade, mais da metade prioriza mais do que um ano atrás e só 13% afirmam atingir as próprias metas. Entre as sete áreas de crescimento estão longevidade, GLP-1 e bem-estar social, com circuitos térmicos, saunas e banhos de gelo em grupo, e a demanda sai do mimo e vai pra planos personalizados a partir de diagnóstico. O artigo mistura 2026 e 2027 no nome do relatório e repete o 84% com dois sentidos; a sessão não abriu o original no mckinsey.com.",
+     "por_que_importa": "Dado de consultoria pra dizer que bem-estar em grupo e plano com diagnóstico são demanda medida. Entra no deck de vendas e na justificativa do circuito térmico social do clube.",
+     "para": [
+      "vendas",
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Euromonitor lista as cinco tendências de consumo de 2027: produto de promessa verificável cresceu 33% contra 18% do benefício genérico, e 72% confiam mais em amigos do que em marca",
+     "source": "Consumidor Moderno (sobre o Top Global Consumer Trends 2027 da Euromonitor; sumário aberto em release e matéria, relatório completo possivelmente pago)",
+     "url": "https://consumidormoderno.com.br/o-que-fara-o-consumidor-escolher-uma-marca-em-2027/",
+     "date": "2026-11-04",
+     "region": "Global (matéria publicada no Brasil)",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "A Euromonitor ouviu mais de 40 mil consumidores em vários países em janeiro e fevereiro de 2026 e aponta cinco movimentos: confiança na marca, uso de IA sem confiança plena, peso da recomendação de pares, busca por simplificar a vida e ceticismo com o futuro. Os números são globais: 54% compram só de marcas em que confiam totalmente, 72% confiam em recomendação de amigos e família, 42% sentem pressão de dar conta de tudo e 69% querem simplificar. Vendas de produtos com promessa concreta e verificável cresceram 33% do primeiro trimestre de 2024 ao segundo de 2026, contra 18% dos produtos com benefício genérico; a matéria não traz recorte do Brasil.",
+     "por_que_importa": "Dá dado de terceiro pra sustentar que membership e comunidade vendem mais que promessa abstrata: promessa verificável cresce mais e a indicação de pares pesa mais que a marca. Serve de base pro marketing do clube e pro programa de indicação entre sócios.",
+     "para": [
+      "marketing",
+      "vendas",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Aethos anuncia em Lisboa um hotel de 60 quartos construído em volta de um clube de membros, numa villa restaurada, com abertura em junho de 2027",
+     "source": "The Hospitality Tribune (o announcement do Hospitality Net de 05/11 não abriu)",
+     "url": "https://thehospitalitytribune.com/aethos-lisbon-five-star-hotel-opening-2027/",
+     "date": "2026-11-06",
+     "region": "Lisboa, Portugal",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "O Aethos Lisbon fica no bairro de Estefânia, em torno da Villa Helena, casa histórica de influência Beaux-Arts, com dois prédios novos ao lado. São 60 quartos de 28 a 70 m², spa com sauna, vapor e imersão fria, estúdio de treino e piscina externa. O clube tem quatro pilares (bem-estar, cultura, conexão e experiências), com corridas, rituais de sauna, noites de música, jantares e palestras, e um andar reservado a membros. O texto não traz diária nem anuidade; o clube de Anjos, aberto em 2025, cobra de 650 a 2.500 euros por ano no site da marca.",
+     "por_que_importa": "Hotel pequeno desenhado em volta do clube, com corrida e sauna como programação fixa de comunidade e um andar só de sócio. Referência de calendário e de camada de acesso pro clube do Haven.",
+     "para": [
+      "clube",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Chenot passa a vender módulo de otimização imunológica com exame de sangue e microbioma dentro de qualquer programa, sem custo em Weggis até 31/12",
+     "source": "European Spa Magazine",
+     "url": "https://europeanspamagazine.com/chenot-introduces-immune-optimisation-module/",
+     "date": "2026-11-06",
+     "region": "Weggis, Suíça (rede com unidades em Itália, Montenegro, Marrocos e Azerbaijão)",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "O módulo entra como complemento de qualquer programa da Chenot, com exames de sangue completos, análise de microbioma e biomarcadores, e depois combina tratamento, nutrição e movimento. O Chenot Palace Weggis oferece o módulo sem custo adicional em estadias até 31/12/2026. O texto não traz preço, duração nem resultado clínico.",
+     "por_que_importa": "Marca clássica de retiro vendendo diagnóstico como módulo avulso e usando a cortesia com prazo como ferramenta de venda. Dá ideia de produto de entrada do clube e de parceria com laboratório.",
+     "para": [
+      "parcerias",
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Grupo All lança a BPM Wellness em Florianópolis: meditação, sound healing e yoga antes do show, com estreia em 14/11 no Music Park e calendário até fevereiro",
+     "source": "De Olho na Ilha (texto com cara de divulgação do grupo; confirmado também no TVBV Online de 04/11)",
+     "url": "https://www.deolhonailha.com.br/florianopolis/noticias/grupo-all-lanca-bpm-wellness-bem-estar-musica-florianopolis/",
+     "date": "2026-11-04",
+     "region": "Florianópolis, SC",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "A BPM Wellness une bem-estar, música e entretenimento sob o lema Mais vida no seu ritmo. A estreia é o BPM Sense, em 14/11, das 18h às 21h, no Music Park, antes do show de Armandinho e Vitor Kley, com meditação, sound healing, respiração, alongamento e yoga, áreas de convivência e ativações de marcas. Estão previstos encontros em 5/12, em janeiro e o BPM Wellness Festival em 27/02/2027, e a marca vai atuar também no Safari Beach e no Fogo&Mar; ingressos no Blueticket, sem preço informado. Fato novo em relação ao Gaia All Resort e à SIX, já publicados: é a entrada do grupo em wellness de experiência e de massa.",
+     "por_que_importa": "Formato de bem-estar embutido em evento de música, com calendário recorrente e marcas parceiras. Referência de programação do clube e de ativação com patrocinador, e sinal de que o grupo dono do Gaia e sócio da SIX está testando wellness como produto de público.",
+     "para": [
+      "clube",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Aman anuncia o Amantaru em Cabo Rojo, Porto Rico, com residências de marca de três a oito quartos, spa e beach club dentro da comunidade Esencia",
+     "source": "Hospitality Net (release)",
+     "url": "https://www.hospitalitynet.org/announcement/41015394/aman-announces-amantaru-a-new-caribbean-destination-in-puerto-rico",
+     "date": "2026-11-06",
+     "region": "Cabo Rojo, Porto Rico",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "É o primeiro Aman em Porto Rico e o quarto no Caribe, projetado por Marwan Al-Sayed, do MASASTUDIO. Tem hotel e residências de marca com serviço completo, Aman Spa and Wellness Centre, beach club e quadras, e os moradores usam também os clubes de golfe, equitação e praia do Esencia, projeto da Three Rules Capital com os Reuben Brothers. O investimento de mais de US$ 2 bilhões e os cerca de 75% de área verde vêm da versão do Hospitality Tribune de 06/11; sem chaves, preço ou data de abertura.",
+     "por_que_importa": "Mais um caso de residência de marca que vende o conjunto de clubes da comunidade com a operadora de luxo como selo. Comparação pro posicionamento do Haven em comunidade planejada com clube.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "JAEMUS abre em Wynwood, Miami, no primeiro trimestre de 2027, um clube de bem-estar que vende recuperação em sequências guiadas, com plano de membro ou avulso",
+     "source": "Fitt Insider (release)",
+     "url": "https://insider.fitt.co/press-release/jaemus-launches-a-new-wellness-club-in-miami-structuring-recovery/",
+     "date": "2026-11-05",
+     "region": "Miami, EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "O clube se divide em três áreas: chegada, travessia (métodos em sequência) e um espaço comunitário de recuperação. Vende protocolos, métodos avulsos, aulas, terapias manuais, leitura biométrica e soro de terceiro, em planos de membro ou à la carte. O fundador e CEO é Nicholas Preza e o design é de Michael Dolatowski; sem tamanho nem preço, com detalhes de plano e de sócio fundador prometidos pra antes da abertura.",
+     "por_que_importa": "A jornada em três etapas, com ritual de chegada, é aproveitável pro fluxo de recepção e pro cardápio do clube. O modelo de plano mais acesso avulso testa preço de entrada.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Ponte Vedra Inn and Club abre um Sports Club de 84 mil pés quadrados só pra hóspedes e sócios, sem day use, e prevê o Surf Club pra 2027",
+     "source": "Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Ponte-Vedra-Inn-Club-opens-84000sq-ft-Sports-Club/363911",
+     "date": "2026-11-06",
+     "region": "Ponte Vedra, Flórida, EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "O clube esportivo tem cerca de 7.800 m² e é aberto a hóspedes do resort e a membros, sem passe diário. O spa do resort tem mais de 100 serviços e se apresenta como o maior spa de luxo do nordeste da Flórida. A fase seguinte é o Surf Club, com duas piscinas, restaurantes novos e espaço de eventos à beira-mar, previsto pra primavera de 2027; sem preço nem residências citadas.",
+     "por_que_importa": "Resort que fecha o clube a quem não é hóspede nem sócio e acrescenta equipamento por fases. Ajuda a decidir a regra de acesso e o escalonamento de amenidades do clube.",
+     "para": [
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Bathhouse abre em 5/11 a primeira unidade de Nova Jersey: 20 mil pés quadrados, quatro piscinas e deque nórdico no telhado, como âncora de um campus de US$ 500 milhões com Life Time e 328 apartamentos",
+     "source": "PR Newswire (release de 02/11; abertura dentro da janela)",
+     "url": "https://www.prnewswire.com/news-releases/bathhouse-expands-to-new-jersey-with-major-new-location-at-the-park-in-berkeley-heights-302924572.html",
+     "date": "2026-11-02",
+     "region": "Berkeley Heights, Nova Jersey, EUA",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "São quatro níveis com piscinas salgada, quente, fria e neutra, sauna, vapor e deque externo com sauna no telhado e três piscinas. Fica no The Park, campus misto de 185 acres em reforma de US$ 500 milhões, ao lado de hotel, de uma Life Time de 112 mil pés quadrados e de 328 apartamentos. A rede, que começou em Williamsburg em 2019, opera também em Flatiron, Atlantic Avenue e Filadélfia; sem preço. Fato novo em relação à abertura de Filadélfia, publicada em 21/10.",
+     "por_que_importa": "A bathhouse social entra como amenidade âncora de projeto misto, ao lado de academia e residências. Argumento pra tratar o circuito térmico como atrativo de moradia e pra conversar com operador de banho.",
+     "para": [
+      "parcerias",
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Lek: 44% de quem emagreceu no último ano no Brasil já usa caneta GLP-1, e a ingestão calórica cai cerca de 22% durante o tratamento",
+     "source": "Lek Consulting (publicação própria da consultoria, 26/10; pesquisa com 610 consumidores em junho e julho de 2026; fora da janela principal, entrou pelo dado brasileiro)",
+     "url": "https://www.lek.com/pt-br/insights/produtos-de-consumo/canetas-emagrecedoras-e-o-novo-consumidor-brasileiro-como-o-glp-1",
+     "date": "2026-10-26",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "longevidade",
+     "resumo": "Entre os que passaram por emagrecimento nos últimos 12 meses, cerca de 44% já usam canetas; a ingestão calórica média cai cerca de 22% e as indulgências a qualquer momento caem de 49% pra 16%. Cerca de 61% dos que pararam o tratamento dizem estar satisfeitos. A consultoria estima o mercado antiobesidade brasileiro em R$ 10 a 11 bilhões em 2025 e prevê queda de 60% a 70% nos preços com o fim da exclusividade da semaglutida, com cerca de 20 pedidos de registro na Anvisa; números de mercado da própria Lek, não conferidos em fonte independente. Fato novo em relação à aprovação do Wegovy oral, publicada em 04/11.",
+     "por_que_importa": "Número brasileiro pro argumento de que o morador e o sócio chegam usando GLP-1, o que pede programação de força, nutrição e acompanhamento. Vendas e clube usam o dado ao desenhar a oferta de longevidade e composição corporal.",
+     "para": [
+      "clube",
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Holland & Barrett prevê o bem-estar de 2027 com a Enough Era, contra a pressão de medir tudo, e a Muscle Economy ligada ao GLP-1",
+     "source": "NutraIngredients (relatório de varejista, Holland & Barrett; dados internos de busca e venda, sem amostra de consumidores)",
+     "url": "https://www.nutraingredients.com/Article/2026/11/03/holland-barrett-reveals-6-key-wellness-trends-for-2027/",
+     "date": "2026-11-03",
+     "region": "Reino Unido",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "A varejista britânica lista seis tendências pra 2027: The Regulated Self, Cooling Rituals, The Enough Era (rejeitar a pressão de rastrear e otimizar tudo), Built for Women, Muscle Economy (preservar músculo, inclusive em quem usa GLP-1) e Ahead of the Beat (saúde cardiovascular preventiva). Os números vêm da própria rede, como 32,8 milhões de buscas por magnésio no site em 2026 e alta de 17,8% no óleo de fígado de bacalhau. A matéria não descreve metodologia nem amostra e as falas são de executivos da marca.",
+     "por_que_importa": "A Enough Era combina com um clube que vende repertório e convivência sem aplicativo de métrica, e a Muscle Economy reforça a pauta de força. Serve de sinal, com a ressalva de que a base é interna da marca.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Máquina Talks Running reúne Ticket Sports, Maratona do Rio, Santander e Track & Field em 16/11, no Teatro ESPM, em São Paulo, pra discutir a corrida de rua como estilo de vida",
+     "source": "Máquina do Esporte (veículo organizador do evento; matéria de 21/10 atualizada em 06/11)",
+     "url": "https://maquinadoesporte.com.br/maquina-talks/maquina-talks-running-discute-como-a-corrida-de-rua-virou-estilo-de-vida/",
+     "date": "2026-11-16",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "eventos",
+     "resumo": "A segunda edição do Máquina Talks Running acontece em 16/11, das 8h30 às 13h, no Teatro ESPM, na Rua Dr. Álvaro Alvim, com patrocínio da Ticket Sports e apoio de Fotop, ESPM e Chiptiming. A programação tem palestra de Daniel Krutman (Ticket Sports) e Gustavo Marion (MyDose), debate com Chiptiming e Urbia e painéis com Corrida 100% Você, Maratona do Rio, Agência Develop, Santander e Track & Field. O primeiro lote custava R$ 179 até 23/10; inscrição em ticketsports.com.br.",
+     "por_que_importa": "Manhã com os organizadores de prova e os patrocinadores de corrida do país na mesma sala, a dez dias da data. Vale mandar alguém de parcerias com a pauta das provas do clube e da largada mensal no Haven.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Maserati entra em residências de marca com a Casa Maserati, sem local, unidades nem incorporador, e promete os primeiros projetos em breve",
+     "source": "Branded Residences News (release da marca)",
+     "url": "https://brandedresi.com/casa-maserati/",
+     "date": "2026-11-06",
+     "region": "Sem local informado (marca italiana)",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A Maserati anuncia a Casa Maserati no ano do centenário do Tridente, com hospitalidade, cultura, gastronomia e comunidade; bem-estar aparece só de forma genérica. O texto não traz cidade, número de unidades, preço nem parceiro, e diz que projetos e parceiros saem em breve. Material de divulgação da própria marca, sem apuração independente.",
+     "por_que_importa": "Mais uma marca de fora da hotelaria entrando em residência de marca. Vale acompanhar a primeira localização e o parceiro imobiliário.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-06",
    "manchete": "A Accor tirou o spa de cabines do projeto e pôs uma bathhouse social de 900 m² no lugar. Em São Paulo, o Four Seasons volta por R$ 1 bilhão com spa, academia e piscina, e sem clube.",
