@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-07",
+ "atualizado": "2026-11-08",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,280 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-08",
+   "manchete": "A Reborne, clube de longevidade de Londres que vivia de parcerias com academia e spa, fechou com menos de dois anos. Na mesma semana, o que segurou sócio foi mais barato: uma mesa de conversa, um frigobar sem conta e uma joia zero pros 100 primeiros.",
+   "editorial": "A Health Club Management publicou hoje que a Reborne Longevity, clube médico de Londres constituído em dezembro de 2024, entrou em administração judicial em 29/10, e a BXR já disse que a parceria acaba ali. O desenho era exatamente o que o mercado vende como futuro: clínica de medicina preventiva no centro, academia de luxo, estúdio de força, spa austríaco e terapia de plasma em volta, tudo por parceria. O mecanismo que ninguém olha é que parceria não paga custo fixo de clínica, e um clube de longevidade precisa de sócio pagante antes do segundo exame; o quinto acordo de parceria chega tarde demais. Quem perde são os parceiros que emprestaram a marca e o sócio que comprou um programa de doze meses com dado de saúde guardado numa empresa que deixou de existir. No mesmo intervalo, três coisas quase sem custo seguraram gente: a Everyone Active pôs uma mesa com anfitrião voluntário em 35 centros, Nick Jones tirou o cartão do check-in e pôs lavanderia e frigobar sem álcool de graça, e o 67 Pall Mall vendeu Dubai com joia zero pros 100 primeiros e título vitalício de Dhs 350 mil pra quem quiser pular a fila. A pesquisa da a16z resumida pela Fitt Insider fecha o quadro pelo outro lado: 54% usam wearable, 83% olham todo dia, a maioria não mudou nada. Pro Haven, a leitura é de ordem: comunidade, recepção e tabela de entrada são o produto que dura, e a clínica entra como parceiro com cláusula de saída escrita, nunca como a razão do título.",
+   "atencao": [
+    "Marketing: A pesquisa da a16z resumida pela Fitt Insider diz que 54% usam wearable, 83% olham todo dia e a maioria não mudou de comportamento; a comunicação do Haven ganha mais falando do que o sócio faz na terça às sete da manhã, com quem e onde, do que falando de painel e de dado.",
+    "Vendas: A Reborne fechou com menos de dois anos e a BXR cancelou a parceria no mesmo dia; o comprador do Haven vai perguntar o que acontece se o parceiro clínico fechar, e a resposta precisa estar escrita na proposta antes de o nome do parceiro entrar no deck.",
+    "Clube e parcerias: O 67 Pall Mall publicou a escada de entrada (100 fundadores sem joia, 500 seguintes com joia menor, preço cheio depois, vitalício à parte) e a Everyone Active transformou uma mesa com anfitrião em programa de 35 centros; as duas regras custam quase nada e podem ser escritas pro Haven esta semana."
+   ],
+   "bench": [
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Uma mesa de conversa fixa no café do clube, sem reserva e sem pauta",
+     "ideia": "Reservar uma mesa sinalizada no café do clube com dia e hora fixos (terça, 9h, por exemplo) e um sócio anfitrião em rodízio mensal, sem inscrição e sem programação, no modelo das Chatty Tables da Everyone Active. Começar no primeiro fim de semana de visita, com a mesa no container da obra, e contar quem sentou por três meses antes de decidir se vira regra do regulamento.",
+     "ref": "Everyone Active e Chatty Café, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Everyone-Active-collaborates-wtih-Chatty-Tables-to-strengthen-community-connections/363877"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "parcerias",
+     "titulo": "Quem fica com o exame do sócio se a clínica fechar: anexo da RFP",
+     "ideia": "Acrescentar à RFP do parceiro clínico um anexo de uma página com cinco perguntas que a Reborne deixou sem resposta: idade da empresa, número de clientes pagantes, caixa pra doze meses, quem guarda os dados de saúde do sócio e como eles voltam pra ele em caso de administração, e qual clínica assume o programa em andamento. Resposta em branco desclassifica.",
+     "ref": "Reborne Longevity, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Reborne-Longevity-enters-administration/363937"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Escada de joia publicada: zero pros 50 primeiros, meia pros 100 depois",
+     "ideia": "Escrever e publicar na página de membership a escada de entrada do sócio externo no formato do 67 Pall Mall: os 50 primeiros sem joia, os 100 seguintes com metade, preço cheio a partir daí, e um título vitalício com preço fechado pra quem quiser pular a mensalidade. A escada vale por ordem de assinatura, com contador público de vagas restantes em cada degrau.",
+     "ref": "67 Pall Mall Dubai, What's On",
+     "url": "https://whatson.ae/2026/11/67-pall-mall-the-members-club-for-wine-lovers-is-opening-in-dubai/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Chegada sem cartão: a regra de recepção do fim de semana de visita",
+     "ideia": "Escrever a regra de recepção do fim de semana de visita em uma página, no modelo do St Clement: nada de formulário, cartão ou depósito na chegada, tudo combinado por mensagem antes; frigobar com bebidas brasileiras sem álcool, lavanderia da roupa de trilha e produtos de beleza brasileiros como cortesia, e a anfitriã recebendo cada família pelo nome. A página vira o briefing da equipe e o roteiro de um post.",
+     "ref": "Nick Jones e o St Clement, Globetrender",
+     "url": "https://globetrender.com/2026/11/03/soho-house-founder-nick-jones-generosity-future-luxury-hospitality"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Série 'o que o relógio não mudou', com três pessoas da lista",
+     "ideia": "Publicar três peças com pessoas da lista de membership que usam wearable há mais de um ano, perguntando o que o aparelho mudou de verdade e o que só virou número. O dado da a16z (54% usam, 83% olham todo dia, maioria sem mudança) abre a série, e cada peça fecha com a coisa que mudou o hábito da pessoa, que em geral é gente, horário ou lugar.",
+     "ref": "Healthmaxxing e a pesquisa da a16z, Fitt Insider",
+     "url": "https://insider.fitt.co/untapped-opportunities-in-the-healthmaxxing-economy/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Pilates misto desde o primeiro dia, com horário de força pro homem 45+",
+     "ideia": "Desenhar a grade de pilates do clube como aula mista desde a abertura, com dois horários por semana apresentados como treino de força e mobilidade pra quem tem mais de 45, e medir a divisão por gênero a cada trimestre. A referência é a divisão 50/50 que a Equinox relata e as visitas masculinas triplicadas na ClassPass.",
+     "ref": "Homens no pilates, Fitt Insider",
+     "url": "https://insider.fitt.co/men-join-the-pilates-boom/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Marca de sono como parceira oficial das 75 casas e do recovery",
+     "ideia": "Abrir a categoria sono no programa de parceiros do Haven, no modelo de parceiro oficial por categoria dos Seahawks com a Eight Sleep: uma marca de colchão ou capa térmica fornece a casa-modelo e o recovery do clube, com preço de sócio nas 75 casas, e os dados agregados e anônimos de sono viram um dos indicadores do relatório anual de convivência.",
+     "ref": "Seahawks e Eight Sleep, Fitt Insider",
+     "url": "https://insider.fitt.co/press-release/seattle-seahawks-name-eight-sleep-official-sleep-technology-recovery-partner/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Aula paga no terreno com marca de nutrição bancando a produção",
+     "ideia": "Fazer no terreno, antes do clube existir, uma manhã de aula ao ar livre (bike, funcional ou corrida) com 40 vagas por sessão e ingresso cobrado, no formato do Vitafor Spin Open Air, com uma marca brasileira de nutrição pagando estrutura e ativação em troca da degustação. A lista de inscritos entra na fila de membership com a marcação da origem.",
+     "ref": "Vitafor Spin Open Air, Marca Pop",
+     "url": "https://marcapop.com.br/spinn-soul-e-vitafor-levam-aulas-de-spinning-a-heliponto-em-sao-paulo/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Férias de filhos e netos: uma hora de movimento por dia e zero tela",
+     "ideia": "Escrever o programa de férias do clube pra crianças de 6 a 17 anos com uma hora de atividade por dia como piso, celular guardado na entrada e três modalidades fixas (água, quadra e trilha), com o dado da OMS de 14% no convite aos pais. O número de dias ativos por criança na semana vira o indicador do programa.",
+     "ref": "Atividade física de jovens, OMS via Fitt Insider",
+     "url": "https://insider.fitt.co/youth-physical-activity-stalls-worldwide/"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Reborne Longevity, clube médico de Londres com parcerias com a BXR, a YDUN e a Mayrlife, entra em administração judicial com menos de dois anos de vida",
+     "source": "Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Reborne-Longevity-enters-administration/363937",
+     "date": "2026-11-08",
+     "region": "Londres, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A Reborne Longevity Ltd, constituída em dezembro de 2024 e operando na Queen Anne Street, teve administradores da FRP Advisory nomeados em 29/10, com publicação no London Gazette em 03/11. O modelo era um clube privado de medicina preventiva (avaliações, diagnósticos, terapias de recuperação) acoplado a academias e spas parceiros: programas com a BXR Marylebone, papel de parceiro médico do estúdio de força YDUN, pacote com a austríaca Mayrlife e um acordo com a Circulate Health pra troca terapêutica de plasma. A BXR confirmou que a parceria não segue; a matéria não traz a causa nem o número de sócios.",
+     "por_que_importa": "É o caso mais próximo do desenho que o Haven discute, uma clínica de longevidade que vive de parcerias com academia e spa, e fechou antes de qualquer parceiro depender dela. Vale pra RFP do parceiro clínico e pro deck: o que acontece com o sócio, com os dados de saúde e com a programação se a clínica parar.",
+     "para": [
+      "parcerias",
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Everyone Active leva a mesa de conversa semanal do Chatty Café a mais de 35 centros esportivos, com anfitrião voluntário e horário fixo, pra reduzir isolamento",
+     "source": "Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Everyone-Active-collaborates-wtih-Chatty-Tables-to-strengthen-community-connections/363877",
+     "date": "2026-11-05",
+     "region": "Reino Unido",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "A operadora de centros de lazer fecha parceria com o Chatty Café Scheme, criado em 2017 por uma assistente social de Manchester, e instala a partir de novembro uma mesa sinalizada por semana em cada centro, com chá, café e um anfitrião voluntário treinado. O lançamento acompanha a campanha Age is Just a Number, com mais de 250 sessões pra pessoas mais velhas. A matéria cita pesquisa da ukactive com a Savanta (6.395 pessoas, setembro): fazer amigos novos motivou 51% da geração Z e 53% dos millennials a entrar numa academia, e 31% de quem não se sente confiante pra entrar diz que é por não ter com quem ir; avaliação da Coventry University de 2023 aponta mais de 96% relatando menos solidão nas mesas.",
+     "por_que_importa": "Comunidade com custo quase zero: uma mesa, um horário e uma pessoa. É o tipo de regra de convivência que o Haven pode escrever antes do clube abrir e medir desde o primeiro fim de semana de visita.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "67 Pall Mall, clube de membros pra quem gosta de vinho, abre em 2027 em Dubai com anuidade a partir de Dhs 25 mil, 100 fundadores sem joia e título vitalício de Dhs 350 mil",
+     "source": "What's On (Motivate Media, Dubai; a matéria do The Drinks Business não abriu)",
+     "url": "https://whatson.ae/2026/11/67-pall-mall-the-members-club-for-wine-lovers-is-opening-in-dubai/",
+     "date": "2026-11-02",
+     "region": "Dubai, Emirados Árabes",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "O clube nascido em Londres, com casas em Hong Kong, Verbier e Singapura e aberturas previstas em Melbourne, Xangai e Bordeaux, ocupa 12 mil pés quadrados no The Opus, em Business Bay, com clubroom central, salas privadas de jantar, terraço, duas cozinhas e residência de chefs convidados. Segundo a brochura citada, a anuidade parte de Dhs 25 mil; os 100 primeiros sócios fundadores não pagam joia, os 500 seguintes pagam Dhs 7.500, profissionais do vinho pagam Dhs 18.750 por ano e a adesão vitalícia custa Dhs 350 mil numa parcela só. A data de abertura em 2027 não tem mês.",
+     "por_que_importa": "A tabela é a referência mais clara da semana de como se escalona a entrada num clube: joia zero pra quem entra primeiro, joia menor pra segunda leva, preço cheio depois, e um título vitalício como produto à parte. Serve de molde pra tabela de adesão do sócio externo do Haven.",
+     "para": [
+      "vendas",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Nick Jones, fundador da Soho House, diz que o luxo agora é generosidade: no St Clement, em Londres, frigobar sem álcool, lavanderia e produtos de beleza entram de graça",
+     "source": "Globetrender (cobertura do Points of View, summit da Condé Nast Traveller)",
+     "url": "https://globetrender.com/2026/11/03/soho-house-founder-nick-jones-generosity-future-luxury-hospitality",
+     "date": "2026-11-03",
+     "region": "Londres, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "Em conversa com Divia Thani no Chancery Rosewood, Jones criticou o check-in que pede cartão e depósito e descreveu o St Clement, no 180 Strand, de frente pro Tâmisa: bebidas sem álcool do frigobar, lavanderia e passadoria e cosméticos britânicos sem custo, lofts com cozinha e varanda pra estadias longas, restaurante e vestiário de qualidade pra equipe. Ele diz que o custo volta em recorrência e boca a boca e admite que o retorno comercial ainda não está provado; sobre IA, defende que ela tire trabalho administrativo e ajude a reconhecer o hóspede.",
+     "por_que_importa": "Repertório direto pro fim de semana de visita e pro onboarding do sócio: o que é cortesia, o que é cobrado e o que nunca se pede na chegada. A frase de que o luxo é ser recebido pelo nome cabe no briefing da equipe do clube.",
+     "para": [
+      "clube",
+      "marketing",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Fitt Insider resume pesquisa da a16z com 500 americanos: 54% usam wearable e 83% olham todo dia, mas a maioria diz que o aparelho não mudou o comportamento",
+     "source": "Fitt Insider (análise de tendências sobre pesquisa de um fundo de venture capital, identificado no texto como a16z; nome e data do relatório original não citados; números não conferidos na fonte primária)",
+     "url": "https://insider.fitt.co/untapped-opportunities-in-the-healthmaxxing-economy/",
+     "date": "2026-11-06",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "O texto descreve a economia do healthmaxxing em seis frentes: um aplicativo central que junte dado médico e de bem-estar, a casa sem toxinas (filtro de água, panela, purificador de ar), peptídeos fora do GLP-1 (cerca de metade já ouviu falar), novos remédios de colesterol, wearables e interfaces cérebro-computador. O achado que importa é o dos wearables: uso alto, leitura diária e pouca mudança de hábito. A conclusão do autor é que a otimização de saúde talvez precise de outro nome pra chegar ao consumidor médio.",
+     "por_que_importa": "Dado sozinho não vira hábito; o que vira hábito é pessoa, horário e lugar. É o argumento de venda de um clube com programação fixa contra o aplicativo, e a lista de toxinas da casa entra no briefing das 75 plantas.",
+     "para": [
+      "marketing",
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Club Med fala em retrofit de resorts existentes no Brasil e confirma Gramado pra novembro de 2027 e Fortaleza pra 2028, nos dez anos do Lake Paradise, em Mogi das Cruzes",
+     "source": "Panrotas",
+     "url": "https://www.panrotas.com.br/hotelaria/investimentos/2026/11/em-evento-de-dez-anos-do-lake-paradise-club-med-fala-sobre-expansao-no-brasil_233469.html",
+     "date": "2026-11-07",
+     "region": "Mogi das Cruzes, SP",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "Em entrevista no encontro de 6 a 8/11 pelos dez anos do Lake Paradise, o CEO pra América Latina, Janyck Daudet, disse que a rede recebe propostas de proprietários e avalia incorporar hotéis existentes com retrofit e bandeira Club Med. Gramado será o primeiro Exclusive Collection do país, no complexo do Mátria com a DC Set, e Fortaleza o primeiro resort da rede no Brasil voltado a kitesurf. No mundo, a meta é passar de 60 pra 100 resorts até 2035 e de 1,2 milhão pra 2,5 milhões de hóspedes por ano; o Brasil é o segundo mercado emissor pros resorts de esqui, com 32 mil brasileiros neste ano. A programação do fim de semana teve sound healing, golfe, tênis, pickleball e trapézio; nenhum investimento foi divulgado.",
+     "por_que_importa": "O operador de resort mais estabelecido do interior paulista diz em público que compra operação pronta pra retrofit. É conversa possível pro clube do Haven (operação de hospedagem e lazer) e sinal de que o eixo Mogi, Itu e Porto Feliz entra na conta de quem busca fim de semana a até duas horas da capital.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Vitafor patrocina spinning ao ar livre num heliponto do Itaim em 28 e 29/11: 14 aulas, 40 bikes por sessão, ingresso a R$ 215 e mais de 600 pessoas esperadas",
+     "source": "Marca Pop (texto com cara de divulgação das duas marcas; o dado do GWI é citado pelas empresas)",
+     "url": "https://marcapop.com.br/spinn-soul-e-vitafor-levam-aulas-de-spinning-a-heliponto-em-sao-paulo/",
+     "date": "2026-11-28",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A Spin'n Soul e o Vitafor Group fazem a segunda edição do Vitafor Spin Open Air no heliponto do Edifício Francisco Mellão, com professores do estúdio, ativações de nutrição esportiva, amostras da linha Fitzei e espaço de convivência. O formato já teve dez edições e mais de 7 mil participantes em lugares como o Prédio Dacon; os ingressos são vendidos no site do estúdio.",
+     "por_que_importa": "Marca de suplemento pagando a conta de uma aula em lugar improvável, com ingresso cobrado e vaga limitada. É o molde de uma aula aberta no terreno do Haven antes do clube existir, com marca brasileira pagando a produção.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Homens já são cerca de um terço dos praticantes de pilates nos EUA, com visitas avulsas masculinas triplicadas desde 2023, diz a Fitt Insider",
+     "source": "Fitt Insider (compila SFIA, ClassPass, Equinox e o 2027 Boutique Trends Report da Mariana Tek, sem data nem link dos relatórios)",
+     "url": "https://insider.fitt.co/men-join-the-pilates-boom/",
+     "date": "2026-11-06",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "Segundo a SFIA citada no texto, cerca de 4,5 milhões de homens americanos praticam pilates; a ClassPass vê as visitas avulsas masculinas triplicarem desde 2023, puxadas pela faixa de 25 a 34 anos, e a Equinox relata aulas com divisão 50/50. O texto enquadra o reformer atlético como treino de força funcional ligado a performance e longevidade, e cita Club Pilates, Strong Pilates e solidcore como marcas que já vendem a aula mista.",
+     "por_que_importa": "A grade de pilates do clube pode ser desenhada desde o início como aula mista e como porta de entrada de força pro sócio homem acima de 45, em vez de nascer como sala feminina e tentar virar depois.",
+     "para": [
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Strong Pilates quer 20 estúdios novos no Reino Unido em 2027, depois de ir de 8 pra 15 unidades em 2026; a rede tem 130 estúdios em 15 países e mais de US$ 75 milhões de receita em 12 meses",
+     "source": "Athletech News (aviso de ATN Pro, corpo visível)",
+     "url": "https://athletechnews.com/strong-pilates-targets-20-new-uk-studios/",
+     "date": "2026-11-05",
+     "region": "Reino Unido",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "A franquia australiana de aulas de 45 minutos com as máquinas próprias Rowformer e Bikeformer abriu 40 estúdios no mundo em 2026, tem mais de 330 operando ou em desenvolvimento e espera passar de 150 abertos até janeiro de 2027. No Reino Unido, as aberturas recentes foram Brighton, Hackney e Kingston, com Nine Elms confirmado pro começo de 2027.",
+     "por_que_importa": "Mais uma rede de estúdio com número público de receita e ritmo de abertura, útil pra comparar operadores de estúdio na RFP do clube e pra medir o tamanho do pilates como linha de membership.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Um quarto dos adolescentes de 11 a 17 anos no mundo é totalmente inativo e nenhum país está no caminho da meta da OMS pra 2030, resume a Fitt Insider",
+     "source": "Fitt Insider (compila dados da OMS sem nomear o relatório nem a data)",
+     "url": "https://insider.fitt.co/youth-physical-activity-stalls-worldwide/",
+     "date": "2026-11-06",
+     "region": "Mundo",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "Os números atribuídos à OMS: 240 milhões de adolescentes inativos, média de 2,7 dias ativos por semana, só 14% com uma hora de atividade por dia, meninas mais sedentárias (28% contra 22%) e inatividade indo de 4% a mais de 40% conforme a região. Nos EUA o texto descreve polarização: mais de 10% das crianças inativas e mais de 30% ativas todos os dias, com custo de competir, falta de espaço e rotina de tela como barreiras. A conclusão é que o movimento vira privilégio quando o ambiente não o torna padrão.",
+     "por_que_importa": "Argumento pra programação de filhos e netos no clube: ambiente que faz a criança se mover por padrão, sem tela, é parte do produto que o Haven vende pra família, e o dado dá o tamanho do problema.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Seattle Seahawks fazem da Eight Sleep a parceira oficial de sono e recuperação, com o Pod na rotina dos jogadores e programação pra torcida",
+     "source": "Fitt Insider (release da Eight Sleep; números de desempenho são da própria empresa)",
+     "url": "https://insider.fitt.co/press-release/seattle-seahawks-name-eight-sleep-official-sleep-technology-recovery-partner/",
+     "date": "2026-11-06",
+     "region": "Seattle, EUA",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A parceria plurianual coloca o Pod, capa de colchão que esfria ou aquece cada lado da cama e mede frequência cardíaca, HRV e respiração sem wearable, na recuperação do elenco, com uma série social e uma semana de recuperação na folga do time. A empresa diz ter mais de 50 estudos clínicos e estudos internos com até 34% mais sono profundo e 13% de alta média na HRV.",
+     "por_que_importa": "Sono como categoria de parceria de marca, com o dado medido na cama em vez do pulso. Entra na lista de fornecedores das 75 casas e do recovery do clube, e a lógica de parceiro oficial por categoria serve pro programa de parceiros do Haven.",
+     "para": [
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-07",
    "manchete": "Só 13% dizem atingir a meta de bem-estar, diz a McKinsey. A resposta do mercado chegou no mesmo dia: diagnóstico na porta de entrada, na Chenot, no clube de Miami e nas residências de Sam Nazarian com a Fountain Life.",
@@ -50,7 +324,7 @@
     {
      "area": "Comercialização",
      "para": "vendas",
-     "titulo": "Day use: decidir entre o passe de 8 horas e o zero de Ponte Vedra",
+     "titulo": "Quadro de concorrentes de modelo no deck, com o Haven na quinta coluna",
      "ideia": "Montar uma página do deck com The Estate Coral Gables, Canyon Ranch Austin, Life Time Raleigh e Six Senses Dubai em quatro colunas e três linhas: quem opera a saúde, quem opera o clube e o que o título inclui. O Haven entra na quinta coluna com as três respostas preenchidas; linha em branco vira pendência com dono e data.",
      "ref": "The Estate by sbe, The Real Deal",
      "url": "https://therealdeal.com/national/2026/11/06/sam-nazarian-tony-robbins-marc-anthony-wellness-condos/"
@@ -58,7 +332,7 @@
     {
      "area": "Comercialização",
      "para": "vendas",
-     "titulo": "Day use: decidir entre o passe de 8 horas e o zero de Ponte Vedra",
+     "titulo": "Fila de membership por indicação: duas por sócio fundador por ano",
      "ideia": "A Euromonitor mediu 72% de confiança em recomendação de amigos e família contra 54% em marca. Dar a cada sócio fundador duas indicações por ano, sem comissão, com o nome de quem indicou gravado no cadastro do candidato e prioridade na fila; medir no CRM a meta de metade dos títulos de 2027 vindos de indicação.",
      "ref": "Euromonitor Top Global Consumer Trends 2027, Consumidor Moderno",
      "url": "https://consumidormoderno.com.br/o-que-fara-o-consumidor-escolher-uma-marca-em-2027/"
@@ -74,7 +348,7 @@
     {
      "area": "Comunicação e sociais",
      "para": "marketing",
-     "titulo": "Day use: decidir entre o passe de 8 horas e o zero de Ponte Vedra",
+     "titulo": "Três posts sobre GLP-1 e músculo com o parceiro de treino do clube",
      "ideia": "A Lek diz que 44% de quem emagreceu no último ano no Brasil usa caneta e que a ingestão calórica cai cerca de 22%. Publicar três posts com o parceiro de treino do clube sobre o que muda na rotina de força e proteína de quem usa GLP-1, com o dado nomeado e sem recomendação médica; o terceiro post responde às perguntas dos dois primeiros.",
      "ref": "Lek Consulting, canetas emagrecedoras no Brasil",
      "url": "https://www.lek.com/pt-br/insights/produtos-de-consumo/canetas-emagrecedoras-e-o-novo-consumidor-brasileiro-como-o-glp-1"
@@ -90,7 +364,7 @@
     {
      "area": "Parcerias",
      "para": "parcerias",
-     "titulo": "Day use: decidir entre o passe de 8 horas e o zero de Ponte Vedra",
+     "titulo": "Dois operadores de banho e sauna na conversa pelo circuito térmico",
      "ideia": "A Bathhouse entrou como marca âncora de um campus misto em Nova Jersey, ao lado de academia e apartamentos. Abrir conversa com dois operadores de banho e sauna (uma rede com marca e um operador de spa de hotel) pra tocar o circuito térmico do Haven com contrato de operação e marca na porta, e comparar com a opção de operar com equipe própria em três linhas: custo, horário e programação.",
      "ref": "Bathhouse em Berkeley Heights, PR Newswire",
      "url": "https://www.prnewswire.com/news-releases/bathhouse-expands-to-new-jersey-with-major-new-location-at-the-park-in-berkeley-heights-302924572.html"
