@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-08",
+ "atualizado": "2026-11-09",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,368 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-09",
+   "manchete": "Um quarto dos consumidores faz 40% do gasto com bem-estar, diz a McKinsey. Em três dias, a JHSF cercou esse cliente pelo caminho: aeroporto próprio com voo internacional, mala do Fasano e vinil no rooftop do Itaim.",
+   "editorial": "A Exame abriu ontem a versão completa do relatório de bem-estar da McKinsey, e o número que muda a conversa está na segmentação: o otimizador maximalista é 25% dos consumidores e 40% do gasto, enquanto o perfil que luta com a própria saúde já é 30% das pessoas, quase o dobro de um ano atrás, e 25% do gasto. O mercado de US$ 2,7 trilhões está se partindo em dois públicos com pedidos opostos, um quer protocolo e medição, o outro quer rotina que caiba na semana, e quem perde é a oferta desenhada pro consumidor médio, que deixou de existir na tabela. A JHSF, vizinha do Haven em Porto Feliz, mostrou em três dias como se cerca o primeiro grupo: autorização pra receber jato internacional direto na pista do Fasano Las Piedras a partir de dezembro, mala feita na Toscana vendida dentro do terminal do Catarina e seis domingos de vinil com DJ nomeado no rooftop do Itaim. O custo desse desenho é pista, terminal e marca de hotel, fora do alcance de um projeto de 75 casas, e o domingo de vinil é a única das três peças que cabe no orçamento de qualquer clube. Em Londres, o Health Club at St Clement abriu só a academia, com piscina e spa sem data, a Cleveland Clinic citada sem serviço descrito e membership sem preço, um dia depois de a Reborne mostrar o que acontece quando o nome do parceiro chega antes da operação. A Spa Business fecha o quadro com a WELLSurvey: 83% usam rede social pra cuidar da saúde e menos da metade confia no que vê. Pro Haven, a ordem que sai do dia é agenda com nome e data primeiro, serviço descrito antes do logotipo do parceiro e uma resposta escrita sobre como se chega.",
+   "atencao": [
+    "Marketing: A McKinsey separou cinco perfis e o que mais gasta é 25% dos consumidores e 40% do gasto; a Spa Business lembra que 83% usam rede social pra saúde e menos da metade confia no que vê. Conteúdo do Haven com fonte, data e nome de quem assina fala com esse quarto do mercado.",
+    "Vendas: A JHSF passa a receber voo privado internacional direto no Las Piedras a partir do início de dezembro e já opera terminais no Catarina, em Guarulhos e em Miami. O comprador que compara com o Boa Vista vai perguntar pelo acesso, e vale levar pra visita a resposta escrita, com o tempo de porta a porta medido pelo próprio time.",
+    "Clube e parcerias: O Health Club at St Clement abriu só a academia, com a Cleveland Clinic citada sem serviço descrito e membership sem preço. Três dias antes, o Fasano Itaim publicou seis domingos de vinil com nome de DJ e horário, e essa agenda dá pra copiar já."
+   ],
+   "bench": [
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Regra de sauna em dez linhas, afixada na porta e no regulamento",
+     "ideia": "Escrever a regra de uso do circuito térmico do Haven em dez linhas (silêncio ou conversa, tempo por sessão, toalha, celular, ducha, horário de ritual guiado), tomando como ponto de partida a carta pública de sauna da Sauna for All, de Oslo, citada no Spa Foresight. Afixar na porta, colar no regulamento do clube e testar o texto nos fins de semana de visita.",
+     "ref": "Spa Foresight, Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Spa-Business-spotlights-twenty-trends-set-to-shape-the-future-of-wellness/363738"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Uma colheita por ano como data fixa do calendário do sócio",
+     "ideia": "Reservar no masterplan uma área plantada com uma cultura só e marcar um fim de semana de colheita por ano, aberto a sócios e famílias, como o Hotel Ort faz com a vindima. A data entra no calendário anual do clube e o que for colhido vai pro restaurante com o ano no cardápio.",
+     "ref": "Campos do Jordão nos 50 melhores hotéis, Exame",
+     "url": "https://exame.com/casual/campos-do-jordao-tem-3-dos-50-melhores-hoteis-do-brasil/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Trilha de 12 semanas pro sócio que largou a rotina de saúde",
+     "ideia": "Criar uma entrada opcional pra quem a McKinsey chama de quem luta com a saúde ou deixou de lado (juntos, metade dos consumidores): um horário fixo por semana, sempre com o mesmo profissional e um sócio anfitrião, sem aplicativo e sem painel. A opção aparece marcada no formulário de membership e a adesão é contada no fim do primeiro trimestre.",
+     "ref": "McKinsey Future of Wellness, Exame",
+     "url": "https://exame.com/casual/bem-estar-e-prioridade-para-84-mas-so-13-alcancam-metas-de-saude-diz-pesquisa/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Três dias pra quem está no ninho vazio, uma vez por semestre",
+     "ideia": "Programar um retiro curto de transição de vida por semestre, começando por ninho vazio e aposentadoria, com 12 vagas, um terapeuta convidado e a casa-modelo como base. É o formato que o Spa Foresight lista pra luto, divórcio e ninho vazio.",
+     "ref": "Spa Foresight, Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Spa-Business-spotlights-twenty-trends-set-to-shape-the-future-of-wellness/363738"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Bartender convidado uma quarta por mês, com nome no convite",
+     "ideia": "Abrir uma série mensal de bartender convidado no bar do clube, com dia e hora fixos, reserva e dois nomes de um bar de São Paulo por edição, no modelo da noite do Tan Tan no Fasano Itaim. As primeiras edições acontecem nos fins de semana de visita, com carta curta e uma opção sem álcool assinada pelo convidado.",
+     "ref": "Fasano Itaim, Revista Business",
+     "url": "https://revistabusiness.com.br/2026/11/06/fasano-itaim-transforma-rooftop-em-agenda-de-coquetelaria-e-vinil-com-tan-tan-e-djs-ate-dezembro/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Três perguntas na primeira conversa e duas versões da página de saúde",
+     "ideia": "Incluir no roteiro de vendas três perguntas que separam o otimizador (mede o quê, com que frequência, com quem) de quem quer rotina simples, e ter duas versões da página de bem-estar da proposta: uma com ficha técnica, protocolo e parceiro clínico, outra com a semana do sócio, hora por hora. O corretor escolhe a versão depois da primeira conversa e anota o perfil no cadastro.",
+     "ref": "McKinsey Future of Wellness, Exame",
+     "url": "https://exame.com/casual/bem-estar-e-prioridade-para-84-mas-so-13-alcancam-metas-de-saude-diz-pesquisa/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Nome de parceiro clínico só sai junto com o serviço em uma linha",
+     "ideia": "Adotar como regra de comunicação que nenhum parceiro de saúde aparece no site, no deck ou no Instagram sem uma linha dizendo o que ele faz no Haven, quem atende, onde e a partir de quando. O Health Club at St Clement divulgou a Cleveland Clinic sem descrever serviço; a regra evita esse vazio e entra no guia de marca.",
+     "ref": "The Health Club at St Clement, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/The-Health-Club-at-St-Clement-brings-medicine-fitness-and-wellness-together-in-Londons-180-The-Thames/363914"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Um objeto do Haven feito por ateliê brasileiro, em série limitada",
+     "ideia": "Encomendar a um ateliê brasileiro de couro, madeira ou cerâmica uma peça de uso (bolsa de fim de semana, bandeja, moringa) em série limitada, com a origem assinada na peça, como a Valigeria Fasano faz com a Toscana. A peça é entregue na assinatura do título e fica à venda só no clube.",
+     "ref": "Valigeria Fasano, Revista Business",
+     "url": "https://revistabusiness.com.br/2026/11/08/fasano-estreia-no-segmento-de-malas-com-colecao-artesanal-produzida-na-toscana/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Tarifa de sócio com um operador de aviação executiva da região",
+     "ideia": "Levantar o aeródromo executivo mais próximo do terreno e conversar com um operador de táxi aéreo ou helicóptero sobre uma tabela pra sócio, com transfer até o Haven incluído. A resposta vira uma linha na proposta, ao lado do tempo de carro, pro comprador que compara com projetos que têm pista própria.",
+     "ref": "JHSF e Aeroporto Las Piedras, Revista Business",
+     "url": "https://revistabusiness.com.br/2026/11/08/jhsf-transforma-aeroporto-do-fasano-em-terminal-internacional-e-conecta-punta-del-este-a-sao-paulo-e-miami/"
+    }
+   ],
+   "itens": [
+    {
+     "title": "The Health Club at St Clement abre a academia em Londres com a Cleveland Clinic entre os parceiros, piscina e spa sem data e membership sem preço",
+     "source": "Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/The-Health-Club-at-St-Clement-brings-medicine-fitness-and-wellness-together-in-Londons-180-The-Thames/363914",
+     "date": "2026-11-09",
+     "region": "Londres, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "O clube de 25 mil pés quadrados (cerca de 2.300 m²) no 180 The Thames, perto de Temple, abriu a academia; a piscina de 25 metros e o spa aparecem como abertura em breve, sem data. A Cleveland Clinic é citada como colaboradora ao lado da BeforeTheLights e da Lore, marca de saúde cerebral, sem descrição dos serviços médicos. As consultas de adesão estão abertas, preço e regras não foram anunciados, e o dono do clube não é nomeado. O clube é ligado ao hotel St Clement, primeiro projeto de Nick Jones depois da Soho House, e é separado do Soho Health Club.",
+     "por_que_importa": "É o caso da semana pra discutir ordem de abertura e uso de marca clínica: o nome do hospital saiu antes do serviço, um dia depois da notícia da Reborne. Serve de referência pro cronograma do clube e pra regra de como o parceiro de saúde entra no material do Haven.",
+     "para": [
+      "clube",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "McKinsey divide o consumidor de bem-estar em cinco perfis: o otimizador maximalista é 25% das pessoas e 40% do gasto, num mercado de US$ 2,7 trilhões",
+     "source": "Exame (Casual), sobre o Future of Wellness da McKinsey; números conferidos na matéria, relatório não aberto",
+     "url": "https://exame.com/casual/bem-estar-e-prioridade-para-84-mas-so-13-alcancam-metas-de-saude-diz-pesquisa/",
+     "date": "2026-11-08",
+     "region": "EUA, China, Alemanha e Reino Unido",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "A Exame detalha a versão completa do relatório, que segundo a matéria saiu em 3/11 e ouviu 10 mil pessoas em quatro países, sem recorte do Brasil. O mercado global é estimado em US$ 2,7 trilhões em 2026. São cinco perfis: otimizador maximalista (25% dos consumidores, 40% do gasto), entusiasta confiante (10% e 15%), tradicionalista da saúde (15% e 10%), os que deixaram de lado (20% e 10%) e o que luta com a própria saúde (30% e 25%, fatia que quase dobrou em um ano). Todos os perfis demonstram interesse em saúde cognitiva, com pouca oferta. A prévia de 06/11 na European Spa Magazine falava em mais de 9.000 entrevistados e chamava a edição de 2027; a Exame chama de 2026. A diferença fica registrada.",
+     "por_que_importa": "É fato novo sobre o item de 07/11: agora dá pra dizer pra quem o Haven fala. O perfil que concentra o gasto quer dado e protocolo, e o que mais cresce precisa de rotina simples e companhia. Vendas e clube podem montar proposta e programação com essa divisão.",
+     "para": [
+      "vendas",
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "JHSF ganha autorização pra receber voo privado internacional direto no aeroporto do Fasano Las Piedras, em Punta del Este, a partir de dezembro",
+     "source": "Revista Business (base em informações da empresa, foto de divulgação da JHSF)",
+     "url": "https://revistabusiness.com.br/2026/11/08/jhsf-transforma-aeroporto-do-fasano-em-terminal-internacional-e-conecta-punta-del-este-a-sao-paulo-e-miami/",
+     "date": "2026-11-08",
+     "region": "Punta del Este, Uruguai",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "O governo uruguaio autorizou a internacionalização do Aeroporto Las Piedras, construído pela JHSF em 2021 dentro do empreendimento, com pista de cerca de 1.300 metros e acesso direto ao hotel. A partir do início de dezembro, jatos privados podem chegar de outros países sem escala em outro aeroporto uruguaio. A JHSF vai implantar e administrar ali um terminal de aviação executiva, ligado aos que opera no São Paulo Catarina, em Guarulhos e em Miami, onde começou a operar em outubro depois da compra da Embassair. O texto não informa investimento nem rotas.",
+     "por_que_importa": "A incorporadora da Fazenda Boa Vista, em Porto Feliz, trata o acesso como parte do produto e é dona da pista. O comprador que compara os dois projetos vai perguntar como se chega ao Haven, e vendas precisa da resposta escrita.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Fasano Itaim põe vinil no rooftop aos domingos até dezembro, com seis DJs nomeados, e recebe os bartenders do Tan Tan em 11/11",
+     "source": "Revista Business (texto com cara de divulgação, foto de divulgação)",
+     "url": "https://revistabusiness.com.br/2026/11/06/fasano-itaim-transforma-rooftop-em-agenda-de-coquetelaria-e-vinil-com-tan-tan-e-djs-ate-dezembro/",
+     "date": "2026-11-06",
+     "region": "São Paulo/SP",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "As Vinyl Sessions acontecem aos domingos, das 16h às 21h, no rooftop do Hotel Fasano São Paulo Itaim, com DJs tocando só em vinil: Rafael Cancian (8/11), Julia Weck (15/11), Camilo Rocha (22/11), Ana CMP (29/11), Orel (13/12) e Carol Rios (20/12). Na quarta, 11/11, a partir das 18h, Caio Carvalhaes e Wellington Lima Silva, do Tan Tan Bar, assumem o balcão na série Guest Bartender. As duas programações são abertas a hóspedes e ao público, com reserva antecipada. O texto não traz preço.",
+     "por_que_importa": "É a agenda mais simples de copiar da edição: dia fixo, horário fixo, um nome por data e reserva. Serve de modelo pra programação do bar e do listening bar do Haven desde os fins de semana de visita.",
+     "para": [
+      "clube",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Spa Foresight lista vinte tendências pro setor: clube de sauna com membership, bem-estar de bairro, retiro pra luto e ninho vazio e tratamento de três a quatro horas",
+     "source": "Spa Business (resumo do Spa Foresight, publicado no Spa Business Handbook 2026-2027; a matéria não numera as tendências)",
+     "url": "https://www.spabusiness.com/wellness-news/Spa-Business-spotlights-twenty-trends-set-to-shape-the-future-of-wellness/363738",
+     "date": "2026-11-09",
+     "region": "Reino Unido",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "A lista anual da equipe da Spa Business inclui spas hidrotermais urbanos e clubes de sauna com modelo de associação, bem-estar hiperlocal em bairros, retiros pra luto, divórcio, doença e ninho vazio, autorregulação do sistema nervoso, som como instalação permanente e tratamentos de três a quatro horas. O texto cita a WELLSurvey 2.0: 83% usam redes sociais pra saúde e menos da metade confia no que vê. Cita também a carta pública de sauna da Sauna for All, de Oslo, com dez princípios, e o projeto San Benito, de 25 hectares nas Filipinas, com residências ligadas ao The Farm. É lista editorial com dados de terceiros, sem amostra própria.",
+     "por_que_importa": "Dá vocabulário e três formatos prontos pra testar no clube: regra de sauna escrita, retiro de transição de vida e sessão longa. O dado de confiança serve de argumento pra comunicação com fonte e assinatura.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Campos do Jordão põe três hotéis entre os 50 melhores do Brasil da Exame: Ort em 5º, Botanique em 20º e Toriba em 25º",
+     "source": "Exame (Casual; ranking do próprio veículo, terceira edição, com 34 especialistas)",
+     "url": "https://exame.com/casual/campos-do-jordao-tem-3-dos-50-melhores-hoteis-do-brasil/",
+     "date": "2026-11-09",
+     "region": "Campos do Jordão/SP",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "Só Rio e São Paulo têm mais endereços no ranking. O Hotel Ort produz os vinhos da linha Despina e oferece a vindima como experiência do hóspede; o Botanique tem horta própria, spa de 800 m² e chalés com piscina de imersão de água mineral; o Toriba, de 1943, tem mais de 2 milhões de m² de mata, 18 km de trilhas, chalés de vidro suspensos e vinoteca com cerca de 370 rótulos. É fato novo sobre o item de 29/10, que só mostrava os 20 primeiros.",
+     "por_que_importa": "Os três hotéis da Mantiqueira que entraram vendem produção própria, mata e trilha. É a lista de atributos que o comprador de casa de campo em São Paulo já reconhece, e serve de régua pro restaurante, pra área verde e pro calendário do Haven.",
+     "para": [
+      "marketing",
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "KAI, casa de banho de Kengo Kuma em Copenhague, abre em 5/12 com dez piscinas em 5.800 m² e cinco torres de tijolo em volta de uma piscina aberta",
+     "source": "Yanko Design (05/11, extensão da janela; a matéria da Dezeen de 07/11 não abriu)",
+     "url": "https://www.yankodesign.com/2026/11/05/kengo-kumas-copenhagen-bathhouse-puts-an-open-air-pool-between-five-brick-towers/",
+     "date": "2026-11-05",
+     "region": "Copenhague, Dinamarca",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "O KAI, Water Culture House, fica na Papirøen e é um equipamento público de 5.800 m², com projeto da Kengo Kuma & Associates e da Vilhelm Lauritzen Architects. A matéria fala em dez piscinas, entre elas uma de 25 metros, uma de ensino, três infantis, a piscina externa entre as torres e um onsen aquecido voltado pro porto. A abertura está marcada pra 5/12/2026; o deque e o banho de porto externos ficam pro início de 2027. Operador e preço de entrada não aparecem.",
+     "por_que_importa": "Referência de arquitetura pro circuito de água do clube: tijolo, volumes escalonados e uma piscina central a céu aberto. Entra no briefing de projeto e em conteúdo sobre cultura de banho.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Kusnacht Practice, na Suíça, vende estadia de cinco semanas em casa privada no lago de Zurique, sem terapia em grupo e com programa de acompanhamento depois da alta",
+     "source": "Globetrender (entrevista com Eduardo Greghi, da clínica; 05/11, extensão da janela)",
+     "url": "https://globetrender.com/2026/11/05/kusnacht-practice-reveals-why-uhnw-clients-investing-peak-span/",
+     "date": "2026-11-05",
+     "region": "Zurique, Suíça",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A clínica atende em residência privada, com um conselheiro morando na casa, e organiza os programas pra que os clientes não se cruzem. Junta saúde mental, medicina de precisão, avaliação cognitiva e o método próprio BIO-R, além de terapia assistida por cetamina e MDMA com autorização individual do governo suíço. Depois da estadia entra o Continuing Care Programme, com mentoria, retornos agendados e monitoramento, que a clínica compara a um family office de saúde. A entrevista não traz preço nem número de clientes.",
+     "por_que_importa": "O que vale copiar é o depois: retorno agendado e um responsável pelo acompanhamento. É referência pra desenhar o que o sócio do Haven recebe entre uma visita e outra e pra conversa com o parceiro clínico.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Ian Schrager abre o Public West Hollywood sem recepção, com diária a partir de US$ 450 e um parque de 3 mil m² no telhado com aula de bem-estar todo dia",
+     "source": "Globetrender (05/11, extensão da janela)",
+     "url": "https://globetrender.com/2026/11/05/ian-schrager-public-west-hollywood-rooms-private-cinemas/",
+     "date": "2026-11-05",
+     "region": "West Hollywood, EUA",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "O hotel abriu em novembro sem balcão de recepção: a ideia é levar o hóspede ao quarto o mais rápido possível. Os quartos trocam a TV por projeção a laser de 3,35 metros. O Roof é um parque privado de cerca de 3.035 m² com esporte, aulas diárias de bem-estar, piquenique, fogueira, instalações de arte e tela de cinema de 9 metros; cerca de 75% das áreas comuns ficam ao ar livre. A matéria não informa número de quartos nem fala em membership.",
+     "por_que_importa": "Referência de área comum aberta com programação diária e de chegada sem cerimônia. Serve pro desenho do dia a dia do clube e pra pauta de marketing sobre vida ao ar livre.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Banyan Tree Vabbinfaru recebe praticante convidada por quatro semanas, de 25/01 a 21/02/2027, com sessão individual, de casal e em grupo",
+     "source": "Rus Tourism News (a partir de divulgação do resort; o texto registra que não há evidência clínica dos resultados)",
+     "url": "https://www.rustourismnews.com/2026/11/09/banyan-tree-vabbinfaru-announces-exclusive-wellness-residency-for-2027/",
+     "date": "2026-11-09",
+     "region": "Maldivas",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "Consuelo Saroyan, fundadora da Marea Wellness, conduz o programa com consulta, movimento e trabalho corporal que pode incluir Tui Na e gua sha, além de sessão de casal, meditação, sound healing e yin yoga em grupo. A participação é opcional e por sessão. O resort não publicou tabela completa; hospedagem e sessões individuais podem ser cobradas à parte.",
+     "por_que_importa": "É o formato de residência de praticante com janela fixa e calendário aberto, fácil de adaptar pro clube com terapeutas brasileiros. Vale como modelo de contrato curto e de divulgação com datas.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Fasano entra em malas com a Valigeria Fasano: cinco modelos feitos à mão na Toscana, em edição limitada, vendidos no Cidade Jardim e no Aeroporto Catarina",
+     "source": "Revista Business (texto com cara de divulgação)",
+     "url": "https://revistabusiness.com.br/2026/11/08/fasano-estreia-no-segmento-de-malas-com-colecao-artesanal-produzida-na-toscana/",
+     "date": "2026-11-08",
+     "region": "São Paulo/SP",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A coleção idealizada por Gero Fasano tem três malas de rodinha, uma duffel e uma sacola, em caramelo e tabaco, todas com a assinatura 'Fatta a mano in Toscana, Italia'. O lançamento foi em 5/11 na CJ Fashion e a venda começou em 6/11 nas lojas Selezione Fasano do CJ Jardins, da CJ Fashion e do Aeroporto Catarina. A oficina italiana não é nomeada e o texto não traz preços.",
+     "por_que_importa": "Marca de hospitalidade brasileira virando objeto, com ponto de venda dentro do terminal de aviação executiva do próprio grupo. É referência pra um objeto do Haven feito por ateliê parceiro e pra pensar onde o sócio encontra a marca fora do terreno.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Rede Reserva, de Ilhabela, abre em Miami o primeiro hotel fora do Brasil: 73 quartos em South Beach e seis pilares de bem-estar",
+     "source": "Hotelier News (texto com base em informações da rede, foto de divulgação)",
+     "url": "https://hoteliernews.com.br/rede-reserva-sp-abre-primeiro-hotel-fora-do-brasil/",
+     "date": "2026-11-06",
+     "region": "Miami, EUA",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "O Reserva Miami Meridian fica num edifício dos anos 1930 na Meridian Avenue, em South Beach, com 73 quartos e capacidade pra cerca de 150 hóspedes. A operação é da At Mine Hospitality; a Rede Reserva fica com a marca, a experiência de bem-estar, o marketing e o digital. A programação se organiza em movimento, recuperação, nutrição, sono, conexão e propósito, com Jungle Spa e yoga abertos também a visitantes, sem preço informado. A rede diz que mais de 50% das reservas no Brasil vêm de canais próprios.",
+     "por_que_importa": "É uma marca brasileira de hospedagem com bem-estar que separou operação de marca pra crescer: outro opera o prédio, ela cuida da experiência. Serve de referência pra conversa sobre operador do clube e de comparação pros pilares do Haven.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Coluna na Exame defende que o lobby vende o apartamento e lista o que pesa: tempo de espera, altura do balcão, cheiro e poltrona",
+     "source": "Exame (Casual; coluna de opinião de Anny Meisler, fundadora da LZ, empresa do setor)",
+     "url": "https://exame.com/casual/o-lobby-vende-o-apartamento-o-que-o-diferencia/",
+     "date": "2026-11-08",
+     "region": "São Paulo/SP",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A autora trata o lobby residencial como a primeira experiência do morador e fala em vocação do empreendimento. Cita como exemplos a Porsche Design Tower, em Sunny Isles Beach, com o elevador que leva o carro até a garagem privativa, o Andaz London, da Hyatt, sem balcão de recepção desde 2007, a fragrância de chá branco da Westin e o estudo de David Maister sobre filas. Não há números de empreendimentos brasileiros, preços nem metragens.",
+     "por_que_importa": "Dá uma lista curta de conferência pra portaria e pra recepção do clube, com itens que cabem no briefing de interiores. Lida junto com o Public West Hollywood, mostra a chegada sem balcão aparecendo em hotel e em residencial na mesma semana.",
+     "para": [
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "SIX põe aula de respiração e relaxamento na grade do clube da Vila Nova Conceição, e a experiência vira coluna da CEO da Money Report",
+     "source": "Money Report (coluna em primeira pessoa de Cristina Falcão, CEO do veículo; recomenda a experiência de uma marca, sem marcação de publicidade)",
+     "url": "https://www.moneyreport.com.br/lifestyle/respirar-tambem-e-estrategia/",
+     "date": "2026-11-07",
+     "region": "São Paulo/SP",
+     "escopo": "brasil",
+     "pilar": "membership",
+     "resumo": "A coluna descreve a Reset Six, aula de respiração, alongamento, mindfulness e relaxamento no SIX WOWness Club, conduzida por Stella Krieger, da Body Expression. O texto trata a pausa como o novo luxo do alto padrão. Não traz preço, duração, número de vagas nem regra de acesso.",
+     "por_que_importa": "Um clube de alto padrão da capital já programa aula de desacelerar, e a aula rendeu texto assinado pela CEO de um veículo de negócios. Entra como sinal de concorrência pra grade do Haven e como formato de convite a quem escreve.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Destination Deluxe lista 15 tendências de bem-estar pra 2027 e põe recuperação, casa saudável e comunidade entre elas",
+     "source": "Destination Deluxe (lista editorial, sem pesquisa própria; o dado do GWI foi conferido na matéria, não no relatório)",
+     "url": "https://destinationdeluxe.com/wellness-trends-2027/",
+     "date": "2026-11-08",
+     "region": "Internacional",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "A lista inclui recuperação como destino (sauna, frio, compressão), casa pensada pra saúde (ar, luz, quarto silencioso), retiro com mais tempo livre, treino de força ligado à longevidade, menos obsessão com nota de sono e comunidades como clubes de corrida e saunas sociais. O texto cita o GWI: wellness real estate de US$ 548 bilhões em 2024 pra mais de US$ 1,1 trilhão em 2029. É seleção da redação, sem amostra nem metodologia.",
+     "por_que_importa": "Serve de conferência de vocabulário pra conteúdo e programação, sem peso de pesquisa. O número do GWI já circula e entra como apoio de fala.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Next Generation Medicine reúne em Dubai, de 7 a 10/11, clínicos e investidores de longevidade com o tema da clínica de 2030",
+     "source": "Gulf News (seção de notícias corporativas, matéria de 23/09 sobre evento organizado pela AEON Clinic; programação detalhada não conferida)",
+     "url": "https://gulfnews.com/business/corporate-news/dubai-to-host-next-generation-medicine-2026-advancing-global-longevity-regenerative-care-1.500685082",
+     "date": "2026-11-07",
+     "region": "Dubai, Emirados Árabes",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "O congresso organizado pela AEON Clinic, liderada pelo médico Jaffer Khan, acontece no Atlantis The Royal de 7 a 10 de novembro. A pauta junta medicina da longevidade, regenerativa e de precisão e inteligência artificial, pra clínicos, pesquisadores, startups e investidores, sob o tema 'From Evidence to Adoption: Building the Clinic of 2030 Today'.",
+     "por_que_importa": "Mostra quem organiza a conversa clínica de longevidade no Golfo e que nomes circulam ali. Parcerias pode usar a lista de palestrantes como mapa de protocolos e fornecedores.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-08",
    "manchete": "A Reborne, clube de longevidade de Londres que vivia de parcerias com academia e spa, fechou com menos de dois anos. Na mesma semana, o que segurou sócio foi mais barato: uma mesa de conversa, um frigobar sem conta e uma joia zero pros 100 primeiros.",
