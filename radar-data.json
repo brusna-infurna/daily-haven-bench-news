@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-09",
+ "atualizado": "2026-11-10",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,325 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-10",
+   "manchete": "Um sócio de academia premium vale € 1.600 na mesa de M&A. No interior de SP, recovery e consultório médico já cabem numa mensalidade de R$ 239.",
+   "editorial": "A Virgin Active vai pagar € 135 milhões por 13 clubes e 84.100 sócios da Holmes Place na Alemanha, 6,3 vezes o Ebitda previsto pra 2026, o que dá cerca de € 1.600 por sócio numa conta simples. A base de sócios recorrente virou ativo com preço de mercado, e o que paga esse múltiplo é a recorrência. O resto da edição mostra por que o equipamento sozinho parou de sustentar preço: em São João da Boa Vista, uma academia de R$ 239 por mês entrega recovery, pilates e consultório médico alugado por hora, e no Rio o Sofitel abre em 1º de dezembro com spa de recuperação e longevidade num hotel aberto a quem passa. Quando recovery cabe numa mensalidade de academia de interior e longevidade vira andar de hotel, o clube do Haven vende outra coisa: quem frequenta, quem opera e o que o título garante por dez anos. O Eudemonia pôs 8 mil pessoas num centro de convenções com comunidade como tema de longevidade, e o painel da Condé Nast deu nome a isso, prêmio humano, acesso a gente interessante valendo mais que acesso a lugar. O custo de errar essa leitura é vender amenidade e competir com R$ 239.",
+   "atencao": [
+    "Marketing: O Monitor 2026 da GWI sai amanhã em Phuket; separar os números de wellness real estate e de comunidade assim que o sumário aparecer e trocar os dados de 2025 no deck, no site e na nota de mercado até sexta.",
+    "Vendas: O comprador do interior já encontra recovery, pilates e médico por R$ 239 por mês em São João da Boa Vista; o argumento do Haven sai da lista de equipamentos e vai pra quem opera o clube, quem frequenta e o que o título garante.",
+    "Clube e parcerias: O Sofitel Ipanema abre em 1º/12 com uma marca francesa de spa que ainda não atuava no Brasil; descobrir qual é antes da abertura e pedir conversa, porque marca que chega precisa de segundo endereço."
+   ],
+   "bench": [
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Valor por sócio no deck: € 1.600 e 6,3 vezes o Ebitda como referência",
+     "ideia": "Incluir no deck de investidor uma linha com o valor da base de sócios do clube, calculada com o número de títulos projetado e o múltiplo da compra da Holmes Place pela Virgin Active (6,3 vezes o Ebitda, cerca de € 1.600 por sócio). Com a ressalva escrita de que a referência é uma rede urbana de academias e que o clube do Haven tem menos sócios e mais receita por sócio.",
+     "ref": "Virgin Active e Holmes Place, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Virgin-Active-buys-Holmes-Place-Germany-in-135-million-deal/363943"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Dois consultórios do clube alugados por hora a profissionais da região",
+     "ideia": "Prever na planta do clube dois consultórios de 12 a 15 m² alugados por hora a médicos, fisioterapeutas e nutricionistas de Itu, Sorocaba e Campinas, com agenda aberta aos sócios pelo concierge. Gera receita, testa a demanda por atendimento no clube e adia a decisão de parceiro clínico fixo até ter um ano de dados de ocupação.",
+     "ref": "Legacy Gym em São João da Boa Vista, Exame",
+     "url": "https://exame.com/negocios/shopping-abandonado-ha-32-anos-vira-academia-de-luxo-de-r-7-milhoes-no-interior-de-sp/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "vendas",
+     "titulo": "Unidade urbana do clube num imóvel fechado de Porto Feliz ou Itu antes da obra",
+     "ideia": "Mapear três imóveis fechados no centro de Porto Feliz e de Itu e abrir num deles, em locação, uma unidade urbana do clube com sala de treino, recovery e café, operada pelo parceiro de treino. Funciona como ponto de venda e de convivência da lista de membership enquanto o terreno está em obra, e a mensalidade é abatida do título de quem assinar.",
+     "ref": "Legacy Gym em São João da Boa Vista, Exame",
+     "url": "https://exame.com/negocios/shopping-abandonado-ha-32-anos-vira-academia-de-luxo-de-r-7-milhoes-no-interior-de-sp/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Título de família em duas gerações, com cota de uso por geração",
+     "ideia": "Criar uma versão do título que nomeia o sócio e dois filhos adultos, com cota de dias de uso por geração e direito de sucessão sem joia nova. Escrever a regra no formulário de membership e no regulamento, e medir no primeiro ano quantos títulos são usados pela segunda geração.",
+     "ref": "Tendências da Condé Nast Traveller, Globetrender",
+     "url": "https://globetrender.com/2026/11/02/seven-luxury-travel-trends-conde-nast-traveller-2026-summit/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Página pública 'o que já está fechado e o que ainda está aberto'",
+     "ideia": "Publicar no site uma página com duas colunas, o que o Haven já fechou (terreno, arquiteto, número de casas, datas) e o que ainda está em decisão (operador do clube, parceiro clínico, preço do título), atualizada todo mês com a data da última revisão. Copia o formato 'o que se sabe até agora' que a Exame usou pro Sofitel e tira pressão da pergunta sobre o que falta.",
+     "ref": "Sofitel Ipanema, Exame",
+     "url": "https://exame.com/casual/o-que-se-sabe-ate-agora-sobre-o-novo-sofitel-de-ipanema/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Regra de palco do clube: quem fala no Haven ensina e não vende",
+     "ideia": "Escrever uma regra de uma página pros eventos do clube e dos fins de semana de visita: palestrante e profissional convidado ensinam um método ou um dado e não vendem produto no palco; a marca entra como patrocinadora com nome na peça e mesa fora da sala. A regra vai no contrato de todo parceiro de evento.",
+     "ref": "Eudemonia 2026, Athletech News",
+     "url": "https://athletechnews.com/eudemonia-draws-thousands-longevity-boom-gains-momentum/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Ticket Sports como plataforma das provas e saídas do clube",
+     "ideia": "Fechar com a Ticket Sports a inscrição das provas, trilhas e saídas do clube, com vaga de convidado paga e relatório mensal de inscritos por cidade de origem. Primeiro contato no Máquina Talks Running de 16/11, onde a plataforma está no palco.",
+     "ref": "Máquina Talks Running, Máquina do Esporte",
+     "url": "https://maquinadoesporte.com.br/maquina-talks/2o-maquina-talks-running-confirma-programacao-com-debates-sobre-a-corrida-como-estilo-de-vida/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Slide de demanda estrutural com os três motores da JLL e a ressalva",
+     "ideia": "Um slide no deck de investidor com os três motores de demanda de moradia que a JLL nomeia (envelhecimento, domicílios menores, construção insuficiente), o dado de queda de 9% no investimento global em moradia no trimestre e, em nota, que a JLL não trata de bem-estar nem de luxo. Fonte e data no rodapé, revisão a cada relatório trimestral.",
+     "ref": "JLL Global Real Estate Perspective, JLL Research",
+     "url": "https://www.jll.com/en-us/insights/market-perspectives/global"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Sofitel Ipanema abre em 1º/12 com 170 apartamentos, spa de recuperação e longevidade no 4º andar e marca francesa de bem-estar inédita no Brasil",
+     "source": "Exame (Casual)",
+     "url": "https://exame.com/casual/o-que-se-sabe-ate-agora-sobre-o-novo-sofitel-de-ipanema/",
+     "date": "2026-11-10",
+     "region": "Rio de Janeiro, RJ",
+     "escopo": "brasil",
+     "pilar": "longevidade",
+     "resumo": "Fechado desde 2019, o hotel reabre em 1º de dezembro como a primeira flagship da Sofitel na América do Sul, com 170 apartamentos, 51 deles suítes (o projeto original previa 220). O spa ocupa o quarto andar com foco em recuperação e longevidade e traz uma marca francesa de bem-estar que ainda não operava no Brasil, sem nome divulgado. Cinco espaços de gastronomia ficam abertos ao público externo e a ocupação deve começar perto de 10% na primeira semana.",
+     "por_que_importa": "Spa de hotel de luxo brasileiro já nasce com a palavra longevidade na porta, o que muda a régua do que o clube do Haven precisa entregar pra justificar o título. Parcerias pode descobrir qual é a marca francesa antes da abertura e pedir conversa sobre um segundo endereço no interior paulista.",
+     "para": [
+      "parcerias",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Virgin Active compra a Holmes Place Alemanha por € 135 milhões: 13 clubes premium, 84.100 sócios e 6,3 vezes o Ebitda previsto pra 2026",
+     "source": "Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Virgin-Active-buys-Holmes-Place-Germany-in-135-million-deal/363943",
+     "date": "2026-11-09",
+     "region": "Alemanha",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "O acordo é incondicional e deve fechar em meados de dezembro. O preço corresponde a 6,3 vezes o Ebitda previsto de € 21,5 milhões pra 2026, sobre receita de € 70,2 milhões. Segundo o Health Club Management, citando o European Health & Fitness Report 2026, a Alemanha tem 12,4 milhões de sócios de academia e o segmento premium deve crescer 9,3% ao ano até 2028. Numa conta simples, o preço equivale a cerca de € 1.600 por sócio.",
+     "por_que_importa": "Dá um número de mercado pro valor de uma base de sócios premium recorrente, útil no deck de investidor pra mostrar que o clube do Haven tem valor próprio, separado das casas. Vendas e parcerias podem usar o múltiplo como referência, com a ressalva de que é uma rede de academias urbanas.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Legacy Gym põe R$ 7 milhões numa academia de 3.700 m² com recovery e consultórios médicos num shopping fechado há 32 anos em São João da Boa Vista, por R$ 239 a R$ 259 por mês",
+     "source": "Exame (Negócios; matéria baseada quase só no CEO, texto com cara de divulgação)",
+     "url": "https://exame.com/negocios/shopping-abandonado-ha-32-anos-vira-academia-de-luxo-de-r-7-milhoes-no-interior-de-sp/",
+     "date": "2026-11-08",
+     "region": "São João da Boa Vista, SP",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A unidade reúne musculação, pilates, recovery, estética, restaurantes e consultórios médicos alugados por hora, numa faixa que a empresa chama de premium acessível. Segundo o CEO Roger Ramos, a meta é faturar R$ 700 mil por mês e chegar a 50 unidades no país; a segunda, na Vila Formosa, em São Paulo, abriu em agosto. Os números são todos da própria empresa.",
+     "por_que_importa": "Mostra o que o comprador do interior paulista já encontra por R$ 239 por mês: recovery, pilates e médico no mesmo prédio. O argumento de venda do Haven sai da lista de equipamentos e vai pra quem opera, quem frequenta e o que o título garante.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Eudemonia fecha em West Palm Beach com cerca de 8 mil pessoas, contra mais de 5 mil em 2025, mais de 160 marcas na feira e comunidade como tema de longevidade",
+     "source": "Athletech News (aviso de ATN Pro, corpo visível)",
+     "url": "https://athletechnews.com/eudemonia-draws-thousands-longevity-boom-gains-momentum/",
+     "date": "2026-11-09",
+     "region": "West Palm Beach, EUA",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "A edição de 5 a 8/11, que já tinha entrado aqui pela agenda, teve cerca de 8 mil participantes em três dias e outros 5 a 6 mil na corrida de 5 km e no show paralelo, com mais de 150 palestrantes e mais de 160 marcas expondo. A organização cita procura por treino de força entre mulheres, ligada ao efeito dos GLP-1, e demanda por comunidade e conexão social como parte do pacote de longevidade. Fato novo em relação ao item de 01/11: o público e os números finais.",
+     "por_que_importa": "O público de longevidade cresceu cerca de 60% em um ano e trata comunidade como item do programa, o que sustenta o desenho do clube do Haven. Parcerias pode mapear as marcas expositoras e clube pode copiar o formato do dia: força, respiração e banho frio na mesma programação, com quem ensina em vez de vender.",
+     "para": [
+      "clube",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Maserati Island: 840 residências de marca nas World Islands, em Dubai, com primeira fase de 232 unidades com piscina privativa e entregas a partir de 2030",
+     "source": "BrandedResi (BRESI, comunicado da Maserati e da Samana Collecta; números da incorporadora)",
+     "url": "https://brandedresi.com/maserati-island/",
+     "date": "2026-11-10",
+     "region": "Dubai, Emirados Árabes",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "O projeto soma 840 residências, sete villas sobre a água e duas villas nas árvores; a primeira fase tem 232 unidades, de estúdio a quatro quartos, todas com piscina privativa. As áreas comuns listadas incluem praias privativas, lagoa central, spa, pavilhões de fitness, marina e beach club. Sem preço divulgado. Fato novo em relação à Casa Maserati de 07/11, que tinha saído sem local nem unidades.",
+     "por_que_importa": "Marca de carro vendendo ilha pela lista de amenidades é o extremo oposto do Haven, 75 casas em volta de um clube. Marketing pode usar o contraste no discurso: o que sustenta preço aqui é quem está dentro, com o clube dimensionado pra esse número.",
+     "para": [
+      "marketing",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Painel da Condé Nast Traveller em Londres lista sete tendências de viagem de luxo: prêmio humano, micro aposentadoria, herança vivida em vida e recusa a otimizar cada passeio",
+     "source": "Globetrender (cobertura do Points of View, da Condé Nast Traveller)",
+     "url": "https://globetrender.com/2026/11/02/seven-luxury-travel-trends-conde-nast-traveller-2026-summit/",
+     "date": "2026-11-02",
+     "region": "Londres, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "No encontro no Chancery Rosewood, a revista apontou famílias gastando a herança juntas em viagens multigeracionais, pausas de dois a três meses no meio da carreira, acesso a pessoas interessantes valendo mais que acesso a lugares, viajantes rejeitando a otimização de cada hora e experiências de desconforto voluntário, como dez dias de sobrevivência no Panamá. Os próprios painelistas dizem que parte disso ainda não é tendência firme. A matéria não traz a data do evento.",
+     "por_que_importa": "Prêmio humano é o argumento do clube curado dito por outra indústria: gente vale mais que lugar. Marketing pode usar a ideia na narrativa de membership e clube pode pensar o título em duas gerações, com uso por filhos adultos.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Global Wellness Summit abre em Phuket a edição de 20 anos: Monitor 2026 da GWI sai em 11/11, Susie Ellis deixa o comando em 1º/1 e o GWI passa pro novo Global Wellness Group da Informa",
+     "source": "Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Global-Wellness-Summit-kicks-off-in-Thailand-for-20th-anniversary/363873",
+     "date": "2026-11-10",
+     "region": "Phuket, Tailândia",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "O encontro vai de 10 a 13/11 no Angsana Laguna Phuket, com mais de 70 especialistas e o tema ciência, arte e alma do bem-estar. A GWI apresenta em 11/11 o Global Wellness Economy Monitor 2026, com Katherine Johnston. Susie Ellis deixa a liderança executiva em 1º de janeiro de 2027 e o GWI passa a integrar o Global Wellness Group, na divisão médica da Informa, que anunciou a compra do evento no começo do ano; Nancy Davis assume a partir de janeiro. Fato novo em relação aos itens de outubro: a abertura, a transição de comando e a data do Monitor.",
+     "por_que_importa": "Os números do Monitor 2026 saem amanhã e substituem os de 2025 no deck, no site e na nota de mercado do Haven. Marketing separa o recorte de wellness real estate e comunidade assim que o sumário público aparecer.",
+     "para": [
+      "marketing",
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "TotalPass abre 11 pontos de aula gratuita em praias do Rio e de Salvador, abertos a quem não é cliente, com agendamento pelo app",
+     "source": "Máquina do Esporte (texto com cara de divulgação, números da própria empresa)",
+     "url": "https://maquinadoesporte.com.br/mercado/totalpass-abre-11-espacos-de-bem-estar-em-praias-do-rio-e-salvador/",
+     "date": "2026-11-09",
+     "region": "Rio de Janeiro, RJ, e Salvador, BA",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "São dez quiosques na orla carioca e um em Pituaçu, em Salvador, com funcional, yoga, dança, vôlei, beach tennis e futevôlei, repetindo o modelo do Parque Villa-Lobos em São Paulo. Segundo a TotalPass, a rede de academias parceiras foi de 25 mil pra 40 mil entre o fim de 2025 e outubro de 2026. Fato novo em relação ao desafio com a Queima Diária, de 06/11.",
+     "por_que_importa": "Aula aberta em lugar público com agendamento simples é a porta de entrada mais barata pra comunidade que existe. Clube pode usar o formato nos fins de semana de visita e na relação com a vizinhança de Porto Feliz.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Costão do Santinho transforma o Hotel Internacional em Grand Reserva, com spa L'Occitane au Brésil agora e ala de wellness prevista pra abril de 2027",
+     "source": "Panrotas (texto com cara de divulgação, falas só de executivos)",
+     "url": "https://www.panrotas.com.br/hotelaria/mercado/2026/11/costao-do-santinho-transforma-hotel-internacional-em-grand-reserva_233506.html",
+     "date": "2026-11-09",
+     "region": "Florianópolis, SC",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A ala renovada ganha nova identidade e benefícios pros hóspedes entre novembro de 2026 e março de 2027, incluindo o Costao SPA by L'Occitane au Brésil. A segunda fase, em abril de 2027, traz o programa Vip Inclusive e um ambiente de wellness, sem data fechada. A matéria não informa investimento nem número de quartos.",
+     "por_que_importa": "Resort de praia consolidado reposiciona a ala premium com bem-estar no nome, sinal de que o alto padrão brasileiro está empurrando wellness pra dentro do produto. Serve de comparativo de nomenclatura e de faseamento pra comunicação do clube.",
+     "para": [
+      "marketing",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Máquina Talks Running confirma a programação de 16/11 em São Paulo: corrida como estilo de vida, serviços pro corredor e corrida com entretenimento, com Ticket Sports, Corre no Ibira, Maratona do Rio e Santander",
+     "source": "Máquina do Esporte (organizador do evento)",
+     "url": "https://maquinadoesporte.com.br/maquina-talks/2o-maquina-talks-running-confirma-programacao-com-debates-sobre-a-corrida-como-estilo-de-vida/",
+     "date": "2026-11-16",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "eventos",
+     "resumo": "O encontro acontece na segunda, 16 de novembro, das 9h35 às 12h30, com inscrição pelo Ticket Sports. Tem uma palestra de abertura sobre corrida como estilo de vida e três debates: serviços pro corredor, corrida com entretenimento e corrida como plataforma de experiência. Fato novo em relação ao item de 07/11: a programação completa e os nomes.",
+     "por_que_importa": "Os três debates são a pauta de um clube de corrida do Haven dita por quem organiza prova no país. Clube e parcerias podem ir com três perguntas prontas e sair com contatos de plataforma, patrocinador e organizador.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "JLL: investimento global em moradia caiu 9% no terceiro trimestre, e a consultoria aponta envelhecimento, domicílios menores e construção insuficiente como motores de demanda",
+     "source": "JLL Research (Global Real Estate Perspective, novembro de 2026, acesso aberto)",
+     "url": "https://www.jll.com/en-us/insights/market-perspectives/global",
+     "date": "2026-11-04",
+     "region": "Global",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "O relatório de novembro mostra queda de 9% no investimento em moradia no terceiro trimestre em relação ao ano anterior, com transações caindo 7% nos Estados Unidos, 19% na região EMEA e 5% na Ásia Pacífico. Na hotelaria, as transações caíram 2% no trimestre e sobem 16% no acumulado do ano. O texto cita habitação sênior e saúde entre as áreas de maior crescimento; luxo e bem-estar não são tratados diretamente.",
+     "por_que_importa": "Contexto de capital pra conversa com investidor: o dinheiro institucional recuou em moradia, mas os motores de longo prazo que a JLL nomeia são os do Haven. Vendas usa só o que a JLL diz, sem atribuir a ela tese de bem-estar.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "No GP de São Paulo, Heineken abre casa no Villa-Lobos e lança roupa, Porto faz cápsula de streetwear, Nubank fecha casa só pra cliente e a própria F1 vende coleção",
+     "source": "Meio & Mensagem",
+     "url": "https://www.meioemensagem.com.br/marketing/gp-de-sao-paulo-2026-as-ativacoes-das-marcas-na-f1",
+     "date": "2026-11-04",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A matéria lista as ativações de Interlagos: a Nubank House de 4 a 8/11 com simulador e desafio de pit stop, o Coffee Stop da American Express na Faria Lima de 27/10 a 8/11, a cápsula de streetwear da Porto, a coleção de roupas da Heineken com casa no Parque Villa-Lobos e a coleção própria do GP. Nubank House e Amex já tinham entrado aqui em 23/10 e 30/10; o fato novo são as ativações da Heineken, da Porto e do próprio GP.",
+     "por_que_importa": "Marcas de bebida, seguro e banco usando espaço físico com acesso restrito pra criar comunidade em torno de um fim de semana. Marketing pode olhar o formato pra ativação por convite nos fins de semana de visita, e parcerias tem três marcas com apetite por espaço físico em SP.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Glossy Beauty & Wellness Summit reúne Sephora, Fenty Beauty, Midi Health e Cymbiotika de 9 a 11/11 em Westlake Village, com bem-estar como tema de crescimento da beleza",
+     "source": "Glossy (página oficial do evento)",
+     "url": "https://www.glossy.co/events/glossy-beauty-wellness-summit-nov-2026/",
+     "date": "2026-11-09",
+     "region": "Westlake Village, EUA",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "O encontro no Four Seasons Westlake Village discute a desaceleração do crescimento da beleza, a entrada do bem-estar, tarifas e IA. Entre os palestrantes estão executivos de Sephora, Fenty Beauty, Maybelline, Midi Health, Cymbiotika, Moroccanoil e Amazon Beauty.",
+     "por_que_importa": "Termômetro de como a indústria de beleza está migrando pra bem-estar, o que amplia a lista de marcas candidatas a parceiro de spa e de rituais do clube. Parcerias acompanha a cobertura da Glossy nos próximos dias.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Ibiti Projeto, em Lima Duarte (MG), apresenta em São Paulo turismo regenerativo em mais de 6 mil hectares, com 96% da área preservada e 4% pra hotelaria e produção",
+     "source": "Panrotas (texto com cara de divulgação, argumentos quase só do fundador; publicado em 28/10, fora das 72 horas)",
+     "url": "https://www.panrotas.com.br/viagens-de-luxo/hotelaria/2026/10/ibiti-projeto-apresenta-iniciativa-de-turismo-regenerativo-durante-evento-em-sp_233254.html",
+     "date": "2026-10-28",
+     "region": "Lima Duarte, MG",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A propriedade na Mantiqueira reserva 96% da área pra preservação ou regeneração e 4% pra hospedagem, produção de alimentos e atividades, com três hospedagens: Engenho Lodge, Ibiti Village e Remote. O texto diz que a pegada de carbono de cada hóspede é neutralizada por um ano, sem explicar o método. A apresentação foi no Rosewood São Paulo.",
+     "por_que_importa": "Farm hospitality brasileira vendendo a proporção de terra preservada como argumento central, o mesmo número que o Haven pode fixar em escritura pro terreno de Porto Feliz. A alegação de carbono fica fora do material enquanto não tiver método.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-09",
    "manchete": "Um quarto dos consumidores faz 40% do gasto com bem-estar, diz a McKinsey. Em três dias, a JHSF cercou esse cliente pelo caminho: aeroporto próprio com voo internacional, mala do Fasano e vinil no rooftop do Itaim.",
