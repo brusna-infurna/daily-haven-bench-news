@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-10",
+ "atualizado": "2026-11-11",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,302 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-11",
+   "manchete": "Wellness real estate cresceu 23% num ano e já vale US$ 876 bilhões, diz o GWI. No mesmo dia, a Aman pôs o clube por convite dentro da torre e o Copa pôs cinco andares de bem-estar dentro do hotel.",
+   "editorial": "O Monitor 2026 do Global Wellness Institute saiu na noite de terça em Phuket com o número que o mercado esperava: wellness real estate foi de US$ 711 bilhões pra US$ 876 bilhões em um ano, a maior alta entre os onze setores, e a projeção é de US$ 1,8 trilhão em 2030. O mecanismo por baixo do número é simples. Quase tudo que ganha a palavra wellness num memorial descritivo entra na conta, do filtro de ar à academia do condomínio, e por isso o setor cresce mais rápido que a construção. Quem perde é o comprador que paga o rótulo e recebe um spa sem operador. O que separa o rótulo do serviço apareceu nos outros itens do dia: a Aman criou a Atma e vende em Miami a prioridade de nomeação no clube por convite pra quem compra a residência, com Djokovic assinando o programa e entrega em 2031; o Copacabana Palace reabriu o Edifício Piscina com cinco andares dedicados ao bem-estar depois de 19 meses de obra; a Clinique La Prairie abriu em Phuket dentro de uma comunidade planejada, com programas de no mínimo sete dias; e o CityPickle de Boca Raton abre em 18/11 com três planos sem joia e teto de mil sócios. Em todos, o que custa caro é quem opera, por quanto tempo e pra quantas pessoas. O US$ 876 bilhões é o tamanho da promessa. O preço do título do Haven é o tamanho da entrega.",
+   "atencao": [
+    "Marketing: O número do pitch mudou ontem à noite: US$ 876 bilhões em 2025, alta de 23,2% em um ano, US$ 1,8 trilhão em 2030 e segundo maior setor do bem-estar até lá; trocar nos slides, no site e na nota de mercado com a fonte e o ano em cada frase, e guardar o US$ 711 bilhões de 2024 como base da comparação.",
+    "Vendas: A Aman vende prioridade de nomeação no clube pra quem compra a residência da Atma; a proposta do Haven precisa dizer em uma linha o que o título da casa garante no clube que o sócio externo não tem, antes que o comprador pergunte.",
+    "Clube e parcerias: O CityPickle abre com teto de mil sócios e três planos sem joia, de US$ 49 a US$ 299, e a Clinique La Prairie opera 40 vilas dentro de uma comunidade de bem-estar; vale levar os dois modelos pra conversa com operador de clínica e de raquete sobre o que cabe dentro do terreno em Porto Feliz."
+   ],
+   "bench": [
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Circuito térmico em três zonas, com metragem e lotação por zona",
+     "ideia": "Escrever no briefing do clube o circuito térmico em três zonas com nome próprio (uma de movimento e água, uma de calor e frio, uma de silêncio), cada uma com metragem e lotação máxima, pra que o projeto saia com capacidade definida e o sócio saiba onde pode falar e onde não pode. A Therme desenha Manchester em Play, Restore e Relax pra 2 milhões de visitas por ano; no Haven a mesma lógica serve pra poucas dezenas de pessoas por vez.",
+     "ref": "Therme Manchester, European Spa Magazine",
+     "url": "https://europeanspamagazine.com/new-cgis-of-therme-manchester-released/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "vendas",
+     "titulo": "Ar, luz e som com número no memorial descritivo das 75 casas",
+     "ideia": "Incluir no memorial descritivo três especificações mensuráveis da casa saudável, com a classe do filtro de ar, o sistema de iluminação circadiana e o índice de isolamento acústico entre ambientes, cada uma com o número e a norma, pra que o corretor tenha o que comparar quando o comprador citar outro empreendimento. O Capella Residences Bangkok publica MERV-14, luz circadiana e STC-60 como régua.",
+     "ref": "Capella Residences Bangkok e WellEra, Thailand Business News",
+     "url": "https://www.thailand-business-news.com/pr-news/wellera-and-capella-bring-together-the-science-of-wellness-and-the-art-of-hospitality-at-thailands-first-capella-branded-residences"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Categoria vizinho: plano de entrada pra quem mora em Porto Feliz",
+     "ideia": "Criar uma categoria de sócio pra moradores de Porto Feliz e cidades vizinhas com mensalidade baixa, sem joia, com acesso a quadras, café e programação aberta, sem spa e sem piscina, e com número fechado de vagas por ano. O CityPickle abre com o plano Community a US$ 49 por mês e teto de mil sócios no primeiro ano; o formato cria vínculo com a cidade antes da obra acabar e dá ao clube gente durante a semana.",
+     "ref": "CityPickle Boca, Athletech News",
+     "url": "https://athletechnews.com/citypickle-boca-sets-november-18-opening-for-100000-square-foot-club/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Cenário de receita de locação por casa, com piso e teto nomeados",
+     "ideia": "Montar pra proposta um cenário de receita de locação da casa em três linhas, com a diária média da hotelaria brasileira (R$ 460 e 65% de ocupação no 3º trimestre, HotelInvest) como piso, a diária de resort premium recém-aberto (R$ 2.300 a R$ 8.000 no Ohana) como teto e a hipótese do Haven no meio, com a fonte e a data em cada linha e o aviso de que é cenário, sem garantia.",
+     "ref": "Panorama da HotelInvest, Panrotas; Ohana Beach Park, O Povo",
+     "url": "https://www.panrotas.com.br/hotelaria/mercado/2026/11/hotelaria-brasileira-registra-revpar-de-r-299-no-terceiro-trimestre-de-2026_233541.html"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Quatro programas com nome próprio na página do clube antes da abertura",
+     "ideia": "Publicar na página do clube, antes da abertura, quatro programas de duração fixa com nome próprio, objetivo em uma linha, duração mínima e o que a avaliação inicial mede, mesmo que o parceiro clínico ainda esteja em contratação. A Clinique La Prairie abriu Phuket com Reverse Aging, Essence of Vitality, Master Detox e Life Reset, todos de no mínimo sete dias; o nome do programa vira o que o sócio conta pros amigos.",
+     "ref": "Clinique La Prairie Phuket, European Spa Magazine",
+     "url": "https://europeanspamagazine.com/clinique-la-prairie-opens-its-first-thai-resort-in-phuket/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Taxa de recompra como número público do Haven a partir do segundo ano",
+     "ideia": "Definir desde já uma métrica única de retorno (sócio que renova e proprietário que indica ou compra segunda cota) e publicá-la uma vez por ano no relatório pros sócios e na imprensa, com a conta explicada. A Explora Journeys usa recompra perto de 40% e NPS acima de 80 como argumento de venda ao mercado brasileiro; um número só, repetido todo ano, vale mais que dez adjetivos.",
+     "ref": "Explora Journeys, Bloomberg Línea",
+     "url": "https://www.bloomberglinea.com.br/2026/11/08/hotel-ultraluxo-que-muda-de-endereco-a-aposta-de-35-bilhoes-da-explora-journeys/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Atleta brasileiro assina o programa de raquete, com três cláusulas",
+     "ideia": "Procurar um atleta brasileiro de tênis, padel ou beach tennis pra assinar o programa de raquete do clube, com contrato em três cláusulas: presença mínima por ano no terreno, programa escrito com o nome dele e uso de imagem limitado ao clube. A Aman pôs Djokovic como sócio global da Atma e responsável pelo programa de longevidade e nutrição; no Haven o nome entra como quem desenha a grade, com obrigação de aparecer.",
+     "ref": "Aman Atma, Skift",
+     "url": "https://skift.com/2026/11/10/aman-confirms-its-secret-third-brand-is-atma-opening-in-miami-in-2031/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Pedido formal ao GWI do recorte de wellness real estate do Brasil",
+     "ideia": "Escrever ao Global Wellness Institute pedindo o recorte de wellness real estate e de gasto per capita da América Latina (o release dá US$ 635) e do Brasil no Monitor 2026, oferecendo o Haven como caso de estudo de residência com clube no interior paulista pro relatório de país de janeiro de 2027. O recorte serve pra imprensa e pro deck, e o caso de estudo coloca o Haven na lista de quem a GWI cita.",
+     "ref": "Global Wellness Economy Monitor 2026, GWI via PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/the-global-wellness-economy-hits-new-record-of-7-5-trillion-and-is-forecast-to-reach-10-9-trillion-by-2030--302932781.html"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Operador de clínica em lote próprio, com vilas e contrato de operação",
+     "ideia": "Abrir conversa com um operador de clínica de longevidade (brasileiro ou internacional com interesse no país) pra ocupar um lote do Haven com vilas próprias e clínica, em contrato de operação, com o sócio do clube tendo tarifa e prioridade de agenda. A Clinique La Prairie abriu em Phuket dentro da comunidade Tri Vananda com 40 vilas e exame de mais de 300 biomarcadores; o operador traz a credibilidade clínica e o Haven entra com o terreno e a demanda.",
+     "ref": "Clinique La Prairie Phuket, European Spa Magazine",
+     "url": "https://europeanspamagazine.com/clinique-la-prairie-opens-its-first-thai-resort-in-phuket/"
+    }
+   ],
+   "itens": [
+    {
+     "title": "GWI lança o Monitor 2026: economia do bem-estar chega a US$ 7,5 trilhões em 2025 e wellness real estate vai a US$ 876 bilhões, alta de 23,2% em um ano, com US$ 1,8 trilhão previstos pra 2030",
+     "source": "Global Wellness Institute (release via PR Newswire)",
+     "url": "https://www.prnewswire.com/news-releases/the-global-wellness-economy-hits-new-record-of-7-5-trillion-and-is-forecast-to-reach-10-9-trillion-by-2030--302932781.html",
+     "date": "2026-11-10",
+     "region": "Phuket, Tailândia (global)",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "O Global Wellness Economy Monitor 2026 foi apresentado no primeiro dia do Global Wellness Summit, com release datado de 10/11 à noite. A economia do bem-estar fechou 2025 em US$ 7,5 trilhões, alta de 8,9%, com projeção de US$ 10,9 trilhões em 2030 a 7,7% ao ano. Wellness real estate foi de US$ 711 bilhões em 2024 pra US$ 876 bilhões em 2025, alta de 23,2%, a maior entre os onze setores, e deve chegar a US$ 1,8 trilhão em 2030 a 15,3% ao ano, saindo de quinto pra segundo maior setor. Turismo de bem-estar somou US$ 982 bilhões, saúde mental US$ 301 bilhões e o gasto per capita da América Latina é de US$ 635. Fecha a pendência do Monitor anunciada em 20/10 e 10/11.",
+     "por_que_importa": "É o número novo pra abrir deck, site e nota de mercado: wellness real estate é o setor que mais cresce e triplicou desde 2019. Marketing troca os dados de 2025 hoje; a divergência entre as colunas da Forbes de outubro (US$ 548,4 e 584 bilhões) fica superada pelo US$ 711 bilhões de 2024 do próprio release.",
+     "para": [
+      "marketing",
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Aman confirma a Atma, terceira marca do grupo, com torre de 320 m em Miami: residências, clube só por convite com prioridade pro proprietário, centro de bem-estar de 11 mil m² e Djokovic como sócio global, pra 2031",
+     "source": "Skift (também na Panrotas de 10/11)",
+     "url": "https://skift.com/2026/11/10/aman-confirms-its-secret-third-brand-is-atma-opening-in-miami-in-2031/",
+     "date": "2026-11-10",
+     "region": "Miami, EUA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A Aman revelou que a terceira marca, depois da Aman e da Janu, é a Atma, voltada a esporte, bem-estar e performance living. O primeiro projeto é uma torre de 1.049 pés (cerca de 320 m) na orla da Brickell, com hotel, residências de um quarto a coberturas de seis, centro de bem-estar de 120 mil pés quadrados (cerca de 11 mil m²) com quadras de tênis, squash e padel, spa térmico e centro médico, e o Atma Club, só por convite, com nomeação prioritária pra quem compra residência. Novak Djokovic é parceiro global e assina a programação de longevidade e nutrição. Entrega prevista pra 2031, sem preço nem número de unidades.",
+     "por_que_importa": "É o caso mais próximo do modelo do Haven vindo de uma marca de topo: residência, clube por nomeação e longevidade como programação, com um atleta assinando a grade. Vendas usa como referência do que o título da casa garante no clube; parcerias olha o formato do embaixador esportivo.",
+     "para": [
+      "vendas",
+      "marketing",
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Copacabana Palace reabre o Edifício Piscina depois de 19 meses de obra: 68 suítes com varanda, 208 quartos no total, Copa Wellness Club com cinco andares dedicados ao bem-estar e o primeiro Dior Spa da América Latina",
+     "source": "Panrotas",
+     "url": "https://www.panrotas.com.br/viagens-de-luxo/hotelaria/2026/11/copacabana-palace-reabre-o-edificio-piscina-apos-reforma-de-19-meses_233528.html",
+     "date": "2026-11-10",
+     "region": "Rio de Janeiro, RJ",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "O Edifício Piscina, de 1948, reabriu com 68 suítes, todas com varanda e as mais espaçosas da história do hotel, em seis categorias novas, com suítes de dois quartos de 165 m². O hotel passa a somar 208 quartos e suítes. O prédio traz o Copa Wellness Club, com cinco andares dedicados ao bem-estar e ancorado pelo Dior Spa, o restaurante Lumio do chef Nello Cassese, novo Bar do Copa e piscina refeita, com projeto de Ivan Rezende. A matéria não traz diária nem data de abertura do spa; a Hotelier News do mesmo dia fala em diárias a partir de R$ 6,5 mil e Dior Spa em 15/11, sem conferência nesta rodada. Fato novo sobre o Dior Spa, publicado em 03/11.",
+     "por_que_importa": "Cinco andares de bem-estar dentro de um hotel de 208 quartos é mais área de clube que muito empreendimento residencial promete pra 75 casas. Serve de régua pra parcerias de spa de marca e pro argumento de que bem-estar é infraestrutura, com metragem, e vale pedir ao Copa a regra de acesso do não hóspede ao Wellness Club.",
+     "para": [
+      "parcerias",
+      "marketing",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Clinique La Prairie abre em Phuket o primeiro resort na Tailândia: 40 vilas com piscina dentro da comunidade Tri Vananda, avaliação com mais de 300 biomarcadores e quatro programas de no mínimo sete dias",
+     "source": "European Spa Magazine",
+     "url": "https://europeanspamagazine.com/clinique-la-prairie-opens-its-first-thai-resort-in-phuket/",
+     "date": "2026-11-09",
+     "region": "Phuket, Tailândia",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A clínica suíça abriu o Phuket Health Resort dentro da Tri Vananda, comunidade de bem-estar de cerca de um quilômetro quadrado de floresta e lagos. São 40 vilas com piscina privativa, piscina de 50 m, radiologia, cardiologia, crioterapia e restaurante de longevidade. Os quatro programas (Reverse Aging, Essence of Vitality, Master Detox e Life Reset) duram no mínimo sete dias e começam com avaliação de mais de 300 biomarcadores. Próximas aberturas: AMAALA em 2027 e Hudson Valley em 2028. Sem preço nem residências na matéria.",
+     "por_que_importa": "Clínica de longevidade operando dentro de uma comunidade planejada é o formato que o Haven precisa discutir com um operador: lote, vilas, contrato de operação e prioridade de agenda pro sócio. Também dá referência de programa de duração fixa e de avaliação inicial pro clube.",
+     "para": [
+      "clube",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "CityPickle abre em Boca Raton em 18/11 um clube de 9.300 m² com 25 quadras de pickleball e padel, sauna e cold plunge, três planos sem joia de US$ 49 a US$ 299 por mês e teto de mil sócios até o fim do ano",
+     "source": "Athletech News",
+     "url": "https://athletechnews.com/citypickle-boca-sets-november-18-opening-for-100000-square-foot-club/",
+     "date": "2026-11-18",
+     "region": "Boca Raton, EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "O CityPickle Boca ocupa 100 mil pés quadrados (cerca de 9.300 m²) com 25 quadras, 16 cobertas, sauna, cold plunge, fisioterapia, coworking e restaurante aberto ao público. Os planos individuais não têm taxa de entrada: Community a US$ 49, Standard a US$ 149 e Plus a US$ 299 por mês, com limite inicial de mil sócios até o fim de 2026 e diária de US$ 35 a US$ 40. A estrutura foi construída pra servir de abrigo em furacão, em parceria com o distrito de parques local. Matéria de 10/11; a data do item é a da abertura.",
+     "por_que_importa": "Membership em três níveis, teto de sócios publicado no lançamento e esporte de raquete como porta de entrada, com restaurante aberto a quem não é sócio. Clube usa pra desenhar a categoria de entrada e o limite de vagas do primeiro ano.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Hilton projeta quase triplicar a Waldorf Astoria Residences até 2030, pra 34 projetos e 3.498 unidades, com 90% vendido em Pompano Beach e casas a partir de US$ 7 milhões na Costa Rica",
+     "source": "Hospitality Net (release da Hilton)",
+     "url": "https://www.hospitalitynet.org/news/4135405/waldorf-astoria-residences-portfolio-set-to-nearly-triple-by-2030",
+     "date": "2026-11-11",
+     "region": "EUA, México, Costa Rica, Emirados, Europa e Ásia",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A Hilton projeta 34 propriedades e 3.498 unidades da Waldorf Astoria Residences até 2030. O release cita Pompano Beach com 92 residências e 90% vendidas, St. Petersburg com mais de US$ 200 milhões em vendas, Punta Cacique, na Costa Rica, com 22 casas a partir da faixa de US$ 7 milhões e mais de metade vendida, e Guadalajara, primeira residência standalone da marca na América Latina, com 53% vendido. Números da própria empresa, sem conferência independente, e o texto quase não descreve clube ou bem-estar.",
+     "por_que_importa": "Dá régua de ritmo de venda e de ticket de residência de marca em mercados que disputam o mesmo comprador de alto padrão, inclusive na América Latina. Vendas usa como contexto de velocidade por fase, com a ressalva de que é release.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "BDMS e Capella anunciam as primeiras residências Capella da Tailândia, em Bangkok, dentro do complexo WellEra de THB 29 bilhões, com filtro de ar MERV-14, luz circadiana e isolamento acústico STC-60 na especificação",
+     "source": "Thailand Business News (release via Media OutReach)",
+     "url": "https://www.thailand-business-news.com/pr-news/wellera-and-capella-bring-together-the-science-of-wellness-and-the-art-of-hospitality-at-thailands-first-capella-branded-residences",
+     "date": "2026-11-11",
+     "region": "Bangkok, Tailândia",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A BDMS Wellness Clinic, braço do grupo hospitalar BDMS, apresenta o Capella Residences Bangkok dentro do WellEra, complexo de bem-estar de THB 29 bilhões, com o Capella Hotel Group. O projeto leva a estratégia clínica da BDMS pra dentro da casa com especificações nomeadas: filtragem de ar MERV-14, iluminação circadiana e isolamento acústico STC-60, com abertura plena em 2030. Texto de divulgação, com metas da empresa; número de residências, preço e membership não são informados.",
+     "por_que_importa": "Rede hospitalar assinando o conteúdo de saúde da casa, com número na especificação, é a régua que o memorial descritivo do Haven pode adotar. Vendas e parcerias usam as três especificações como ponto de comparação.",
+     "para": [
+      "vendas",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Therme divulga novas imagens do Therme Manchester: £ 500 milhões em 28 acres, dez piscinas, 20 saunas e vapores, 33 graus o ano todo, 2 milhões de visitas por ano e abertura em 2029",
+     "source": "European Spa Magazine",
+     "url": "https://europeanspamagazine.com/new-cgis-of-therme-manchester-released/",
+     "date": "2026-11-10",
+     "region": "Manchester, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "O Therme Manchester, em Trafford City, é apresentado como o maior resort de bem-estar do Reino Unido: £ 500 milhões, 28 acres, dez piscinas, 18 toboáguas, 20 saunas e vapores, jardim de bem-estar de quase 5 mil m² e temperatura interna de 33 graus o ano inteiro, organizado em zonas Play, Restore e Relax, com 2 milhões de visitantes por ano esperados. A matéria fala em preço acessível, sem valores.",
+     "por_que_importa": "É a água quente em escala de massa, o oposto do clube curado, e ajuda a dizer o que o Haven não é. O desenho em três zonas serve de referência pra organizar o circuito térmico do clube com capacidade por zona.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Explora Journeys tem seis navios e € 3,5 bilhões investidos, recompra perto de 40%, NPS acima de 80 e o Brasil como mercado que mais cresce, diz a presidente à Bloomberg Línea",
+     "source": "Bloomberg Línea Brasil",
+     "url": "https://www.bloomberglinea.com.br/2026/11/08/hotel-ultraluxo-que-muda-de-endereco-a-aposta-de-35-bilhoes-da-explora-journeys/",
+     "date": "2026-11-08",
+     "region": "frota global (entrevista no Brasil)",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "A Explora, do grupo MSC, comprometeu € 3,5 bilhões em seis navios de cerca de 460 suítes cada, com terraço privativo e quase um tripulante por hóspede; três operam e três entram até 2028. A presidente Anna Nash diz que a taxa de recompra está perto de 40%, o NPS acima de 80 e que o Brasil é o mercado de crescimento mais rápido, com preferência pelo Mediterrâneo e pelas suítes mais caras. Sem preços e sem bem-estar na matéria. Dado de operação global publicado em veículo brasileiro.",
+     "por_que_importa": "Perfil do brasileiro de alta renda que paga pela categoria mais cara e volta, dito por quem o atende. Marketing usa a recompra como métrica de referência e parcerias pode pensar em programa com operador de experiência de alto toque.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Beach Park abre o Ohana, resort premium de 226 apartamentos em Aquiraz, com R$ 150 milhões de investimento, spa da L'Occitane au Brésil e diárias de R$ 2.300 a R$ 8.000",
+     "source": "O Povo",
+     "url": "https://www.opovo.com.br/noticias/economia/2026/11/11/beach-park-inaugura-resort-voltado-ao-mercado-de-luxo-e-mira-turistas-internacionais.html",
+     "date": "2026-11-11",
+     "region": "Aquiraz, CE",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "O Ohana Beach Park Resort abre em 11/11 como quinta hospedagem do grupo, com 226 apartamentos em sete categorias e mais de 10 mil m². O investimento foi de R$ 150 milhões e a diária vai de R$ 2.300 a R$ 8.000, com spa operado pela L'Occitane au Brésil, piscina central de 400 m², academia, coworking e biblioteca. Estrangeiros são 5% dos clientes da marca e a meta é crescer nesse público.",
+     "por_que_importa": "Um grupo de parque aquático sobe pro luxo com spa de marca e tabela acima de R$ 2 mil, o que mostra até onde o hóspede brasileiro paga por hospedagem premium. Referência de teto de diária pro cenário de locação das casas e de operador de spa de marca já ativo no país.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Hotelaria brasileira fecha o 3º trimestre com RevPAR de R$ 299, alta real de 1,5%, ocupação de 65% e diária média de R$ 460, diz prévia da HotelInvest",
+     "source": "Panrotas (prévia do Panorama da Hotelaria Brasileira, HotelInvest com Fohb)",
+     "url": "https://www.panrotas.com.br/hotelaria/mercado/2026/11/hotelaria-brasileira-registra-revpar-de-r-299-no-terceiro-trimestre-de-2026_233541.html",
+     "date": "2026-11-10",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "estudos",
+     "resumo": "A prévia da HotelInvest, com apoio do Fohb, mostra RevPAR de R$ 299 no terceiro trimestre, melhor resultado do ano, e R$ 292 no acumulado até setembro, alta real de 1,7%. A ocupação ficou em 65%, igual à de 2025, e a diária média em R$ 460, alta real de 1,1%. Rio e Belo Horizonte cresceram cerca de 10% por causa da agenda de eventos. Não há recorte do segmento de luxo nem de resorts.",
+     "por_que_importa": "Piso do mercado hoteleiro brasileiro pra comparar com diária de resort premium e com qualquer projeção de pool de locação das casas. Vendas usa como linha de base em cenário de receita; parcerias leva pra conversa com operador hoteleiro.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Hilton diz que luxo cresceu 11% e lifestyle 20% em unidades líquidas em 12 meses e banca a campanha 'Is This Hilton?' em 28 marcas; a Skift mostra que cerca de 585 desses hotéis são licenciados da Small Luxury Hotels",
+     "source": "Skift",
+     "url": "https://skift.com/2026/11/10/is-this-hilton-an-ad-blitz-answers-yes-we-have-lifestyle-hotels/",
+     "date": "2026-11-10",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A Hilton lançou em 14/09 a campanha 'Is This Hilton?' pra ligar as marcas de luxo e lifestyle ao programa Hilton Honors, com US$ 2,5 milhões em TV linear e 72 milhões de visualizações em vídeo. O CEO fala em alta de 11% no luxo e 20% no lifestyle em unidades líquidas, e a conta da Skift aponta que cerca de 585 desses hotéis vêm do acordo de licenciamento com a Small Luxury Hotels, sem operação da Hilton.",
+     "por_que_importa": "Mostra como uma rede usa o programa de fidelidade pra costurar um portfólio diverso e como a imprensa separa crescimento próprio de licenciamento. Marketing usa como aviso ao comunicar número de parceiros e de benefícios do título.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-10",
    "manchete": "Um sócio de academia premium vale € 1.600 na mesa de M&A. No interior de SP, recovery e consultório médico já cabem numa mensalidade de R$ 239.",
