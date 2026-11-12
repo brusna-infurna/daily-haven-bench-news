@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-11",
+ "atualizado": "2026-11-12",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,397 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-12",
+   "manchete": "A longevidade entrou no texto do anúncio: banheiro spa sobe 60% e cold plunge 44% nos EUA, e a vila com wellness custa até 50% a mais, parte disso enfeite. No Brasil, um em cada nove lares A e B já usa GLP-1.",
+   "editorial": "A Exame publicou na quarta a conta que faltava: pelo CEO da Visionnaire, a longevidade acrescenta até 50% ao preço de uma vila e 20% ao de um apartamento de torre, e a CEO da Turnberry admitiu no mesmo texto que parte disso é enfeite. A Zillow mostrou de onde vem o prêmio: no texto do anúncio, onde a menção a banheiro estilo spa subiu 60% em um ano, cold plunge 44%, espaço pra desconectar 34%, e a hidromassagem caiu 9%. O mecanismo é esse. O sobrepreço é cobrado pela palavra, e a palavra custa menos que o operador, por isso a oferta cresce mais rápido que o serviço, e quem perde é o comprador que paga a banheira gelada e recebe uma banheira. Miami já está uma fase à frente, vendendo pertencimento em vez de equipamento: o Faena Rose sustenta a venda do condomínio com mais de 80 eventos por ano e quadro quase cheio, e a Continuum cobra US$ 30 mil por uma mesa de um dia. No Brasil o dado do dia veio de outro lado: a Worldpanel mediu GLP-1 em 7,5% dos lares, 11,4% nas classes A e B e 7,9% no interior paulista, enquanto a Anvisa registrava mais cinco canetas e a Oura comprava um médico por US$ 625 milhões pra pôr dentro do anel. O comprador do Haven chega medicado, com o anel no dedo e com o vocabulário da Zillow na cabeça. O que ele ainda não tem é alguém que opere o resto.",
+   "atencao": [
+    "Marketing: Os números da Zillow (spa 60%, plunge 44%, desconexão 34%, hidromassagem menos 9%) e o sobrepreço de até 50% da Exame entram no material com a ressalva na mesma frase, de que um mede texto de anúncio e o outro é estimativa de um fornecedor de mobiliário; a matéria da Exame é a que o corretor vai citar, vale ler inteira antes de ele citar.",
+    "Vendas: Um em cada nove lares A e B usa GLP-1 e o interior paulista está em 7,9%; a proposta do Haven precisa dizer em uma linha o que o clube faz com o sócio em tratamento (força, nutrição, parceiro médico, e o que nunca vende) antes que o comprador pergunte, e o dado fecha a pendência de adesão do Wegovy oral.",
+    "Clube e parcerias: O Faena Rose vende o condomínio com mais de 80 eventos por ano, a Swiss Re diz que a seguradora paga desconto por hábito e a Oura cobra US$ 159 por ano pelo médico no app; o calendário mínimo do clube, a conversa com seguradora e a pergunta de quantos da lista já pagam ao anel são as três pautas da semana."
+   ],
+   "bench": [
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Área só de adultos e área de família no clube, com metragem e horário",
+     "ideia": "Escrever no briefing do clube duas zonas com nome, uma só de adultos (bar, listening bar, sauna, salas de descanso) e uma de família (piscina, restaurante, gramado), cada uma com metragem e horário em que a regra vale, e repetir a regra no regulamento do membership. O Carousel Club vende as duas coisas no mesmo prédio em Nashville dois anos antes de abrir; no Haven, com 75 casas e criança no fim de semana, a divisão decide a planta.",
+     "ref": "Carousel Club, The Tennessean",
+     "url": "https://www.yahoo.com/news/articles/strategic-hospitality-launches-private-members-222940700.html"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Teste do enfeite: três perguntas antes de qualquer item de bem-estar entrar no anúncio",
+     "ideia": "Criar uma regra de uma página pro material de vendas: nenhum item de bem-estar da casa ou do clube entra no anúncio, no deck ou no site sem resposta a três perguntas (quem opera, quantas horas por semana, quanto custa manter por ano). O que não responder fica fora do texto e entra só como item de planta. A CEO da Turnberry disse à Exame que parte da oferta de longevidade é enfeite; o teste é o que põe o Haven do lado real.",
+     "ref": "Longevidade nas casas de luxo, Exame",
+     "url": "https://exame.com/casual/como-a-busca-por-longevidade-esta-redesenhando-as-casas-de-luxo/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Mínimo de eventos por ano escrito no regulamento, com contagem publicada",
+     "ideia": "Fixar no regulamento do clube um número mínimo de eventos por ano (programação cultural, esportiva e de mesa) como obrigação do operador, e publicar a contagem a cada trimestre na página do sócio. O Faena Rose usa os mais de 80 eventos por ano como argumento de venda do condomínio em Miami; no Haven o número vira promessa auditável antes da casa ficar pronta.",
+     "ref": "Clubes privados em Miami, The Real Deal",
+     "url": "https://therealdeal.com/miami/2026/11/05/miami-private-clubs-reshape-luxury-real-estates-sales-pitch/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Marca de sauna e plunge equipa a casa-modelo e dá preço de proprietário",
+     "ideia": "Propor a uma marca de sauna e de banheira de imersão fria um acordo de marketing no modelo Clearlight e Pacaso: a marca equipa a casa-modelo e o recovery do clube, assina o espaço, e os 75 compradores ganham preço de proprietário pra instalar em casa, com o Haven sem desembolso e com o contrato de manutenção já negociado. Começar por quem tem representação e assistência no interior de SP.",
+     "ref": "Clearlight e Pacaso, GlobeNewswire",
+     "url": "https://globenewswire.com/news-release/2026/11/10/3399379/0/en/clearlight-partners-with-pacaso-to-bring-premium-home-wellness-to-modern-homeowners.html"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Piloto com seguradora: frequência no clube como dado pra desconto no prêmio",
+     "ideia": "Levar a uma seguradora de vida ou plano de saúde uma proposta de piloto de doze meses: o sócio que autorizar compartilha a frequência no clube (catraca) e um indicador simples, e recebe desconto no prêmio, no modelo que a Swiss Re cita da CSS suíça, de 10 a 15% por hábito. O clube ganha um argumento de venda com valor em reais e a seguradora ganha o dado que disse querer no GWS.",
+     "ref": "Swiss Re no GWS, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Swiss-Res-John-Schoonbee-urges-insurers-to-invest-in-prevention-as-mortality-trends-worsen/363950"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Medir o céu de Porto Feliz e publicar, com noite de observação na visita",
+     "ideia": "Medir a escuridão do céu no terreno numa noite sem lua, com um astrônomo amador ou um clube de astronomia da região, publicar o resultado como dado próprio do Haven e incluir uma hora de observação com telescópio no roteiro do fim de semana de visita. O Observatory da Viceroy vende 12 penthouses em Sun Valley com um telescópio no terraço e uma reserva de céu escuro; em Porto Feliz o céu já existe e ninguém nomeou.",
+     "ref": "The Observatory, Viceroy, Hospitality Net",
+     "url": "https://www.hospitalitynet.org/announcement/41015409/the-observatory-a-viceroy-resort-ushers-in-a-new-era-of-luxury-in-sun-valley-idaho"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Camp de três noites pra sócios num hotel parceiro, antes do clube abrir",
+     "ideia": "Montar um camp de três noites por semestre, só pra sócios e pra lista de membership, num hotel fazenda da região, com treino de manhã, uma oficina por dia e jantar comum, operado pelo parceiro de treino do clube e vendido a preço fechado. A Hyrox encheu um navio com 2 mil pessoas de 67 países e vai pra camps em hotéis em 2027; pro Haven o camp é o clube funcionando antes do prédio, e a taxa de quem vai é um dado do business case.",
+     "ref": "Cruzeiro da Hyrox, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Hyroxs-first-cruise-marks-move-into-the-holiday-market/363948"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Nutricionista nomeado por sócio, com teto de sócios por profissional",
+     "ideia": "Incluir no pacote de longevidade do clube um nutricionista nomeado por sócio, com teto de sócios por profissional escrito no contrato do parceiro clínico e uma consulta trimestral dentro da mensalidade. A L-Nutra vende isso por US$ 99 por mês num app pra 47 estados; a diferença do Haven é a pessoa com nome e o teto, e esse é o dado que vai na proposta.",
+     "ref": "L-Nutra Longevity Program, PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/l-nutra-launches-the-longevity-program-a-first-of-its-kind-membership-that-turns-longevity-science-into-a-personal-plan-for-more-healthy-years-302934283.html"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Exame mostra a longevidade entrando no preço da casa de luxo: até 50% a mais numa vila e 20% numa torre, com o wellness real estate em US$ 876 bilhões e uma incorporadora admitindo que parte da oferta é enfeite",
+     "source": "Exame (Casual, matéria de Gustavo Frank; republicada pelo Money Report em 12/11; exemplos e dados dos EUA, com GWI e Sotheby's nomeados)",
+     "url": "https://exame.com/casual/como-a-busca-por-longevidade-esta-redesenhando-as-casas-de-luxo/",
+     "date": "2026-11-11",
+     "region": "Flórida, EUA (publicado no Brasil)",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A reportagem usa dois casos da Flórida: o Banyan Tree Residences West Palm Beach, com 88 apartamentos a partir de US$ 1,9 milhão e um andar inteiro de bem-estar (spa, hammam, sauna, crioterapia e banheira gelada), e o Continuum 12000, em North Miami, com 263 unidades a partir de US$ 1,4 milhão. Pelo Global Wellness Institute, o wellness real estate foi de US$ 151 bilhões em 2017 pra US$ 876 bilhões em 2025, e a Sotheby's põe longevidade como a tendência de mais peso nas vendas acima de US$ 10 milhões. Leopoldo Cavalli, CEO da Visionnaire, estima até 50% a mais no preço de uma vila e até 20% num apartamento de torre; Jackie Soffer, CEO da Turnberry, diz que parte disso é enfeite e parte é real.",
+     "por_que_importa": "É a primeira vez que a imprensa brasileira de negócios põe número no sobrepreço da longevidade na casa, e é o texto que o corretor do Haven vai ler. A frase da Turnberry vale como régua interna: tudo que o Haven chama de bem-estar na casa ou no clube precisa ter operador, horário e custo de manutenção ditos, pra ficar do lado real da conta.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Zillow mede o que mudou no texto dos anúncios de casa nos EUA pra 2027: banheiro estilo spa sobe 60%, cold plunge 44%, espaço pra desconectar 34%, moradia multigeracional 58%, e a hidromassagem cai 9%",
+     "source": "Zillow (release do relatório 2027 Home Trends via PR Newswire; o dado é de menções em anúncios de venda da própria plataforma, de um ano pro outro)",
+     "url": "https://www.prnewswire.com/news-releases/zillows-2027-home-trends-report-digital-detox-colormaxxing-and-catios-302934350.html",
+     "date": "2026-11-10",
+     "region": "Seattle, EUA",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "O relatório compara quanto cresceu, em doze meses, a menção a cada característica em milhões de anúncios de venda da Zillow. Banheiro estilo spa subiu 60%, piscina de imersão fria 44%, espaços pra desconectar 34%, moradia multigeracional 58%, ventilação de ar fresco e água quente recirculante 52% cada, filtragem de ar 25%, academia em casa 18% e barras de apoio 18%, enquanto Jacuzzi e hidromassagem caíram cerca de 9%, cozinha gourmet caiu 15% e a palavra sustentável caiu 26%. O índice mede o que vendedores e corretores escolhem destacar, e a Zillow diz isso; ele mede vocabulário de venda, e só por tabela o gosto de quem compra.",
+     "por_que_importa": "O vocabulário de venda de casa trocou hidromassagem por recuperação e desconexão, e o Haven já fala essa língua. Serve pro material de vendas com a ressalva na mesma frase, e serve mais ainda como lista do que precisa estar na casa-modelo e no memorial: plunge, ar, água e um lugar sem sinal.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Canetas GLP-1 chegam a 7,5% dos lares brasileiros, 11,4% nas classes A e B e 7,9% no interior paulista, segundo a Worldpanel",
+     "source": "A Crítica de Campo Grande (a partir de release da Worldpanel by Numerator, via assessoria; a própria matéria diz que os números não foram auditados pela reportagem)",
+     "url": "https://acritica.net/saude/glp-1-lares-brasil-triplica-2026-centro-oeste-lidera-worldpanel/",
+     "date": "2026-11-10",
+     "region": "Brasil (interior de SP: 7,9%)",
+     "escopo": "brasil",
+     "pilar": "longevidade",
+     "resumo": "Segundo a Worldpanel by Numerator, a presença de GLP-1 nos lares foi de 2,4% em março pra 7,5% em setembro e outubro de 2026, mais de 4,5 milhões de domicílios. Nas classes A e B o índice é 11,4%, no Centro-Oeste 11,3%, na Grande São Paulo 9,4% e no interior paulista 7,9%. Entre os lares com uso, 59% citam peso como preocupação, 55% ansiedade e 49% estresse, e os usuários dizem querer cortar pão e ultraprocessados. A medição é de lares com pelo menos um usuário, parte dos dados é intenção declarada, e o release é da assessoria da Worldpanel. Dado de adesão que a pendência do Wegovy oral, de 04/11, esperava.",
+     "por_que_importa": "Um em cada nove lares A e B já tem alguém usando a caneta, e o interior paulista está perto da média nacional. O comprador do Haven chega medicado, e a proposta, o cardápio e o treino do clube precisam dizer o que fazem com isso antes que ele pergunte; a parceria com nutrologia deixa de ser extra e vira pauta de produto.",
+     "para": [
+      "vendas",
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Em Miami, incorporadores vendem pertencimento junto com a vista: o Faena Rose faz mais de 80 eventos culturais por ano e está quase cheio, e a Continuum cobra US$ 30 mil por uma mesa de um dia no Palm Tree Club",
+     "source": "The Real Deal (cobertura do painel 'Members Only: The Clubification of Miami Real Estate', no fórum do próprio veículo; publicada em 05/11 e atualizada em 09/11, extensão da janela)",
+     "url": "https://therealdeal.com/miami/2026/11/05/miami-private-clubs-reshape-luxury-real-estates-sales-pitch/",
+     "date": "2026-11-05",
+     "region": "Miami, EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "No painel do Real Estate Forum de Miami, incorporadores contaram como o clube virou argumento de venda do condomínio. O Faena Rose, clube de arte de Miami Beach, faz mais de 80 eventos culturais por ano e tem o quadro de sócios quase fechado. A Continuum cobra US$ 30 mil por uma mesa de um dia no Palm Tree Club, ao lado de um complexo de 536 unidades com marina de 20 vagas e metade da primeira fase concluída, e a North Development trocou a recepção por embaixadores de lobby no Domus Brickell Park. A matéria não traz joia nem mensalidade de nenhum clube.",
+     "por_que_importa": "Oitenta eventos por ano é um número de calendário, e calendário é o que o Haven vende antes da casa ficar pronta. Vale fixar o mínimo de eventos por ano do clube como promessa escrita na proposta, com a conta do Faena como régua.",
+     "para": [
+      "vendas",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Oura compra a Counsel Health por US$ 625 milhões em dinheiro e põe médico por assinatura de US$ 159 por ano dentro do app do anel, com receita projetada de US$ 1,75 bilhão em 2026",
+     "source": "Athletech News (aviso de ATN Pro na página; o texto estava visível na conferência)",
+     "url": "https://athletechnews.com/oura-to-acquire-counsel-health-for-625-million-ai-powered-healthcare/",
+     "date": "2026-11-10",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A compra é toda em dinheiro, sujeita a ajustes, e deve fechar antes do fim de 2026. A Oura projeta receita preliminar de cerca de US$ 1,75 bilhão no ano fiscal de 2026, alta de 92%, com mais de seis milhões de membros. A assinatura anual de US$ 159, via Oura Labs, dá acesso a uma camada de IA médica e a médicos sob demanda em 43 estados americanos.",
+     "por_que_importa": "O wearable virou porta de entrada de cuidado médico contínuo por US$ 159 ao ano, o papel que o clube quer ter pro morador. Antes de desenhar a camada clínica do Haven, vale saber quantos da lista já pagam isso ao anel e o que o clube acrescenta por cima.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Primeiro cruzeiro da Hyrox leva cerca de 2 mil pessoas de 67 países por quatro noites no Mediterrâneo, com mais de 350 horas de aula, e a marca planeja camps em hotéis em 2027",
+     "source": "Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Hyroxs-first-cruise-marks-move-into-the-holiday-market/363948",
+     "date": "2026-11-11",
+     "region": "Mediterrâneo, saída de Palma de Maiorca, Espanha",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "A viagem de 21 a 25/10 no Mein Schiff 4 teve mais de 350 horas de aulas, oficinas e painéis. A Alemanha foi 42,7% dos passageiros e o Reino Unido 14,1%, com divisão de gênero quase igual. A Hyrox diz que quer fazer camps e experiências em hotéis em 2027, e a Robinson já marcou um camp em Chipre de 15 a 22/11.",
+     "por_que_importa": "Uma comunidade de treino pagando férias pra ficar junta é o sinal mais claro de que convívio com rotina vende estadia. O Haven pode testar um camp de três noites pra sócios num hotel parceiro antes do clube abrir, e medir quem vai.",
+     "para": [
+      "clube",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Viceroy abre o Observatory em Sun Valley: 73 quartos, 12 penthouses residenciais de 140 a 325 m² e um telescópio no terraço dentro de uma reserva de céu escuro",
+     "source": "Hospitality Net (release da Viceroy)",
+     "url": "https://www.hospitalitynet.org/announcement/41015409/the-observatory-a-viceroy-resort-ushers-in-a-new-era-of-luxury-in-sun-valley-idaho",
+     "date": "2026-11-11",
+     "region": "Ketchum, Idaho, EUA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "O resort tem 73 quartos e suítes e 12 penthouses de um andar, de 1.500 a 3.500 pés quadrados (cerca de 140 a 325 m²), de dois a quatro quartos, alguns em configuração lock-off pra virar quarto de hotel. O spa de 5 mil pés quadrados (cerca de 465 m²) abre mais tarde na temporada, com piscina termal, sauna e terapias de calor e frio. O ativo que dá nome ao projeto é um observatório no terraço, dentro de uma reserva de céu escuro. Texto de divulgação da operadora, sem preço.",
+     "por_que_importa": "Doze unidades vendidas por uma experiência de lugar, o céu, em vez de por metragem. Porto Feliz tem céu de interior, e o Haven ainda não mediu nem publicou isso; é um ativo barato de nomear.",
+     "para": [
+      "marketing",
+      "vendas",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Clearlight e Pacaso põem suíte de sauna infravermelha e luz vermelha numa casa de copropriedade em La Jolla, com preço preferencial pros coproprietários",
+     "source": "Clearlight e Pacaso (release via GlobeNewswire)",
+     "url": "https://globenewswire.com/news-release/2026/11/10/3399379/0/en/clearlight-partners-with-pacaso-to-bring-premium-home-wellness-to-modern-homeowners.html",
+     "date": "2026-11-10",
+     "region": "Berkeley e La Jolla, EUA",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A fabricante de saunas Clearlight fechou parceria de marketing com a Pacaso, empresa de copropriedade de segunda residência presente em mais de 40 destinos. A casa Pacific Shores, em La Jolla, estreia a Clearlight Sauna Wellness Suite, e os coproprietários ganham preço preferencial nos produtos da marca. É texto promocional das duas empresas, sem número de vendas.",
+     "por_que_importa": "O fornecedor de sauna entrou direto na venda da casa de lazer, pagando pra estar lá. O Haven pode fazer a mesma conta ao contrário: casa-modelo equipada pela marca de sauna e plunge, com preço de proprietário pros 75 compradores.",
+     "para": [
+      "parcerias",
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "L-Nutra, dona do Prolon, lança assinatura de longevidade a US$ 99 por mês com nutricionista dedicado, exames de biomarcadores e currículo de 12 meses",
+     "source": "L-Nutra (release via PR Newswire; pesquisa Fractl encomendada pela empresa)",
+     "url": "https://www.prnewswire.com/news-releases/l-nutra-launches-the-longevity-program-a-first-of-its-kind-membership-that-turns-longevity-science-into-a-personal-plan-for-more-healthy-years-302934283.html",
+     "date": "2026-11-10",
+     "region": "Los Angeles, EUA",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "O programa de membros inclui nutricionista de longevidade, exames de biomarcadores, app com guia de IA e módulos mensais sobre sono, músculo, hormônios e cognição. Custa US$ 99 por mês mais US$ 99 de adesão, ou US$ 149 com os kits Prolon, e está em 47 estados. A pesquisa citada, da Fractl com 2.002 adultos americanos e paga pela marca, diz que 67% pagariam por programa clínico pra reduzir a idade biológica e que só 11% acompanham biomarcadores.",
+     "por_que_importa": "Benchmark de preço e de estrutura pra camada de longevidade do clube: um profissional nomeado por sócio e um calendário de doze meses. A pergunta pro parceiro clínico do Haven é quantos sócios cabem por nutricionista sem virar app.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "No Global Wellness Summit, o diretor médico da Swiss Re diz que a mortalidade parou de melhorar nos EUA e no Reino Unido e cita desconto de 10 a 15% no prêmio por hábito saudável na seguradora suíça CSS",
+     "source": "Health Club Management (republicado do Spa Business; cobertura de palestra no GWS, em Phuket)",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Swiss-Res-John-Schoonbee-urges-insurers-to-invest-in-prevention-as-mortality-trends-worsen/363950",
+     "date": "2026-11-11",
+     "region": "Phuket, Tailândia",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "John Schoonbee, diretor médico global da Swiss Re, diz que a resseguradora cobre cerca de 200 milhões de pessoas e que a mortalidade deixou de melhorar nos Estados Unidos e no Reino Unido. Segundo ele, a suíça CSS reduz o prêmio em 10 a 15% por hábitos como sete mil passos por dia. Ele cobrou das empresas de bem-estar prova de retorno em saúde e em dinheiro.",
+     "por_que_importa": "A seguradora quer dado de hábito, e o clube produz esse dado todo dia na catraca. É a porta pra uma conversa com seguradora ou plano de saúde sobre desconto pro sócio, com a frequência no clube como indicador.",
+     "para": [
+      "parcerias",
+      "vendas",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Bathhouse levantou US$ 35 milhões e mira dez unidades nos EUA, e a academia Municipal de Mark Wahlberg abre em Las Vegas em dezembro com exame de sangue e terapia hormonal a preço de academia",
+     "source": "Athletech News (balanço do Global Wellness Summit; os números da Bathhouse e da Municipal são das próprias empresas)",
+     "url": "https://athletechnews.com/from-hyrox-to-bathhouses-key-takeaways-as-wellness-economy-hits-7-5t/",
+     "date": "2026-11-11",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "Segundo a matéria, a Bathhouse abriu em setembro 36 mil pés quadrados (cerca de 3.345 m²) na Filadélfia, a primeira unidade fora de Nova York, captou US$ 35 milhões e planeja dez unidades. A Municipal, de Mark Wahlberg, abre em Las Vegas em dezembro com exames de sangue, recuperação e terapia hormonal a preço menor que os concorrentes. O GWI avisa, no mesmo balanço, que parte do crescimento premium vem de um grupo pequeno de consumidores de alto gasto. Fatos novos em relação à Bathhouse Filadélfia (21/10) e à Municipal (25/10).",
+     "por_que_importa": "O bathhouse urbano e a longevidade de massa viraram negócios com capital e plano de dez unidades, e são o concorrente indireto do sócio externo do Haven na capital. A ressalva do GWI sobre o grupo pequeno de alto gasto é a frase que calibra a conta de demanda do business case.",
+     "para": [
+      "clube",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Carousel Club, clube familiar de cerca de 8 mil m² com quadras de pickleball, cinema e área infantil, abre convite a sócios fundadores em Nashville com entrega no início de 2028",
+     "source": "The Tennessean (republicado no Yahoo News; 05/11, extensão da janela)",
+     "url": "https://www.yahoo.com/news/articles/strategic-hospitality-launches-private-members-222940700.html",
+     "date": "2026-11-05",
+     "region": "Nashville, EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "A Strategic Hospitality planeja 86 mil pés quadrados (cerca de 8 mil m²) em Berry Hill, com quadras cobertas de pickleball, sala de música, cinema, pilates e área infantil. Os convites a sócios fundadores já saíram e a lista de espera está aberta, dois anos antes da abertura. A ideia declarada é jantar com a família inteira e ter espaços só de adultos no mesmo clube.",
+     "por_que_importa": "Clube de família com zona só de adultos é a tensão que o Haven vai viver com 75 casas e crianças no fim de semana. Vale escrever no briefing a área de adultos e a de família, com metragem e horário, antes do projeto.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Vesalius Longevity Labs capta cerca de US$ 6,5 milhões em rodada liderada pelo presidente da Equinox, pra ligar médicos a terapias de peptídeos",
+     "source": "Athletech News (aviso de ATN Pro; só o trecho visível foi usado)",
+     "url": "https://athletechnews.com/equinox-chair-harvey-spevak-leads-6-5-million-financing-round-vesalius-longevity-labs/",
+     "date": "2026-11-10",
+     "region": "Canadá e EUA",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "Um grupo de investidores organizado por Harvey Spevak, presidente do conselho da Equinox, comprou cerca de 6,2 milhões de unidades a US$ 1,05 cada. O dinheiro vai pra equipe de vendas, novos mercados e uma plataforma que liga médicos licenciados a terapias de peptídeos e outras ofertas de longevidade. Spevak passou de CEO a chairman da Equinox, com Brendan Whitworth como novo CEO.",
+     "por_que_importa": "Capital de operador de clube indo pra camada médica da longevidade, e peptídeo é o terreno onde a curadoria clínica mais importa. Serve de alerta pra RFP do parceiro clínico: o que o clube do Haven nunca vai vender precisa estar escrito.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "No GWS, a co-presidente do evento separa hábito de ritual e diz que o resultado de um destino de bem-estar se mede pelo que o hóspede continua fazendo depois de ir embora",
+     "source": "Health Club Management (cobertura de palestra no GWS; a palestrante, Jessica Jesse, fundou a BuDhaGirl, marca de produtos de ritual)",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/BuDhaGirls-Jessica-Jesse-encourages-wellness-leaders-to-make-everyday-rituals-more-intentional-during-GWS/363955",
+     "date": "2026-11-12",
+     "region": "Phuket, Tailândia",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "Em palestra no Global Wellness Summit, Jessica Jesse pediu que os líderes do setor olhem além de tecnologia, longevidade e métrica. Ela separa hábito, feito sem pensar, de ritual, feito com sentido, e propõe medir o sucesso pelo que a pessoa mantém depois de sair do destino. É cobertura de evento, e a palestrante vende produto do tema.",
+     "por_que_importa": "Dá uma métrica barata pro fim de semana de visita do Haven: noventa dias depois, uma pergunta de uma linha sobre o que o prospect continuou fazendo. Serve também de linguagem pros rituais de entrada e de rotina do clube.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Hotelier News visita o Hotel Fazenda Dona Carolina, em Itatiba: 100 hectares de fazenda de café de 1872 a 110 km de São Paulo, com cavalo, trilha, tirolesa e centro de eventos pra 300 pessoas",
+     "source": "Hotelier News (série In Loco; texto com cara de divulgação, só fontes do hotel, sem número de quartos nem preço)",
+     "url": "https://hoteliernews.com.br/hotel-fazenda-dona-carolina-experiencia-de-estadia-entre-seculos/",
+     "date": "2026-11-11",
+     "region": "Itatiba, SP",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A matéria visita um hotel fazenda em Itatiba, a cerca de 110 km da capital segundo o texto, numa antiga fazenda de café de 1872 com cerca de 100 hectares, capela e árvores centenárias. A oferta inclui passeio a cavalo e de charrete, trilhas, caiaque, tirolesa, café colonial e centro de eventos pra até 300 pessoas. O texto não informa número de quartos nem diária, e as falas são da gerência.",
+     "por_que_importa": "É o lazer de fim de semana que o cliente do interior já compra a duas horas de São Paulo, e mostra como a fazenda histórica é vendida. Ajuda a dizer o que o Haven oferece de diferente: rotina e curadoria de membros em vez de atividade de aventura.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Anvisa registra cinco novas canetas de semaglutida e liraglutida, de fabricantes indianas, e o Brasil chega a 20 registros de GLP-1 em 2026",
+     "source": "Jornal Grande Bahia (redação, com informações da Agência Brasil; 07/11, extensão da janela)",
+     "url": "https://jornalgrandebahia.com.br/2026/11/anvisa-aprova-cinco-novas-canetas-para-diabetes-e-obesidade-brasil-chega-a-20-registros-de-medicamentos-glp-1-em-2026/",
+     "date": "2026-11-07",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "longevidade",
+     "resumo": "A Anvisa publicou no Diário Oficial o registro de cinco canetas: três pra diabetes tipo 2 (Aribet, Embeltah e Sevema) e duas pra obesidade (Lyrza e Wylovol, de liraglutida). Fabricadas pelas indianas Biocon e OneSource e registradas por Farma Vision, Aché e Dr. Reddy's, elas levam o país a 20 registros de GLP-1 em 2026. A reportagem lembra que registro não garante oferta imediata na farmácia e que o uso exige prescrição.",
+     "por_que_importa": "Vinte registros num ano é a oferta que vai baratear a caneta e ampliar o uso que a Worldpanel já mede em 7,5% dos lares. O clube do Haven precisa chegar à abertura com protocolo de força e composição corporal pra sócio em tratamento, sem vender nem receitar.",
+     "para": [
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "FipeZAP: preço anunciado sobe 5,49% em 12 meses nas 56 cidades, São Paulo só 3,63%, e Itapema e Balneário Camboriú passam de R$ 15 mil o metro quadrado",
+     "source": "Revista Ecotour (texto a partir de material da Boutiq Incorporadora, com a CFO como fonte; dados do índice FipeZAP de agosto de 2026, não conferidos na fonte primária)",
+     "url": "https://www.revistaecotour.news/2026/11/investidor-de-alto-padrao-comeca-olhar.html",
+     "date": "2026-11-10",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "estudos",
+     "resumo": "Com base no índice FipeZAP de agosto de 2026, os preços anunciados em 56 cidades avançaram 5,49% em doze meses, com todas em alta; São Paulo subiu 3,63%. Itapema chega a R$ 15.403 o m² e Balneário Camboriú a R$ 15.343, atrás só de Vitória, com a Selic em 13,75%. O texto defende que o investidor de alto padrão olhe função do imóvel, liquidez e custo do capital, e é material de incorporadora, com o viés de quem vende.",
+     "por_que_importa": "Régua de preço de segunda residência de alto padrão no Brasil, com o litoral catarinense acima de R$ 15 mil o m². O argumento de uso e liquidez combina com casa ligada a membership, e o número fica melhor conferido direto no FipeZAP antes de entrar em slide.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Mesa São Paulo reúne chefs no Memorial da América Latina de 12 a 14/11, com festival de produtores de entrada gratuita e jantares magnos de R$ 390 a R$ 940",
+     "source": "ELLE Brasil (matéria de 06/11; a data no campo é a do evento)",
+     "url": "https://elle.com.br/?p=216191",
+     "date": "2026-11-12",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "eventos",
+     "resumo": "O evento principal acontece de 12 a 14/11 no Memorial da América Latina, com estandes de 15 restaurantes e mais de 100 produtores artesanais no Festival Farofa do Brasil, de entrada gratuita. Quatro jantares magnos, de 10 a 13/11, em lugares como Japan House, Renaissance e Grand Hyatt, custam de R$ 390 a R$ 940 por pessoa. A programação é de gastronomia, sem foco em bem-estar.",
+     "por_que_importa": "Faixa de preço de jantar autoral em São Paulo e uma lista de cem produtores artesanais no mesmo lugar, três dias. É a feira certa pra escolher o produtor da região do clube e o chef do primeiro fim de semana de visita.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-11",
    "manchete": "Wellness real estate cresceu 23% num ano e já vale US$ 876 bilhões, diz o GWI. No mesmo dia, a Aman pôs o clube por convite dentro da torre e o Copa pôs cinco andares de bem-estar dentro do hotel.",
