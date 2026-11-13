@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-12",
+ "atualizado": "2026-11-13",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,345 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-13",
+   "manchete": "The Well fechou em Nova York e vai morar dentro de 65 casas em Miami, com teto de mil sócios e mensalidade de US$ 590. Em Porto Feliz, a JHSF contou R$ 3 bilhões de VGV no Boa Vista Estates e a Lotus pôs showroom no Village.",
+   "editorial": "O clube de bem-estar que vive sozinho vem fechando. A Reborne caiu em Londres na semana passada, a unidade de Nova York da The Well fechou agora, e a resposta da marca foi parar de abrir clube sem prédio em volta: a próxima unidade tem 65 residências em cima, clínica de longevidade dentro e menos de mil sócios a US$ 590 por mês, um preço que só fecha porque a torre paga a conta fixa. O mecanismo é esse, e vale ler junto com a Exame de ontem sobre a vila com wellness custando até 50% a mais: o clube barato pro sócio é o clube caro pro comprador da casa. No interior paulista o dinheiro já está contado. A JHSF publicou R$ 3 bilhões de VGV potencial em 250 unidades no Boa Vista Estates, R$ 7 bilhões em Santa Helena, receita de residências e clubes subindo 42% num trimestre e diária média de hotel em R$ 4.230, e a Lotus escolheu o Boa Vista Village pra encontrar o comprador antes mesmo de abrir a loja definitiva em São Paulo. Quem perde nessa conta é o clube que não tem casa pra sustentar, e quem ganha é quem explica na proposta quem paga o quê. A pesquisa da Balt na Panrotas ajuda a fechar o quadro: 9.215 milionários novos em 2025, muitos do agro e de fora do eixo, pedindo autonomia e conveniência, exatamente o que uma casa com clube e gestão vende.",
+   "atencao": [
+    "Marketing: Os números da The Well (US$ 590 por mês, US$ 750 de joia, menos de mil sócios pra 65 casas, diretor médico nomeado) entram na tabela de comparação do pitch, ao lado dos R$ 4.230 de diária média da JHSF e da posição 47 do Fasano Boa Vista no ranking da Exame.",
+    "Vendas: Os R$ 3 bilhões de VGV em 250 unidades do Boa Vista Estates são a régua pública de preço do território, e o perfil do novo milionário da Balt (agro, fora do eixo, legado e autonomia na frente) muda a ordem dos argumentos na conversa com o prospect.",
+    "Clube e parcerias: A Lotus abriu clube de proprietários e escolheu o Boa Vista Village como ponto de contato com o interior; vale procurar marcas com clube de dono pra programar o terreno, e usar Nord Gyms (£ 175 com sauna e gelo em todo plano) e Ohas (check-up de £ 295) como referência de preço na RFP do recovery e do parceiro clínico."
+   ],
+   "bench": [
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Teto de sócios escrito como múltiplo das casas, no título e no pitch",
+     "ideia": "A The Well fixou menos de mil sócios pra 65 residências, cerca de quinze por casa. O Haven publica o teto total do clube como múltiplo das 75 casas (por exemplo, oito por casa) no contrato do título e na primeira página do pitch, com o número atual de vagas ocupadas atualizado por trimestre.",
+     "ref": "The Well Bay Harbor Islands, Athletech News",
+     "url": "https://athletechnews.com/the-well-reinvents-itself-wellness-real-estate-boom-bay-harbor-islands-miami/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "vendas",
+     "titulo": "Custo fixo do clube dividido em três colunas no business case",
+     "ideia": "A mensalidade de US$ 590 da The Well só fecha porque o prédio sustenta a estrutura. O business case do Haven ganha uma tabela de custo fixo do clube em três colunas (rateio das 75 casas, mensalidade do sócio externo, parceiros operadores) com o número de sócios externos em que o clube se sustenta sozinho, e essa tabela vai pro investidor e pro comprador.",
+     "ref": "The Well Bay Harbor Islands, Athletech News",
+     "url": "https://athletechnews.com/the-well-reinvents-itself-wellness-real-estate-boom-bay-harbor-islands-miami/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Receita recorrente do clube como linha própria no deck de investidor",
+     "ideia": "A JHSF reporta Residências e Clubes como linha separada, com alta de 42% no trimestre, e o mercado lê isso como ativo. O deck do Haven pro investidor separa receita de venda de casa, mensalidade do clube e receita de parceiros em três linhas, com projeção de cinco anos e a fonte da premissa em cada uma.",
+     "ref": "Resultado da JHSF no 3T26, Forbes Brasil",
+     "url": "https://forbes.com.br/forbes-money/forbes-real-estate/2026/11/resultados-jhsf-receita-recorde-3t26/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Haven como ponto de chegada de clube de proprietários de marca",
+     "ideia": "A Lotus criou o Drivers Club e pôs showroom no Boa Vista Village pra encontrar o comprador do interior. Parcerias oferece o terreno como ponto de chegada de um passeio do clube de donos (São Paulo a Porto Feliz num sábado de manhã, café e visita à casa-modelo), começando pela Lotus e repetindo com outras marcas que tenham clube de proprietário, sem custo pra marca e com lista de prospects como contrapartida.",
+     "ref": "Casa Lotus e Lotus Drivers Club, Exame",
+     "url": "https://exame.com/casual/lotus-abre-primeira-loja-no-brasil-e-aposta-em-clube-exclusivo-para-conquistar-milionarios/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Material de vendas em segunda versão pro comprador do agro",
+     "ideia": "A pesquisa da Balt descreve o novo milionário por cinco pilares, com legado, autonomia e conveniência entre eles, e localiza boa parte dele no agro e fora do eixo Rio-São Paulo. Marketing escreve uma segunda versão do material de vendas com legado (casa que fica na família) e conveniência (gestão da casa e do clube) na frente, e testa as duas versões com cinco prospects de cada perfil antes de rodar.",
+     "ref": "Novo milionário brasileiro, Panrotas",
+     "url": "https://www.panrotas.com.br/viagens-de-luxo/mercado/2026/11/o-dinheiro-esta-mudando-de-maos-quem-e-o-novo-milionario-brasileiro-e-como-ele-viaja_233510.html"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Time Haven dentro do WHOOP e do Strava, sem app próprio",
+     "ideia": "A WHOOP pôs rede social dentro do app e 57% dos 3 milhões de membros já estão num time. Em vez de app do clube, o Haven cria um time fechado nas plataformas que o sócio já usa (WHOOP, Strava, Garmin Connect), com adesão opcional, ranking só de constância e nunca de desempenho, e uma regra escrita de que o clube não guarda o dado de ninguém.",
+     "ref": "WHOOP Humans, Fitt Insider",
+     "url": "https://insider.fitt.co/whoop-launches-in-app-social-network-whoop-humans/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Sala de respiração sem equipamento como primeira sala do clube",
+     "ideia": "O JW Marriott da Costa Rica pôs uma Mindfulness House com respiração, meditação guiada e banho sonoro no centro de um all inclusive de 415 quartos. O Haven desenha uma sala de 40 m² sem equipamento, só prática guiada em três horários fixos por dia, e a coloca no cronograma como a primeira sala que abre, antes da academia.",
+     "ref": "JW Marriott Costa Elena, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/JW-Marriott-reveals-Mindfulness-House-at-first-all-inclusive-resort-JW-Marriott-Costa-Elena-Resort-Spa/363870"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Preço do pós-exame publicado no contrato do parceiro clínico",
+     "ideia": "A Ohas cobra £ 295 pelo check-up e ganha dinheiro no tratamento que vem depois, cobrado à parte. O contrato do parceiro clínico do Haven leva anexo com a tabela de preço do que vem depois do exame (consulta, acompanhamento, exames extras), travada por doze meses, visível pro sócio antes do primeiro exame e sem comissão do clube sobre tratamento.",
+     "ref": "Clínica Ohas em Londres, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Get-A-Drip-founder-launches-15m-preventative-health-clinic-Ohas/363952"
+    }
+   ],
+   "itens": [
+    {
+     "title": "The Well para de abrir clube sem prédio em volta: em Bay Harbor Islands, Miami, 65 residências de US$ 1,3 milhão a US$ 6 milhões, menos de mil sócios a US$ 590 por mês e US$ 750 de joia, com diretor médico nomeado",
+     "source": "Athletech News (aviso de ATN Pro na página; o texto estava visível na conferência)",
+     "url": "https://athletechnews.com/the-well-reinvents-itself-wellness-real-estate-boom-bay-harbor-islands-miami/",
+     "date": "2026-11-12",
+     "region": "Miami, EUA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A The Well, clube de bem-estar nascido em Nova York, diz que as próximas unidades terão sempre componente residencial, corporativo ou imobiliário, e que a unidade de Nova York fechou. A primeira nesse modelo abre em dezembro em Bay Harbor Islands: prédio de 450 mil pés quadrados, 65 residências de US$ 1,3 milhão a US$ 6 milhões, mensalidade de US$ 590 com joia de US$ 750 e teto de menos de mil sócios. A medicina de longevidade fica com a clínica The Maximum Life, com Frank Lipman como diretor médico do prédio.",
+     "por_que_importa": "É a referência mais próxima do Haven em formato: casas com clube, médico nomeado e teto de sócios. Os números de ticket, mensalidade e joia entram na régua de vendas e no desenho da curadoria.",
+     "para": [
+      "vendas",
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "JHSF fecha o 3º trimestre com lucro de R$ 391,5 milhões, receita de residências e clubes subindo 42%, R$ 3 bilhões de VGV potencial no Boa Vista Estates e diária média de hotel em R$ 4.230",
+     "source": "Forbes Brasil (Forbes Real Estate, a partir do balanço da JHSF)",
+     "url": "https://forbes.com.br/forbes-money/forbes-real-estate/2026/11/resultados-jhsf-receita-recorde-3t26/",
+     "date": "2026-11-12",
+     "region": "Porto Feliz e Bragança Paulista, SP",
+     "escopo": "brasil",
+     "pilar": "wellness-residence",
+     "resumo": "A JHSF reportou lucro líquido de R$ 391,5 milhões no 3T26, alta de 29%, e receita bruta de R$ 917,8 milhões. A Fazenda Santa Helena, em Bragança Paulista, soma VGV potencial de R$ 7 bilhões em 450 unidades, e o Boa Vista Estates, em Porto Feliz, R$ 3 bilhões em 250 unidades. A linha de residências e clubes faturou R$ 99 milhões no trimestre, alta de 42%, e a diária média dos hotéis do grupo foi de R$ 4.230, alta de 9%.",
+     "por_que_importa": "É o termômetro público de preço e de apetite por casa com clube no território do Haven. Serve de argumento de vendas sobre demanda por residência com serviço e de referência de diária e de receita recorrente pro business case.",
+     "para": [
+      "vendas",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Lotus abre a Casa Lotus em São Paulo, cria o Drivers Club pros primeiros donos com visita à fábrica na Inglaterra e mantém showroom no Boa Vista Village, em Porto Feliz",
+     "source": "Exame (Casual; a matéria diz 'nesta quarta-feira' e foi publicada numa terça, 10/11, então o dia exato da inauguração fica ambíguo)",
+     "url": "https://exame.com/casual/lotus-abre-primeira-loja-no-brasil-e-aposta-em-clube-exclusivo-para-conquistar-milionarios/",
+     "date": "2026-11-10",
+     "region": "São Paulo e Porto Feliz, SP",
+     "escopo": "brasil",
+     "pilar": "membership",
+     "resumo": "A Casa Lotus, na Alameda Gabriel Monteiro da Silva, funciona por doze meses até a loja definitiva no complexo Cidade Jardim ficar pronta. A marca criou o Lotus Drivers Club, ligado à série Emira Drivers Club Edition, com visita à fábrica na Inglaterra e eventos pros primeiros proprietários. O showroom no Boa Vista Village, em Porto Feliz, continua. A matéria não traz preço nem anuidade do clube.",
+     "por_que_importa": "Uma marca de luxo usa clube de proprietários como argumento de venda e escolhe o Boa Vista Village como ponto de contato com o comprador do interior. Referência de benefício de membership e porta pra parceria de experiência com carros no terreno.",
+     "para": [
+      "parcerias",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Pesquisa da Balt pra escola Radix descreve o novo milionário brasileiro: 9.215 entraram na lista em 2025, muitos do agro e de fora do eixo Rio-São Paulo, com legado, autonomia e conveniência entre os cinco pilares",
+     "source": "Panrotas (Viagens de Luxo; estudo exploratório da Balt pra Radix, com números de milionários do UBS e de luxo da Bain & Company; publicada em 09/11 e atualizada em 10/11)",
+     "url": "https://www.panrotas.com.br/viagens-de-luxo/mercado/2026/11/o-dinheiro-esta-mudando-de-maos-quem-e-o-novo-milionario-brasileiro-e-como-ele-viaja_233510.html",
+     "date": "2026-11-09",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "estudos",
+     "resumo": "Segundo o UBS, com dados de 2025, o Brasil tem 386 mil milionários em dólar, 9.215 deles novos só em 2025, e a Bain estima o mercado de luxo brasileiro em R$ 98 bilhões em 2024. O estudo da Balt, apresentado em 11/11 em São Paulo, descreve o novo rico, em boa parte do agro e do comércio fora do eixo Rio-São Paulo, por cinco pilares: legado, meritocracia, visibilidade, autonomia e conveniência. A pesquisa é exploratória e o relatório completo não está aberto.",
+     "por_que_importa": "Afina o discurso pro comprador fundador, que tende a vir do interior e valoriza autonomia e conveniência. Muda a ordem dos argumentos no material de vendas e na curadoria de membros.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "WHOOP lança rede social dentro do app: 57% dos 3 milhões de membros já estão num time e o app é aberto cerca de oito vezes por dia",
+     "source": "Fitt Insider",
+     "url": "https://insider.fitt.co/whoop-launches-in-app-social-network-whoop-humans/",
+     "date": "2026-11-12",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "O WHOOP Humans permite adicionar amigos, compartilhar notas de sono, recuperação e esforço, postar atividades e marcos com foto e comentar. A Fitt Insider informa que 57% dos cerca de 3 milhões de membros já estão em pelo menos um time e que o app é aberto cerca de oito vezes por dia, uso que a empresa quer manter dentro da própria plataforma, longe do Strava e dos seus mais de 200 milhões de usuários. Oura Circles e Garmin Connect aparecem como movimentos parecidos.",
+     "por_que_importa": "Marca de saúde tratando comunidade como produto, com dado do corpo como assunto de conversa. Dá formato pros grupos do clube, como desafios coletivos e ranking de constância entre vizinhos, e levanta a pergunta de que dado o Haven guarda.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Nord Gyms abre em Londres, entre dezembro e janeiro, academia de força com sauna e banho de gelo incluídos em todo plano, a £ 175 por mês ou £ 135 fora do pico",
+     "source": "Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Nord-Gyms-to-launch-training-and-contrast-therapy-concept-in-London/363945",
+     "date": "2026-11-11",
+     "region": "Londres, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "O Nord N8, em Crouch End, vende treino de força, personal a £ 75 a sessão e terapia de contraste de inspiração nórdica, com sauna e imersão no gelo em todos os planos e nas sessões avulsas. A mensalidade é de £ 175, ou £ 135 fora do pico, com joia de £ 50, e a promoção de abertura é £ 150 por treze meses sem joia. O subtítulo fala em dezembro, o corpo diz até janeiro, e a data exata não foi anunciada. Os fundadores falam em um grupo de unidades em Londres em cinco anos.",
+     "por_que_importa": "Preço de referência de membership com recuperação térmica embutida, sinal de que o contraste térmico vira item de série. Ajuda a decidir o que entra no plano base do clube.",
+     "para": [
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Fundador da Get A Drip põe £ 1,5 milhão na Ohas, clínica preventiva em Londres com check-up de 30 minutos a £ 295, 54 marcadores de sangue e tratamento cobrado à parte",
+     "source": "Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Get-A-Drip-founder-launches-15m-preventative-health-clinic-Ohas/363952",
+     "date": "2026-11-11",
+     "region": "Londres, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A Ohas abre em janeiro de 2027 em Westbourne Grove, com Richard Chambers como CEO e o clínico geral Luke Pratsides como diretor médico. O Health Scan de 30 minutos custa £ 295, com exame de 54 marcadores, mapeamento corporal 3D e FibroScan do fígado, e o tratamento é cobrado à parte. A matéria compara com a Neko Health, que cobra £ 299 no Reino Unido por uma visita de uma hora.",
+     "por_que_importa": "Mostra o preço de entrada do check-up preventivo, na faixa de £ 300, e onde está o dinheiro: no que vem depois do exame. Serve de base pro contrato do parceiro clínico do clube.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "JW Marriott abre na Costa Rica o primeiro all inclusive da marca, com 415 quartos, 16 mil pés quadrados de bem-estar e a primeira Mindfulness House, de meditação guiada, respiração e banho sonoro",
+     "source": "Health Club Management (republicado do Spa Business)",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/JW-Marriott-reveals-Mindfulness-House-at-first-all-inclusive-resort-JW-Marriott-Costa-Elena-Resort-Spa/363870",
+     "date": "2026-11-13",
+     "region": "Guanacaste, Costa Rica",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "O JW Marriott Costa Elena, reposicionamento do antigo Dreams Las Mareas, tem 415 quartos e um espaço de bem-estar de 16 mil pés quadrados com spa de dez salas, sauna, vapor, cold plunge e a primeira Mindfulness House da bandeira, com meditação guiada, respiração e banho sonoro. Também tem quartos Mindful, 17 piscinas, 15 pontos de comida e bebida e o Griffin Club, um resort dentro do resort.",
+     "por_que_importa": "Uma bandeira de massa põe circuito térmico e prática de atenção no centro de um all inclusive, sinal de que o repertório do clube de bem-estar já virou expectativa do hóspede comum. Referência pra sala de prática silenciosa do clube.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "ZEL, marca de Rafael Nadal e Meliá, estreia no México com o ZEL Cozumel: 209 quartos, estúdio de treino 24 horas, spa e centro de cuidado com o Saint Luke's Hospitals cobrado à parte",
+     "source": "Hospitality Net (release da operadora; o texto não informa a data de abertura)",
+     "url": "https://www.hospitalitynet.org/announcement/41015404/zel-makes-its-mexico-debut-with-zel-cozumel-bringing-rafael-nadal-and-melia-hotels-internationals-active-and-social-wellbeing-lifestyle-to-the-mexican-caribbean",
+     "date": "2026-11-10",
+     "region": "Cozumel, México",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "O antigo Meliá Cozumel vira o primeiro ZEL do México, com 209 quartos e suítes, estúdio de treino 24 horas, estúdio de yoga e meditação, spa AUA e um Care Center com o Saint Luke's Hospitals, cobrado à parte. A programação inclui vinyasa, pilates, sound healing e hidroginástica, e a marca já tem unidade em Punta Cana desde março de 2025. Fecha a pendência de 12/11, quando a página não abriu.",
+     "por_que_importa": "Marca de esportista aplicada a hotel com bem-estar ativo e social, com serviço médico de parceiro cobrado à parte. Referência pra parceria com atleta e pro desenho da grade de aulas do clube.",
+     "para": [
+      "parcerias",
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "TONUS abre em Wynwood, Miami, estúdio de recuperação linfática com infravermelho: sessão de 30 minutos a US$ 35 na primeira vez e plano mensal a partir de US$ 165 por quatro sessões",
+     "source": "Fitt Insider (release da empresa)",
+     "url": "https://insider.fitt.co/press-release/tonus-brings-an-infrared-powered-lymphatic-recovery-studio-to-wynwood/",
+     "date": "2026-11-12",
+     "region": "Miami, EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "O estúdio de Kate Hernandez oferece o Tonus Roll de 30 minutos, com rolos, infravermelho e lâmpadas de colágeno, e uma cama PEMF que combina cinco tecnologias. A primeira sessão custa US$ 35 e o plano mensal começa em US$ 165 por quatro sessões, com entrada sem agendamento e opção de visita corporativa. Os números são da própria empresa.",
+     "por_que_importa": "Recuperação vendida em sessão curta e assinatura de valor baixo, formato possível pra um espaço de recovery dentro do clube. Referência de preço de entrada.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Fasano Boa Vista, em Porto Feliz, fica em 47º no ranking Exame dos 50 melhores hotéis do Brasil; Fasano Jardins sobe de 24º pra 6º, e na Bahia Uxua é 16º, Txai Itacaré 19º e Fasano Trancoso 48º",
+     "source": "Exame (Casual; recortes de São Paulo, de 10/11, e da Bahia, de 12/11, do ranking já noticiado em 29/10 e 09/11; fato novo é a posição do vizinho de Porto Feliz)",
+     "url": "https://exame.com/casual/os-melhores-hoteis-de-sao-paulo/",
+     "date": "2026-11-10",
+     "region": "São Paulo e Porto Feliz, SP",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "No ranking Casual Exame 50 Melhores Hotéis do Brasil, terceira edição, com 34 especialistas, o estado de São Paulo soma dez hotéis. A capital tem cinco, entre eles Rosewood em 2º, Palácio Tangará em 4º e Fasano Jardins em 6º, contra 24º em 2025, e o Fasano Boa Vista, em Porto Feliz, aparece em 47º. O recorte da Bahia, publicado em 12/11 (exame.com/casual/de-salvador-a-trancoso-os-9-melhores-hoteis-da-bahia/), traz Uxua em 16º, Txai Itacaré em 19º e Fasano Trancoso em 48º.",
+     "por_que_importa": "Marco público de como o vizinho mais próximo do Haven é avaliado por críticos, e repertório de hospitalidade em destino de segunda residência. Serve de comparação de serviço e de desenho pro time de marketing.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Smart Fit lucra R$ 248 milhões no 3º trimestre, alta de 40%, com 2.259 academias em 17 países, 5,7 milhões de alunos e meta de 330 a 350 aberturas em 2026",
+     "source": "Mercado&Consumo (com Estadão Conteúdo; dado consolidado, sem recorte só do Brasil; publicada em 05/11, extensão da janela)",
+     "url": "https://mercadoeconsumo.com.br/05/11/2026/noticias/smart-fit-tem-lucro-de-r-248-mi-no-3o-trimestre-alta-de-40/",
+     "date": "2026-11-05",
+     "region": "Brasil (operação em 17 países)",
+     "escopo": "brasil",
+     "pilar": "membership",
+     "resumo": "A Smart Fit teve receita de R$ 2,3 bilhões, alta de 29%, e Ebitda ajustado de R$ 763 milhões no 3T26. A rede chegou a 2.259 unidades em 17 países, com 5,7 milhões de alunos, e projeta de 330 a 350 aberturas em 2026. O Investidor10, no mesmo dia, informa que a TotalPass tem 2,5 milhões de clientes no Brasil e no México, alta de 66% em um ano.",
+     "por_que_importa": "Mostra o tamanho do hábito de treinar no Brasil, a base sobre a qual o público premium se diferencia. Argumento de vendas sobre por que a academia dentro do clube pesa na escolha da casa.",
+     "para": [
+      "vendas",
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Asics relança o Lume Club, clube de corrida pra mulheres, com corrida noturna de lanterna e mercado de marcas fundadas por mulheres, e primeiros encontros em Fortaleza e São Paulo",
+     "source": "O Povo+ (coluna de Ana Rute Ramires, com informações da marca; texto com cara de divulgação, parcialmente atrás de paywall; publicada em 30/10, extensão da janela)",
+     "url": "https://mais.opovo.com.br/colunistas/ana-rute-ramires/2026/10/30/asics-relanca-clube-de-corrida-para-mulheres-fortaleza-tera-primeiro-encontro.html",
+     "date": "2026-10-30",
+     "region": "São Paulo, SP e Fortaleza, CE",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "A Asics relançou em 27/10, em São Paulo, o Lume Club, criado em 2022, com corrida coletiva de cerca de 4 km à noite com lanternas e um mercado de marcas fundadas por mulheres. Os primeiros encontros foram em Fortaleza, em 3/11, e em São Paulo, em 4/11, com embaixadoras locais e grupo no WhatsApp. A marca cita pesquisa própria de 2024 em que 74% das mulheres apontam falta de tempo e 43% falta de espaço seguro como barreiras pra correr; só o trecho aberto foi usado.",
+     "por_que_importa": "Run club de marca com ritual noturno, embaixadoras e benefício, formato replicável na programação do clube. Abre conversa de parceria com marca esportiva pra encontro no Haven.",
+     "para": [
+      "clube",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Grupo Carnaúba e Minor Hotels lançam 24 casas Anantara Residences de 562 m² no Preá, no Ceará, com operação do resort e programa oficial de locação",
+     "source": "Panrotas (Hotelaria; publicada em 30/10, extensão da janela; sem VGV)",
+     "url": "https://www.panrotas.com.br/hotelaria/investimentos/2026/10/grupo-carnauba-e-minor-hotels-lancam-projeto-de-24-residencias-no-ceara_233286.html",
+     "date": "2026-10-30",
+     "region": "Preá, CE",
+     "escopo": "brasil",
+     "pilar": "wellness-residence",
+     "resumo": "A Anantara Residences Preá Ceará, estreia da marca nas Américas, terá 24 casas de 562 m² com quatro suítes, rooftop privativo, sauna e piscina, desenho de Miguel Pinto Guimarães, em Vila Carnaúba. A operação fica com a equipe do Anantara Preá Ceará Resort, em obras, e os donos podem entrar no programa oficial de locação. A matéria dá cerca de 20 minutos até o Aeroporto Regional de Jericoacoara e não informa VGV.",
+     "por_que_importa": "Casa de marca com serviço de hotel e opção de locação, a mesma lógica de residência com gestão. Referência pra posicionar concierge, limpeza e segurança como parte do valor da casa.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Smart Fit Run Chile, em 13/12 no Estadio Nacional de Santiago, tem 6 mil vagas, provas de 3, 5 e 10 km e festival de encerramento com show, com acesso pro corredor e um acompanhante",
+     "source": "G5noticias (Chile; dado de outro país, veículo chileno; fecha a pendência de 12/11, com data de publicação confirmada em 05/11)",
+     "url": "https://g5noticias.cl/2026/11/05/francisca-valenzuela-encabezara-el-festival-de-cierre-de-smart-fit-run-2026/",
+     "date": "2026-11-05",
+     "region": "Santiago, Chile",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "A primeira grande corrida da Smart Fit no Chile será em 13 de dezembro, no Parque Deportivo Estadio Nacional, com largadas a partir das 8h30, 6 mil vagas e festival de encerramento com Francisca Valenzuela e ativações de marcas. A inscrição dá acesso ao festival pro corredor e um acompanhante, com kits de 18 mil a 30 mil pesos chilenos.",
+     "por_que_importa": "Rede de academia usando corrida com festival e acompanhante como porta de entrada de comunidade, formato que serve pra um evento aberto do clube. Fica como referência de fora, sem aplicação direta no Brasil.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-12",
    "manchete": "A longevidade entrou no texto do anúncio: banheiro spa sobe 60% e cold plunge 44% nos EUA, e a vila com wellness custa até 50% a mais, parte disso enfeite. No Brasil, um em cada nove lares A e B já usa GLP-1.",
