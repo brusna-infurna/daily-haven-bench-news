@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-13",
+ "atualizado": "2026-11-14",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,293 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-14",
+   "manchete": "A McKinsey abriu o relatório inteiro: 40% dos consumidores dizem que a oferta de bem-estar ainda falha em longevidade, e 30% já tratam o treino como a principal saída social. No Morumbi, a Meta põe R$ 50 milhões num clube de 300 famílias a R$ 3.500 por mês pra vender 77 apartamentos.",
+   "editorial": "O clube virou ferramenta de venda do prédio, e o prédio virou base de sócios do clube. A Meta vai operar o clube do J442 por empresa própria, separada do condomínio, com prioridade pros 77 compradores e as cotas restantes pros donos de outros empreendimentos dela na região. Na conta simples, 300 títulos a R$ 3.500 dão R$ 12,6 milhões por ano antes da adesão, que ainda está sem valor, pra sustentar R$ 50 milhões de obra. Em Tampa, a academia de Mark Wahlberg assina o térreo de uma torre de 360 apartamentos, e em Tribeca a Persana abre em dezembro com médico de longevidade opcional e preço que ninguém publica. A McKinsey diz que a lacuna de longevidade está parada desde 2024, e no palco do Global Wellness Summit circulou que 61 de cada 100 clínicas de longevidade num estudo de 88 unidades não dão lucro, número de palco e sem link. Quem perde é quem constrói a clínica achando que ela paga o clube. O que sustenta a conta é o sócio que fica, e ele fica pelo treino com gente, pelo café depois e pela cota que o vizinho não conseguiu.",
+   "atencao": [
+    "Marketing: O relatório da McKinsey agora está aberto e inteiro, com PDF de 13 páginas, e o US$ 2,7 trilhões só entra em peça com a ressalva de que a conta mudou de categoria; os 53% valem pra marcas de bens de consumo e só pra elas.",
+    "Vendas: O Meta Club é o primeiro comparável paulistano de clube vendido junto com apartamento, 300 famílias a R$ 3.500 por mês e adesão ainda sem valor; vale pôr na tabela de comparáveis ao lado do The Well e do Jockey antes da próxima conversa com investidor.",
+    "Clube e parcerias: O Fórum da Longevidade do Bradesco é terça, 17/11, às 14h, no Teatro Bradesco, com Kalache, Calabrez e Mary Del Priore no mesmo palco; alguém do time vai, e a Withings entra na lista de fornecedores de composição corporal pra RFP do recovery."
+   ],
+   "bench": [
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Mensalidade estimada do clube publicada antes do lançamento",
+     "ideia": "A Meta divulgou R$ 3.500 por mês como estimativa preliminar antes de lançar o J442, com a adesão ainda em definição. O Haven publica no site, já na fase de lista, uma faixa de mensalidade marcada como estimativa, com data de revisão, e mede quantos nomes da lista pedem a proposta nos 30 dias seguintes.",
+     "ref": "Meta Club, EuQueroInvestir",
+     "url": "https://euqueroinvestir.com/estiloelazer/clubes-privados-mercado-imobiliario-luxo"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Gramado de treino ao ar livre antes da academia",
+     "ideia": "A Municipal de Tampa reserva 15 mil pés quadrados de gramado sintético dentro da academia. No Haven, o primeiro equipamento de treino a ficar pronto é um gramado de treino de cerca de 1.000 m² no masterplan, com trenó, cordas e marcações de 40 m, aberto nos fins de semana de visita antes de qualquer sala coberta.",
+     "ref": "Municipal em Tampa, Athletech News",
+     "url": "https://athletechnews.com/mark-wahlberg-eos-fitness-municipal-gym-heads-to-tampa-mixed-use-tower/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Categoria sócio jovem por semestre, com noite de contraste sem álcool",
+     "ideia": "A Wellness Society cobra US$ 30 por semestre de universitários e a Sweat & Soak faz festas sem álcool com terapia de contraste. O Haven cria a categoria sócio jovem pros filhos adultos dos sócios, de 18 a 30 anos, com cobrança por semestre e uma noite mensal de sauna e gelo sem álcool, patrocinada por marca de bebida sem álcool.",
+     "ref": "Clubes de bem-estar nos campi, Fitt Insider",
+     "url": "https://insider.fitt.co/college-campuses-become-wellness-hotspots/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Dois treinos coletivos por dia como a programação social do clube",
+     "ideia": "A McKinsey achou que 30% dos consumidores tratam o treino como a principal saída social, 42% na geração Z. A grade do clube abre com um treino coletivo de 45 minutos às 7h e outro às 18h, todo dia, sem reserva, e a contagem de quem fica pro café depois vira o indicador de comunidade do relatório trimestral.",
+     "ref": "Future of Wellness 2027, McKinsey",
+     "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Todo conteúdo de saúde do Haven com uma pessoa nomeada como voz",
+     "ideia": "A McKinsey mediu em quem o consumidor confia pra bem-estar: 35% em amigos e família, 30% em profissionais de saúde, 8% em chatbots de IA. Regra de comunicação: nenhuma peça de saúde do Haven sai sem um sócio ou um profissional nomeado como voz, e a série dos sociais passa a abrir com o nome e o papel de quem fala.",
+     "ref": "Future of Wellness 2027, McKinsey",
+     "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Balança de composição corporal de grau clínico em cada casa",
+     "ideia": "A Withings lançou a Body Pro de terceira geração, com composição corporal no padrão DEXA e alerta de hipertensão, e criou uma divisão médica. O Haven inclui uma balança desse tipo no pacote de entrega das 75 casas, com RFP entre a Withings e um fornecedor com assistência no Brasil, e o dado agregado entra no relatório anual de convivência.",
+     "ref": "Withings, Fitt Insider",
+     "url": "https://insider.fitt.co/withings-accelerates-growth/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Curadores do ciclo de 2027 mapeados no palco do Bradesco em 17/11",
+     "ideia": "O Fórum da Longevidade do Bradesco reúne Kalache, Pedro Calabrez, Mary Del Priore, Eduardo Giannetti e Margaret Gillis numa tarde. Alguém do time assiste com uma ficha por palestrante (tema, tom, aderência ao Haven) e sai com dois convites pro ciclo de palestras do clube em 2027, começando por Calabrez e Del Priore.",
+     "ref": "19º Fórum da Longevidade, Bradesco Seguros via CQCS",
+     "url": "https://cqcs.com.br/noticia/grupo-bradesco-seguros-realiza-19a-edicao-do-forum-da-longevidade-com-foco-em-novas-perspectivas-sobre-viver-mais/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "RFP do operador do clube pontuada em 70% conceito e 30% preço",
+     "ideia": "No Global Wellness Summit, Colin Low, da Patience Lifestyle, disse pesar 70% conceito e 30% preço nas concorrências de operação. A RFP do operador do clube do Haven sai com a planilha de pontuação publicada pros candidatos, 70 pontos de conceito divididos em programação, ritual de chegada e retenção, e 30 pontos de preço.",
+     "ref": "Global Wellness Summit, dia 2, Spa & Wellness MexiCaribe",
+     "url": "https://spawellnessmexico.com/blog/42428/global-wellness-summit-2026-day-two/"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Meta Incorporadora põe R$ 50 milhões num clube privado no Jardim Guedala, em São Paulo: 5 mil m², 300 famílias, mensalidade estimada em R$ 3.500 e prioridade pros 77 compradores do J442",
+     "source": "EuQueroInvestir (Estilo e Lazer, Roberta Picinin; números da incorporadora)",
+     "url": "https://euqueroinvestir.com/estiloelazer/clubes-privados-mercado-imobiliario-luxo",
+     "date": "2026-11-06",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "membership",
+     "resumo": "A Meta planeja cerca de R$ 50 milhões num clube de cerca de 5 mil m² na região do Morumbi, com capacidade pra 300 famílias e mensalidade preliminar de R$ 3.500 por título; a adesão ainda não tem valor. O clube pertence ao J442, prédio de 77 apartamentos com VGV projetado de R$ 750 milhões, projeto de Gui Mattos, lançamento no primeiro semestre de 2027 e entrega estimada em 2031, e será operado por empresa própria, separada do condomínio. Compradores do J442 têm prioridade e as demais cotas vão a proprietários de outros empreendimentos da Meta na região; o programa tem quadras cobertas de tênis, padel e pickleball, academia, trabalho, concierge e três operações gastronômicas sem marca anunciada. A matéria cita o Wealth Report 2025 da Knight Frank e dados do GWI (US$ 584 bilhões em 2024), não conferidos na fonte primária; o CEO Alexandre Souza Lima diz que a empresa prefere não atribuir percentual de valorização ao clube. Publicada em 06/11, fora da janela de 72 horas, e entra por ser o comparável paulistano mais próximo do modelo do Haven.",
+     "por_que_importa": "É o primeiro comparável de São Paulo com clube vendido junto com o imóvel, operado à parte e com preço de mensalidade dito antes do lançamento. Vendas põe na tabela de comparáveis e o clube usa a regra de prioridade e de cotas como referência de desenho.",
+     "para": [
+      "vendas",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "McKinsey abre o Future of Wellness 2027 inteiro: mercado de US$ 2,7 trilhões, 40% dos consumidores dizem que a oferta falha em longevidade e 30% tratam o treino como a principal saída social",
+     "source": "McKinsey & Company (artigo aberto de 03/11 com PDF de 13 páginas; a sessão reconferiu a página, não o PDF)",
+     "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends",
+     "date": "2026-11-03",
+     "region": "Global (EUA, China, Alemanha, Reino Unido)",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "Fato novo em relação às prévias de 07/11 e 09/11: a versão completa está aberta no mckinsey.com, com mais de 10 mil consumidores ouvidos em quatro países e dados que as prévias não traziam. Cerca de 40% dos consumidores globais dizem que a oferta atual atende mal longevidade, saúde mental e mobilidade, lacuna parada desde 2024; a fatia de baby boomers que prioriza bem-estar subiu 11 pontos, pra 49%; 30% dizem que o treino virou a principal saída social, 42% na geração Z; a confiança pra decidir sobre bem-estar está em amigos e família (35%), profissionais de saúde (30%) e chatbots de IA (8%). Entre usuários de GLP-1, 35% comem mais proteína e 18% passaram a treinar força. O relatório avisa que os US$ 2,7 trilhões não comparam com os US$ 2 trilhões do ano passado porque as categorias mudaram, e os 53% das marcas que crescem mais de 20% ao ano com bem-estar no centro valem só pra bens de consumo.",
+     "por_que_importa": "Fonte primária aberta pra sustentar que longevidade ainda é demanda sem oferta, e o dado dos boomers ajuda a falar com o comprador de 55 a 70 anos. Antes de usar o US$ 2,7 trilhões em material de venda, citar a ressalva de comparabilidade.",
+     "para": [
+      "vendas",
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Persana, clube só pra sócios em Tribeca, abre em dezembro com Technogym, sauna, gelo e médicos de longevidade opcionais, sem preço nem número de sócios divulgados",
+     "source": "Athletech News",
+     "url": "https://athletechnews.com/power-monkey-fitness-founders-swing-into-tribeca-with-members-only-club-persana/",
+     "date": "2026-11-13",
+     "region": "Nova York, EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "Dave e Sadie Durante, fundadores da Power Monkey Fitness, abrem a Persana no início de dezembro na 125 Hudson St, com equipamentos Technogym e acompanhamento pelo app MyWellness. O clube tem imersão em água gelada, saunas, compressão e percussão, bar de café e suplementos, e serviços médicos e de performance opcionais com clínicos de longevidade. Preço e capacidade não foram divulgados e o interessado deixa contato no site.",
+     "por_que_importa": "É o formato que vem se repetindo em clube urbano: treino, recuperação e médico opcional vendido à parte. Serve de referência pra decidir o que entra no plano base do clube do Haven e o que fica como serviço pago, e mostra a lista de interessados usada como ferramenta de venda.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Municipal, academia de Mark Wahlberg com a EoS Fitness, assina 30 mil pés quadrados no térreo de uma torre de 360 apartamentos e US$ 200 milhões em Tampa",
+     "source": "Athletech News",
+     "url": "https://athletechnews.com/mark-wahlberg-eos-fitness-municipal-gym-heads-to-tampa-mixed-use-tower/",
+     "date": "2026-11-12",
+     "region": "Tampa, EUA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "Fato novo em relação aos itens de 25/10, 03/11 e 12/11 sobre Las Vegas: a Municipal fechou a segunda unidade, na base do DoMo at Cass Square, torre de 27 andares da incorporadora LD&D. O programa tem 15 mil pés quadrados de gramado sintético, simulador de golfe, a sala de circuito 4:AM Club e recuperação com imersão, crioterapia, luz vermelha, sauna e soro, aberta a moradores e ao público em geral. O preço de Tampa não foi informado, e as datas de abertura de Las Vegas divergem entre as fontes, então ficam fora.",
+     "por_que_importa": "Academia de marca como âncora de torre residencial, com recuperação no centro do programa. Ajuda a pensar o operador do clube como parceiro e a apresentar o clube como serviço aberto a quem mora em volta.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Bradesco Seguros faz o 19º Fórum da Longevidade em 17/11, no Teatro Bradesco, com Kalache, Giannetti, Calabrez, Mary Del Priore e Margaret Gillis, do ILC Canadá",
+     "source": "CQCS (release da Bradesco Seguros, publicado em 11/11)",
+     "url": "https://cqcs.com.br/noticia/grupo-bradesco-seguros-realiza-19a-edicao-do-forum-da-longevidade-com-foco-em-novas-perspectivas-sobre-viver-mais/",
+     "date": "2026-11-17",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "eventos",
+     "resumo": "A 19ª edição tem o tema Novos Horizontes e começa às 14h de 17 de novembro, no Teatro Bradesco. A programação cobre convivência, conhecimento, finanças e saúde, com Alexandre Kalache, o neurocientista Pedro Calabrez, a historiadora Mary Del Priore, os economistas Eduardo Giannetti e Myriã Bast, o geriatra Daniel Azevedo e a canadense Margaret Gillis. Conceição Evaristo recebe o prêmio Ícone da Longevidade; o release não traz a agenda por horário.",
+     "por_que_importa": "Fórum de longevidade de uma seguradora grande, com público de alta renda, e um mapa de quem pauta a conversa no segmento. Kalache, Calabrez e Del Priore são candidatos ao ciclo de palestras do clube.",
+     "para": [
+      "parcerias",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Fitt Insider mapeia clubes de bem-estar nos campi dos EUA: a Wellness Society declara 75 mil membros em 145 universidades a US$ 30 por semestre, com Alo e Celsius como patrocinadoras",
+     "source": "Fitt Insider (matéria de análise; números das próprias empresas, não conferidos na fonte primária)",
+     "url": "https://insider.fitt.co/college-campuses-become-wellness-hotspots/",
+     "date": "2026-11-13",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "A matéria reúne quatro negócios que vendem bem-estar à geração Z por comunidade: CampusLaunch (eventos de duas horas, com Nike e BODYARMOR), Sweat & Soak (festas sem álcool com terapia de contraste, com Bumble e Pure Barre), The Wellness Society (clube social alternativo às fraternidades, com Alo e Celsius) e Peak Pulse (corridas semanais com On e Cadence). Os 75 mil membros e as 70 milhões de visualizações em três meses são números das empresas.",
+     "por_que_importa": "Marcas de esporte e bebida pagam pra entrar em comunidade já formada em vez de criar a própria, e o ritual semanal segura mais adesão do que o equipamento. Dá ideia de patrocínio, de corrida semanal e de como falar com os filhos adultos dos sócios.",
+     "para": [
+      "marketing",
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Global Wellness Summit em Phuket, dias 1 e 2: GWI projeta 15,3% ao ano pra wellness real estate até 2030, e no palco circula que 61% de 88 clínicas de longevidade não dão lucro",
+     "source": "Spa & Wellness MexiCaribe (revista de setor, cobertura do evento em dois posts; números de palco, sem link pros estudos, não conferidos na fonte primária)",
+     "url": "https://spawellnessmexico.com/blog/42428/global-wellness-summit-2026-day-two/",
+     "date": "2026-11-12",
+     "region": "Phuket, Tailândia",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A cobertura do primeiro dia registra a projeção do GWI de 15,3% ao ano pra wellness real estate entre 2025 e 2030, contra 7,7% da economia de bem-estar como um todo, e o gasto global com saúde de US$ 9,8 trilhões com cerca de 3% em prevenção. No segundo dia, um estudo de 88 clínicas de longevidade citado em palco achou 61% delas sem lucro, e um fundo de seis anos mira retorno de 15% a 20% no setor. Na sessão sobre comunidade, Lexie Rodriguez (Capella) e Colin Low (Patience Lifestyle) trataram comunidade como ativo de hospitalidade, e Low disse pesar 70% conceito e 30% preço nas concorrências. A projeção de 15,3% é coerente com o Monitor 2026 publicado em 11/11; o restante é fala de palco.",
+     "por_que_importa": "O dado das clínicas sem lucro é argumento pra parceria com operador de saúde em vez de clínica própria, e a regra de 70% conceito serve de critério na escolha do operador do clube. Conferir os estudos antes de citar.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Withings espera crescer mais de 20% em 2026, com 12 milhões de usuários, divisão médica nova e balança Body Pro que mede composição corporal no padrão DEXA",
+     "source": "Fitt Insider (dados de crescimento da própria empresa)",
+     "url": "https://insider.fitt.co/withings-accelerates-growth/",
+     "date": "2026-11-13",
+     "region": "França",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A família do cofundador Éric Carreel recomprou a Withings da Nokia em 2018 e tem 90% da empresa. A Withings passa de 12 milhões de usuários, espera crescer mais de 20% em 2026 e lançou a terceira geração da Body Pro, com composição corporal no padrão DEXA e alerta de hipertensão. A empresa criou uma divisão médica neste ano e compete com WHOOP e Oura.",
+     "por_que_importa": "Dispositivo de casa que acompanha composição corporal é candidato ao pacote de entrega das casas e ao programa de acompanhamento do sócio. Entra na lista de fornecedores antes de definir o pacote de longevidade do clube.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Governo britânico responde ao Parlamento sobre envelhecimento: 144 centros de atividade física devem atender mais de 34 mil pessoas até março de 2028, sem marco nacional de contratação em academias",
+     "source": "Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Government-recognises-fitness-sectors-role-in-healthy-ageing/363938",
+     "date": "2026-11-11",
+     "region": "Reino Unido",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A resposta do governo, publicada em 22/10, reconhece o papel do setor de fitness no envelhecimento saudável e recusa criar um marco nacional de contratação de programas em academias e centros esportivos. A comissão apontou que só 5% dos conselhos regionais de saúde e 15% das autoridades locais contrataram programas de exercício contra quedas, número de depoimentos ao Parlamento. Um marco de serviços pra fragilidade e demência está previsto pro fim de 2026.",
+     "por_que_importa": "Dinheiro público pra prevenção em idosos segue curto até num sistema universal, então o programa de longevidade do clube se sustenta com sócio e parceiro privado. Repertório pra conversa com operador de saúde sobre exercício pra 60+.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Espaço Luxury do Festuris, em Gramado, chega à 11ª edição com 126 marcas, 300 compradores e mais de 5 mil reuniões pré-agendadas em dois dias",
+     "source": "Panrotas (Viagens de Luxo, Rodrigo Vieira; cobertura do evento em andamento, data da publicação)",
+     "url": "https://www.panrotas.com.br/viagens-de-luxo/eventos/2026/11/veja-fotos-do-espaco-luxury-do-festuris-que-chega-a-11a-edicao-com-126-marcas_233653.html",
+     "date": "2026-11-13",
+     "region": "Gramado, RS",
+     "escopo": "brasil",
+     "pilar": "eventos",
+     "resumo": "Fato novo em relação ao item de 24/10, que falava em mais de 150 marcas: a cobertura do evento registra 126 marcas, 300 compradores e mais de 5 mil reuniões pré-agendadas num espaço de quase 2 mil m², que começou em 2016 com oito expositores em 120 m². Participam hotéis de luxo, experiências, cruzeiros e operadoras especializadas. Uma segunda matéria da Panrotas no mesmo dia, sobre a revista especial de luxo, cita o Kempinski Laje de Pedra, na Serra Gaúcha, como hotel ainda por abrir.",
+     "por_que_importa": "Mostra onde os consultores de viagem de alto padrão fecham negócio e quem são os concorrentes de hospitalidade que vão aparecer ao lado do clube. Serve pra decidir entre feira de luxo e reunião direta com agências em 2027.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Em evento da Exame, professor cita pesquisa da Icatu com a Conversion: 95% dizem não ter recursos suficientes pra aposentadoria e 62% não têm previdência privada",
+     "source": "Exame (Minhas Finanças, cobertura do evento Longevidade & Wellness de 27/10; números da Icatu Seguros e da Conversion, não conferidos na fonte primária)",
+     "url": "https://exame.com/invest/minhas-financas/o-que-muda-se-a-aposentadoria-durar-25-ou-30-anos-especialista-explica-como-se-planejar/",
+     "date": "2026-11-13",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "longevidade",
+     "resumo": "O professor de finanças Ricardo Humberto Rocha tratou de uma aposentadoria que dura 25 ou 30 anos. A pesquisa citada diz que 95% dos participantes não têm recursos suficientes pra aposentadoria, 92% acham que o INSS não vai manter o padrão de vida e 62% não têm previdência privada. Ele também cita um estudo da Johns Hopkins com cerca de 2,5 milhões de idosos nos EUA, em que atrasos de pagamento aparecem sete anos antes do diagnóstico de demência, dado citado sem link. É a quarta matéria da editoria sobre o evento de 27/10.",
+     "por_que_importa": "Argumento pra conversa de vendas com o comprador de 50 a 65 anos, que precisa decidir moradia e renda pra três décadas. Tema de palestra no clube com planejador patrimonial.",
+     "para": [
+      "vendas",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Exame publica fala de psicanalista no evento de longevidade: qualidade de vida depois dos 60 depende de fatores sociais e ambientais, e há uma solidão boa, diferente de isolamento",
+     "source": "Exame (ESG, cobertura do evento Longevidade & Wellness de 27/10)",
+     "url": "https://exame.com/esg/na-conta-da-longevidade-o-presente-tambem-entra/",
+     "date": "2026-11-12",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "Blenda Oliveira, psicanalista e escritora, falou sobre marcos na vida adulta tardia, como começar carreira aos 60 ou defender doutorado aos 70, e pediu equilíbrio entre planejar o futuro e viver o presente, com alerta contra o excesso de métricas de anéis e aplicativos. Ela distingue isolamento de uma solidão boa, com tempo pra pensar, escrever ou ouvir música. A matéria não traz número de mercado.",
+     "por_que_importa": "Repertório pra programação do clube: encontros sobre pertencimento, solidão boa e uso moderado de dispositivos de monitoramento. Reforça comunidade como parte da longevidade, ao lado de treino e exame.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-13",
    "manchete": "The Well fechou em Nova York e vai morar dentro de 65 casas em Miami, com teto de mil sócios e mensalidade de US$ 590. Em Porto Feliz, a JHSF contou R$ 3 bilhões de VGV no Boa Vista Estates e a Lotus pôs showroom no Village.",
