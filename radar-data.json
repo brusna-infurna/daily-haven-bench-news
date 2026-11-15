@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-14",
+ "atualizado": "2026-11-15",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,273 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-15",
+   "manchete": "A clínica de longevidade entrou na academia de rede em Nova York e o spa da Sisley entrou no terminal do BTG em Guarulhos. O bem-estar foi atrás de quem já estava no lugar.",
+   "editorial": "Domingo fraco: onze itens, quase todos de 9 a 13/11, e nenhum lançamento novo no interior de SP. O que sobrou conta uma coisa só. A Serotonin vai atender dentro de uma New York Sports Club, aberta a quem não é sócio; a Sisley monta cabine de facial no terminal privativo de um banco; a Prenuvo tenta provar, em simulação, que o exame de corpo inteiro se paga pra empresa; a Bain diz que 11% dos brasileiros já usaram GLP-1. O mecanismo é o mesmo em todos: o serviço de saúde e de bem-estar deixou de pedir que a pessoa vá até ele e passou a alugar o lugar onde ela já está, a academia, o aeroporto, a folha de pagamento, a farmácia. Quem perde é o destino que depende de tráfego próprio, a clínica isolada e o spa de hotel, e ontem o palco de Phuket já tinha dado o número: 61% de 88 clínicas de longevidade não dão lucro. Pro Haven, com 75 casas, a conta é clara. O clube precisa gerar o próprio movimento antes de qualquer parceiro clínico aparecer. Parceiro bom aluga lugar cheio.",
+   "atencao": [
+    "Marketing: A Sisley ocupou o tempo de espera do cliente do BTG com um facial de 45 minutos. O Haven tem o seu tempo de espera, que é o fim de semana de visita ao terreno, e ele ainda está vazio de marca.",
+    "Vendas: O Morada Orlando usa o nome de Alex Atala e um restaurante privativo pros moradores pra pedir US$ 50 mil de depósito reembolsável antes da tabela. Curador assinado vende planta, e o depósito mede se a lista é real.",
+    "Clube e parcerias: A Serotonin entra na NYSC como inquilina, aberta ao público de fora, e a Prenuvo vende o check-up por simulação paga pela própria empresa. O parceiro clínico do Haven precisa de espaço com porta pra rua, e todo dado de saúde no material precisa dizer quem pagou o estudo."
+   ],
+   "bench": [
+    {
+     "area": "Produto e estrutura",
+     "para": "parcerias",
+     "titulo": "Loja de rua do parceiro clínico, com porta pra fora do condomínio",
+     "ideia": "Reservar no masterplan um módulo de 60 a 80 m² no acesso do clube, com entrada independente pela rua e cinco vagas externas, pra o parceiro clínico atender sócio e não sócio no modelo da Serotonin dentro da NYSC. Entra no edital do parceiro como espaço cedido em troca de agenda reservada pros sócios.",
+     "ref": "Serotonin Active na New York Sports Club, Manila Times",
+     "url": "https://www.manilatimes.net/2026/11/13/tmt-newswire/globenewswire/serotonin-anti-aging-centers-founder-puts-a-physician-led-longevity-clinic-inside-new-york-sports-club/2468983"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Cabine de marca de beleza no fim de semana de visita",
+     "ideia": "Convidar uma marca de beleza premium pra montar uma cabine de tratamento de 45 minutos no fim de semana de visita ao terreno, cobrado pela própria marca, como a Sisley no terminal do BTG. Teste de três fins de semana, medindo quantos visitantes agendam e quantos voltam pra segunda visita.",
+     "ref": "Sisley Cabin no Terminal BTG, Money Report",
+     "url": "https://www.moneyreport.com.br/lifestyle/sisley-leva-spa-de-luxo-ao-terminal-btg-pactual-em-guarulhos/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Depósito reembolsável de reserva antes da tabela de preço",
+     "ideia": "Abrir a reserva das 75 casas com depósito reembolsável de valor fixo e prazo de devolução escrito no termo, antes de publicar a tabela, como o Morada Orlando faz com US$ 50 mil. O número de depósitos por mês vira o indicador de intenção real da lista e entra no deck de investidor.",
+     "ref": "Morada Orlando com Alex Atala, Exame",
+     "url": "https://exame.com/casual/alex-atala-vai-assinar-seu-primeiro-restaurante-fora-do-brasil/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Um único degrau pago dentro do membership, com meta de adesão escrita",
+     "ideia": "Em vez de multiplicar categorias, criar um upgrade pago único (convidado sem limite, recovery incluído, reserva antecipada de eventos) e escrever no business case a meta de 30% dos sócios nele até o fim do primeiro ano, revisada a cada trimestre, no modelo do Black Card da Planet Fitness.",
+     "ref": "Planet Fitness 3º trimestre, Health Club Management",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Planet-Fitness-raises-growth-forecasts-as-revenue-climbs-9-per-cent/363936"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Linha de quem pagou o estudo em todo dado de saúde do Haven",
+     "ideia": "Adotar a regra de que qualquer número de saúde ou longevidade em deck, site ou post do Haven leva na mesma linha o nome de quem financiou o estudo e o tipo de evidência (simulação, pesquisa de opinião, ensaio clínico). Aplicar já no deck de vendas, começando pelos dados de GWI e McKinsey.",
+     "ref": "Simulação da Prenuvo, PR Newswire",
+     "url": "https://prnewswire.com/news-releases/new-prenuvo-research-finds-whole-body-mri-screening-could-pay-for-itself-for-employers-302937066.html"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Pulseira de intenção social na chegada dos eventos do clube",
+     "ideia": "Nos dois primeiros eventos abertos a sócios, entregar na chegada uma pulseira de cor com a intenção da noite (quero conhecer gente, vim com minha turma, estou aqui pelo conteúdo), como o Match Run. Anfitriões do clube usam a cor pra apresentar pessoas. Avaliar com os sócios se a regra fica.",
+     "ref": "Match Run São Paulo, Mania de Corrida",
+     "url": "https://www.maniadecorrida.com.br/2026/11/match-run-estreia-em-sao-paulo-com.html"
+    },
+    {
+     "area": "Parcerias",
+     "para": "marketing",
+     "titulo": "GWS Londres 2027 como data fixa, com proposta de palestra até março",
+     "ideia": "Marcar o Global Wellness Summit de Londres, 31/10 a 3/11/2027, como presença obrigatória do Haven e enviar até março a proposta de palestra da founder sobre wellness residence sem hotel no Brasil, com o dado do GWI Monitor como gancho. Reservar orçamento de viagem pra duas pessoas no plano de 2027.",
+     "ref": "GWS dia 3 e anúncio de Londres 2027, Spa & Wellness MexiCaribe",
+     "url": "https://spawellnessmexico.com/blog/42488/global-wellness-summit-2026-day-three/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Catálogo de três fins de semana temáticos de 2027, vendido antes do clube abrir",
+     "ideia": "Publicar em janeiro um catálogo com três fins de semana temáticos de 2027 no terreno ou em hotel parceiro (culinária, música, natureza), com data, preço e número de vagas, aberto a sócio e a não sócio da lista, no formato que o Toriba usa pra vender programação em vez de diária. Receita e lista de presença entram no business case do clube.",
+     "ref": "Hotel Toriba no Festuris, Guiacampos",
+     "url": "https://www.guiacampos.com/hotel-toriba-participa-do-festuris-2026-em-gramado-e-apresenta-experiencias-de-luxo-na-serra-da-mantiqueira/"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Primeira clínica de longevidade dentro de academia de rede: a Serotonin Active abre no 1º trimestre de 2027 numa New York Sports Club de Manhattan, aberta a quem não é sócio, e negocia com outras operadoras",
+     "source": "The Manila Times, seção TMT Newswire (release da Serotonin Centers distribuído pela GlobeNewswire; os serviços listados são promessa de abertura)",
+     "url": "https://www.manilatimes.net/2026/11/13/tmt-newswire/globenewswire/serotonin-anti-aging-centers-founder-puts-a-physician-led-longevity-clinic-inside-new-york-sports-club/2468983",
+     "date": "2026-11-13",
+     "region": "Nova York, EUA",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "Eric Casaburi, fundador da Retro Fitness e da Serotonin Centers, que tem 15 unidades nos EUA, vai abrir a Serotonin Active dentro de uma New York Sports Club na Terceira Avenida, no Upper East Side, no primeiro trimestre de 2027. A clínica atende também quem não é sócio da academia e oferece reposição hormonal, emagrecimento supervisionado, peptídeos, câmara hiperbárica, luz vermelha e um painel de exames chamado SeroVitals 360, grátis no primeiro mês com bioimpedância. A empresa diz negociar com outras redes de fitness e prevê anunciar parceiros em 2027. O modelo de clínica pra academias tinha sido apresentado em março; o fato novo é o primeiro endereço.",
+     "por_que_importa": "A clínica de longevidade virando inquilina da academia é o desenho que o clube do Haven pode copiar na escolha do parceiro clínico: espaço cedido, público do clube garantido e porta aberta pra fora. Vale pra parcerias e pra programação médica do clube.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Prenuvo diz, em simulação, que a ressonância de corpo inteiro pode se pagar pra empresas: 25,2% menos diagnósticos tardios e 90 centavos de volta por dólar na faixa 50+",
+     "source": "PR Newswire (release da Prenuvo; estudo de modelagem com a Analysis Group apresentado no ISPOR Europe, em Viena, sem indicação de revisão por pares)",
+     "url": "https://prnewswire.com/news-releases/new-prenuvo-research-finds-whole-body-mri-screening-could-pay-for-itself-for-employers-302937066.html",
+     "date": "2026-11-12",
+     "region": "Viena, Áustria (apresentação) e EUA",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "O modelo simula uma empresa americana de 100 mil funcionários ao longo de dez anos. Um exame único em cerca de 30 mil pessoas com 50 anos ou mais reduz em 25,2% os diagnósticos tardios de câncer ou cirrose e soma cerca de 840 anos de vida. O custo volta em cerca de 90 centavos por dólar; só o grupo 50+ com obesidade e histórico de fumo passa de um pra um, com US$ 1,22. O próprio release diz que falta teste no mundo real.",
+     "por_que_importa": "Dá um argumento de preço pro check-up preventivo como benefício de empresa e pros pacotes de saúde do clube, desde que vendas cite como simulação paga pelo fornecedor e nunca como evidência clínica.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Global Wellness Summit de Phuket, dia 3: Heinecke, da Minor, aponta cuidado preventivo pra viajantes como próxima fronteira, e o GWS 2027 será em Londres de 31/10 a 3/11",
+     "source": "Spa & Wellness MexiCaribe (revista de setor, cobertura do evento em post de blog; dados citados são falas de palco, não conferidos na fonte primária)",
+     "url": "https://spawellnessmexico.com/blog/42488/global-wellness-summit-2026-day-three/",
+     "date": "2026-11-13",
+     "region": "Phuket, Tailândia",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "William Heinecke, da Minor International, com cerca de 650 hotéis em 60 países, lembrou a compra da NH por US$ 3 bilhões em 2018 e as perdas de cerca de US$ 1 bilhão em oito trimestres, e disse que o bem-estar preventivo é o próximo foco da empresa. O ministro da Saúde da Tailândia citou projeção de US$ 9,75 trilhões pra economia do bem-estar em 2029, e uma palestrante disse que um em cada cinco tailandeses tem mais de 60 anos. Outro dado de palco: 90% dos consumidores dizem não distinguir uma marca de luxo da outra. O GWS 2027 será em Londres, de 31/10 a 3/11, o primeiro sob a Informa.",
+     "por_que_importa": "A data de Londres entra no calendário de 2027 do Haven desde já, e a frase sobre marcas de luxo indistintas vira pergunta pro posicionamento: o que no Haven alguém reconheceria de olhos fechados.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Alex Atala assina os restaurantes do Morada Orlando, duas torres com 240 residências e entrega prevista pra 2030, com restaurante privativo pros moradores e depósito reembolsável de US$ 50 mil na reserva",
+     "source": "Exame (Casual; publicada em 11/11, extensão da janela)",
+     "url": "https://exame.com/casual/alex-atala-vai-assinar-seu-primeiro-restaurante-fora-do-brasil/",
+     "date": "2026-11-11",
+     "region": "Orlando, EUA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "O chef Alex Atala vai criar os conceitos de restaurante e a curadoria de hospitalidade do Morada Orlando, incorporação da Glasstone Group com duas torres de 18 andares e 240 residências de dois a cinco quartos. O complexo terá um restaurante aberto ao público de cerca de 600 m², outro privativo pros moradores, adega, lounge de charutos e serviço de refeições nas residências. A reserva pede depósito reembolsável de US$ 50 mil. É o primeiro restaurante do chef fora do Brasil.",
+     "por_que_importa": "Mostra o curador assinado funcionando como âncora de venda de residência, com uma peça só pra quem mora. Serve de referência pra gastronomia da casa-clube e pro argumento de vendas com o brasileiro que já compra fora.",
+     "para": [
+      "vendas",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Sisley abre cabine de spa no terminal privativo do BTG Pactual em Guarulhos, com faciais de 45 minutos de US$ 96 a US$ 116 cobrados à parte do acesso",
+     "source": "Money Report (Lifestyle; publicada em 09/11, extensão da janela)",
+     "url": "https://www.moneyreport.com.br/lifestyle/sisley-leva-spa-de-luxo-ao-terminal-btg-pactual-em-guarulhos/",
+     "date": "2026-11-09",
+     "region": "Guarulhos, SP, Brasil",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A Sisley inaugurou a Sisley Cabin dentro do Terminal BTG Pactual, no aeroporto de Guarulhos, com quatro faciais de 45 minutos entre US$ 96 e US$ 116, das 14h às 22h. O terminal tem 2.400 m² e recebe passageiro de qualquer classe mediante pagamento de acesso. Os tratamentos são cobrados separadamente.",
+     "por_que_importa": "Marca de beleza premium ocupando o tempo de espera do cliente de alta renda, dentro do espaço de um banco. Referência direta pra parceria de marca convidada no spa do clube e pro fim de semana de visita ao terreno.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Bain estima que 11% dos brasileiros já usaram GLP-1, contra cerca de 15% nos EUA, e projeta mais de 20% até 2030, com o usuário consumindo quase o dobro de whey",
+     "source": "Mercado&Consumo (artigo de opinião de sócia da Bain & Company; números da consultoria, não conferidos em relatório aberto; publicado em 10/11, extensão da janela)",
+     "url": "https://mercadoeconsumo.com.br/10/11/2026/artigos/como-saude-e-longevidade-estao-transformando-a-industria-de-alimentos/",
+     "date": "2026-11-10",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "longevidade",
+     "resumo": "Segundo a Bain, cerca de 11% da população brasileira usa ou já usou GLP-1, ante cerca de 15% nos EUA, com projeção acima de 20% até 2030. Quem usa a medicação consome quase o dobro de whey dos praticantes de atividade física sem GLP-1, que ainda respondem por 60% da demanda total. O mercado de proteínas do leite no país passou de cerca de US$ 170 milhões em 2021 pra cerca de US$ 360 milhões em 2025. O texto é artigo assinado, sem link pro estudo.",
+     "por_que_importa": "Segundo dado de penetração de GLP-1 no Brasil em quatro dias, depois dos 7,5% dos lares da Worldpanel em 12/11, e por outra medida, pessoas em vez de lares. Serve pra calibrar nutrição e treino de força no clube e pro discurso de massa magra com o sócio que usa a medicação.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Planet Fitness fecha o 3º trimestre com receita de US$ 360 milhões, alta de 9%, sobe a projeção do ano e atribui parte da venda por sócio ao plano premium Black Card",
+     "source": "Health Club Management (publicada em 11/11, um dia antes da janela; fato novo em relação à compra da Be-Fit, publicada em 06/11)",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Planet-Fitness-raises-growth-forecasts-as-revenue-climbs-9-per-cent/363936",
+     "date": "2026-11-11",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "A rede tem 2.962 clubes e cerca de 21,5 milhões de sócios antes da Be-Fit, que soma 80 mil em Portugal por cerca de € 102,5 milhões. A venda comparável subiu 1,5% por reajuste de preço e por mais sócios no Black Card, e a projeção de receita do ano passou de 7% pra cerca de 8%. A empresa revisa seus cerca de 280 clubes próprios nos EUA, com parte indo pra franquia.",
+     "por_que_importa": "O plano premium sustenta a receita até no segmento popular. Argumento pra desenhar um degrau pago único dentro do membership do Haven e medir quantos sócios sobem.",
+     "para": [
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Art Basel Miami Beach 2026 anuncia 272 expositores de mais de 40 países, com área cerca de 12% menor e feira de 4 a 6/12 no Convention Center",
+     "source": "Art Basel (página oficial; a página não mostra a data de publicação do anúncio, então a entrada na janela não está confirmada; evento futuro com datas oficiais)",
+     "url": "https://www.artbasel.com/stories/art-basel-announces-exhibitors-and-a-reconfigured-showfloor-for-miami-beach-2026",
+     "date": "2026-12-04",
+     "region": "Miami Beach, EUA",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "A feira acontece de 4 a 6/12 no Miami Beach Convention Center, com pré-visualização por convite em 2 e 3/12. São 272 expositores, 204 deles no setor principal, e mais de 30 galerias estreantes. O showfloor foi reconfigurado, com área cerca de 12% menor e setor Galleries com cerca de 10% menos expositores. A noite do Art Basel Awards, com a BOSS, é em 3/12.",
+     "por_que_importa": "A Miami Art Week é onde marcas de luxo, wellness e clubes de membros ativam pro mesmo comprador do Haven. Marketing mapeia as ativações de dezembro e vendas confere quem da lista estará lá.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Hotel Toriba, de Campos do Jordão, leva spa, escola de culinária e programação musical ao Espaço Luxury do Festuris e diz que o produto à venda é o conjunto de experiências",
+     "source": "Guiacampos.com (portal de Campos do Jordão; texto com cara de divulgação do hotel, só falas do sócio-diretor)",
+     "url": "https://www.guiacampos.com/hotel-toriba-participa-do-festuris-2026-em-gramado-e-apresenta-experiencias-de-luxo-na-serra-da-mantiqueira/",
+     "date": "2026-11-14",
+     "region": "Campos do Jordão, SP, Brasil",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "O Toriba, aberto em 1943 e com cerca de 3 milhões de m² de mata nativa na Mantiqueira, está no Espaço Luxury do Festuris, em Gramado, até 15/11. Leva o Toriba Spa & Wellness, a escola de culinária, a programação musical e as atividades de natureza. O sócio-diretor Aref Farkouh diz que a venda é do conjunto de experiências. O hotel apareceu em 25º no ranking da Exame publicado em 09/11; o fato novo é a presença na feira.",
+     "por_que_importa": "Hotel de serra vendendo programação em vez de diária, formato próximo do calendário que o clube do Haven precisa montar antes de abrir. Referência de parceria com marcas da Mantiqueira e de como apresentar o clube numa feira.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Golfe atrai Galvão Bueno, Kaká e Barrichello, e a CBGolfe fala em ampliar o público do esporte com academia júnior",
+     "source": "Money Report (Lifestyle; publicada em 10/11, extensão da janela; sem números de mercado)",
+     "url": "https://www.moneyreport.com.br/lifestyle/de-galvao-bueno-a-kaka-o-golfe-conquista-novos-adeptos/",
+     "date": "2026-11-10",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A matéria lista celebridades e ex-atletas que aderiram ao golfe, entre eles Galvão Bueno, Kaká, Rubens Barrichello e Giovane Gávio. A CBGolfe diz querer levar o esporte a crianças e adolescentes e lançou em 2025 a CBGolfe Junior Academy. O texto não traz números de praticantes nem de mercado.",
+     "por_que_importa": "Pauta de lifestyle pro clube, que fica ao lado do golfe do Boa Vista: clínica de iniciação pra sócio que nunca jogou, sem campo próprio. Vale também como argumento de vizinhança no deck de vendas.",
+     "para": [
+      "clube",
+      "marketing",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Match Run estreia em São Paulo com corrida de 4 km à 1h da manhã e pulseira que diz se a pessoa quer conhecer gente, fazer amigos ou só curtir acompanhada",
+     "source": "Mania de Corrida (blog especializado em corrida; fonte única, sem confirmação do organizador; matéria de 09/11 sobre a prova de 14 pra 15/11)",
+     "url": "https://www.maniadecorrida.com.br/2026/11/match-run-estreia-em-sao-paulo-com.html",
+     "date": "2026-11-14",
+     "region": "São Paulo, SP, Brasil",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "A FUSE Eventos Esportivos fez a primeira edição paulistana do Match Run no Shopping SP Market, com arena aberta às 23h de 14/11 e largada à 1h de 15/11. O percurso de 4 km pode ser corrido ou caminhado e termina em festa com DJ. Cada participante escolhe uma pulseira que sinaliza a intenção: conhecer pessoas, fazer amizades ou aproveitar acompanhado. O texto não informa preço e as inscrições estavam encerradas.",
+     "por_que_importa": "Formato em que a corrida é só a porta de entrada e a intenção social fica declarada no pulso. Dá uma regra simples pra apresentar sócios entre si nos eventos do clube.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-14",
    "manchete": "A McKinsey abriu o relatório inteiro: 40% dos consumidores dizem que a oferta de bem-estar ainda falha em longevidade, e 30% já tratam o treino como a principal saída social. No Morumbi, a Meta põe R$ 50 milhões num clube de 300 famílias a R$ 3.500 por mês pra vender 77 apartamentos.",
