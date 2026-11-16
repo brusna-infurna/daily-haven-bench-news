@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-15",
+ "atualizado": "2026-11-16",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,281 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-16",
+   "manchete": "Spa já está em 93% dos hotéis de luxo do Brasil, e resort de campo vende metade das diárias sem intermediário. O termo wellness club residence chegou à imprensa brasileira pela boca de um concorrente em Goiás.",
+   "editorial": "Dia fraco de notícia: a janela de 13 a 16/11 rendeu quatro itens, e metade dos veículos de setor ficou fechada pro robô, então a edição se apoia em três pesquisas e em fatos de até duas semanas. O que elas dizem, juntas, pesa mais que qualquer lançamento. O Anuário BLTA mostra spa em 93% dos hotéis de luxo brasileiros, e isso tira o spa da lista de diferenciais de qualquer projeto, inclusive do Haven. A Resorts Brasil mostra o resort de campo vendendo 52% das diárias por canal próprio, com o WhatsApp valendo 8% do total, ou seja, quem compra campo fala direto com a casa e dispensa o intermediário que o litoral precisa. A Mintel fecha o raciocínio: a marca de 2027 vende o resultado, sono, energia, pertencimento, e o consumidor monta o sistema sozinho. Quem perde nesse quadro é o projeto que ainda anuncia amenidade, como o loteamento de Goiás que estreou o termo wellness club residence na imprensa com 472 lotes e golfe. O custo de não definir o termo antes é deixar que o mercado o associe a escala, e escala é justamente o que o Haven não vende.",
+   "atencao": [
+    "Marketing: Definir wellness club residence em página pública do Haven, com critérios (número de casas, curadoria, clínica, clube), antes que o termo fique colado a loteamento de 472 lotes.",
+    "Vendas: Tratar canal próprio como padrão, com WhatsApp e site registrando a origem de cada lead, e usar a diária média de R$ 3.109 do Anuário BLTA como régua da hospedagem do clube.",
+    "Clube e parcerias: Montar o calendário cultural do clube no modelo de residência de artista da Equinox, com instituição brasileira, formato fixo e datas, e observar a Hyrox Rio em 21 e 22/11."
+   ],
+   "bench": [
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Página pública que define wellness club residence com cinco critérios",
+     "ideia": "Publicar no site uma página curta com o que o Haven entende por wellness club residence: teto de casas, entrada por curadoria, clínica com operador nomeado, clube com programa semanal e comunidade com regra escrita. Cada critério em uma linha, com o número do Haven ao lado, pra que a imprensa e o corretor usem a definição do Haven e não a do loteamento.",
+     "ref": "Fazenda do Lago, UAI Notícias",
+     "url": "https://www.uai.com.br/networking-e-negocios/2026/11/10/o-que-e-wellness-club-residence-e-por-que-o-termo-comecou-a-aparecer-no-mercado-imobiliario/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "WhatsApp único com origem de lead e meta de metade das adesões direto",
+     "ideia": "Abrir um número único de WhatsApp do Haven, com cada contato marcado por origem (site, indicação de sócio, evento, corretor) e uma meta escrita de 50% das adesões e reservas fechadas por canal próprio, a mesma proporção que o resort de campo já alcança. Relatório mensal de origem por fechamento, pra decidir onde investir.",
+     "ref": "Pesquisa Resorts Brasil e FGV, Hotelier News",
+     "url": "https://hoteliernews.com.br/canais-proprios-respondem-por-40-das-vendas-dos-resorts/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Deck sem lista de amenidades, com a semana típica do clube no lugar",
+     "ideia": "Tirar a lista de amenidades do deck de vendas e trocar por uma página com a semana típica de um sócio: treino de manhã, consulta do programa, almoço no clube, aula cultural, noite de contraste. Spa aparece como horário na grade, e o que se vende é o programa, já que 93% dos hotéis de luxo têm spa.",
+     "ref": "Anuário BLTA 2026, Diário do Grande ABC",
+     "url": "https://www.dgabc.com.br/Noticia/4367703/turismo-de-luxo-vive-expansao-e-consolidacao-no-brasil-veja-valores"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Haven dentro do Anuário BLTA 2027 como caso de hospedagem de clube",
+     "ideia": "Procurar a BLTA e o Senac pra incluir a hospedagem do clube do Haven na pesquisa de 2027, como primeiro caso de hospedagem ligada a membership residencial, e pedir o recorte de diária e permanência dos hotéis do interior paulista pra calibrar o preço da hospedagem de sócio e convidado.",
+     "ref": "Anuário BLTA 2026, Diário do Grande ABC",
+     "url": "https://www.dgabc.com.br/Noticia/4367703/turismo-de-luxo-vive-expansao-e-consolidacao-no-brasil-veja-valores"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Residência de artista no clube, com masterclass mensal de 75 minutos",
+     "ideia": "Fechar com uma companhia ou escola brasileira (São Paulo Companhia de Dança, Grupo Corpo, uma orquestra jovem) um programa de residência de artista no clube: uma masterclass de 75 minutos por mês pra sócios, aberta a um convidado pagante por sócio, com temporada de seis meses e nome do artista no calendário público.",
+     "ref": "Equinox e Alvin Ailey, PR Newswire",
+     "url": "https://prnewswire.com/news-releases/equinox-welcomes-alvin-ailey-american-dance-theater-as-its-latest-artist-in-residence-302936800.html"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Copy do site organizada por três resultados, com a amenidade em nota",
+     "ideia": "Reescrever a home do site a partir de três resultados que o sócio compra (dormir melhor, ter energia, pertencer a um grupo), cada um com o que do Haven entrega aquilo, e mover a lista de espaços pra uma página secundária. Testar a versão contra a atual com a lista de membership antes de trocar.",
+     "ref": "Tendências de consumo 2027 da Mintel, PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/mintel-predicts-2027-brand-growth-will-shift-from-selling-products-to-delivering-outcomes-302930853.html"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Acervo de sócio exposto na área comum do clube, três meses por peça",
+     "ideia": "Criar um programa de exposição rotativa na área comum do clube, no modelo do Tivoli Art: a cada trimestre uma peça do acervo de um sócio (carro, obra, coleção), com ficha de quem emprestou e uma noite de abertura fechada pros sócios. Regra escrita de seguro e de prazo antes da primeira peça.",
+     "ref": "Tivoli Mofarrej e a réplica da Lotus, Money Report",
+     "url": "https://www.moneyreport.com.br/lifestyle/tivoli-mofarrej-exibe-replica-do-carro-da-primeira-vitoria-de-senna-na-f1/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Uma casa de hóspedes do clube sem sinal, dita no projeto e no contrato",
+     "ideia": "Reservar uma das unidades de hospedagem do clube como casa sem conexão: sem wi-fi, com telefone fixo pra emergência e cofre pra celular na entrada, descrita assim no projeto executivo, no material de venda e no regulamento. Oferecer primeiro como noite de teste pros sócios fundadores e medir a procura por seis meses.",
+     "ref": "Casa do Pesquisador na Pró-Mata, Jornal do Comércio",
+     "url": "https://www.jornaldocomercio.com/jornal-cidades/2026/11/1269081-reserva-propicia-contemplacao-e-detox-digital-aos-visitantes.html"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Regra escrita de endosso médico pra tudo que a loja do clube vende",
+     "ideia": "Antes de abrir a loja do clube, fixar com o parceiro clínico uma regra de três linhas: produto de saúde só entra na prateleira com endosso escrito do time médico, com a evidência citada na etiqueta, e o que não passa fica fora mesmo que a marca pague. Publicar a regra na página do clube.",
+     "ref": "Suplementos em tira, Fitt Insider",
+     "url": "https://insider.fitt.co/wellness-strips-reformat-supplement-routines/"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Resorts de campo vendem 52% das diárias por canal próprio, contra 40% na média dos resorts, mostra pesquisa da Resorts Brasil com a FGV",
+     "source": "Hotelier News (Mercado; pesquisa da Resorts Brasil com a FGV, 2,31 milhões de diárias de 35 resorts em 2025)",
+     "url": "https://hoteliernews.com.br/canais-proprios-respondem-por-40-das-vendas-dos-resorts/",
+     "date": "2026-11-13",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "estudos",
+     "resumo": "A pesquisa analisou 2,31 milhões de diárias de 35 resorts em 26 municípios ao longo de 2025. Os canais próprios respondem por 40% das vendas, com central de reservas em 17,3% e site em 17%, e o WhatsApp sozinho responde por 8% das vendas gerais. Nos resorts de campo o canal próprio chega a 52%, enquanto nos de praia 71% das vendas vêm de intermediários; o Pix subiu de 11% pra 18% da receita entre 2024 e 2025.",
+     "por_que_importa": "Hospedagem no campo vende direto, por site e WhatsApp, e o Haven fica nesse recorte. Vale desenhar a venda de casas e de adesões com canal próprio como padrão e registrar a origem de cada lead desde o primeiro contato.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Anuário BLTA 2026: hospedagem de luxo no Brasil faturou R$ 3,34 bilhões em 2025, com diária média de R$ 3.109, e 93% dos hotéis já têm spa e bem-estar",
+     "source": "Diário do Grande ABC, com dados do Anuário BLTA 2026 (Brazilian Luxury Travel Association com o Senac; publicada em 09/11, extensão da janela; foto de divulgação, sem marcação de publicidade)",
+     "url": "https://www.dgabc.com.br/Noticia/4367703/turismo-de-luxo-vive-expansao-e-consolidacao-no-brasil-veja-valores",
+     "date": "2026-11-09",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "estudos",
+     "resumo": "Segundo o levantamento da BLTA com o Senac, os meios de hospedagem de luxo pesquisados somaram R$ 3,34 bilhões de receita em 2025, com diária média de R$ 3.109 e cerca de 1 milhão de hóspedes, 70% brasileiros. Spa e bem-estar aparecem em 93% dos estabelecimentos, massagens em 92% e gastronomia em 85%. Réveillon (82%), Carnaval (67%) e casamentos (60%) puxam a demanda, e 58% dos brasileiros ficam até três noites.",
+     "por_que_importa": "Spa virou item de série no luxo brasileiro, então o argumento do Haven precisa estar no programa e na comunidade, e a diária média de R$ 3.109 e a estadia de três noites dão régua pra precificar a hospedagem do clube.",
+     "para": [
+      "vendas",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Mintel abre as tendências de consumo de 2027: a marca cresce vendendo resultado (sono, energia, bem-estar emocional), e metade dos americanos já usa ou quer usar IA pra cuidar da saúde",
+     "source": "Mintel (release distribuído pela PR Newswire em 05/11, extensão da janela; o whitepaper completo exige cadastro)",
+     "url": "https://www.prnewswire.com/news-releases/mintel-predicts-2027-brand-growth-will-shift-from-selling-products-to-delivering-outcomes-302930853.html",
+     "date": "2026-11-05",
+     "region": "Chicago, EUA",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "A Mintel aponta três tendências globais pra 2027: Products to Systems, Authority Shifts e The Relevance Reset. O consumidor parte do resultado que quer e monta a própria combinação de produto, serviço e tecnologia. Nos EUA, 23% dos adultos tomaram suplemento de beleza em 2026, contra 17% em 2022, e quase sete em dez imaginam uma casa que antecipa necessidades. Relatório diferente das previsões de wellness da Mintel que entraram em 21/10.",
+     "por_que_importa": "A lógica de sistema cabe na oferta do Haven: casa, clube, clínica e comunidade vendidos como um conjunto que entrega sono, energia e pertencimento. Serve pra reescrever a copy do site a partir do resultado, com a amenidade em segundo plano.",
+     "para": [
+      "marketing",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Fazenda do Lago, em Goiás, vende o termo wellness club residence: 472 lotes, centro de longevidade, golfe, haras e entrada por aprovação",
+     "source": "UAI Notícias (Networking e Negócios, texto assinado pela agência PulseBrand; texto com cara de divulgação, só falas do incorporador, sem preço; publicada em 10/11, extensão da janela; números do mercado atribuídos ao Global Wellness Institute e sem conferência na fonte primária)",
+     "url": "https://www.uai.com.br/networking-e-negocios/2026/11/10/o-que-e-wellness-club-residence-e-por-que-o-termo-comecou-a-aparecer-no-mercado-imobiliario/",
+     "date": "2026-11-10",
+     "region": "Abadiânia, GO",
+     "escopo": "brasil",
+     "pilar": "wellness-residence",
+     "resumo": "O texto apresenta o projeto do Grupo CPR em 2,8 milhões de m², com 472 lotes na primeira fase, spa, centro de longevidade, golfe, haras e hotel dentro do clube, com acesso por aprovação. Citando o Global Wellness Institute, diz que o mercado de imóveis de bem-estar foi de US$ 225 bilhões em 2019 pra US$ 548 bilhões em 2024, com projeção de US$ 1,1 trilhão em 2029 e prêmio de 10% a 25% no preço das casas.",
+     "por_que_importa": "O termo wellness club residence chegou à imprensa brasileira pela boca de um concorrente de proposta parecida, em escala de loteamento. O Haven ganha se definir o termo primeiro, com critérios públicos, e usar os números do GWI só com a fonte nomeada.",
+     "para": [
+      "marketing",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Equinox leva o Alvin Ailey pro programa de artistas residentes: ex-bailarinos da companhia dão masterclasses de 75 minutos nos clubes de Nova York",
+     "source": "PR Newswire (release da Equinox Group, 11/11, extensão da janela)",
+     "url": "https://prnewswire.com/news-releases/equinox-welcomes-alvin-ailey-american-dance-theater-as-its-latest-artist-in-residence-302936800.html",
+     "date": "2026-11-11",
+     "region": "Nova York, EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "A Equinox firmou parceria com o Alvin Ailey American Dance Theater dentro do programa de artista residente. Ex-bailarinos da companhia dão aulas de 75 minutos nos clubes de Nova York a partir de novembro, com técnica Horton e trechos de Revelations, e a programação segue em 2027 junto com a turnê da companhia.",
+     "por_que_importa": "Programação cultural dentro de clube de bem-estar, ligada a uma instituição de prestígio, com formato fixo e calendário. Modelo direto pra residência de artista no clube do Haven, com instituição brasileira no lugar da companhia.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Ranking Exame: 17 hotéis do Nordeste entre os 50 melhores do Brasil, com Casana, de sete suítes em 10 mil m², em 7º e centro de bem-estar recém-inaugurado",
+     "source": "Exame (Casual, Júlia Storch; recorte regional do ranking já noticiado em 29/10, 09/11 e 13/11; metragens e número de suítes fornecidos pelos hotéis)",
+     "url": "https://exame.com/casual/verao-no-nordeste-os-melhores-hoteis-da-regiao/",
+     "date": "2026-11-14",
+     "region": "Nordeste (CE, AL, PE, BA)",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A terceira edição do ranking, com 34 jurados, tem 17 hotéis nordestinos, oito fora da Bahia. O Casana, em Cruz (CE), ficou em 7º com sete suítes em 10 mil m² e inaugurou centro de bem-estar com sauna, hidromassagem, imersão a frio e massagens. Mahré (AL) ficou em 9º com 30 acomodações em mais de 40 mil m², Nannai Muro Alto (PE) em 12º, e a Bahia tem nove hotéis na lista.",
+     "por_que_importa": "O júri premia hotel pequeno, com muita área por hóspede e ritual de contraste, a mesma escala do Haven. A lista serve de mapa de parceiros de hospedagem pros sócios e de referência de programa de spa.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Maa Acorn nomeia a Resolute como operadora da clínica de longevidade do Ayana Woods, condomínio de 456 vilas em Bangalore, com lançamento formal no 1º trimestre de 2027",
+     "source": "Business Standard (release distribuído pela ANI, marcado como advertorial; fato novo em relação ao item de 15/10, que anunciou o projeto sem o operador da clínica)",
+     "url": "https://www.business-standard.com/amp/content/press-releases-ani/maa-acorn-partners-with-resolute-to-bring-bengaluru-s-first-residential-longevity-clinic-to-ayana-woods-126111601221_1.html",
+     "date": "2026-11-16",
+     "region": "Bangalore, Índia",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A Maa Acorn e a Resolute vão instalar a clínica de longevidade dentro do Ayana Woods, empreendimento de 75 acres com 456 vilas de 2.800 a 6.400 pés quadrados e clube de 8 acres com sauna, área de recuperação e restaurantes. Os primeiros 50 membros entram num Founders' Circle com prioridade nos programas da clínica. O release não informa preço nem o modelo de cobrança da clínica.",
+     "por_que_importa": "O mesmo desenho do Haven, casas mais clube com clínica, agora com operador nomeado antes do lançamento. Serve de referência pra sequência de anúncios: projeto primeiro, operador clínico depois, círculo fundador no meio.",
+     "para": [
+      "vendas",
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Money Report explica o Hyrox e mostra a BlueFit, rede de mais de 200 academias, com espaços da modalidade em São Paulo e no Rio",
+     "source": "Money Report (Lifestyle; texto com cara de divulgação, única fonte ouvida é embaixador da BlueFit; publicada em 12/11, extensão da janela; sem preço)",
+     "url": "https://www.moneyreport.com.br/lifestyle/hyrox-combina-corrida-e-musculacao-em-desafio-de-resistencia/",
+     "date": "2026-11-12",
+     "region": "São Paulo, SP e Rio de Janeiro, RJ",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "A matéria descreve o formato, com 8 km de corrida em trechos de 1 km e oito estações de força, nas categorias individual, dupla e time. A BlueFit, rede com mais de 200 academias em 20 estados, montou espaços de Hyrox nas unidades Maria Antonia, em São Paulo, e Recreio, no Rio. O texto traz alerta de progressão gradual pra iniciante e não informa preço.",
+     "por_que_importa": "A academia de rede já vende o formato que o clube do Haven estuda desde outubro, então o diferencial fica no grupo fechado e no calendário, e a Hyrox Rio de 21 e 22/11 é a próxima data de observação.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Tivoli Mofarrej expõe de graça no lobby a réplica da Lotus 97T da primeira vitória de Senna, dentro do projeto Tivoli Art, que existe desde 2016",
+     "source": "Money Report (Lifestyle, da redação; texto com cara de divulgação do hotel)",
+     "url": "https://www.moneyreport.com.br/lifestyle/tivoli-mofarrej-exibe-replica-do-carro-da-primeira-vitoria-de-senna-na-f1/",
+     "date": "2026-11-13",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A réplica em tamanho real do carro de 1985 ficou no lobby e no restaurante Seen, no 23º andar, com visita gratuita até 15/11, na semana do GP do Brasil. Três miniaturas autografadas por Felipe Massa, Fernando Alonso e George Russell acompanham a peça, feita pelo designer e piloto Adhemar Cabral, que cede o acervo. O hotel enquadra a ação no Tivoli Art, programa de exposições que mantém desde 2016.",
+     "por_que_importa": "Hotel usa o lobby como sala de exposição com calendário próprio e aproveita o evento da cidade pra trazer gente de fora. Referência pro Haven tratar a área comum do clube como espaço de acervo rotativo, inclusive de peças dos sócios.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Fitt Insider mapeia os suplementos em tira: Sleep or Die levantou US$ 1 milhão com lista de espera de 4 mil pessoas e a NuStrips já vende na Erewhon",
+     "source": "Fitt Insider (matéria de tendência; números das próprias marcas; a matéria cita a categoria de suplementos em US$ 79 bilhões sem nomear a fonte)",
+     "url": "https://insider.fitt.co/wellness-strips-reformat-supplement-routines/",
+     "date": "2026-11-13",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "A matéria reúne marcas de suplemento em tira oral: Sleep or Die, com US$ 1 milhão da True Beauty Ventures e 4 mil pessoas na lista de espera, NuStrips à venda na Erewhon e na Urban Outfitters, Riize com 50 mg de NAD+ por tira, além de Pemi, Wizard Wellness, Smart Strips e Nuet. O texto conclui que a biodisponibilidade superior ainda não está comprovada.",
+     "por_que_importa": "Formato de produto que entra em varejo de lifestyle antes de ter prova clínica. Serve de alerta pra curadoria da loja do clube e pra regra de só vender o que o parceiro médico endossa.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Reserva Pró-Mata, da PUCRS na serra gaúcha, abre trilhas e mirante pra visita e mantém a Casa do Pesquisador, a 5 km da sede, sem internet por desenho",
+     "source": "Jornal do Comércio (Porto Alegre, Jornal Cidades, Alessandra Rech; publicada em 03/11, extensão da janela; falas do secretário de Turismo e de guia, foto de divulgação)",
+     "url": "https://www.jornaldocomercio.com/jornal-cidades/2026/11/1269081-reserva-propicia-contemplacao-e-detox-digital-aos-visitantes.html",
+     "date": "2026-11-03",
+     "region": "São Francisco de Paula, RS",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A RPPN Pró-Mata, em São Francisco de Paula, recebe visitantes com escadaria de 12 metros no Mirante Branco, sede a 28 km do litoral em linha reta e guias de 28 espécies de mamíferos e 36 de aves. A Casa do Pesquisador, a cerca de 5 km da sede, é oferecida a quem quer ficar sem internet. A matéria não traz preço nem número de visitantes.",
+     "por_que_importa": "A reserva vende a ausência de sinal como atributo, com uma casa separada só pra isso. Vale como referência pro Haven desenhar um espaço do clube sem conexão, dito no projeto e no material de venda.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-15",
    "manchete": "A clínica de longevidade entrou na academia de rede em Nova York e o spa da Sisley entrou no terminal do BTG em Guarulhos. O bem-estar foi atrás de quem já estava no lugar.",
