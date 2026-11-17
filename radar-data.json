@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-16",
+ "atualizado": "2026-11-17",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,378 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-17",
+   "manchete": "O Kurotel cortou de quatro dias pra uma noite a porta de entrada da longevidade. Nos EUA, a longevidade virou franquia com 300 territórios vendidos antes da primeira unidade abrir, e no Ibirapuera duas marcas montaram base de corrida no mesmo parque.",
+   "editorial": "A barreira de entrada da longevidade caiu em dois lugares no mesmo fim de semana. Em Gramado, o Kurotel, que exigia quatro dias de programa clínico, passou a vender uma noite de domingo a quarta com acesso à estrutura de bem-estar e o Método Kur à parte. Nos EUA, a Ultimate Longevity Center de Gary Brecka diz ter vendido mais de 300 territórios de franquia antes de abrir o primeiro centro, em janeiro, com diagnóstico, recuperação e protocolo em três zonas de nome fácil. O mecanismo é o mesmo: a palavra longevidade está virando commodity de varejo, e quem vendia escassez perde o prêmio. O que sobra como diferença é o que a franquia não entrega, a continuidade de uma rotina perto de casa e a turma que está lá todo dia, e o relatório da FINN Partners dá o número desse lado: 35% dos viajantes de bem-estar buscavam conexão antes da viagem e 51% dizem ter sentido conexão depois. O Ibirapuera mostra o preço dessa turma: Adidas e Michelob montaram, a dias de distância, bases de corrida com vestiário, armário e agenda de encontros num parque público, de graça pra quem corre. O sócio do Haven já tem comunidade grátis à disposição em São Paulo, e o clube precisa oferecer o que o parque com patrocinador não tem, o endereço fixo, a mesma turma e o cuidado que atravessa o ano.",
+   "atencao": [
+    "Marketing: A palavra longevidade está virando franquia e diária avulsa, então o discurso do Haven precisa mostrar a rotina de um ano, com nome de quem cuida, e deixar a palavra em segundo plano; o dado da FINN (35% buscavam conexão, 51% sentiram) serve de argumento de comunidade.",
+    "Vendas: O Six Senses The Palm abriu reservas com data confirmada de 23/11 e sem preço, e o Atmosphere Home SPA publica entregas mês a mês de 2029 a 2030; a proposta do Haven precisa de data de abertura do clube e calendário de entrega das casas com o mesmo nível de precisão antes de qualquer tabela.",
+    "Clube e parcerias: Kurotel, Adidas, Michelob e o Rackets in Paradise mostram quatro formatos de porta de entrada (uma noite, base de corrida aberta, espaço gratuito por três semanas, semana fechada com embaixador); vale escolher um deles pra testar em Porto Feliz antes do clube abrir, com marca parceira bancando a produção."
+   ],
+   "bench": [
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Mínimo de noites por dia da semana na hospedagem do clube",
+     "ideia": "Escrever a regra de hospedagem do clube no modelo novo do Kurotel: uma noite basta de domingo a quarta, duas noites de quinta a sábado, sem obrigação de programa. O programa de longevidade do parceiro clínico fica como contratação à parte, com o próprio mínimo de dias, e a regra entra na página de hospedagem do site e no regulamento do sócio.",
+     "ref": "Kurotel Hotelaria Wellness, Panrotas",
+     "url": "https://www.panrotas.com.br/hotelaria/investimentos/2026/11/kurotel-rs-anuncia-experiencia-integrada-de-hospedagem-e-bem-estar-de-spa-entenda_233665.html"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Área de saúde do clube em três zonas com nome, na planta e no deck",
+     "ideia": "Dividir a área de saúde do clube em três zonas nomeadas, diagnóstico, recuperação e protocolo, como a franquia do Brecka faz com Lab, Playground e Apothecary. Cada zona ganha uma sala na planta, uma lista de equipamentos e um parágrafo no deck dizendo o que o sócio faz ali numa semana comum, em vez de uma lista única de aparelhos.",
+     "ref": "Ultimate Longevity Center, PR Newswire",
+     "url": "https://prnewswire.com/news-releases/gary-breckas-ultimate-longevity-center-joined-by-shark-tank-investor-daymond-john-opens-its-first-centers-in-january-302940482.html"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Duas perguntas em todo evento: o que veio buscar, o que levou",
+     "ideia": "Em cada evento do Haven, da visita ao terreno ao encontro de sócios, aplicar uma pergunta na chegada (o que você veio buscar) e uma na saída (o que você levou), com conexão entre as opções. Publicar o delta uma vez por ano, no formato do relatório da FINN (35% buscavam conexão, 51% sentiram), como dado próprio do clube.",
+     "ref": "Wellness Travel on the Move, FINN Partners e GSIQ",
+     "url": "https://www.prnewswire.com/news-releases/wellness-travel-moves-beyond-the-spa-as-community-sports-and-nature-reshape-the-category-new-finn-partners-and-gsiq-report-302934483.html"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Base de corrida na portaria, com armário e chuveiro, aberta à cidade em horário fixo",
+     "ideia": "Montar na portaria do Haven uma base de corrida como a Hybrid House da Adidas no Ibirapuera: armários, chuveiro, água e um horário fixo por semana aberto a corredores de Porto Feliz e região. Uma marca esportiva ou de hidratação banca a estrutura e assina o espaço, e o Haven fica com a lista de quem corre ali.",
+     "ref": "Adidas Hybrid House, Money Report",
+     "url": "https://www.moneyreport.com.br/lifestyle/adidas-transforma-ibirapuera-em-vitrine-do-esporte-hibrido/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Planilha do que o membership substitui, com preços públicos",
+     "ideia": "Montar pra equipe de vendas uma planilha com o que a mensalidade do clube substitui na vida do comprador: academia premium, clube de raquete, fim de semana em hotel de campo, spa, com preço público de cada um e a fonte. Serve pra responder a objeção de custo de um cliente que, segundo a Ipsos, corta o não essencial e ainda assim gasta mais em experiência premium.",
+     "ref": "Ipsos pra Allianz Partners, Panrotas",
+     "url": "https://www.panrotas.com.br/mercado/pesquisas-e-estatisticas/2026/11/viajante-brasileiro-relata-pressao-financeira-mas-faz-adaptacoes-para-continuar-viajando_233592.html"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Semana de raquete anual com embaixador e 100 vagas, convidado de sócio pago",
+     "ideia": "Criar uma semana de raquete por ano no clube, no formato do Rackets in Paradise: 100 vagas, um ex-profissional como embaixador, professores por quadra e programação social à noite. Metade das vagas pra sócios, metade pra convidados de sócios com inscrição paga, e a data publicada com um ano de antecedência.",
+     "ref": "Rackets in Paradise, Panrotas",
+     "url": "https://www.panrotas.com.br/hotelaria/eventos/2026/11/transamerica-comandatuba-recebe-2a-edicao-do-rackets-in-paradise-em-julho-de-2027_233657.html"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Dia de clássicos no terreno com um clube de colecionadores de São Paulo",
+     "ideia": "Convidar um clube de carros clássicos de São Paulo pra um domingo no terreno de Porto Feliz antes do lançamento, com estacionamento na alameda, café e visita às casas modelo. A lista de inscritos entra na base de vendas, e uma marca de relógios ou de seguro de alto padrão pode assinar o evento, como a Richard Mille faz no Retromobile.",
+     "ref": "Retromobile Nova York, Exame",
+     "url": "https://exame.com/casual/ferrari-de-mcqueen-e-mercedes-de-lebron-a-estreia-do-retromobile-em-nova-iorque/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Página do site com cinco decisões de projeto que fazem a casa durar",
+     "ideia": "Publicar no site uma página com cinco decisões de projeto do Haven que respondem ao argumento do Heatherwick de que prédio sem graça é demolido em 40 anos: material, implantação, varanda, relação com o terreno, o que muda com o tempo. Cada decisão com uma frase do arquiteto e uma foto da maquete, sem adjetivo.",
+     "ref": "Heatherwick no GWS, Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Thomas-Heatherwick-urges-architects-and-developers-to-tackle-epidemic-of-boring-buildings-at-GWS/363951"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Kurotel, em Gramado, passa a vender uma noite de hospedagem wellness sem programa clínico, contra o mínimo de quatro dias de antes",
+     "source": "Panrotas (texto com cara de divulgação, foto de divulgação)",
+     "url": "https://www.panrotas.com.br/hotelaria/investimentos/2026/11/kurotel-rs-anuncia-experiencia-integrada-de-hospedagem-e-bem-estar-de-spa-entenda_233665.html",
+     "date": "2026-11-16",
+     "region": "Gramado/RS",
+     "escopo": "brasil",
+     "pilar": "longevidade",
+     "resumo": "O Kurotel apresentou no Festuris a modalidade Hotelaria Wellness, em vigor desde 16/11: uma diária de domingo a quarta ou duas de quinta a sábado dão acesso à estrutura de bem-estar sem contratar o programa clínico. O Método Kur, com acompanhamento médico e planos de longevidade, segue como contratação à parte, com mínimo de quatro diárias. A matéria não traz preço, investimento nem número de quartos. Fato novo em relação aos itens de 15 e 20/10, que só citavam o Kurotel como parte do polo de luxo de Gramado.",
+     "por_que_importa": "Um dos nomes de referência em longevidade no Brasil baixa a barreira de entrada e separa hospedagem de programa. Clube e parcerias podem copiar a regra de mínimo de noites na hospedagem do clube e abrir conversa com o Kurotel sobre programação curta.",
+     "para": [
+      "clube",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Ultimate Longevity Center, de Gary Brecka, abre os primeiros centros em janeiro de 2027 e diz ter vendido mais de 300 territórios de franquia nos EUA",
+     "source": "PR Newswire (release da empresa)",
+     "url": "https://prnewswire.com/news-releases/gary-breckas-ultimate-longevity-center-joined-by-shark-tank-investor-daymond-john-opens-its-first-centers-in-january-302940482.html",
+     "date": "2026-11-16",
+     "region": "Newport Beach/EUA",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A franquia de longevidade com supervisão médica divide o espaço em três zonas: diagnóstico e biomarcadores (The Lab), recuperação com câmara hiperbárica e luz vermelha (The Playground) e protocolos personalizados (The Apothecary). Abre em janeiro de 2027 no Arizona, Colorado, Flórida e Sul da Califórnia, e no primeiro trimestre em Sydney, com Daymond John como investidor em quatro unidades. A empresa diz ter vendido mais de 300 territórios nos EUA e mirar mais de 350 no mundo; o release não informa preços.",
+     "por_que_importa": "Longevidade virando franquia de massa com marca de celebridade reforça pro Haven a diferença de um membership curado de 75 casas. Marketing e clube podem usar a estrutura em três zonas como referência de planta e de linguagem, e posicionar o que o Haven faz de diferente.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "FINN Partners e GSIQ: 75% dos viajantes engajados fizeram viagem de bem-estar nos últimos dois anos, e 51% dizem ter sentido conexão depois, contra 35% que a buscavam antes",
+     "source": "FINN Partners com GSIQ Tourism Insights (release; amostra de viajantes engajados, sem representar a população geral)",
+     "url": "https://www.prnewswire.com/news-releases/wellness-travel-moves-beyond-the-spa-as-community-sports-and-nature-reshape-the-category-new-finn-partners-and-gsiq-report-302934483.html",
+     "date": "2026-11-10",
+     "region": "Nova York/EUA (nove mercados)",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "O relatório Wellness Travel on the Move, apresentado no Global Wellness Summit, ouviu mais de 7 mil viajantes internacionais engajados em nove mercados. 75% fizeram uma viagem ativa de bem-estar no exterior nos últimos dois anos (natureza 65%, esporte 46%, retiros 41%), e 51% disseram ter sentido conexão depois da viagem, contra 35% que a buscavam antes. Os retiros avançam além de yoga e spa, com recuperação, performance, saúde da mulher e prevenção de burnout.",
+     "por_que_importa": "O dado de conexão e o avanço de esporte e recuperação sustentam a tese de comunidade e programação do Haven. Marketing pode usar na narrativa do clube, e parcerias pode olhar operadores de retiro e performance.",
+     "para": [
+      "marketing",
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Adidas abre a Hybrid House no Ibirapuera, base de corrida e treino híbrido com vestiário, armários e horários abertos ao público",
+     "source": "Money Report (texto com cara de divulgação, fotos de divulgação)",
+     "url": "https://www.moneyreport.com.br/lifestyle/adidas-transforma-ibirapuera-em-vitrine-do-esporte-hibrido/",
+     "date": "2026-11-16",
+     "region": "São Paulo/SP",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "A Adidas inaugurou no Parque Ibirapuera um espaço que junta corrida e musculação, com vestiários, chuveiros e área pra testar tênis, no mesmo prédio da Corre no Ibira, parceira do projeto. Haverá períodos de acesso aberto, e a Urbia Parques, gestora do parque, colaborou. A matéria não traz valores, metragem nem público esperado.",
+     "por_que_importa": "Marca esportiva montando ponto físico de comunidade em torno de corrida e treino híbrido, com run club como parceiro. Marketing e parcerias podem usar o formato como referência de ativação de marca no Haven, com base de corrida na portaria aberta à cidade.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Six Senses The Palm, em Dubai, confirma abertura em 23 de novembro com 61 suítes, 172 residências e clínica de longevidade, e abre reservas sem publicar preço",
+     "source": "Rus Tourism News (cobertura de lançamento, reproduz dados da operadora)",
+     "url": "https://rustourismnews.com/2026/11/16/six-senses-the-palm-dubai-to-open-november-23-with-61-luxury-suites",
+     "date": "2026-11-16",
+     "region": "Dubai/Emirados Árabes",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "O primeiro Six Senses dos Emirados abre em 23/11 na Palm Jumeirah, com 61 suítes e 172 residências privadas, entre elas nove Signature Villas de cinco quartos. O bem-estar ocupa cerca de 5.500 m², com hammam, saunas, piscinas de vitalidade, Longevity Clinic, a clínica de diagnóstico Nova Clinic e um Biohacking Recovery Lounge. Fato novo em relação à edição de 5/11, que trazia a data como prevista: agora há reservas abertas e a data aparece como confirmada; o texto não traz preços.",
+     "por_que_importa": "Caso fechado de hotel, residências e clínica de longevidade no mesmo endereço, útil como referência de composição de programa pra vendas e parcerias. Vale acompanhar como a operadora comunica o acesso dos moradores à clínica.",
+     "para": [
+      "vendas",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "GWI abre o recorte da Tailândia: economia do bem-estar de US$ 46,5 bilhões em 2025, com wellness real estate como o setor que mais cresce, 66,7% num ano",
+     "source": "Global Wellness Institute (release na PR Newswire)",
+     "url": "https://www.prnewswire.com/news-releases/global-wellness-institute-releases-new-data-on-thailands-fast-growing-46-5-billion-wellness-economy-302936792.html",
+     "date": "2026-11-11",
+     "region": "Phuket/Tailândia",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "O GWI divulgou durante o Global Wellness Summit o recorte da Tailândia: US$ 46,5 bilhões em 2025, crescimento de 8,8% (contra 11,6% em 2024 e 16,9% em 2023, anos puxados em parte pela retomada pós-pandemia). Wellness real estate foi o setor que mais cresceu, 66,7%, a US$ 1,2 bilhão, e o turismo de bem-estar é o maior, com US$ 14,5 bilhões. Fato novo em relação ao Monitor global publicado em 11/11: o recorte por país.",
+     "por_que_importa": "Caso concreto de mercado onde wellness real estate cresce mais que o resto da economia do bem-estar, útil pra vendas e pra conversa com parceiros. A base é pequena (US$ 1,2 bilhão), então serve como sinal de direção e precisa dessa ressalva quando entrar num slide.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Michelob Ultra abre o Michelob Station no Ibirapuera, espaço gratuito de corrida e convivência de 14/11 a 6/12, com armários, treino funcional e encontros de grupos",
+     "source": "Meio & Mensagem",
+     "url": "https://www.meioemensagem.com.br/marketing/michelob-ultra-abre-espaco-para-corredores-no-ibirapuera",
+     "date": "2026-11-14",
+     "region": "São Paulo/SP",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A marca da Ambev monta um espaço próprio no Parque Ibirapuera, gratuito e com inscrição pela Sympla, com armários, hidratação, lounge, encontros de grupos de corrida, mobilidade, treino funcional e conversas com marcas convidadas. Funciona até 6/12. Fato novo em relação ao Move Fest e aos números de vendas já publicados em 18 e 30/10: o espaço fixo de comunidade. A marca repete que a linha wellness da Ambev cresceu mais de 157%.",
+     "por_que_importa": "Uma cervejeira transforma corrida em ponto de encontro com programação semanal, o tipo de ritual que marketing e clube podem estudar pra rotina de encontros. Parcerias pode olhar o formato de convidar outras marcas pra ocupar a agenda.",
+     "para": [
+      "marketing",
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Aman detalha a Atma Miami: abertura só em 2031, spa de 120 mil pés quadrados com área médica, nove quadras de raquete e Djokovic na curadoria de longevidade",
+     "source": "Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Novak-Djokovic-to-shape-wellness-offer-at-Aman-Groups-new-hospitality-brand-ATMA/363972",
+     "date": "2026-11-16",
+     "region": "Miami/EUA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A Atma Miami fica em Brickell, numa torre de 1.049 pés com projeto da SHoP, desenvolvida por OKO Group e Oak Row Equities, com abertura em 2031. Terá spa e centro de bem-estar de 120 mil pés quadrados com área médica, nove quadras de raquete, sete espaços de gastronomia e marina privativa. Fato novo em relação à edição de 11/11: prazo de abertura, incorporadoras, número de quadras e o papel de Djokovic em longevidade, nutrição e recuperação; a Aman ainda não divulgou número de quartos nem de unidades.",
+     "por_que_importa": "Marca de ultraluxo vendendo residência com esporte e longevidade como programa central, com prazo de cinco anos. Serve de régua pro discurso de marketing do Haven sobre rotina de bem-estar em casa, sem depender de endosso de celebridade.",
+     "para": [
+      "marketing",
+      "vendas",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Festuris 2026 fecha com mais de 18 mil pessoas, cerca de 800 compradores e 65 destinos internacionais, com o Japão estreando no espaço de luxo",
+     "source": "Jornal do Comércio (números da organização; texto parcialmente fechado)",
+     "url": "https://www.jornaldocomercio.com/economia/2026/11/1270540-festuris-reune-mais-de-18-mil-pessoas-e-65-destinos-internacionais-em-gramado.html",
+     "date": "2026-11-14",
+     "region": "Gramado/RS",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A feira, de 12 a 14/11, reuniu mais de 18 mil pessoas, cerca de 800 compradores e 65 destinos internacionais. O Japão estreou no espaço de luxo, ao lado da China como outro país asiático citado. Os números vêm da organização e o texto está parcialmente atrás de paywall. Fato novo em relação ao item de 14/11 do Espaço Luxury, que trazia só a pré-agenda (126 marcas, 300 compradores).",
+     "por_que_importa": "Dá a dimensão real do circuito de luxo em Gramado, vizinho de wellness e longevidade com Kurotel e Club Med. Parcerias pode mapear quais marcas e destinos do segmento vale procurar pro Haven.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Atmosphere Home SPA, em Itajaí, tem 320 unidades de 217 a 531 m², oito torres e entregas de junho de 2029 a junho de 2030",
+     "source": "Forbes Brasil (texto com cara de divulgação, cobertura de evento feito em parceria com a incorporadora Dall)",
+     "url": "https://forbes.com.br/eventos/2026/11/forbes-power-dinner-by-dall-reune-convidados-para-discutir-as-novas-fronteiras-do-luxo-em-santa-catarina/",
+     "date": "2026-11-16",
+     "region": "Itajaí/SC",
+     "escopo": "brasil",
+     "pilar": "wellness-residence",
+     "resumo": "A cobertura do 3º Forbes Power Dinner, feito em 14/11 na Praia Brava com cerca de 300 convidados em parceria com a Dall, detalha o Atmosphere Home SPA: terreno de 20.362 m², oito torres, 320 unidades de 217 a 531 m², entregas de junho de 2029 a junho de 2030. O lançamento foi em agosto de 2025. O texto não traz preço nem VGV e não tem contraponto independente.",
+     "por_que_importa": "Residencial de alto padrão no litoral catarinense que usa a palavra spa no nome do produto, referência de como concorrentes de segunda residência posicionam bem-estar. Vendas pode comparar metragem e calendário de entrega com as casas do Haven.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Rackets in Paradise volta ao Transamerica Comandatuba em julho de 2027 com 100 vagas, oito quadras, oito professores e Nicolás Almagro como embaixador",
+     "source": "Panrotas (texto com cara de divulgação, com fala do organizador)",
+     "url": "https://www.panrotas.com.br/hotelaria/eventos/2026/11/transamerica-comandatuba-recebe-2a-edicao-do-rackets-in-paradise-em-julho-de-2027_233657.html",
+     "date": "2026-11-16",
+     "region": "Comandatuba/BA",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "A 2ª edição brasileira do evento de tênis em resort acontece de 25 a 31/07/2027, com 100 vagas, oito quadras, oito professores e Nicolás Almagro como embaixador. A 1ª edição teve 90 inscritos. Uma edição internacional está marcada pra Roma, de 4 a 8/05/2027, durante o Internazionali d'Italia. A matéria não informa preço de inscrição.",
+     "por_que_importa": "Semana de esporte com grupo fechado dentro de resort, formato que combina comunidade e hospedagem. Clube e parcerias podem estudar o modelo de imersão esportiva com embaixador pra eventos de sócios do Haven.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Ipsos pra Allianz Partners: 55% dos brasileiros planejam viajar nesta temporada, 77% cortam gasto não essencial e 44% dizem investir mais em experiências de luxo",
+     "source": "Panrotas (pesquisa Global Travel Confidence Index, da Ipsos, encomendada pela Allianz Partners, seguradora de viagem)",
+     "url": "https://www.panrotas.com.br/mercado/pesquisas-e-estatisticas/2026/11/viajante-brasileiro-relata-pressao-financeira-mas-faz-adaptacoes-para-continuar-viajando_233592.html",
+     "date": "2026-11-12",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "estudos",
+     "resumo": "A Ipsos ouviu 1.001 brasileiros com 18 anos ou mais, de 25/9 a 9/10/2026, como parte de um estudo em 15 países. 55% planejam viajar (39% no Brasil, 13% fora), 78% temem o aumento dos custos e 77% cortam gastos não essenciais, enquanto 44% dizem investir mais em experiências de luxo. A pesquisa foi encomendada por uma seguradora de viagem.",
+     "por_que_importa": "Mostra um consumidor pressionado que ainda separa verba pra experiência premium, o que ajuda vendas a calibrar o discurso de valor do membership. Marketing pode usar a lógica de cortar o supérfluo e manter o que vale.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Retromobile estreia em Nova York de 19 a 22/11, com cerca de 100 expositores, leilão da Gooding Christie's e galeria de relógios patrocinada pela Richard Mille",
+     "source": "Exame (confirmado também na página do Time Out Nova York)",
+     "url": "https://exame.com/casual/ferrari-de-mcqueen-e-mercedes-de-lebron-a-estreia-do-retromobile-em-nova-iorque/",
+     "date": "2026-11-19",
+     "region": "Nova York/EUA",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "A versão americana do salão de clássicos de Paris acontece no Javits Center, com cerca de 100 expositores, mais de 160 lotes da Gooding Christie's, entre eles uma Ferrari de Steve McQueen estimada em até US$ 20 milhões, carros de arte de Keith Haring e Shepard Fairey e uma galeria de relógios patrocinada pela Richard Mille. O ingresso diário parte de US$ 70. A edição marca os 50 anos do evento em Paris.",
+     "por_que_importa": "Reúne colecionadores de carro, arte e relojoaria, o público de repertório e de alto patrimônio que o Haven quer no clube. Parcerias pode acompanhar quem expõe e patrocina pra pensar encontros de proprietários no terreno.",
+     "para": [
+      "parcerias",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "HSMAI Commercial Strategy Conference acontece em 19/11 em São Paulo, com Accor, Minor, Bourbon, Atlantica e Comandatuba falando de IA e do vendedor que deixou de só responder cotação",
+     "source": "Panrotas",
+     "url": "https://www.panrotas.com.br/hotelaria/eventos/2026/11/hsmai-divulga-programacao-do-commercial-strategy-conference-2026-confira_233553.html",
+     "date": "2026-11-19",
+     "region": "São Paulo/SP",
+     "escopo": "brasil",
+     "pilar": "eventos",
+     "resumo": "O evento da HSMAI Brasil e Latam acontece das 8h30 às 13h no Blue Tree Premium Morumbi. A programação traz IA na decisão de compra e na experiência do hóspede, relação comercial com travel techs e práticas que um líder de vendas de hotel deixou de fazer, com executivos de Accor, Minor Hotels, Bourbon, Atlantica, Transamerica Comandatuba e Atrio. Termina com a premiação HSMAI Awards.",
+     "por_que_importa": "Termômetro de como a hotelaria de luxo e de resort está vendendo e usando IA, e pode alimentar o desenho da operação comercial e do relacionamento com corretores e agências do Haven. Vendas pode mandar alguém ou pedir o material depois.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Jordânia leva a investidores um resort de longevidade em Naour com 240 quartos, 60 deles pra moradia sênior, sem data, preço nem financiamento",
+     "source": "Travel And Tour World (veículo secundário; projeto em fase de proposta)",
+     "url": "https://travelandtourworld.com/news/article/i9y7ziv8afhy",
+     "date": "2026-11-15",
+     "region": "Naour/Jordânia",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "O projeto prevê cerca de 400 mil m² entre Amã e o Mar Morto, 240 quartos (60 pra senior living) e centro de longevidade com sono, estresse, cognição, medicina regenerativa, saúde da mulher e detox digital. Será apresentado na conferência Jordânia-UE de investimento em 19/11. A própria matéria diz que não há data de abertura, preço nem financiamento confirmado.",
+     "por_que_importa": "Sinal de que governos já tratam longevidade e senior living como pacote de investimento, o que ajuda parcerias a mapear quem está levantando capital nesse formato. Sem confirmação oficial, serve só como radar.",
+     "para": [
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Tailândia apresenta no GWS plano de cinco hubs de bem-estar até 2034, com mais de 20% da população acima de 60 anos",
+     "source": "Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Thailand-targets-global-wellness-leadership-through-five-hub-strategy-says-health-minister-during-GWS/363967",
+     "date": "2026-11-13",
+     "region": "Phuket/Tailândia",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "No Global Wellness Summit, o ministro da Saúde Pattana Promphat apresentou o plano 2025 a 2034, com cinco hubs: serviços médicos, bem-estar, educação, produtos e convenções de saúde. Citou que mais de 20% da população tem 60 anos ou mais e que a Thai Spa Association mira o top 5 de bem-estar da Ásia-Pacífico até 2030. É discurso de ministro, sem valor de investimento no texto.",
+     "por_que_importa": "Contexto de política pública pro movimento das operadoras que estão abrindo clínicas de longevidade na Tailândia, como Minor e Clinique La Prairie. Parcerias pode usar como argumento de mercado em conversa com operadores.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Heatherwick no GWS: prédio sem graça é demolido em cerca de 40 anos, e o Hatai, em Bangkok, com Six Senses de 100 quartos, mira WELL Gold pra 2028",
+     "source": "Spa Business (declarações do palestrante no palco)",
+     "url": "https://www.spabusiness.com/wellness-news/Thomas-Heatherwick-urges-architects-and-developers-to-tackle-epidemic-of-boring-buildings-at-GWS/363951",
+     "date": "2026-11-11",
+     "region": "Phuket/Tailândia",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "Thomas Heatherwick disse no palco que edifícios sem atrativo costumam ser demolidos em cerca de 40 anos e ligou isso a carbono embutido. Citou o Hatai, em Bangkok, com hotel Six Senses de 100 quartos, 5.300 m² de áreas públicas, meta de LEED Gold e WELL Gold e conclusão desejada pra 2028. Também anunciou parceria de £ 1,5 milhão com Humanise, UKRI e Universidade de Glasgow pra estudar o efeito dos edifícios na saúde.",
+     "por_que_importa": "Argumento de design e permanência que marketing pode usar pra explicar por que o Haven investe em arquitetura e lugar. Os números são declarações do palestrante, sem estudo revisado, e devem ser citados assim.",
+     "para": [
+      "marketing",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-16",
    "manchete": "Spa já está em 93% dos hotéis de luxo do Brasil, e resort de campo vende metade das diárias sem intermediário. O termo wellness club residence chegou à imprensa brasileira pela boca de um concorrente em Goiás.",
