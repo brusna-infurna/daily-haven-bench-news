@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-17",
+ "atualizado": "2026-11-18",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,295 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-18",
+   "manchete": "A Bain diz que o luxo parou em € 1,5 trilhão e que o que cresce é experiência, com boomers e geração X segurando metade do gasto. No mesmo dia a Accor pagou € 1,6 bilhão pela Ennismore e a WGSN registrou que 74% sentem falta de um terceiro lugar.",
+   "editorial": "O dinheiro do luxo trocou de lugar antes de crescer. A Bain fecha 2026 com o setor parado em € 1,5 trilhão, bens pessoais em queda e experiências em € 533 bilhões, e põe metade do gasto nas mãos de boomers, Silent e geração X, com € 300 a 600 bilhões de potencial até 2030 ligados a wearable de saúde, concierge médico e tratamento estético. A resposta da oferta veio no mesmo dia e com preço: a Accor pagou cerca de € 1,6 bilhão, 18 vezes o Ebitda, pelos 44,3% da Ennismore que faltavam, uma empresa que vale pelos 800 restaurantes e bares tanto quanto pelos 200 hotéis. Do lado da demanda, a WGSN, lida pela Hotelier News, diz que 74% sentem falta de um lugar fora de casa e do trabalho, e a Exame mostra gente viajando pra treinar, com a Maratona do Rio dobrando de 36 mil pra 70 mil inscritos em três anos. Quem perde nesse quadro é a casa vendida como objeto: o comprador que a Bain descreve já paga por experiência e por saúde, e o prêmio da residência vai pra quem opera o encontro, com o custo do operador embutido no preço. Pro Haven, a conta é essa: o clube deixa de ser amenidade e passa a ser o produto que a Accor acabou de comprar caro, e a ressalva da McKinsey sobre os US$ 2,7 trilhões, que não se comparam com os US$ 2 trilhões do ano passado, lembra que o número bonito precisa de linha de método antes de entrar no deck.",
+   "atencao": [
+    "Marketing: Os 74% que sentem falta de um terceiro lugar entram no discurso com a fonte nomeada (WGSN Consumidor do Futuro 2028, via Hotelier News, com pesquisa da Resy de mil americanos), e o relatório original ainda precisa ser aberto antes de virar peça externa; o US$ 2,7 trilhões da McKinsey só aparece com a nota de que o escopo mudou.",
+    "Vendas: A página do cliente no deck ganha os números da Bain de hoje, gerações mais velhas com 45% a 55% do gasto e € 300 a 600 bilhões de potencial ligados a saúde até 2030, e o relatório da Graham Associates, 162 mil unidades de residência de marca até 2030 com hoteleiras na proporção de 4 pra 1, posiciona o Haven no quinto que não tem hotel.",
+    "Clube e parcerias: A vila de saunas da CUL DE SAC no Domino Park, com segunda gratuita pra grupos locais, a loja do Copacabana Palace com 30 marcas brasileiras e curador nomeado, e a entrada do Duke de Maresias na coleção da Preferred são três modelos de programação e de parceria que cabem no clube antes das casas ficarem prontas."
+   ],
+   "bench": [
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Página do comprador no deck com o gasto do luxo por geração, da Bain",
+     "ideia": "Trocar a frase genérica sobre público 50+ por uma página com três números da Bain de 18/11: experiências em € 533 bilhões, gerações mais velhas com 45% a 55% do gasto e € 300 a 600 bilhões de potencial até 2030 ligados a wearable de saúde e concierge médico. Linha de fonte com data e a ressalva de que o release não traz amostra.",
+     "ref": "Bain Luxury Study, PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/global-luxury-holds-steady-at-1-5-trillion-as-experiences-and-new-consumer-priorities-reshape-growthbain--company-302942813.html"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Vila de saunas de inverno no terreno, dois meses, antes do clube abrir",
+     "ideia": "Montar em junho e julho duas saunas ao ar livre e um bar de hidratação no terreno, com sessão paga nos fins de semana, uma noite por semana gratuita pra grupos de Porto Feliz e Itu e programação curta (leitura, DJ, movimento). Cada visita entra na lista de membership com origem marcada; a contagem de dois meses decide se a sauna social vira equipamento fixo.",
+     "ref": "CUL DE SAC no Domino Park, Fitt Insider",
+     "url": "https://insider.fitt.co/press-release/nyc-nonprofit-cul-de-sac-brings-outdoor-community-sauna-village-to-domino-park-this-winter/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Loja do clube com curador nomeado e 30 marcas brasileiras em rodízio",
+     "ideia": "Em vez de loja de spa, uma boutique de 30 marcas autorais brasileiras de moda, design e objeto, com curador com nome no convite e no site, rodízio trimestral das marcas e uma colaboração exclusiva do Haven por temporada. O curador é contratado por temporada e a loja abre na casa-modelo nos fins de semana de visita.",
+     "ref": "Copacabana Palace Boutique, Money Report",
+     "url": "https://www.moneyreport.com.br/lifestyle/copacabana-palace-abre-boutique-dedicada-a-moda-brasileira/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Aulas do clube no ClassPass pra quem viaja pra treinar no interior",
+     "ideia": "Listar no ClassPass as aulas de pilates, corrida e força do clube desde o primeiro trimestre de operação, com vaga limitada por aula e preço avulso acima da mensalidade, pra captar quem passa o fim de semana em Porto Feliz, Itu ou Boa Vista e mantém a rotina. Cada reserva entra como lead com cidade de origem; meta de 30 reservas por mês antes de abrir categoria de sócio de temporada.",
+     "ref": "Viajar pra treinar, Exame",
+     "url": "https://exame.com/casual/a-academia-virou-destino-por-que-cada-vez-mais-pessoas-estao-viajando-para-treinar/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Mapa dos terceiros lugares de Porto Feliz e Itu feito com a lista",
+     "ideia": "Perguntar a 20 pessoas da lista de membership onde elas encontram gente hoje fora de casa e do trabalho, na cidade e no interior, e publicar o mapa com os lugares nomeados e as falas curtas, sem o Haven no mapa. A peça abre a série do clube como terceiro lugar e usa o 74% da WGSN com a fonte na legenda.",
+     "ref": "WGSN Consumidor do Futuro 2028, Hotelier News",
+     "url": "https://hoteliernews.com.br/consumidor-futuro-2028-luxo-hotelaria/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Operadora lifestyle pro bar e restaurante, F&B fora da mensalidade",
+     "ideia": "Abrir conversa com duas operadoras lifestyle com restaurante e bar como centro do negócio (a Ennismore, que a Accor acabou de avaliar em € 3,7 bilhões por isso, e uma brasileira) pra operar o F&B do clube com contrato próprio, receita separada do membership e um bar com programação semanal. Critério de escolha: quantos cobertos por dia a operadora precisa pra se sustentar com 75 casas e os sócios externos.",
+     "ref": "Accor compra a Ennismore, Skift",
+     "url": "https://skift.com/2026/11/17/accors-1-8-billion-ennismore-buyout-tops-4-rival-lifestyle-deals-combined"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Casa de hóspedes do clube no padrão de uma coleção de curadoria",
+     "ideia": "Briefar a casa de hóspedes do clube já com os critérios de entrada de uma coleção como a Lifestyle Collection da Preferred ou a SLH (número de chaves, serviço, F&B, spa), pra que ela possa ser afiliada e vendida por canal global desde a abertura, com noites reservadas pros sócios e o resto no mercado. A afiliação vira linha de receita do clube e canal de visita pra prospects de fora do estado.",
+     "ref": "Duke Beach na Preferred, Panrotas",
+     "url": "https://www.panrotas.com.br/viagens-de-luxo/hotelaria/2026/11/preferred-hotels-anuncia-28-novos-hoteis-incluindo-propriedade-em-maresias-sp_233725.html"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Ficha do Haven enviada pro relatório anual da Graham Associates",
+     "ideia": "Pedir o relatório gratuito da Graham Associates, mapear como as residências de marca sem hotel aparecem nele e enviar a ficha do Haven (operador do clube, parceiro clínico, 75 casas, modelo de membership) pra edição de 2027 e pro diretório do BrandedResi. Custo zero, e o Haven passa a ser citado na fonte que incorporadores e bancos usam.",
+     "ref": "Graham Associates, BrandedResi",
+     "url": "https://brandedresi.com/branded-residences-an-overview/"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Bain: luxo global fica em € 1,5 trilhão em 2026, com experiências em € 533 bilhões e boomers, Silent e geração X com 45% a 55% do gasto",
+     "source": "PR Newswire (release da Bain & Company; estudo Luxury Worldwide Market Study, sem amostra informada)",
+     "url": "https://www.prnewswire.com/news-releases/global-luxury-holds-steady-at-1-5-trillion-as-experiences-and-new-consumer-priorities-reshape-growthbain--company-302942813.html",
+     "date": "2026-11-18",
+     "region": "Milão, Itália / global",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "A Bain estima o luxo global em € 1,5 trilhão em 2026, entre estável e alta de 2% a câmbio constante. Experiências somam € 533 bilhões (alta de 2% a 4%), bens pessoais de luxo € 367 bilhões e ativos de luxo € 626 bilhões (queda de 3% a 5%). Os clientes de topo respondem por cerca de € 780 bilhões, mais de metade do gasto, e as gerações mais velhas têm 45% a 55% do gasto, com € 300 a 600 bilhões de potencial acumulado entre 2026 e 2030 ligados a wearables de saúde, concierge médico e tratamentos estéticos. O release não informa tamanho de amostra nem cita a Altagamma, parceira dos estudos anteriores.",
+     "por_que_importa": "Número recente de consultoria de peso pro deck: o dinheiro do luxo está indo pra experiência e pra geração que é o público de longevidade do Haven. Serve pra material de vendas e pra conversa com parceiros de hospitalidade, com a ressalva da amostra.",
+     "para": [
+      "vendas",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Accor paga cerca de € 1,6 bilhão pelos 44,3% da Ennismore que ainda não tinha, a 18 vezes o Ebitda, por 200 hotéis e 800 restaurantes e bares",
+     "source": "Skift",
+     "url": "https://skift.com/2026/11/17/accors-1-8-billion-ennismore-buyout-tops-4-rival-lifestyle-deals-combined",
+     "date": "2026-11-17",
+     "region": "Paris, França / global",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A Accor compra em etapas os 44,3% restantes da Ennismore por cerca de € 1,6 bilhão (US$ 1,8 bilhão), o que avalia o capital da empresa em cerca de € 3,7 bilhões. A Ennismore tem contratos de gestão de quase 200 hotéis, mais de 800 restaurantes e bares e gerou € 205 milhões de Ebitda em 2025, cerca de 20% do Ebitda recorrente da Accor. A Skift diz que o valor supera a soma de quatro compras rivais de marcas lifestyle (citizenM, Graduate, The Standard e Ruby).",
+     "por_que_importa": "Mostra quanto o mercado paga por marca lifestyle com restaurantes, bares e comunidade como centro do negócio, argumento pra conversa com operadores e investidores sobre o valor de um clube com identidade própria e F&B forte.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "WGSN Consumidor do Futuro 2028, lido pela Hotelier News: 74% sentem falta de um lugar fora de casa e do trabalho, e o luxo migra pra descanso e reconexão",
+     "source": "Hotelier News (HUB DesignX, análise editorial sobre relatório da WGSN; relatório completo pago)",
+     "url": "https://hoteliernews.com.br/consumidor-futuro-2028-luxo-hotelaria/",
+     "date": "2026-11-17",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "estudos",
+     "resumo": "O artigo de Camila Contato aplica à hotelaria o relatório Consumidor do Futuro 2028, da WGSN: 74% dos entrevistados sentem falta de terceiros lugares, 65% têm dificuldade de achar um que atenda, e 90% da geração Z gosta de mesa comunitária (pesquisa da Resy com mil americanos). Cita também a Bain, com 75% dos latino-americanos preferindo marca local em igualdade de preço e qualidade. O relatório não é sobre turismo, então as aplicações à hotelaria são análise do veículo, e a matéria não trata de longevidade.",
+     "por_que_importa": "Dá número com fonte nomeada pro argumento de comunidade e de terceiro lugar na venda do clube. Vale abrir o relatório original da WGSN antes de usar em peça externa.",
+     "para": [
+      "marketing",
+      "vendas",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Exame: viajar pra treinar vira tendência, com reservas de aula do ClassPass fora da cidade em 15% dos usuários e a Maratona do Rio com 70 mil inscritos",
+     "source": "Exame (Casual; dados da Skyscanner e do ClassPass, na maior parte internacionais)",
+     "url": "https://exame.com/casual/a-academia-virou-destino-por-que-cada-vez-mais-pessoas-estao-viajando-para-treinar/",
+     "date": "2026-11-18",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A matéria usa o relatório Travel Trends 2027 da Skyscanner (mais de 28 mil viajantes) e dados do ClassPass: 15% dos usuários ativos reservaram ao menos uma aula fora da cidade entre julho de 2025 e junho de 2026, com pilates à frente (alta de 42%). No Brasil, a Maratona do Rio teve cerca de 70 mil inscritos em junho de 2026, contra 36 mil em 2023, com 75% vindos de fora da capital e R$ 711 milhões de impacto econômico, segundo o governo do estado. A matéria não analisa nenhum hotel brasileiro.",
+     "por_que_importa": "Argumento pra programação de treino e corrida aberta a visitantes e hóspedes do clube, e pra posicionar o Haven como destino de fim de semana de quem viaja sem largar a rotina.",
+     "para": [
+      "marketing",
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Graham Associates lança a 7ª edição do relatório de residências de marca: mais de 250 marcas, hoteleiras na proporção de 4 pra 1 e 162 mil unidades até 2030",
+     "source": "BrandedResi (divulgação de relatório da consultoria; relatório gratuito sob pedido)",
+     "url": "https://brandedresi.com/branded-residences-an-overview/",
+     "date": "2026-11-18",
+     "region": "global",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "O relatório de Chris Graham cita dado da Knight Frank de expansão de 255% entre 2015 e 2025 e mais de 250 marcas ativas, com hoteleiras na proporção de cerca de 4 pra 1 sobre as não hoteleiras. As unidades devem passar de 162 mil até 2030, e GBR, Savills e Knight Frank projetam de 1.747 a 1.972 empreendimentos até 2031 e 2032. Cerca de dois terços dos projetos são de luxo, com fatia maior pro segmento intermediário nos próximos quatro a cinco anos.",
+     "por_que_importa": "Fonte pronta de números de mercado pro deck e pra conversa com incorporadores, e serve pra posicionar o Haven no quinto das residências de marca que não vem de hotel.",
+     "para": [
+      "vendas",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "CUL DE SAC, sem fins lucrativos de Nova York, abre vila de saunas por quatro meses no Domino Park, com segunda-feira gratuita pra grupos locais a partir de 16/11",
+     "source": "Fitt Insider (release da organização, 09/11, extensão da janela; a primeira segunda gratuita é em 16/11)",
+     "url": "https://insider.fitt.co/press-release/nyc-nonprofit-cul-de-sac-brings-outdoor-community-sauna-village-to-domino-park-this-winter/",
+     "date": "2026-11-09",
+     "region": "Brooklyn, Nova York, EUA",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "A CUL DE SAC, organização 501(c)(3) que testou saunas pop-up em parques de Nova York nos últimos 12 meses e financiou a residência com uma campanha no Kickstarter, abriu em 9/11 duas saunas ao ar livre e um bar de hidratação no Domino Park, em Williamsburg, até o fim de fevereiro. Free Sweat Mondays (16 e 23/11, 7 e 21/12) têm sessões gratuitas e com desconto pra grupos comunitários como o Ali Forney Center; de terça a quinta há noites temáticas e nos fins de semana um bloco de rua com sessões guiadas, DJs e chefs. O release não informa preço nem valor arrecadado; o fundador Gabe Bender fala em sauna como infraestrutura pública da cidade.",
+     "por_que_importa": "Modelo de sauna social como equipamento de temporada e de porta aberta pra vizinhança, aplicável ao terreno do Haven antes do clube e à relação com Porto Feliz e Itu.",
+     "para": [
+      "clube",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Marriott tem 115 projetos de residências de marca em EMEA, com 25 contratos assinados em 2026 e 37% do pipeline global, e o morador acessa benefícios pelo Bonvoy",
+     "source": "BrandedResi",
+     "url": "https://brandedresi.com/marriott-branded-residential/",
+     "date": "2026-11-18",
+     "region": "EMEA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A Marriott soma 115 projetos residenciais abertos e em desenvolvimento na região, 36 abertos e quase 80 em pipeline, em 23 países. O portfólio aberto cresceu quase 60% em três anos, cerca de 75% dos contratos de 2026 são de marcas de luxo, e Itália, França e Uzbequistão entraram como novos mercados. A página não traz número de unidades nem detalhe de bem-estar; o único clube citado é um rooftop em Heliópolis, no Cairo, e os moradores acessam benefícios Bonvoy pela plataforma ONVIA.",
+     "por_que_importa": "Dá o tamanho do concorrente de escala no segmento e mostra que o benefício do morador passa por programa de fidelidade, referência pra desenhar o que o proprietário do Haven recebe do clube e dos parceiros.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "McKinsey, em leitura da Spa Business: 18% dos consumidores fazem biohacking (28% na geração Z), 34% dos alemães usam sauna e os US$ 2,7 trilhões não se comparam com o ano passado",
+     "source": "Spa Business (matéria de trade sobre a pesquisa da McKinsey com mais de 10 mil consumidores; relatório já publicado em 14/11, com recorte novo de recuperação)",
+     "url": "https://www.spabusiness.com/wellness-news/McKinsey-Recovery-and-biohacking-fuel-wellness-markets-US27-trillion-boom/363978",
+     "date": "2026-11-17",
+     "region": "EUA, Reino Unido, Alemanha e China",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "Fato novo sobre o relatório já publicado: a Spa Business destaca recuperação (banho frio, terapia de contraste, sauna social) e biohacking. 18% dos consumidores fazem biohacking, 28% entre a geração Z, e a Alemanha lidera a sauna, com 34% que já usaram ou usam contra 18% nos EUA. A McKinsey avisa que os US$ 2,7 trilhões não se comparam com os US$ 2 trilhões do ano passado, porque o escopo aumentou. 35% dos usuários de GLP-1 comem mais proteína e 18% passaram a treinar força.",
+     "por_que_importa": "O recorte de recuperação e sauna social sustenta a programação do clube, e o aviso metodológico precisa acompanhar o número de US$ 2,7 trilhões em qualquer material de venda.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Nike reorganiza o treino em Prime, Train e Recover, entra no Hyrox e vê a receita cair de US$ 51,4 bilhões pra US$ 46,4 bilhões em dois anos",
+     "source": "Athletech News (com Fitt Insider, 16/11, sobre o lançamento do sistema)",
+     "url": "https://athletechnews.com/nike-innovation-push-comes-as-sales-keep-sliding/",
+     "date": "2026-11-17",
+     "region": "EUA / global",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "A Nike organiza os produtos de treino em Prime, Train e Recover, com tênis desenhado pra provas no estilo Hyrox, onde disputa espaço com a Puma, parceira oficial da prova até 2030. A receita anual foi de US$ 51,4 bilhões no ano fiscal de 2024 pra US$ 46,4 bilhões no de 2026, e o negócio de performance cresceu em alta casa de um dígito. A meta é que performance responda por US$ 4 bilhões dos cerca de US$ 5 bilhões de receita adicional até o ano fiscal de 2031.",
+     "por_que_importa": "A maior marca esportiva está apostando em treino híbrido e recuperação como rotina, a mesma direção da programação de corrida e treino do clube, e abre conversa de parceria de marca.",
+     "para": [
+      "parcerias",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Copacabana Palace abre boutique multimarcas com mais de 30 marcas brasileiras e curadoria de Maria Fernanda Lima, dentro do Edifício Piscina reaberto",
+     "source": "Money Report (Lifestyle; texto com cara de divulgação do hotel)",
+     "url": "https://www.moneyreport.com.br/lifestyle/copacabana-palace-abre-boutique-dedicada-a-moda-brasileira/",
+     "date": "2026-11-17",
+     "region": "Rio de Janeiro, RJ",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A Copacabana Palace Boutique reúne mais de 30 marcas nacionais de moda e design, como Carnan, Marina Bitu, Hisha, Elis Cardim e Flavia Madeira, além de peças de Silvia Furmanovich, ÓST Design e Dani Enne. A curadoria é de Maria Fernanda Lima, ex-Aesop, no primeiro projeto dela com coleções de moda, e o espaço prevê colaborações e produtos exclusivos. É fato novo sobre a reabertura do Edifício Piscina, já coberta, e não trata do Dior Spa.",
+     "por_que_importa": "Hotel de luxo vendendo curadoria de marcas autorais brasileiras dentro da casa, com curador nomeado, modelo aplicável à loja e aos pop-ups de parceiros no clube do Haven.",
+     "para": [
+      "parcerias",
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Duke Beach Hotel & Spa, de Maresias, entra na Lifestyle Collection da Preferred Hotels, que somou 28 hotéis em um trimestre",
+     "source": "Panrotas (Viagens de Luxo)",
+     "url": "https://www.panrotas.com.br/viagens-de-luxo/hotelaria/2026/11/preferred-hotels-anuncia-28-novos-hoteis-incluindo-propriedade-em-maresias-sp_233725.html",
+     "date": "2026-11-17",
+     "region": "Maresias, SP",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A Preferred Hotels & Resorts incluiu 28 hotéis de julho a setembro de 2026, o maior trimestre desde 2024 segundo a CEO Lindsey Ueberroth. O único brasileiro do grupo é o Duke Beach Hotel & Spa, em Maresias, no litoral norte paulista, na Lifestyle Collection. Entre os demais estão Nobu Hotel Los Cabos, The Fujiya Hotel (Hakone) e Palazzo Trezza (Verona).",
+     "por_que_importa": "Hotel com spa do litoral paulista buscando selo de rede global de curadoria, referência pra afiliação da hospedagem do clube e pra conversas de parceria no eixo São Paulo.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Maksoud Plaza, fechado desde dezembro de 2021, pode virar projeto de uso misto com 398 apartamentos residenciais e 152 unidades de hospedagem",
+     "source": "Hotelier News (Redação)",
+     "url": "https://hoteliernews.com.br/maksoud-plaza-pode-ressurgir-em-projeto-de-uso-misto/",
+     "date": "2026-11-17",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "wellness-residence",
+     "resumo": "Os proprietários pedem à prefeitura de São Paulo licença de reforma pra converter o prédio de 26 andares em residências e unidades de serviço de hospedagem, com cinco lojas térreas e 595 vagas. O texto não diz se as 152 unidades são quartos de hotel, não nomeia incorporadora, não traz orçamento nem cronograma, e não menciona clube ou bem-estar. O prédio foi arrematado em 2011 por cerca de R$ 70 milhões, valor atualizado hoje em R$ 132 milhões.",
+     "por_que_importa": "Prédio hoteleiro parado virando residência com serviço na capital é concorrência indireta no segmento de moradia com hotelaria. Vale acompanhar se o projeto ganha clube ou programa de bem-estar.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-17",
    "manchete": "O Kurotel cortou de quatro dias pra uma noite a porta de entrada da longevidade. Nos EUA, a longevidade virou franquia com 300 territórios vendidos antes da primeira unidade abrir, e no Ibirapuera duas marcas montaram base de corrida no mesmo parque.",
