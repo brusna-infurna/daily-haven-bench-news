@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-18",
+ "atualizado": "2026-11-19",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,325 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-19",
+   "manchete": "A Kempinski chega ao Brasil com 195 residências e um ambulatório do Einstein dentro do hotel. Em Itu, o antigo San Raphael virou Tera e o Cacau Park já fala em 1.300 quartos, e nos EUA a longevidade por assinatura levantou US$ 228 milhões com Jay-Z na mesa.",
+   "editorial": "O que a Kempinski vende em Canela é o nome de um hospital antes do preço de uma residência: 351 apartamentos, 195 deles pra morar, e um ambulatório do Einstein com telemedicina como peça de abertura, sem valor de investimento nem tabela. A Rocco Forte faz o mesmo movimento na Sicília com outro produto, dois anos de golfe e privilégios da marca embutidos na villa, com o dono escolhendo quando aluga. A Hone Health leva isso pra assinatura pura, 1.600 marcadores e equipe médica, US$ 228 milhões de capital e preço não divulgado. O padrão é o mesmo nos três: a saúde vira argumento de venda antes de virar operação, e quem paga a diferença é o comprador que assina sem saber o que o ambulatório entrega às três da manhã. O dado do MeAgain mostra o outro lado do balcão, quem usa caneta caminha e faz 5% de musculação, ou seja, o serviço que falta é o mais barato de montar. Na vizinhança, o Tera Itu reabre com 84 quartos e quatro quadras a uma hora de São Paulo mirando evento corporativo, e o Cacau Park, no km 84 da Castello, agora diz 1.300 quartos pro fim de 2027, número que diverge das 744 suítes de outubro. Porto Feliz vai ter trânsito e concorrência de fim de semana antes de ter clube.",
+   "atencao": [
+    "Marketing: A Kempinski pôs o Einstein no release antes de qualquer preço; o argumento de saúde do Haven precisa de um parceiro nomeado e assinado, ou de uma frase honesta dizendo que ainda está em conversa.",
+    "Vendas: A Rocco Forte embute dois anos de membership na villa e deixa o dono decidir o aluguel; vale escrever como o título do clube entra no preço das 75 casas antes que o comprador pergunte.",
+    "Clube e parcerias: Tera Itu e Cacau Park são a vizinhança de 2027, com quadras, hotel e trânsito; o MeAgain mostra que o sócio em GLP-1 caminha e evita a barra, e isso é programação de força com nome e horário."
+   ],
+   "bench": [
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Sala de telemedicina com hospital nomeado na planta do clube",
+     "ideia": "Reservar na planta do clube uma sala de atendimento com enfermagem e telemedicina e abrir conversa com Einstein, Sírio ou Fleury pra assinar o espaço antes da obra. O nome só entra no deck depois de assinado, com o que o ponto faz e o que encaminha.",
+     "ref": "Kempinski Laje de Pedra, Panrotas",
+     "url": "https://www.panrotas.com.br/viagens-de-luxo/hotelaria/2026/11/kempinski-laje-de-pedra-o-que-esperar-da-estreia-da-marca-no-brasil_233732.html"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Dois anos de membership dentro do preço da casa, renovação impressa",
+     "ideia": "Incluir dois anos de título do clube no preço de cada uma das 75 casas e imprimir na proposta o valor da renovação a partir do terceiro ano. O comprador vê o custo total de uma vez e o clube ganha a base de sócios do primeiro dia.",
+     "ref": "Rocco Forte Private Villas, BRESI",
+     "url": "https://brandedresi.com/rocco-forte-private-villas/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Página da vizinhança de 2027 com Cacau Park, Tera e Boa Vista",
+     "ideia": "Publicar no site uma página com o que abre ao redor até 2027, com a data e o número que cada fonte deu (Cacau Park no km 84 pro fim de 2027, Tera Itu com 84 quartos e quatro quadras, Boa Vista) e o que o Haven faz com isso. Atualizar a cada fato novo, com a divergência de 744 suítes e 1.300 quartos registrada.",
+     "ref": "Cacau Park, Jornal Cruzeiro do Sul",
+     "url": "https://www.jornalcruzeiro.com.br/sorocaba/noticias/2026/11/767626-obras-do-cacau-park-avancam-e-montanha-russa-fica-pronta.html"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Quadras do Tera Itu pros sócios fundadores até o clube abrir",
+     "ideia": "Fechar com o Tera Itu um horário fixo semanal nas quatro quadras de tênis pros sócios fundadores do Haven, com professor e transporte a partir do terreno nos fins de semana de visita. O clube começa a ter rotina de raquete antes da obra.",
+     "ref": "Tera Itu Resort, Hotelier News",
+     "url": "https://hoteliernews.com.br/tera-itu-resort-sp-mira-eventos-para-fim-de-ano/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Trilha de saúde da mulher 45+ na grade, com sono e recovery térmico",
+     "ideia": "Criar na programação do clube uma trilha nomeada pra sócias de 45 a 60 anos, com recovery térmico, sono e força, duas sessões por semana e uma médica parceira por trimestre. A trilha entra no formulário de membership como interesse e vira o primeiro grupo fixo do clube.",
+     "ref": "Therabody e Embr Labs, Athletech",
+     "url": "https://athletechnews.com/therabody-acquires-embr-labs-tech-expanding-push-into-womens-health/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Spa como circuito ao ar livre, sem prédio: banheira, sauna, gelo e cabana",
+     "ideia": "Desenhar a área de bem-estar do clube como um circuito externo em cinco estações, banheira quente, sauna, imersão fria, cabana de treino e clareira pra banho de som, com o prédio reduzido a vestiário e sala de recovery. Custa menos de obra e usa o terreno como argumento.",
+     "ref": "Bishopstrow Spa, European Spa Magazine",
+     "url": "https://europeanspamagazine.com/bishopstrow-hotel-unveils-its-redeveloped-3-5m-spa/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Um contrato de conteúdo de treino pras 75 academias de casa",
+     "ideia": "Negociar um contrato único do condomínio com um fornecedor de conteúdo guiado e tela pra academia de casa, no modelo que a Osmotion vende pra comunidades residenciais, e oferecer como item de série da planta. O sócio treina em casa com a mesma grade do clube.",
+     "ref": "Osmotion, Athletech",
+     "url": "https://athletechnews.com/fitness-on-demand-osmotion-name-change-rebrand/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Degrau opcional de check-up anual completo, parceiro e preço no contrato",
+     "ideia": "Oferecer no membership um degrau opcional de check-up anual amplo, com painel de marcadores e consulta de retorno, feito por laboratório brasileiro nomeado, com preço anual impresso no contrato e sem venda de tratamento pelo clube. É a camada de longevidade sem virar clínica.",
+     "ref": "Hone Health, Athletech",
+     "url": "https://athletechnews.com/hone-health-raises-228-million-longevity-care-marcypen-jay-z/"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Kempinski estreia no Brasil em Canela com 351 apartamentos, 195 deles residenciais, spa, teatro e ambulatório do Einstein com telemedicina",
+     "source": "Panrotas (entrevista com o sócio-gestor do projeto)",
+     "url": "https://www.panrotas.com.br/viagens-de-luxo/hotelaria/2026/11/kempinski-laje-de-pedra-o-que-esperar-da-estreia-da-marca-no-brasil_233732.html",
+     "date": "2026-11-17",
+     "region": "Canela, RS, Brasil",
+     "escopo": "brasil",
+     "pilar": "wellness-residence",
+     "resumo": "O Laje de Pedra, aberto em 1978, está sendo reconstruído como Kempinski: 351 apartamentos, 156 ficam na hotelaria e 195 são residenciais, com obra prevista pra dezembro de 2027 e cerca de quatro meses de preparação antes da abertura. O projeto terá spa, quatro piscinas, teatro operado pela Opus Entretenimento e um ambulatório do Einstein com suporte de telemedicina, segundo o sócio-gestor José Ernesto Marino Neto. A matéria não traz valor de investimento, preço das residências nem o nome da incorporadora.",
+     "por_que_importa": "É o primeiro caso brasileiro de residência de marca com hospital de referência dentro do complexo, e serve de comparação direta pro argumento de saúde do Haven. Vale conferir o que o ambulatório entrega antes de citar em material de venda.",
+     "para": [
+      "vendas",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Tera Itu Resort, o antigo San Raphael, reabre com 84 quartos, quatro quadras de tênis e obra de mais de R$ 10 milhões, a uma hora de São Paulo",
+     "source": "Hotelier News",
+     "url": "https://hoteliernews.com.br/tera-itu-resort-sp-mira-eventos-para-fim-de-ano/",
+     "date": "2026-11-18",
+     "region": "Itu, SP, Brasil",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A Tera Hotéis, que estreou em fevereiro de 2026, opera em Itu o antigo San Raphael Country Hotel, com revitalização acima de R$ 10 milhões em cerca de 87 mil m², 84 acomodações, três piscinas (duas aquecidas), quatro quadras de tênis, beach tennis e futebol. A rede mira eventos corporativos de fim de ano pela proximidade de Campinas, Sorocaba, Jundiaí e Indaiatuba, a cerca de uma hora de carro de São Paulo. Sem spa, sem membership e sem preço na matéria.",
+     "por_que_importa": "É hospedagem de campo no mesmo raio de Porto Feliz, com quadras prontas e foco em empresa. Serve de parceiro de quadra e de hospedagem antes do clube abrir e de referência de porte pro programa esportivo.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Cacau Park, em Itu, agora fala em hotel de 1.300 quartos e abertura no fim de 2027; a montanha-russa já funciona",
+     "source": "Jornal Cruzeiro do Sul",
+     "url": "https://www.jornalcruzeiro.com.br/sorocaba/noticias/2026/11/767626-obras-do-cacau-park-avancam-e-montanha-russa-fica-pronta.html",
+     "date": "2026-11-11",
+     "region": "Itu, SP, Brasil",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "Fato novo sobre o item de 17/10: o jornal diz que o hotel do Cacau Park, no km 84 da Castello Branco, terá 1.300 quartos, número que diverge das 744 suítes publicadas pela Brasilturis em 16/10, e que a inauguração é prevista pro fim de 2027. A montanha-russa Dreams está pronta e em funcionamento, o parque ocupa 16 milhões de m² com 1 milhão construído, terá shopping a céu aberto, museu ao ar livre com obras de Kobra e estacionamento pra 8 mil veículos. Daniel Roque, vice-presidente de Negócios da Cacau Show, diz que a obra segue o cronograma; sem valor de investimento.",
+     "por_que_importa": "Um megaparque a poucos quilômetros de Porto Feliz muda trânsito e turismo de fim de semana a partir de 2027. A divergência entre 744 suítes e 1.300 quartos precisa ser conferida antes de entrar em qualquer material.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Fórum da Longevidade do Bradesco: viver mais depende de decisão tomada cedo, e a seguradora leva um indicador pessoal de longevidade pro público",
+     "source": "Times Brasil (CNBC)",
+     "url": "https://timesbrasil.com.br/empresas-e-negocios/viver-mais-e-melhor-depende-de-decisoes-tomadas-cedo/",
+     "date": "2026-11-17",
+     "region": "São Paulo, Brasil",
+     "escopo": "brasil",
+     "pilar": "longevidade",
+     "resumo": "Na 19ª edição do fórum, com o tema Novos Horizontes, Alexandre Nogueira, diretor de Marketing do Bradesco Seguros, disse que a qualidade dos anos extras depende de escolhas feitas cedo, com planejamento financeiro, saúde e bem-estar. A seguradora apresentou um indicador pessoal de longevidade, questionário sobre finanças, saúde, sono, alimentação, exercício e estresse que devolve recomendações, além de corridas e caminhadas voltadas à longevidade. Alexandre Kalache falou sobre mudança de comportamento; a matéria não traz números, público nem falas de Calabrez. Fecha em parte a pendência do item de 14/11.",
+     "por_que_importa": "Dá linguagem e um instrumento de mercado, o indicador pessoal, pra conversa de longevidade com sócio potencial. A seguradora segue candidata a parceira de prova e de programação.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "GAV soma R$ 700 milhões em Gramado: Gran Valley aberto com 197 apartamentos e spa, Gran Garden com 240 no 1º semestre de 2027, Gran House até 2029",
+     "source": "Brasilturis (fala do gerente de vendas da rede no Festuris)",
+     "url": "https://brasilturis.com.br/2026/11/13/gav-investe-r-700-milhoes-em-expansao-em-gramado/",
+     "date": "2026-11-13",
+     "region": "Gramado, RS, Brasil",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "Fecha a pendência de 15/11: a GAV detalha os três empreendimentos de Gramado. O Gran Valley abriu em agosto de 2026 com 197 apartamentos, spa, sauna e ofurôs; o Gran Garden terá 240 apartamentos no primeiro semestre de 2027 e o Gran House completa o complexo entre 2028 e 2029. A rede também cita o Jeriquiá Lagoa, no Ceará, pra janeiro de 2027, com cerca de 310 apartamentos, e Maragogi no segundo semestre. O modelo descrito é de rede de hotéis e resorts, sem venda de unidades na matéria; a Hotelier News de julho falava em multipropriedade.",
+     "por_que_importa": "Mostra o ritmo de oferta de hospedagem com spa na Serra Gaúcha, destino concorrente pro público de segunda residência. Referência de escala e de calendário pra comparar com o interior paulista.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Smart Fit prepara formato com musculação ampliada, sauna, recovery e massagem, com acesso pelo app, em unidades de SP, Guarulhos, BH e RJ",
+     "source": "Mercado&Consumo",
+     "url": "https://mercadoeconsumo.com.br/10/11/2026/servicos/smart-fit-prepara-expansao-de-academias-com-musculacao-ampliada-spa-e-recovery/",
+     "date": "2026-11-10",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A Smart Fit prepara um formato com musculação ampliada e áreas de bem-estar com sauna, recovery e massagem, acessíveis também pelo app. O formato já opera na unidade Carrefour Aricanduva, em São Paulo, e Yervant (SP), Timóteo Penteado (Guarulhos), Camargos (BH) e Itaipuaçu (RJ) estão entre as que recebem o modelo. A matéria não cita a marca Aera Recovery, preço, investimento nem número de unidades, só o prazo de 2026.",
+     "por_que_importa": "Recovery com sauna e massagem chega ao mercado de massa e sobe a régua do que um clube premium precisa entregar. A pendência da Aera Recovery segue aberta, sem preço nem data.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Hone Health levanta US$ 228 milhões, com fundo cofundado por Jay-Z, e abre ao público o Hone Black, assinatura de longevidade com 1.600 marcadores",
+     "source": "Athletech News (ATN Pro, corpo visível na captura) e Fitt Insider",
+     "url": "https://athletechnews.com/hone-health-raises-228-million-longevity-care-marcypen-jay-z/",
+     "date": "2026-11-18",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A Hone Health anunciou US$ 228 milhões: US$ 28 milhões em capital, com a MarcyPen Capital Partners, cofundada por Jay-Z, à frente da rodada, e US$ 200 milhões em financiamento de crescimento do Customer Value Fund da General Catalyst; a Kinship Ventures, de Gwyneth Paltrow, está entre os investidores, e David Grutman entra como investidor estratégico e conselheiro. O Hone Black, assinatura concierge com exames de mais de 1.600 marcadores e equipe médica, sai de um ano de operação privada pro lançamento público; a empresa diz ter tratado mais de 200 mil pacientes e passa a oferecer peptídeos com supervisão médica. Preço do Hone Black e número de membros não foram divulgados. A Fitt Insider cobriu o mesmo anúncio em 18/11.",
+     "por_que_importa": "Dinheiro de cultura, hospitalidade e private equity indo pra longevidade vendida como assinatura. Referência pra desenhar a camada de check-up e acompanhamento do clube sem virar clínica.",
+     "para": [
+      "parcerias",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Rocco Forte detalha as villas de marca do Verdura, na Sicília: 20 prontas e 47 na planta, dois anos de golfe embutidos e aluguel gerido pelo resort com o dono decidindo as datas",
+     "source": "BRESI (entrevista com o diretor de vendas da Rocco Forte)",
+     "url": "https://brandedresi.com/rocco-forte-private-villas/",
+     "date": "2026-11-11",
+     "region": "Sciacca, Sicília, Itália",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "O Verdura Resort ocupa 230 hectares com 203 quartos, spa Irene Forte de 4.000 m², dois campos de golfe de 18 buracos e onze restaurantes e bares. As villas vão de três a sete quartos, com 20 prontas e 47 na planta (a entrevista fala em 21 concluídas em outro trecho); o dono recebe dois anos de membership de golfe e os privilégios Rocco Forte Friends, e o programa de aluguel é operado pelo resort com o proprietário decidindo quanto e quando disponibiliza. Alguns donos passam até seis meses por ano na villa. Preço não divulgado; a fonte é entrevista com o vendedor.",
+     "por_que_importa": "Exemplo de residência dentro de resort com benefício de membership embutido e controle do dono sobre o aluguel, dois pontos que o desenho das 75 casas do Haven precisa responder.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Bishopstrow, em Wiltshire, reabre spa de £ 3,5 milhões como circuito ao ar livre: piscina de 14 m, banheiras externas, imersão fria e cabanas de treino numa propriedade de 30 acres",
+     "source": "European Spa Magazine (release com fala da diretora do spa)",
+     "url": "https://europeanspamagazine.com/bishopstrow-hotel-unveils-its-redeveloped-3-5m-spa/",
+     "date": "2026-11-18",
+     "region": "Wiltshire, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "O Bishopstrow Hotel, da coleção Kaleidoscope, reabriu o spa de 2.180 m² com piscina aquecida de 14 m, piscina de hidroterapia de 8 m, banheiras externas, sauna, imersão fria e cabanas externas pra treino e terapias sem toque. A programação inclui banho de som flutuante, banho de floresta, respiração e yoga, e há uma suíte com cama de luz vermelha e infravermelho. Sem preço de day pass nem de membership.",
+     "por_que_importa": "Referência de spa desenhado como circuito externo, com contraste térmico e ritual, que cabe num terreno de campo e custa menos de prédio.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Quem usa GLP-1 caminha muito e faz pouca musculação: 47% dos treinos registrados no app MeAgain são caminhada e 5% são força",
+     "source": "Athletech News (dados do app MeAgain, sem amostra declarada; ATN Pro, corpo visível na captura)",
+     "url": "https://athletechnews.com/glp-1-users-are-walking-a-lot-but-not-strength-training-much-meagain-data/",
+     "date": "2026-11-17",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "Nos registros do MeAgain, app de acompanhamento de quem usa GLP-1, caminhar é 47% dos treinos logados e musculação é 5%; faxina (2%) aparece acima de corrida, natação, pilates e yoga. O texto cita estudo que liga GLP-1 a mais matrículas em academia e outro que diz que esses usuários gastam quase quatro vezes mais com fitness, os dois sem link. Dado do próprio app, sem amostra declarada, não conferido na fonte primária.",
+     "por_que_importa": "Quem usa caneta e quer preservar músculo é público natural de clube com força, recovery e acompanhamento; o dado dá argumento pra programação de força nomeada pra esse grupo.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Prague Branded Residences Summit reúne Accor One Living, Marriott e IHG em 2/12 no Andaz Prague, com 70 vagas e pauta de prêmio de preço, absorção e taxas",
+     "source": "BRESI",
+     "url": "https://brandedresi.com/prague-branded-residences-summit-to-bring-industry-leaders-together-in-december/",
+     "date": "2026-12-02",
+     "region": "Praga, República Tcheca",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "O evento, organizado por STERENN e PKF hospitality group, acontece em 2 de dezembro no Andaz Prague, das 14h30 às 18h, com limite de 70 participantes. Entre os palestrantes estão representantes de Accor One Living, Marriott e IHG, e a pauta inclui prêmio de preço, ritmo de absorção, estrutura de taxas, financiamento e jornada do comprador. Publicado em 17/11.",
+     "por_que_importa": "A pauta de prêmio de preço e absorção é a que o time de vendas defende no Haven. Vale acompanhar o que sair do evento como benchmark de residência de marca.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Fitness On Demand vira Osmotion e vende conteúdo de treino, telas e recovery pra academias, condomínios e hotéis em mais de 20 países",
+     "source": "Athletech News (ATN Pro, corpo visível na captura)",
+     "url": "https://athletechnews.com/fitness-on-demand-osmotion-name-change-rebrand/",
+     "date": "2026-11-18",
+     "region": "Minneapolis, EUA",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A empresa, da Lift Brands (dona da Snap Fitness), passa a se chamar Osmotion, com cerca de 3.000 clientes em mais de 20 países entre academias, comunidades residenciais, hotéis e escritórios. Vende conteúdo guiado por especialistas, telas interativas, soluções de recuperação, gamificação por frequência cardíaca e apps.",
+     "por_que_importa": "Fornecedor possível de tecnologia e conteúdo pras academias das casas e do clube, já com experiência em condomínio.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Therabody compra a tecnologia da Embr Labs, pulseira que esfria o pulso contra ondas de calor da menopausa, e amplia a frente de saúde da mulher",
+     "source": "Athletech News e Fitt Insider",
+     "url": "https://athletechnews.com/therabody-acquires-embr-labs-tech-expanding-push-into-womens-health/",
+     "date": "2026-11-18",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A Therabody adquiriu a propriedade intelectual da Embr Labs, spinout do MIT criadora da pulseira Embr Wave, que aquece e esfria o pulso e vendeu quase 250 mil unidades. A marca lançou o Therabody for Her em 2025 e planeja novos produtos; a matéria cita Eight Sleep, Oura e Apple entrando em menopausa e a Midi Health, que levantou US$ 100 milhões em fevereiro. A Fitt Insider cobriu o mesmo anúncio em 18/11.",
+     "por_que_importa": "Recuperação e sono pra mulher na meia-idade viram categoria própria, um recorte que o clube pode programar e que abre conversa com marcas de recovery.",
+     "para": [
+      "parcerias",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Noom lança pulseira sem tela, feita com a Sensor Bio, pra acompanhar sono, HRV e atividade de quem usa GLP-1 em programas de empresa",
+     "source": "Fitt Insider",
+     "url": "https://insider.fitt.co/noom-launches-metabolic-health-wearable/",
+     "date": "2026-11-16",
+     "region": "EUA",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A Noom apresentou a Noom Band, pulseira sem tela feita com a Sensor Bio, antiga Biostrap, que mede frequência cardíaca, HRV, SpO2, sono e atividade. Entra sem custo nos programas empresariais de saúde metabólica, voltados a usuários de GLP-1 prescritos pela Noom. Sem preço ao consumidor.",
+     "por_que_importa": "Wearable atrelado ao acompanhamento de GLP-1 mostra como o público de longevidade será monitorado; ajuda a decidir quais dados o clube integra sem virar clínica.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-18",
    "manchete": "A Bain diz que o luxo parou em € 1,5 trilhão e que o que cresce é experiência, com boomers e geração X segurando metade do gasto. No mesmo dia a Accor pagou € 1,6 bilhão pela Ennismore e a WGSN registrou que 74% sentem falta de um terceiro lugar.",
