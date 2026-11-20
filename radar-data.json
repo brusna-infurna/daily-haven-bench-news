@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-19",
+ "atualizado": "2026-11-20",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,355 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-20",
+   "manchete": "A Smart Fit pôs uma rede social dentro do app e a Strava virou a plataforma de comunidade da Hyrox. O laço entre quem treina junto virou o produto que segura a assinatura. No Brasil, o lazer pagou R$ 853 de diária em outubro e cresceu 15% enquanto o corporativo caiu.",
+   "editorial": "A leitura fácil do dia é que academia virou rede social. A leitura por baixo é sobre custo: rede de academia vive de churn, e o dado que a Máquina do Esporte repassa da ABC Fitness e da Strava diz que quem faz amigo no treino fica. A Smart Fit põe grupos, chat e desafios no app porque é mais barato segurar o aluno pelo vínculo do que repor o aluno pela mídia, e a Strava ganha 200 milhões de usuários como palco da Hyrox pelo mesmo motivo. Quem perde é o clube que vende amenidade e espera que a comunidade apareça sozinha: sem anfitrião, grupo e regra de visibilidade, o app social vira mural vazio em três meses. O outro extremo veio do Butão, onde a Aman assinou memorando pra investir numa cidade inteira desenhada em volta de bem-estar, ainda sem resort anunciado, e da The Estate, que empacota mordomo de longevidade e clube urbano com a Fountain Life antes de vender a primeira unidade. No Haven, as 75 casas já nascem com vizinhança, mas o clube que depende de sócio externo precisa do mecanismo, com nome e horário. O IDET da Panrotas fecha o quadro: o viajante de lazer pagou R$ 853 por noite em outubro, 11% a mais, enquanto o corporativo perdeu diária pelo segundo mês seguido, e é esse viajante que a casa de segunda residência com serviço recebe.",
+   "atencao": [
+    "Marketing: A comunidade virou argumento de retenção com número público (58% fizeram amigos em grupo de atividade física, segundo a Strava), e o Haven pode falar de vizinhança como produto antes de falar de spa.",
+    "Vendas: O IDET da Panrotas dá diária média de lazer de R$ 853 em outubro, com fonte nomeada, pra sustentar a conversa de renda da casa com quem compra pensando em uso parcial.",
+    "Clube e parcerias: A Strava fechou dois anos com a Hyrox e o circuito Santander Track&Field terá 80 etapas em 2027 com expansão no interior, duas portas pra pôr Porto Feliz num calendário de prova antes da obra terminar."
+   ],
+   "bench": [
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Grupos por interesse no app do clube, com visibilidade opt-in",
+     "ideia": "Desenhar o app do clube com grupos por interesse (corrida, tênis, horta, vinil) e um sócio anfitrião por grupo, com dado de treino visível só pra quem escolher, como a Smart Fit e a Whoop fizeram. Medir no primeiro semestre quantos sócios entram em ao menos um grupo e cruzar com renovação.",
+     "ref": "Smart Fit aba social, Máquina do Esporte",
+     "url": "https://maquinadoesporte.com.br/mercado/as-novas-redes-sociais-vem-do-mercado-fitness-smart-fit-whoop-e-strava-acompanham-tendencia/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Candidatar Porto Feliz a etapa do Santander Track&Field em 2027",
+     "ideia": "Levar à TFSports a proposta de uma etapa do circuito com largada e chegada no terreno do Haven, dentro da expansão anunciada pro interior. Oferecer estrutura de apoio e hospedagem de atletas nos hotéis da região em troca de nome do Haven na etapa.",
+     "ref": "Santander Track&Field Run Series 80 provas, Máquina do Esporte",
+     "url": "https://maquinadoesporte.com.br/running/tfsports-tera-calendario-com-80-provas-do-santander-trackfield-run-series-em-2027/"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Simulador de renda da casa indexado ao IDET Panrotas",
+     "ideia": "Montar uma planilha de renda da casa em uso parcial que use a diária média de lazer do IDET (R$ 853 em outubro) como referência pública, atualizada todo mês quando o índice sair. Mostrar ao comprador três cenários de ocupação e a fonte na mesma página.",
+     "ref": "IDET Panrotas lazer +15%, Panrotas",
+     "url": "https://www.panrotas.com.br/hotelaria/mercado/2026/11/idet-panrotas-receita-do-lazer-cresce-15-na-hotelaria-em-outubro-veja-os-numeros_233825.html"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Ginástica de pés como aula fixa de prevenção de queda",
+     "ideia": "Incluir no programa do clube uma aula de 40 minutos de mobilidade de pés e equilíbrio, grupos de até dez pessoas, duas vezes por semana, dentro da mensalidade, no modelo do Mount Med. Serve de porta de entrada pro sócio 60+ que não vai à academia.",
+     "ref": "Mount Med Resort ginástica de pés, Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Mount-Med-Resort-introduces-foot-gymnastics-programme-to-support-mobility-and-prevent-falls/363990"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Percurso iluminado de corrida noturna com grupo fixo às 19h",
+     "ideia": "Prever no masterplan um percurso de corrida e caminhada com iluminação contínua e marcação de distância, e abrir um grupo noturno fixo de corrida às quintas e de caminhada às quartas. A pesquisa da Sport England mostra que iluminação e grupo são as duas coisas que mais pesam pra mulher treinar depois do escuro.",
+     "ref": "Let's Lift the Curfew, HCM",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Lets-Lift-the-Curfew-returns-as-womens-safety-fears-grow/363965"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Clube do Haven no Strava antes da obra, com segmento na trilha",
+     "ideia": "Criar o clube do Haven no Strava ainda na fase de lista, com um segmento oficial na trilha do terreno e um treino de referência por mês nos fins de semana de visita. O ranking do segmento vira conteúdo e lista de prospects com hábito de treino.",
+     "ref": "Strava e Hyrox, Athletech News",
+     "url": "https://athletechnews.com/strava-adds-hyrox-hybrid-racing-in-latest-validation-for-competitive-fitness/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Listening bar abre em soft opening de três noites por semana",
+     "ideia": "Abrir o listening bar do clube em soft opening de quarta, quinta e domingo por três meses, com horário curto e taxa de rolha definida, antes de estender pra sexta e sábado. O Barbarosa fez isso em São Paulo com 75 lugares e R$ 250 de rolha.",
+     "ref": "Barbarosa listening bar, Revista Business",
+     "url": "https://revistabusiness.com.br/2026/11/12/barbarosa-abre-em-sao-paulo-com-listening-bar-de-300-m%C2%B2-cozinha-mediterranea-e-som-de-alta-fidelidade/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "clube",
+     "titulo": "Regra de IA no atendimento: agenda sim, ocasião especial com pessoa",
+     "ideia": "Escrever no manual do concierge do clube onde o chatbot entra (agenda, confirmação, dúvida de horário) e onde a ligação passa pra uma pessoa (aniversário, saúde, reclamação), seguindo as 31 recomendações do playbook da ISPA. Testar com os primeiros 20 sócios e medir recompra de tratamento.",
+     "ref": "ISPA playbook de IA pra spas, Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/ISPA-Research-Foundation-publishes-AI-playbook-for-spas/363995"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Smart Fit põe aba social no app, com grupos, chat e desafios, e a ABC Fitness aponta comunidade como fator de retenção em 40 milhões de membros",
+     "source": "Máquina do Esporte (dados da ABC Fitness e da Strava repassados pela matéria)",
+     "url": "https://maquinadoesporte.com.br/mercado/as-novas-redes-sociais-vem-do-mercado-fitness-smart-fit-whoop-e-strava-acompanham-tendencia/",
+     "date": "2026-11-17",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "A Smart Fit incluiu no app perfis, publicações, grupos por interesse, conversa privada, stories e desafios; na versão latino-americana há a função que ajuda a achar quem frequenta a mesma unidade. A matéria atribui à ABC Fitness, com dados de mais de 40 milhões de membros em 30 mil academias, que comunidade está entre os principais fatores de retenção em 2025, e a uma pesquisa da Strava com mais de 30 mil pessoas que 58% fizeram amigos em grupos de atividade física e que os clubes de corrida cresceram 59% no mundo em 2024. A Whoop Humans, lançada neste mês, aparece como o mesmo movimento.",
+     "por_que_importa": "O vínculo entre sócios é o que segura a assinatura, e o app do clube do Haven pode nascer com grupos por interesse, sócio anfitrião e visibilidade opcional, antes da reserva de horário.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Santander Track&Field Run Series terá 80 etapas em 2027, cinco a mais, com expansão no interior; 2026 passou de 200 mil inscritos e 60% têm de 25 a 44 anos",
+     "source": "Máquina do Esporte (dados preliminares da TFSports; texto com cara de divulgação)",
+     "url": "https://maquinadoesporte.com.br/running/tfsports-tera-calendario-com-80-provas-do-santander-trackfield-run-series-em-2027/",
+     "date": "2026-11-17",
+     "region": "São Paulo e interior, Brasil",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "A TFSports anunciou 80 etapas do circuito em 2027, contra 75 em 2026, com novas praças em Fortaleza, Salvador, Brasília e São Paulo e previsão de mais etapas em municípios do interior. Em 2026 o circuito teve mais de 200 mil atletas, 60% entre 25 e 44 anos, e Fortaleza foi a segunda maior praça depois de São Paulo. Inscrições promocionais vão até 30 de novembro, a partir de R$ 109; as falas são de executivos da TFSports e do Santander.",
+     "por_que_importa": "É o maior circuito de corrida de rua do país anunciando expansão no interior, uma porta concreta pra pôr uma etapa com largada no Haven no calendário de 2027.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "IDET Panrotas: diária média do lazer chega a R$ 853 em outubro, alta de 11%, com receita 15% maior, enquanto o corporativo perde diárias pelo segundo mês",
+     "source": "Panrotas (índice IDET Panrotas com dados da Omnibees e de 33 empresas de distribuição)",
+     "url": "https://www.panrotas.com.br/hotelaria/mercado/2026/11/idet-panrotas-receita-do-lazer-cresce-15-na-hotelaria-em-outubro-veja-os-numeros_233825.html",
+     "date": "2026-11-19",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "estudos",
+     "resumo": "Em outubro, o segmento de lazer teve diária média de R$ 853, 11% acima de outubro de 2025, com 4% mais diárias vendidas e receita 15% maior. O corporativo perdeu 4% das diárias pelo segundo mês seguido e ficou com receita estável. No acumulado de janeiro a outubro, a hotelaria em geral tem diária média de R$ 648, alta de 6%, e a receita do lazer sobe 14%, cerca do dobro do ritmo do setor.",
+     "por_que_importa": "Dado mensal, com fonte nomeada, de que o viajante de lazer paga mais e cresce mais: serve de referência pública pra conversa de renda da casa em uso parcial e pra calibrar diária de hospedagem de visita.",
+     "para": [
+      "vendas",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Zagaia EcoResort, em Bonito, renova a marca e quer ir de 150 pra 250 apartamentos, com parque aquático, centro de convenções e spa com insumos do Cerrado",
+     "source": "Panrotas (texto com cara de divulgação; só falas do CEO, sem valor de investimento nem prazo)",
+     "url": "https://www.panrotas.com.br/hotelaria/investimentos/2026/11/zagaia-ecoresort-renova-marca-e-anuncia-planos-de-expansao-em-bonito-ms_233759.html",
+     "date": "2026-11-18",
+     "region": "Bonito, MS",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "O resort tem 150 apartamentos em 600 mil m² e planeja chegar a 250 unidades, com parque aquático e centro de convenções. A reforma inclui retrofit dos quartos, reabertura da Piscina Sunset, renovação do restaurante Ypê e nova parceria no Spa Zagaia, com produtos feitos de ingredientes do Cerrado e de Mato Grosso do Sul. O CEO Guilherme Poli é o único entrevistado e não há valor de investimento nem prazo.",
+     "por_que_importa": "Exemplo de resort de natureza que amarra o spa ao ingrediente do lugar; o spa do Haven pode fazer o mesmo com a mata e a produção da região de Porto Feliz e Itu.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Quero Passagem lança a QP Concept, vitrine de hotéis de luxo com curadoria própria em cinco destinos, incluindo Gramado e Taíba, em soft launch",
+     "source": "Panrotas (texto com cara de divulgação; só falas da empresa; número de hotéis parceiros é da própria plataforma)",
+     "url": "https://www.panrotas.com.br/mercado/tecnologia/2026/11/quero-passagem-lanca-categoria-de-hoteis-de-luxo-com-curadoria-propria_233750.html",
+     "date": "2026-11-18",
+     "region": "São Paulo, Rio, Taíba (CE), Barra de São Miguel (AL) e Gramado (RS)",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A plataforma criou uma categoria de hotéis de alto padrão, urbanos cinco estrelas, boutique, de design e resorts de praia, já aberta a consulta e reserva, com noites cortesia, descontos e mimos. A seleção inicial cobre cinco destinos e a expansão depende da demanda; a empresa diz revisar fotos e descrições manualmente e conectar mais de 500 mil hotéis. A matéria não diz quantos hotéis entraram na QP Concept.",
+     "por_que_importa": "Mais um canal de distribuição de luxo com curadoria no Brasil; vale anotar pra quando a hospedagem de visita do Haven precisar de vitrine.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Barbarosa abre em São Paulo como listening bar e restaurante de 300 m² e 75 lugares, com soft opening de três noites por semana e rolha de R$ 250",
+     "source": "Revista Business (texto com cara de divulgação, sem falas de terceiros; matéria de 12/11, dentro da extensão de 14 dias)",
+     "url": "https://revistabusiness.com.br/2026/11/12/barbarosa-abre-em-sao-paulo-com-listening-bar-de-300-m%C2%B2-cozinha-mediterranea-e-som-de-alta-fidelidade/",
+     "date": "2026-11-12",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A casa abriu na Rua Harmonia, no Sumarezinho, com cozinha mediterrânea do chef Massinissa Abdennbi, som da Quark Audio, arquitetura de Felipe Protti e Lucas Santi e carta de drinques de Kyoko Grace e Jonatan Albuquerque. O criador é o argelino-francês Lyes Benbousta. O soft opening roda quarta, quinta e domingo das 18h às 23h e sexta e sábado das 18h à 1h, com taxa de rolha de R$ 250.",
+     "por_que_importa": "Referência de escala, horário e regra de operação de listening bar em São Paulo, útil pra dimensionar o do clube e pra visita de referência do time.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Aman assina memorando pra investir na Gelephu Mindfulness City, no Butão, cidade planejada em torno de bem-estar com parque de longevidade e aeroporto em 2029",
+     "source": "Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Aman-Group-and-investors-support-Bhutans-Gelephu-Mindfulness-City/363988",
+     "date": "2026-11-18",
+     "region": "Gelephu, Butão",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "Em 1º de novembro a Aman firmou um memorando com a gestora Patience Capital Group e a GDL-Raven pra explorar investimento imobiliário de longo prazo na cidade. Fundo e parceria ainda não foram definidos e nenhum resort ou spa da Aman foi anunciado. A cidade prevê um parque de saúde voltado a longevidade e medicina regenerativa, a SOM divulgou em 16/11 o projeto de um distrito de uso misto às margens do rio Mau, e o aeroporto internacional tem abertura prevista pra 2029.",
+     "por_que_importa": "Mostra uma operadora de ultraluxo entrando como investidora em território desenhado em volta de bem-estar, uma referência de narrativa pra conversa com investidor e com operadora de hotel.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "The Estate detalha a carteira de US$ 1 bilhão: clubes urbanos de longevidade com a Fountain Life em Los Angeles e Miami em 2027, mordomo de longevidade e golfe e marina em El Salvador",
+     "source": "PR Newswire (release da The Estate by sbe, lido na republicação do Thailand Business News; fato novo em relação ao item de 07/11)",
+     "url": "https://www.thailand-business-news.com/?p=341143",
+     "date": "2026-11-19",
+     "region": "Miami, EUA",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "O release de 19/11 nomeia os incorporadores (DaGrosa em Coral Gables, PMG e Liberty Group em Tampa, Sansone Group pro Grupo Guerrero em El Salvador), o masterplan da Arquitectonica e, em El Salvador, campo de 18 buracos e a primeira marina pra superiates do país, além das quase 500 residências, do hotel de 125 chaves e do clube de longevidade de 30 mil pés quadrados já anunciados. Em 2027 a parceria com a Fountain Life abre dois clubes urbanos de longevidade, em Century City, em Los Angeles, e no One Thousand Museum, no centro de Miami. Entre os benefícios do morador aparece um mordomo pessoal de longevidade; vendas na Flórida em 2027 e em El Salvador no início de 2028.",
+     "por_que_importa": "É o concorrente de conceito mais próximo do Haven, e o clube urbano aberto antes das casas e o mordomo de longevidade são duas peças pra avaliar no desenho do membership.",
+     "para": [
+      "vendas",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Strava fecha dois anos com a Hyrox, vira a plataforma de comunidade da prova pra 200 milhões de usuários e cria o tipo de atividade Hybrid Racing",
+     "source": "Athletech News (ATN Pro, com o corpo visível até a seção sobre ambição olímpica)",
+     "url": "https://athletechnews.com/strava-adds-hyrox-hybrid-racing-in-latest-validation-for-competitive-fitness/",
+     "date": "2026-11-19",
+     "region": "EUA e Alemanha",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "A parceria cria no Strava a atividade Hybrid Racing, com os movimentos da prova (sled, burpee broad jump, remo, farmers carry, sandbag lunge e wall ball), uma série de quatro treinos de introdução pra assinantes e, a partir do início de 2027, recursos pra academias, rastreio de circuito e tempos oficiais de prova. A Hyrox teve mais de 1,7 milhão de participantes na temporada 2025-26 e espera mais de 2,3 milhões nesta, em 125 provas em seis continentes, com cerca de 70% de estreantes. O CEO da Strava diz que treinos com Hyrox no título mais que dobraram em um ano.",
+     "por_que_importa": "A prova vira comunidade dentro do app que o sócio já usa, e o Haven pode entrar no Strava com clube e segmento no terreno antes de ter sala de treino.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Mount Med Resort, no Tirol, cria aula de ginástica de pés de 40 minutos, em grupos de até dez, pra mobilidade e prevenção de queda, incluída nos programas médicos",
+     "source": "Spa Business",
+     "url": "https://www.spabusiness.com/wellness-news/Mount-Med-Resort-introduces-foot-gymnastics-programme-to-support-mobility-and-prevent-falls/363990",
+     "date": "2026-11-19",
+     "region": "Wildschönau, Áustria",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "O programa foi criado por Wolfgang Peer, head of training do resort, e roda na ala Ortho-Mobility em aulas de grupo com no máximo dez pessoas; a aula individual de 50 minutos custa € 180. Está incluído nos cinco programas médicos e preventivos da casa, cujo pacote básico começa em € 280 por pessoa por noite e chega a € 4.283 no Focus & Clarity. O resort abriu em dezembro de 2024, com 60 quartos e spa médico de 3.500 m².",
+     "por_que_importa": "Uma aula barata de montar, com nome claro e meta concreta (não cair), que o clube pode oferecer ao sócio 60+ dentro da mensalidade como porta de entrada pra longevidade.",
+     "para": [
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "PAI Partners compra a Elemis do L'Occitane: vendas acima de US$ 300 milhões, metade nos EUA, e fechamento previsto pra 15 de janeiro de 2027",
+     "source": "Spa Business (matéria de 19/11 sobre anúncio de 4/11; faixa de valor atribuída ao Mergermarket, projeções a documentos vistos pelo Business of Fashion)",
+     "url": "https://www.spabusiness.com/wellness-news/PAI-Partners-to-acquire-Elemis-from-LOccitane-Group/363997",
+     "date": "2026-11-19",
+     "region": "Londres, Reino Unido",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A marca britânica de skincare, presente em spas de hotel, mais que dobrou as vendas sob o L'Occitane, pra mais de US$ 300 milhões no ano fiscal de 2026, com os EUA respondendo por cerca de metade. O valor da venda não foi divulgado; o Mergermarket citou em outubro uma faixa de US$ 800 a 900 milhões, perto dos US$ 900 milhões da compra de 2019. A Elemis era cerca de 10% das vendas do L'Occitane, e a CEO segue sendo Noella Gabriel.",
+     "por_que_importa": "A marca de spa de hotel troca de dono e vai buscar crescimento, o que costuma abrir espaço pra acordos de operação de spa em projetos novos; vale ter na lista de candidatas ao spa do clube.",
+     "para": [
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "ISPA Research Foundation publica playbook de IA pra spas, 47 páginas e 31 recomendações com base em pesquisa revisada por pares, restrito a membros",
+     "source": "Spa Business (sobre o Science-based Playbook for AI Use in Spas; documento completo só na biblioteca de membros da ISPA)",
+     "url": "https://www.spabusiness.com/wellness-news/ISPA-Research-Foundation-publishes-AI-playbook-for-spas/363995",
+     "date": "2026-11-19",
+     "region": "Lexington, EUA",
+     "escopo": "mundo",
+     "pilar": "estudos",
+     "resumo": "O guia, feito com a Science Says, cobre agendamento, recomendação personalizada, comunicação com o hóspede e robôs, e recomenda passar a ligação pra uma pessoa em ocasiões especiais. Entre os achados citados, chatbots que repetem demais o nome do cliente irritam 86% mais, e clientes irritados ficam 23,5% menos propensos a recomprar depois de um chatbot caloroso. A presidente da ISPA, Lynne McNees, assina o lançamento.",
+     "por_que_importa": "Dá base pra escrever a regra de atendimento do clube, dizendo onde a automação entra e onde a pessoa atende, antes de contratar qualquer sistema.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Body Hot Pilates, de Miami, abre flagship no SoHo em 1º de dezembro e traz a fundadora da Solidcore como conselheira; meta de 14 a 15 estúdios até o fim de 2027",
+     "source": "Athletech News",
+     "url": "https://athletechnews.com/anne-mahlum-body-hot-pilates-strategic-advisor-nyc-debut/",
+     "date": "2026-11-19",
+     "region": "Nova York, EUA",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "A marca, fundada em 2025 por Lyndsey Meade, faz mat pilates com calor infravermelho e tem quatro estúdios em Miami; o de SoHo abre em 1º de dezembro e o de Downtown Brooklyn no fim do mês. Anne Mahlum, que fundou a Solidcore em 2013 e a vendeu em 2023 por US$ 98,4 milhões, entra como conselheira em troca de participação. A matéria lembra que ela pagou cerca de US$ 123 mil do próprio bolso pra cobrir salários quando a Y7 fechou em setembro.",
+     "por_que_importa": "Formato de estúdio boutique que viaja bem de Miami pra Nova York; serve de referência pra decidir se o clube tem sala quente de pilates própria ou traz uma marca.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Sport England volta com a campanha Let's Lift the Curfew: 55% das mulheres se sentem inseguras treinando sozinhas ao ar livre depois do escuro, e iluminação é o pedido que mais cresce",
+     "source": "Health Club Management (pesquisa Censuswide de outubro de 2026 com 1.000 mulheres e 1.000 homens no Reino Unido)",
+     "url": "https://www.healthclubmanagement.co.uk/health-club-management-news/Lets-Lift-the-Curfew-returns-as-womens-safety-fears-grow/363965",
+     "date": "2026-11-17",
+     "region": "Reino Unido",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "A campanha This Girl Can volta pelo quarto ano com a pesquisa mostrando 55% das mulheres inseguras pra treinar sozinhas ao ar livre à noite, contra 33% dos homens, e 69% com medo de assédio, acima dos 60% de 2023. O pedido por iluminação subiu de 36% pra 55%, e a preferência por treinar em grupo passou de 22% pra 38%. England Athletics e GoodGym são parceiros, e a Serco Leisure oferece grupos gratuitos de corrida às quintas e caminhada às quartas.",
+     "por_que_importa": "Dado de outro país, mas o desenho vale: percurso iluminado e grupo fixo noturno são duas decisões de masterplan e de programação que o Haven pode tomar agora.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Wellhub passa de 1,5 bilhão de check-ins e 6 milhões de assinantes pagos e diz que mais de 60% dos membros não usavam nada de bem-estar antes de entrar",
+     "source": "Fitt Insider (release da Wellhub de 10/11, dados da própria empresa; dentro da extensão de 14 dias)",
+     "url": "https://insider.fitt.co/press-release/wellhub-turns-1-5-billion-check-ins-into-a-new-global-mission/",
+     "date": "2026-11-10",
+     "region": "Nova York, EUA",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A empresa, nascida no Brasil como Gympass, anunciou a missão de fazer todo mundo fazer um check-in de bem-estar por dia e o slogan Check In Every Day. Diz ter mais de 60 mil empresas clientes, mais de 120 mil academias, estúdios e apps parceiros em 19 países e, segundo pesquisa própria, mais de 60% dos membros sem nenhuma oferta de bem-estar antes de entrar. As falas são do CEO Cesar Carvalho, do CMO Leandro Caldeira e do embaixador Terry Crews.",
+     "por_que_importa": "O dado de que a maioria entra sem hábito prévio muda o desenho da porta de entrada do clube, e a Wellhub é canal possível pro sócio corporativo de Campinas e Sorocaba.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "CES 2027 acontece de 6 a 9 de janeiro em Las Vegas, com trilha de saúde que inclui sono como métrica, saúde do cérebro e dispositivos de saúde inteligentes",
+     "source": "CES / Consumer Technology Association (programação oficial; só as sessões de 8 de janeiro estavam visíveis)",
+     "url": "https://www.ces.tech/schedule?date=2027-01-08",
+     "date": "2027-01-06",
+     "region": "Las Vegas, EUA",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "A programação oficial lista em 8 de janeiro sessões como The Brain Health Revolution Has Finally Arrived, Sleep Is the New Health Metric e o IEEE World Technology Summit on Smart Healthcare Devices, além de um encontro de saúde digital no fim da tarde. A feira roda no Las Vegas Convention Center e em hotéis da cidade; a página de programação traz filtros de Health, Longevity e Women's Health Tech.",
+     "por_que_importa": "É onde saem os lançamentos de sono, diagnóstico e vestível que viram amenidade ou parceria do clube; vale acompanhar pela imprensa de saúde digital em janeiro.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-19",
    "manchete": "A Kempinski chega ao Brasil com 195 residências e um ambulatório do Einstein dentro do hotel. Em Itu, o antigo San Raphael virou Tera e o Cacau Park já fala em 1.300 quartos, e nos EUA a longevidade por assinatura levantou US$ 228 milhões com Jay-Z na mesa.",
