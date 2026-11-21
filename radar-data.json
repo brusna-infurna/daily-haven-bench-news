@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-20",
+ "atualizado": "2026-11-21",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,288 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-21",
+   "manchete": "Um clube de longevidade abriu em Nova York com exame na porta de entrada e preço definido por pessoa, e Melbourne espera o seu com teto de mil sócios e 150 dólares por semana. Em Porto Feliz, a duplicação da SP-97 ganhou promessa de começo em 2027 e R$ 328 milhões, com a licitação ainda suspensa.",
+   "editorial": "A leitura fácil do dia é que o clube de longevidade virou categoria, com o House 120 abrindo no West Village e o Stille marcando abertura em Melbourne. A leitura por baixo é sobre o que esses dois fazem com a entrada: no House 120 todo sócio começa com DEXA, VO2 máximo, sangue e teste de força, e o preço é definido por pessoa a partir do que o exame mostra; no Stille a candidatura é lida uma a uma, o teto é de mil sócios e o teste é cobrado à parte. O exame deixou de ser um serviço do clube e passou a ser a porta e a tabela de preço ao mesmo tempo, o que muda quem entra e quanto paga antes de qualquer amenidade aparecer. Quem perde é o clube que vende lista de equipamentos e deixa a seleção pra depois, porque a câmara hiperbárica e a sauna já estão nos dois e não diferenciam mais ninguém. No Brasil, a Rotina dos Lanús mostrou que uma comunidade de treino já cobra R$ 15.900 por cinco dias em Noronha sem precisar de clube nem de casa, e o Hotel Paris no Rio virou projeto de apartamento híbrido por falta de investidor. Em Porto Feliz, o governador deu 2027 como começo da duplicação da SP-97, com dois trechos e valores de edital, mas o portal de contratações mostrava os processos suspensos até 17/11 e não houve cronograma. O dia foi fraco em volume nos três escopos, com doze itens, e o que ficou de pé são esses dois mecanismos: o exame como porta e a obra como promessa com data mas sem contrato.",
+   "atencao": [
+    "Marketing: A duplicação da SP-97 tem data de começo dita pelo governador, dois trechos com valor de edital e processos suspensos no portal de contratações até 17/11, então o acesso entra na comunicação só com o que está contratado e com a data da fonte.",
+    "Vendas: House 120 e Stille mostram preço por pessoa a partir do exame de entrada e teto de sócios publicado antes da abertura, e a proposta do Haven precisa dizer se o exame é porta de entrada, degrau opcional ou cortesia, porque os três custam coisas diferentes.",
+    "Clube e parcerias: A Lanú.Lab vende cinco dias de treino, respiração e sauna em Noronha por R$ 15.900 pra uma comunidade de 2.500 pessoas, a Hospitality Expo acontece em Campos do Jordão em 29 e 30/11 e o ILTM Cannes começa em 30/11, três portas pra conversa de parceria na próxima semana."
+   ],
+   "bench": [
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Nota de acesso no deck: só obra com contrato publicado vira argumento",
+     "ideia": "Criar uma página fixa no material de vendas com cada obra viária do entorno (começando pela duplicação da SP-97) em três colunas: trecho e valor do edital, situação no Portal Nacional de Contratações Públicas e data da última conferência. Regra pro time: vendedor cita a obra com a situação da coluna do meio, e promessa de prazo só entra quando houver contrato publicado.",
+     "ref": "Duplicação da SP-97, Jornal Cruzeiro do Sul",
+     "url": "https://www.jornalcruzeiro.com.br/sorocaba/noticias/2026/11/768017-duplicacao-da-sp-97-entre-sorocaba-e-porto-feliz-deve-comecar-em-2027.html"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Candidatura em três formatos: indivíduo, casal e família",
+     "ideia": "Desenhar o formulário de membership com três formatos de candidatura, indivíduo, casal e família, como o House 120, com a avaliação de entrada feita por pessoa e a cota de uso do clube por unidade. Publicar a diferença de preço entre os três formatos na mesma página, pra evitar a negociação caso a caso.",
+     "ref": "House 120, Athletech News",
+     "url": "https://athletechnews.com/joey-gonzalez-jay-galluzzo-open-nyc-longevity-club-house-120/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Prazo de abertura dito por trimestre, mudança explicada em uma linha",
+     "ideia": "Adotar a regra de que toda data de abertura do clube e das casas é comunicada por trimestre, nunca por mês, e que qualquer mudança sai no site e no email dos inscritos com uma linha dizendo o que mudou e por quê, como o Stille fez ao passar de fim de 2026 pra início de 2027. Guardar o histórico de datas na própria página.",
+     "ref": "Stille Melbourne, Australasian Leisure Management",
+     "url": "https://www.ausleisure.com.au/news/stille-prepares-to-bring-private-wellness-and-longevity-club-to-melbourne"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Comunidade de treino como cliente de imersão no terreno",
+     "ideia": "Oferecer o Haven como destino de imersão de três dias pra comunidades de treino já formadas, começando pela Rotina dos Lanús, que vende cinco dias em Noronha por R$ 15.900 pra 2.500 membros. O grupo vende e programa, o Haven entra com terreno, sauna, gelo e hospedagem na região, e a lista de participantes vira lista de prospects com permissão de contato.",
+     "ref": "Lanú.Lab, Brasilturis",
+     "url": "https://brasilturis.com.br/2026/11/19/lanu-lab-wellness-alta-performance-fernando-de-noronha/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Trilha de bem-estar do Haven dentro de uma semana de arte em SP",
+     "ideia": "Propor a uma semana de arte de São Paulo em 2027 uma trilha de bem-estar de dois dias programada pelo Haven, com passe diário vendido à parte e uma marca de saúde como patrocinadora, no formato do Wellness Oasis no Miami Art Week, que cobra US$ 125 por dia. Conversas, respiração e movimento de manhã, com os parceiros do clube como palestrantes.",
+     "ref": "The Wellness Oasis, Fitt Insider",
+     "url": "https://insider.fitt.co/press-release/the-wellness-oasis-presented-by-google-health-returns-to-miami-art-week-at-inscope/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Mordomo compartilhado por grupo de dez casas, com preço no cardápio",
+     "ideia": "Incluir no cardápio de serviços das casas um mordomo compartilhado por grupo de dez residências, com horário, lista de tarefas (abertura da casa, compras, chegada de hóspede) e preço mensal impresso, no lugar do mordomo por unidade das residências de marca como a St. Regis Dubai Islands. Testar com os dez primeiros compradores antes de fixar a proporção.",
+     "ref": "St. Regis Residences Dubai Islands, Hospitality Net",
+     "url": "https://www.hospitalitynet.org/announcement/41015466/avenew-development-launches-the-st-regis-residences-at-dubai-islands"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Hospitality Expo em Campos em 29 e 30/11 com lista de dez fornecedores",
+     "ideia": "Mandar uma pessoa do time à Hospitality Expo Campos, no Hotel Boutique Quebra-Noz, em 29/11 à tarde e 30/11 de manhã, com entrada gratuita, levando uma lista de dez fornecedores a conhecer (enxoval, amenities, sauna, iluminação externa, cozinha de evento) e cinco hotéis boutique da Mantiqueira pra conversa de hospedagem cruzada. Voltar com ficha de contato e preço de cada um.",
+     "ref": "Hospitality Expo Campos, Portal Radar",
+     "url": "https://portalradar.com.br/campos-do-jordao-recebe-ainda-neste-ano-a-hospitality-expo-campos/"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Tarifa de sócio em resorts de campo como benefício do título",
+     "ideia": "Negociar com a Resorts Brasil, que reúne 22 marcas e mais de 30 resorts, uma tarifa de sócio do Haven em cinco resorts de campo, válida fora de alta temporada, como benefício impresso no título. Em troca, os hóspedes desses resorts ganham um dia de clube no Haven. Começar pela associação, que já faz estande coletivo, e fechar resort a resort.",
+     "ref": "Resorts Brasil no Festuris, Brasilturis",
+     "url": "https://brasilturis.com.br/2026/11/19/resorts-brasil-leva-mais-de-30-empreendimentos-ao-festuris/"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Governador diz que a duplicação da SP-97 entre Sorocaba e Porto Feliz começa em 2027: 23,1 km, R$ 328 milhões e processos suspensos no portal de contratações até 17/11",
+     "source": "Jornal Cruzeiro do Sul",
+     "url": "https://www.jornalcruzeiro.com.br/sorocaba/noticias/2026/11/768017-duplicacao-da-sp-97-entre-sorocaba-e-porto-feliz-deve-comecar-em-2027.html",
+     "date": "2026-11-19",
+     "region": "Sorocaba e Porto Feliz, SP",
+     "escopo": "brasil",
+     "pilar": "wellness-residence",
+     "resumo": "Tarcísio de Freitas disse em coletiva em Sorocaba, em 18/11, que a duplicação da rodovia Emerenciano Prestes de Barros começa em 2027, em dois trechos: 12,85 km em Sorocaba, com R$ 184,7 milhões, e 10,25 km em Porto Feliz, com R$ 143,7 milhões, valores dos editais do DER-SP. Até 17/11 os processos de contratação constavam como suspensos no Portal Nacional de Contratações Públicas, sem homologação nem contrato publicado, e o governador não apresentou cronograma. Moradores relatam fila nos horários de pico e acidentes.",
+     "por_que_importa": "O acesso é argumento de venda de segunda residência em Porto Feliz, e a obra tem data dita e valor de edital, mas ainda sem contrato. Vendas e marketing usam o fato com a situação da licitação e a data da fonte, sem prometer ganho de tempo.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Rotina dos Lanús, comunidade de treino com 2.500 membros, vende a Lanú.Lab: cinco dias em Noronha por R$ 15.900 com corrida, respiração, sauna e gelo",
+     "source": "Brasilturis (texto com cara de divulgação, foto creditada a Divulgação)",
+     "url": "https://brasilturis.com.br/2026/11/19/lanu-lab-wellness-alta-performance-fernando-de-noronha/",
+     "date": "2026-11-19",
+     "region": "Fernando de Noronha, PE",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "A comunidade liderada por Lucas Malvacini abre a Lanú.Lab, de 16 a 20/03/2027: treino de corpo inteiro, laboratório de corrida, respiração, meditação, ioga e contraste térmico com gelo e sauna. O pacote custa R$ 15.900 por pessoa, com R$ 1.000 de entrada e dez parcelas de R$ 1.490, voo de São Paulo, pensão completa e passeios incluídos, taxas ambientais à parte. O texto traz só a fala do organizador.",
+     "por_que_importa": "Uma comunidade de treino já cobra ticket de R$ 15.900 por uma imersão de cinco dias sem clube nem casa, o que dá régua de preço pros fins de semana temáticos do Haven e um candidato a parceiro de imersão no terreno.",
+     "para": [
+      "parcerias",
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Campos do Jordão recebe a 14ª Turismo no Luxo e a primeira Hospitality Expo em 29 e 30/11, no Hotel Boutique Quebra-Noz, com feira de fornecedores gratuita",
+     "source": "Portal Radar (texto com cara de divulgação; programação complementar no Guia Campos de 10/11)",
+     "url": "https://portalradar.com.br/campos-do-jordao-recebe-ainda-neste-ano-a-hospitality-expo-campos/",
+     "date": "2026-11-29",
+     "region": "Campos do Jordão, SP",
+     "escopo": "brasil",
+     "pilar": "eventos",
+     "resumo": "A Hospitality Expo Campos, feira de fornecedores pra hotelaria e imóveis de temporada, acontece em 29/11, das 14h às 19h, e 30/11, das 9h às 13h, junto com a 14ª edição do Turismo no Luxo. A entrada na feira é gratuita. A programação divulgada pelo Guia Campos em 10/11 fala em banho de floresta e numa estimativa de R$ 120 a 130 bilhões pro luxo brasileiro em 2026, sem nomear a fonte do número.",
+     "por_que_importa": "Feira de bolso a duas semanas de distância pra mapear fornecedores de hotelaria e conversar com hotéis boutique da Mantiqueira sobre hospedagem cruzada e programação do clube.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Resorts Brasil leva 22 marcas e mais de 30 resorts a estande coletivo no Festuris pelo terceiro ano, sem número de negócios fechados",
+     "source": "Brasilturis (release de assessoria)",
+     "url": "https://brasilturis.com.br/2026/11/19/resorts-brasil-leva-mais-de-30-empreendimentos-ao-festuris/",
+     "date": "2026-11-19",
+     "region": "Gramado, RS",
+     "escopo": "brasil",
+     "pilar": "comunidade",
+     "resumo": "A associação montou estande coletivo no Festuris, em 13 e 14/11, com 22 marcas e mais de 30 empreendimentos, pra conversar com agentes e operadores. O texto traz falas dos executivos da associação e foto de divulgação, sem resultado de vendas. É fato novo em relação à pesquisa da associação com a FGV publicada em 16/11.",
+     "por_que_importa": "A associação reúne resorts de campo e de lazer de várias regiões e pode ser canal de benefício cruzado pro sócio do Haven e de troca com operadores de resort.",
+     "para": [
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Monte Verde fica em primeiro como Melhor Destino de Inverno no prêmio da Viagem Estadão, à frente de Gramado e Campos do Jordão",
+     "source": "Estado de Minas (release de assessoria, DINO)",
+     "url": "https://www.em.com.br/mundo-corporativo/2026/11/7538468-monte-verde-supera-gramado-e-campos-do-jordao-em-2026.html",
+     "date": "2026-11-13",
+     "region": "Monte Verde, MG",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "Monte Verde venceu a categoria Melhor Destino de Inverno do prêmio O Melhor do Turismo Brasileiro, da Viagem Estadão. O texto é de assessoria e cita notas de hotéis locais (Fazenda Castanheira com 5,0 no Google e 9,9 no Booking, Roots Resort com 4,8 e 9,6), sem placar nem votos dos outros destinos.",
+     "por_que_importa": "A Mantiqueira mineira ganha posição contra os destinos de serra consagrados, sinal pra parcerias de hospedagem e programação de fim de semana; por ser release, vale como sinal e não como dado.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Antigo Hotel Paris, no Centro do Rio, vira projeto de 18 apartamentos híbridos de temporada e moradia, com licença de obras e ainda sem investidor",
+     "source": "Hotelier News",
+     "url": "https://hoteliernews.com.br/hotel-paris-ganha-nova-vocacao-no-centro-do-rio/",
+     "date": "2026-11-19",
+     "region": "Rio de Janeiro, RJ",
+     "escopo": "brasil",
+     "pilar": "wellness-residence",
+     "resumo": "O prédio de 1902 na Praça Tiradentes, comprado em 2012 pelos irmãos Dussol, deixa de ser o projeto de hotel de 21 suítes, estimado em R$ 10 milhões, e passa a 18 apartamentos e uma unidade comercial, em modelo de temporada e moradia permanente. A prefeitura deu a licença em outubro pelo programa Reviver Centro; a obra levaria de 18 a 24 meses, falta incorporadora ou investidor, e os donos aceitam vender o edifício inteiro.",
+     "por_que_importa": "Hotel puro virou residencial híbrido por falta de capital, um contraponto útil quando a conversa de investidor do Haven chegar ao modelo de operação da casa de hóspedes e das casas em locação.",
+     "para": [
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "House 120 abre no West Village como clube privado de longevidade de 15 mil pés quadrados: entrada por candidatura, DEXA e VO2 máximo pra todo sócio e preço definido por pessoa",
+     "source": "Athletech News (corpo com aviso de ATN Pro; fatos usados no trecho visível)",
+     "url": "https://athletechnews.com/joey-gonzalez-jay-galluzzo-open-nyc-longevity-club-house-120/",
+     "date": "2026-11-20",
+     "region": "Nova York, EUA",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "Joey Gonzalez, presidente do conselho e ex-CEO global da Barry's, e Jay Galluzzo, cofundador da Flywheel, abriram o House 120 na Greenwich Street. A entrada é por candidatura, como indivíduo, casal ou família, e todo título começa com DEXA, VO2 máximo, taxa metabólica, exames de sangue, triagem de fisioterapia e teste de força. O espaço tem sala de treino, estúdio de pilates, ala de recuperação com câmara hiperbárica, flutuação, luz vermelha e soro, sauna e banho frio no vestiário e uma sala de estar pra encontros. O clube não divulga preço e diz que ele é definido por sócio.",
+     "por_que_importa": "O exame de entrada virou porta e tabela de preço ao mesmo tempo, e a sala de estar segura a comunidade. É referência direta pro desenho do onboarding do clube do Haven e pra conversa com o parceiro de diagnóstico.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Stille marca abertura em Melbourne pro início de 2027: clube de longevidade em dois andares, candidatura lida uma a uma, teto de mil sócios e preço planejado a partir de 150 dólares por semana",
+     "source": "Australasian Leisure Management (preço e teto atribuídos ao Concrete Playground)",
+     "url": "https://www.ausleisure.com.au/news/stille-prepares-to-bring-private-wellness-and-longevity-club-to-melbourne",
+     "date": "2026-11-11",
+     "region": "Melbourne, Austrália",
+     "escopo": "mundo",
+     "pilar": "membership",
+     "resumo": "O Stille ocupa dois andares no 85 Spring Street e passou a mirar o início de 2027, depois de previsão anterior de fim de 2026. Terá piscinas minerais quente e fria, sauna ritual, hammam, câmara de oxigênio hiperbárico, médicos no local, lounges, área de refeição e coworking. Cada candidatura é avaliada individualmente, o teto é de mil sócios e o preço planejado parte de 150 dólares por semana, sem a moeda explicitada na matéria; os testes são cobrados à parte, salvo se incluídos no plano. Matéria de 11/11, dentro da janela estendida.",
+     "por_que_importa": "Dá comparativo de teto de sócios, preço semanal e cobrança de teste à parte pra calibrar a tabela do clube do Haven, e mostra data de abertura comunicada por trimestre.",
+     "para": [
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "St. Regis Residences Dubai Islands é lançado com 248 residências em dois prédios de praia, mordomo e entrega no quarto trimestre de 2030",
+     "source": "Hospitality Net (release da AVENEW Development)",
+     "url": "https://www.hospitalitynet.org/announcement/41015466/avenew-development-launches-the-st-regis-residences-at-dubai-islands",
+     "date": "2026-11-20",
+     "region": "Dubai, Emirados Árabes",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A AVENEW lançou, com a St. Regis, da Marriott, 248 residências de um a cinco quartos em dois prédios de frente pra praia, com academia, spa, lounge de moradores, piscinas e serviço de mordomo, e conclusão prevista pro quarto trimestre de 2030. É o primeiro de três projetos vizinhos de residência de marca da mesma incorporadora nas Dubai Islands. O release não traz preço nem vendas.",
+     "por_que_importa": "Padrão de residência de marca com mordomo e bem-estar como item de série, útil de comparação no argumento de venda das 75 casas; o foco é serviço hoteleiro, sem curadoria de comunidade.",
+     "para": [
+      "vendas",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Belle Farms, em Montana, abre na primavera de 2027 com 16 cabanas numa fazenda orgânica de 130 acres, sem TV nos quartos e com loja aberta ao público",
+     "source": "Hotel Online (release)",
+     "url": "https://www.hotel-online.com/news/belle-farms-to-debut-regenerative-lavender-retreat-near-yellowstone-in-spring-2027",
+     "date": "2026-11-16",
+     "region": "Paradise Valley, Montana, EUA",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "A Belle Farms terá 16 cabanas em 130 acres de fazenda orgânica certificada, com lavanda, camomila e arnica, a cerca de 50 km de Yellowstone, algumas com sauna privativa e banheira de pedra. O programa inclui visita à fazenda, jantares sazonais com chefs locais, loja aberta ao público e iluminação que preserva o céu escuro; não há TV nos quartos. As reservas de 2027 já estão abertas.",
+     "por_que_importa": "Exemplo pequeno de farm hospitality com desconexão por desenho e loja aberta à vizinhança, que conversa com a vocação rural de Porto Feliz e com a casa de hóspedes do clube.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "ILTM Cannes reúne o mercado de viagens de luxo de 30/11 a 3/12 no Palais des Festivals, com mais de 85 mil reuniões agendadas por edição",
+     "source": "ILTM Cannes (página oficial)",
+     "url": "https://www.iltm.com/cannes/en-gb.html",
+     "date": "2026-11-30",
+     "region": "Cannes, França",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "A edição de 2026 acontece de 30 de novembro a 3 de dezembro, com reuniões pré-agendadas entre operadores e fornecedores de viagens de luxo, sessões de conteúdo e encontros de networking. A organização cita mais de 85 mil reuniões marcadas por edição.",
+     "por_que_importa": "É onde a imprensa de viagens brasileira colhe as tendências de luxo de dezembro, e onde hotéis e clubes candidatos a parceiro de intercâmbio do Haven estarão na mesma semana.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "The Wellness Oasis volta ao Miami Art Week em 3 e 4/12 com patrocínio do Google Health, Oprah, Agassi e Dan Buettner e passe de US$ 125 por dia",
+     "source": "Fitt Insider (release da organizadora 4B Advisory; patrocínio do Google Health)",
+     "url": "https://insider.fitt.co/press-release/the-wellness-oasis-presented-by-google-health-returns-to-miami-art-week-at-inscope/",
+     "date": "2026-12-03",
+     "region": "Miami Beach, EUA",
+     "escopo": "mundo",
+     "pilar": "eventos",
+     "resumo": "O evento de dois dias sobre saúde mental e bem-estar acontece no InScope, na 8th Street com a Ocean Drive, das 8h30 às 18h, com conversas, oficinas e sessões de movimento. A série soma 12 encontros em Miami, Cannes, Austin, Nova York, Los Angeles e Londres desde 2023. O passe diário custa US$ 125 e inclui acesso ao InScope de 2 a 6/12.",
+     "por_que_importa": "Bem-estar entrando na agenda de uma semana de arte com uma big tech de saúde pagando a conta é formato pra programação cultural do clube e pra ativação com marca em São Paulo.",
+     "para": [
+      "clube",
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-20",
    "manchete": "A Smart Fit pôs uma rede social dentro do app e a Strava virou a plataforma de comunidade da Hyrox. O laço entre quem treina junto virou o produto que segura a assinatura. No Brasil, o lazer pagou R$ 853 de diária em outubro e cresceu 15% enquanto o corporativo caiu.",
