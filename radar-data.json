@@ -1,6 +1,6 @@
 {
  "projeto": "Daily Haven Bench News",
- "atualizado": "2026-11-21",
+ "atualizado": "2026-11-22",
  "respostas_sala": {},
  "respostas_comentarios": {
   "89a1b95a-eba2-4e30-8d8c-f3ae78640e4f": {
@@ -13,6 +13,308 @@
   }
  },
  "dias": [
+  {
+   "data": "2026-11-22",
+   "manchete": "Em Toronto, a longevidade virou assinatura de $ 149 por mês por pessoa, com a terapia IV aberta a quem não é sócio. Em Fortaleza, a Nestlé pôs um espelho com IA na farmácia pra ler o rosto em 30 segundos e vender suplemento. O diagnóstico virou porta de entrada.",
+   "editorial": "A Circle Health abriu em Toronto uma clínica de atenção primária com foco em longevidade e cobrou a continuidade como assinatura, $ 149 por pessoa, $ 379 por família, enquanto deixa a terapia IV, a luz vermelha e os programas de peso e hormônio abertos a qualquer um que entre. A Nestlé fez a versão de farmácia do mesmo movimento: um espelho gratuito que estima estresse, idade da pele e composição corporal em 30 segundos, com a meta declarada de dobrar a venda de suplemento na loja. O mecanismo é o mesmo nos dois: o diagnóstico deixou de ser o produto e virou o funil, barato ou gratuito na entrada, pago na recorrência. Quem perde é a clínica que ainda cobra o check-up como evento anual e o spa de hotel que vende o tratamento sem o antes e o depois. O que isso custa é confiança: a Nestlé precisou escrever no release que nada fica armazenado, e a Rakuten mostra na mesma semana que 44% dos brasileiros desconfiam de criador que usa IA. O Haven tem a vantagem de poder fazer a avaliação de entrada com gente, no terreno, e guardar a recorrência pra assinatura de saúde do clube. O Brasil veio fraco neste domingo, com Festuris e corrida rendendo mais do que lançamento imobiliário.",
+   "atencao": [
+    "Marketing: A pesquisa da Rakuten diz que 87% dos brasileiros confiam na recomendação de criador na fase de consideração e 55% preferem vídeo curto; antes de contratar influenciador, teste dez sócios e pessoas da lista falando em 30 segundos, e peça a metodologia à Rakuten antes de usar o número em peça.",
+    "Vendas: A Circle Health cobra a longevidade por pessoa, $ 149 individual e $ 379 família, e o Bradesco vende a Asics Golden Run com pré-venda só pra cliente; os dois reforçam a candidatura por pessoa e a pré-venda por categoria de sócio que já estão no bench, e vale fechar o desenho antes da próxima rodada de preço.",
+    "Clube e parcerias: O Kai de Copenhague diz a capacidade do circuito de banho em pessoas por vez, 380 em 5.800 m², e o Mater Dei usa evento de longevidade como porta de marca; pedir ao arquiteto a capacidade por horário do circuito térmico e levar ao parceiro clínico candidato a ideia de uma manhã de longevidade no terreno por semestre."
+   ],
+   "bench": [
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Assinatura de saúde por pessoa, separada do título da casa",
+     "ideia": "Desenhar a camada de saúde do clube como assinatura mensal por pessoa, individual e família, à parte do título da casa, com o que entra (painel de biomarcadores, coaching, histórico num app) e o que o parceiro clínico vende avulso a sócio e não sócio. Formato: tabela de duas colunas no contrato do parceiro clínico, com preço de referência por pessoa.",
+     "ref": "Circle Health, GlobeNewswire",
+     "url": "https://www.globenewswire.com/news-release/2026/11/19/3406668/0/en/circle-health-launches-as-toronto-s-first-longevity-focused-primary-care-practice.html"
+    },
+    {
+     "area": "Comercialização",
+     "para": "vendas",
+     "titulo": "Avaliação de 30 minutos como entrada do fim de semana de visita",
+     "ideia": "Oferecer no fim de semana de visita uma avaliação curta e gratuita feita pelo parceiro clínico ou de treino (composição corporal, mobilidade, sono relatado), com devolutiva em papel e sem venda no ato. Medir por três fins de semana quantos visitantes aceitam e quantos pedem proposta depois. Regra escrita: nenhum dado fica armazenado sem autorização assinada.",
+     "ref": "Espelho do Bem-Estar da Nestlé, Nosso Meio",
+     "url": "https://nossomeio.com.br/espelho-nestle-ia-fortaleza-pague-menos/"
+    },
+    {
+     "area": "Comunicação e sociais",
+     "para": "marketing",
+     "titulo": "Dez sócios em vídeo curto antes de qualquer influenciador pago",
+     "ideia": "Montar um grupo de dez pessoas da lista e futuros sócios que topem gravar vídeos curtos, de 30 a 60 segundos, sobre por que escolheram o projeto, publicados no perfil do Haven com nome e sem roteiro de marca. Meta de um vídeo por semana por três meses e contagem de pedidos de proposta que citam o vídeo.",
+     "ref": "Rakuten Advertising, Meio & Mensagem",
+     "url": "https://www.meioemensagem.com.br/marketing/influenciadores-impactam-compras-de-94-dos-brasileiros"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "clube",
+     "titulo": "Circuito de banho com capacidade dita em pessoas por vez no briefing",
+     "ideia": "Escrever no briefing de arquitetura do clube a capacidade do circuito quente e frio em pessoas por vez (modelo Kai, 380 banhistas em 5.800 m²), com a conta de sócios e convidados por horário de pico, e dimensionar saunas, piscinas e imersão a frio a partir desse número em vez da metragem.",
+     "ref": "Kai Water Culture House, European Spa Magazine",
+     "url": "https://europeanspamagazine.com/new-5800sqm-public-bath-house-to-open-in-copenhagen/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Atleta como conselheiro do programa de saúde, com papel escrito",
+     "ideia": "Convidar um atleta ou ex-atleta brasileiro de longevidade esportiva como conselheiro do programa de saúde do clube, no formato Alonso e SHA: papel descrito em uma página (quantas visitas por ano, o que assina, o que não endossa) e remuneração por título vendido com indicação, sem cachê fixo.",
+     "ref": "F1 com WHOOP e Nike, Fitt Insider",
+     "url": "https://insider.fitt.co/f1-becomes-a-performance-platform/"
+    },
+    {
+     "area": "Produto e estrutura",
+     "para": "vendas",
+     "titulo": "Equipamento de força compacto como item de série da academia da casa",
+     "ideia": "Definir pra academia das 75 casas um kit de força conectado e compacto (aparelho de resistência motorizada de até 6 kg, banco, rack curto) como item de série com marca nomeada na tabela de acabamento, e negociar com o fornecedor preço de proprietário pra reposição e upgrade.",
+     "ref": "Nike Voltra I, Athletech News",
+     "url": "https://athletechnews.com/nike-to-sell-voltra-smart-trainer-as-performance-push-continues/"
+    },
+    {
+     "area": "Parcerias",
+     "para": "parcerias",
+     "titulo": "Hospital anfitrião de uma manhã de longevidade no clube por semestre",
+     "ideia": "Propor ao parceiro clínico candidato uma manhã de longevidade no Haven por semestre, com o hospital como anfitrião e um nome de peso na palestra magna, aberta a sócios, lista e vizinhos de Porto Feliz e Itu, com inscrição fechada em 150 vagas e contagem de quantos viram visita.",
+     "ref": "AGE&Health + Tech no Mater Dei, VIVA",
+     "url": "https://viva.com.br/saude-e-bem-estar/age-health-tech-confira-destaques-da-programacao.html"
+    },
+    {
+     "area": "Membership e clube",
+     "para": "clube",
+     "titulo": "Passeio pelo percurso na véspera como ritual das provas do clube",
+     "ideia": "Em toda prova que o clube apoiar ou organizar no terreno, fazer na véspera um passeio guiado pelo percurso só pra sócios e convidados, com café no fim, no modelo que a Asics vende como experiência na São Silvestre. Entra no calendário do sócio com data fixa e vaga paga pra convidado.",
+     "ref": "São Silvestre e Asics, Máquina do Esporte",
+     "url": "https://maquinadoesporte.com.br/running/asics-renova-patrocinio-da-sao-silvestre-que-chega-a-cinco-parceiros-em-2026/"
+    }
+   ],
+   "itens": [
+    {
+     "title": "Circle Health abre em Toronto clínica de longevidade por assinatura: $ 149 por mês por pessoa e $ 379 por família, com parte dos serviços aberta a quem não é membro",
+     "source": "GlobeNewswire (release da Circle Health; o release não diz a moeda)",
+     "url": "https://www.globenewswire.com/news-release/2026/11/19/3406668/0/en/circle-health-launches-as-toronto-s-first-longevity-focused-primary-care-practice.html",
+     "date": "2026-11-19",
+     "region": "Toronto, Canadá",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A Circle Health abriu a primeira unidade na Exchange Tower, no distrito financeiro de Toronto, e diz que outras virão, sem cidade nem data. A assinatura de fundador custa $ 149 por mês no plano individual e $ 379 no familiar, e inclui equipe de cuidado dedicada, painel de biomarcadores, coaching médico, histórico de saúde unificado num app e um Healthspan Score. Terapia IV, luz vermelha, compressão e programas de peso, hormônio e pele ficam abertos também a não membros. A fundadora é a Dra. Sapna Sriram e a clínica virou parceira oficial de saúde do Toronto Tempo, da WNBA. Os números são da empresa.",
+     "por_que_importa": "É uma régua de preço de assinatura de longevidade urbana, cobrada por pessoa, e um modelo de porta aberta: o serviço de entrada vende pra quem não é sócio e a assinatura fica pra quem quer continuidade. Serve pra desenhar a camada de saúde do clube do Haven e o que o parceiro clínico pode vender fora da membership.",
+     "para": [
+      "clube",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Nestlé e Pague Menos põem na farmácia de Fortaleza um espelho com IA que lê o rosto em 30 segundos e estima estresse, idade da pele e composição corporal",
+     "source": "Portal Nosso Meio (texto assinado pela redação, só com falas das duas empresas)",
+     "url": "https://nossomeio.com.br/espelho-nestle-ia-fortaleza-pague-menos/",
+     "date": "2026-11-18",
+     "region": "Fortaleza, CE",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "O Espelho do Bem-Estar da Nestlé estreou na loja conceito da Pague Menos na Praia de Iracema, o primeiro da companhia na América Latina, com versão em iPad chegando à Vila Mariana, em São Paulo, e ao Salvador Shopping. A câmera faz uma leitura facial de 30 segundos e estima frequência cardíaca e respiratória, estresse, idade aparente da pele e índices de composição corporal; a empresa diz que o sistema foi treinado com imagens de mais de 60 mil pessoas, que a sessão é gratuita e que nada fica armazenado. A meta declarada é dobrar a venda de suplementos proteicos, vitaminas e minerais nas lojas participantes, com versão itinerante em 2027. A matéria cita IQVIA para a Abafarma e McKinsey, números não conferidos na fonte primária.",
+     "por_que_importa": "Uma marca de alimento usando diagnóstico gratuito como gancho de venda de suplemento é o mesmo mecanismo que o clube do Haven pode montar no fim de semana de visita, com uma avaliação curta de entrada, e também é o que o time de marketing precisa evitar parecer. Vale saber quem fornece o espelho e se a Nestlé Health Science topa levá-lo a um evento do clube.",
+     "para": [
+      "marketing",
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Rakuten Advertising: 94% dos brasileiros dizem que influenciadores pesam na compra, 87% confiam na recomendação na fase de consideração e 55% preferem vídeo curto",
+     "source": "Meio & Mensagem (estudo da Rakuten Advertising; amostra e metodologia não informadas na matéria)",
+     "url": "https://www.meioemensagem.com.br/marketing/influenciadores-impactam-compras-de-94-dos-brasileiros",
+     "date": "2026-11-19",
+     "region": "Brasil",
+     "escopo": "brasil",
+     "pilar": "estudos",
+     "resumo": "A pesquisa cobriu Brasil, Estados Unidos, Reino Unido, Austrália e França. No Brasil, 87% confiam na recomendação de influenciadores na fase de consideração, contra 79% na média global, 73% compraram por link de criador nos últimos seis meses e 83% já gastaram mais de R$ 100 depois de uma recomendação. 44% acham que o uso de IA reduz a credibilidade do criador e 55% preferem vídeo curto, contra 32% na média global. A matéria não traz amostra nem metodologia.",
+     "por_que_importa": "Pra um produto de 75 casas e membership curado, o dado sustenta apostar em sócios e moradores como vozes do projeto, em vídeo curto e sem cara de IA, antes de qualquer influenciador contratado. Antes de citar os percentuais em material de venda, pedir a metodologia à Rakuten.",
+     "para": [
+      "marketing",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Kai Water Culture House abre em dezembro em Copenhague: casa de banhos pública de 5.800 m² assinada por Kengo Kuma, dez piscinas, três saunas e 380 pessoas por vez",
+     "source": "European Spa Magazine",
+     "url": "https://europeanspamagazine.com/new-5800sqm-public-bath-house-to-open-in-copenhagen/",
+     "date": "2026-11-11",
+     "region": "Copenhague, Dinamarca",
+     "escopo": "mundo",
+     "pilar": "comunidade",
+     "resumo": "A casa de banhos fica à beira do porto e abre em dezembro de 2026 com 5.800 m² projetados pelo escritório Kengo Kuma & Associates. São dez piscinas, entre elas uma de 25 m, um onsen aquecido com vista pro porto e um Valley Pool entre cinco torres de tijolo, além de imersão a frio, três saunas e banho a vapor. A capacidade é de 380 banhistas e a matéria não cita operador nem preço.",
+     "por_que_importa": "É a referência de arquitetura e de circuito quente e frio como programa coletivo de cidade, com capacidade dita em pessoas por vez. Serve pro briefing do circuito térmico do clube e pro argumento de que banho coletivo virou equipamento de bairro.",
+     "para": [
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": true
+    },
+    {
+     "title": "Preferred Hotels lista mais de dez aberturas de 2027: Pendry Barbados com 46 residências e yacht club, Pendry Tampa com 190 residências e dois resorts de bem-estar pra 2028",
+     "source": "Hospitality Net (announcement da Preferred Hotels & Resorts)",
+     "url": "https://www.hospitalitynet.org/news/4135542/preferred-hotels-resorts-reveals-its-new-independent-hotel-openings-for-2027",
+     "date": "2026-11-18",
+     "region": "Global",
+     "escopo": "mundo",
+     "pilar": "wellness-residence",
+     "resumo": "A Preferred Hotels & Resorts apresentou os novos membros com abertura em 2027, entre eles o Pendry Barbados, com cerca de 80 quartos, 46 residências Pendry, yacht club e marina de 110 vagas, o Pendry Tampa, com 190 residências, e o Inna Resort & Spa, em Puerto Morelos, com 109 unidades e beach club na cobertura. Pra 2028 aparecem o Shenandoah Nature Resort, na Virgínia, com 100 quartos e spa de 24.060 pés quadrados, e o Gran Cosón, na República Dominicana, com 147 unidades e residências. Os dados são do comunicado da rede.",
+     "por_que_importa": "Mapa rápido de quem vende residência com clube e spa colado na hospedagem, pra posicionar as 75 casas do Haven no deck. O Pendry Barbados, com yacht club ligado às residências, é o caso mais próximo de clube como parte do produto.",
+     "para": [
+      "vendas",
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "F1 fecha com a WHOOP pra levar biometria dos pilotos à transmissão e com a Nike como fornecedora em 2027; patrocínio das equipes somou US$ 2,54 bilhões em 2025",
+     "source": "Fitt Insider (newsletter de análise)",
+     "url": "https://insider.fitt.co/f1-becomes-a-performance-platform/",
+     "date": "2026-11-20",
+     "region": "Global",
+     "escopo": "mundo",
+     "pilar": "lifestyle",
+     "resumo": "A Fórmula 1 anunciou na semana parcerias de longo prazo com a WHOOP, que vai usar dados biométricos em tempo real nas transmissões, e com a Nike, que substitui a PUMA nos uniformes a partir de 2027. A newsletter atribui a um relatório da SponsorUnited a alta de 22% na receita de patrocínio das equipes em 2025, pra US$ 2,54 bilhões, número não conferido na fonte primária. Também cita Fernando Alonso como conselheiro da SHA e outras marcas de bem-estar ligadas a pilotos.",
+     "por_que_importa": "O esporte de alto rendimento virou vitrine de dado biométrico e de longevidade, e o Brasil tem o GP de São Paulo todo novembro. Pauta pra parcerias: atleta ou piloto como conselheiro do programa de saúde do clube, no formato Alonso e SHA.",
+     "para": [
+      "marketing",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Nike passa a vender por US$ 2.199 o Voltra I, aparelho de força conectado de 5,8 kg e até 104 kg de resistência, e mira US$ 4 bilhões a mais em performance até 2031",
+     "source": "Athletech News (corpo fechado a assinantes do ATN Pro; leitura do trecho aberto)",
+     "url": "https://athletechnews.com/nike-to-sell-voltra-smart-trainer-as-performance-push-continues/",
+     "date": "2026-11-20",
+     "region": "Estados Unidos",
+     "escopo": "mundo",
+     "pilar": "marcas",
+     "resumo": "A Dimension 6 Fitness, licenciada da Nike, fechou com a Beyond Power pra vender o Voltra I e acessórios no NikeStrength.com. O aparelho pesa cerca de 5,8 kg, entrega até 104 kg de resistência, se acopla aos racks Nike Strength e Jordan Strength e registra potência e velocidade num app. A Nike diz querer US$ 4 bilhões a mais de receita anual em esporte de performance até o ano fiscal de 2031; a PUMA segue com a parceria oficial da Hyrox até 2030. O corpo da matéria é fechado a assinantes.",
+     "por_que_importa": "Marca de calçado virando fornecedora de equipamento de força é referência pra escolher o que vai nas academias das 75 casas e na sala de força do clube. Um aparelho de 5,8 kg que substitui anilha é candidato a item de série da casa.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "NUS abre mestrado em Healthy Longevity em Singapura, com turma profissional em janeiro de 2027 aberta a investidores e gestores e inscrição até 30 de novembro",
+     "source": "Longevity.Technology",
+     "url": "https://longevity.technology/news/nus-takes-healthy-longevity-to-masters-level/",
+     "date": "2026-11-17",
+     "region": "Singapura",
+     "escopo": "mundo",
+     "pilar": "longevidade",
+     "resumo": "A Universidade Nacional de Singapura, pela NUS Academy for Healthy Longevity da escola de medicina Yong Loo Lin, lança o Master in Healthy Longevity em duas trilhas: profissional, em meio período, a partir de janeiro de 2027, e de início de carreira, em agosto. O programa aceita clínicos, investidores e formuladores de política, com inscrições até 30 de novembro. A matéria não informa mensalidade nem duração.",
+     "por_que_importa": "Longevidade virou formação de pós-graduação com investidor e gestor na turma. Pauta pra parcerias: quem no Brasil forma essa gente, e se vale um curador acadêmico pro conteúdo do clube.",
+     "para": [
+      "parcerias",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Evento de longevidade no Mater Dei, em BH, tem palestra de Kalache em 25/11 e reúne hospital, hub de tecnologia e instituto; Minas tem 68,59 idosos por 100 crianças",
+     "source": "VIVA (texto com cara de divulgação)",
+     "url": "https://viva.com.br/saude-e-bem-estar/age-health-tech-confira-destaques-da-programacao.html",
+     "date": "2026-11-25",
+     "region": "Belo Horizonte, MG",
+     "escopo": "brasil",
+     "pilar": "eventos",
+     "resumo": "O AGE&Health + Tech acontece em 25/11, das 8h30 às 13h, no Centro de Convenções do Hospital Mater Dei Contorno, com palestra magna de Alexandre Kalache às 11h50 e participação de HiHub TEC e Instituto MILES. A matéria, de 19/11, cita 68,59 idosos por 100 crianças em Minas (Censo 2022) e cerca de 460 mil pessoas com mais de 60 anos em BH, e traz uma projeção de mercado global de longevidade de US$ 30 bilhões em 2025 pra US$ 47 bilhões em 2031 sem nomear a fonte, não conferida. As inscrições já estão encerradas.",
+     "por_que_importa": "Hospital privado usando evento de longevidade como porta de marca é o formato que o parceiro clínico do Haven pode replicar no clube, com o hospital como anfitrião. O índice de envelhecimento por estado entra no deck como contexto, com a fonte do Censo.",
+     "para": [
+      "parcerias",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "São Silvestre de 31/12 chega a cinco patrocinadores, e a Asics, no terceiro ano, sorteia 15 experiências e um passeio pelo percurso na véspera",
+     "source": "Máquina do Esporte",
+     "url": "https://maquinadoesporte.com.br/running/asics-renova-patrocinio-da-sao-silvestre-que-chega-a-cinco-parceiros-em-2026/",
+     "date": "2026-12-31",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "eventos",
+     "resumo": "A 101ª edição da prova é em 31/12, com Cartões Caixa Visa, Rehidrat, Asics, Netshoes e Zyla, esta como plataforma de treino. A Asics faz a promoção Corra a São Silvestre com Asics até 23/11, com prêmios semanais de R$ 500 em créditos e 15 experiências ligadas à prova, e os ganhadores fazem um passeio pelo percurso em 30/12.",
+     "por_que_importa": "Calendário pro grupo de corrida do clube: treino coletivo de preparação em dezembro e a prova como encontro de fim de ano. O passeio pelo percurso na véspera é um formato de experiência que o Haven pode copiar nas provas que apoiar.",
+     "para": [
+      "clube",
+      "parcerias"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Asics Golden Run SP ganha maratona em 16/5/2027, com o Bradesco como apresentador e pré-venda só pra clientes do banco em 23 e 24/11 com 20% de desconto",
+     "source": "Máquina do Esporte",
+     "url": "https://maquinadoesporte.com.br/running/asics-evolui-golden-run-e-tera-maratona-em-sp-em-2027/",
+     "date": "2026-11-12",
+     "region": "São Paulo, SP",
+     "escopo": "brasil",
+     "pilar": "marcas",
+     "resumo": "A Asics acrescenta a primeira maratona à Golden Run, em 16/5/2027 na Marginal Pinheiros, mantendo 10 km e 21 km, as três distâncias com selo Permit Prata da CBAt. O Bradesco apresenta a prova, com pré-venda a clientes em 23 e 24/11 com 20% de desconto e abertura geral em 25/11. A maratona tem vagas limitadas e pelotão exclusivo pra quem comprovar desempenho.",
+     "por_que_importa": "Banco e marca esportiva vendendo acesso antecipado por categoria de cliente é o mesmo desenho da pré-venda por categoria de sócio nos eventos do clube. Data pra levar um grupo de sócios e prospects à prova.",
+     "para": [
+      "parcerias",
+      "clube",
+      "marketing"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Atlantica anuncia no Festuris três hotéis no Rio Grande do Sul até 2030, em Caxias do Sul, Passo Fundo e Monte Belo do Sul, sem marca nem investimento",
+     "source": "Panrotas (texto com cara de divulgação)",
+     "url": "https://www.panrotas.com.br/hotelaria/inauguracoes/2026/11/atlantica-ampliara-presenca-no-rio-grande-do-sul-com-3-novos-hoteis-ate-2030_233721.html",
+     "date": "2026-11-17",
+     "region": "Caxias do Sul, RS",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "A Atlantica Hospitality International, com 170 empreendimentos e 28 mil quartos no Brasil, tem cinco hotéis e 597 quartos no Rio Grande do Sul e vai abrir mais três até 2030. O anúncio saiu durante o Festuris, por declaração da diretora nacional de vendas, Priscila Pereira, e a matéria não informa investimento, marcas, número de quartos nem data de cada abertura.",
+     "por_que_importa": "Operadora de escala olhando cidade média e destino de serra. Contexto pra conversa de hospedagem no eixo de Porto Feliz, Itu e Sorocaba, onde a mesma lógica de cidade média se aplica.",
+     "para": [
+      "parcerias",
+      "vendas"
+     ],
+     "verificado": true,
+     "destaque": false
+    },
+    {
+     "title": "Iberostar faz 20 anos na Bahia e põe no Praia do Forte suítes com acesso direto à piscina, categoria Terrace Relax e réveillon com shows em 30 e 31/12",
+     "source": "Panrotas (texto com cara de divulgação)",
+     "url": "https://www.panrotas.com.br/hotelaria/investimentos/2026/11/iberostar-celebra-20-anos-na-bahia-e-apresenta-novidades-para-o-fim-do-ano_233696.html",
+     "date": "2026-11-16",
+     "region": "Praia do Forte, BA",
+     "escopo": "brasil",
+     "pilar": "lifestyle",
+     "resumo": "O Iberostar Waves Bahia, primeiro da rede no Nordeste, completa 20 anos com programação cultural e show do coletivo Sambaiana. No Complexo Praia do Forte entram suítes Swim Up, a categoria Terrace Relax, suítes Corner e unidades pra famílias, e o réveillon tem shows em 30 e 31/12. A matéria não informa investimento.",
+     "por_que_importa": "Categoria de quarto como produto, com nome e acesso próprio à água, é referência pra nomear tipologias das casas e das suítes de hóspede do clube. O calendário de fim de ano como motor de ocupação vale pra programação do clube.",
+     "para": [
+      "marketing",
+      "clube"
+     ],
+     "verificado": true,
+     "destaque": false
+    }
+   ]
+  },
   {
    "data": "2026-11-21",
    "manchete": "Um clube de longevidade abriu em Nova York com exame na porta de entrada e preço definido por pessoa, e Melbourne espera o seu com teto de mil sócios e 150 dólares por semana. Em Porto Feliz, a duplicação da SP-97 ganhou promessa de começo em 2027 e R$ 328 milhões, com a licitação ainda suspensa.",
